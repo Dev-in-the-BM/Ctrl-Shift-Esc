@@ -1,7 +1,7 @@
 site:
-  name: AstroAuthor
-  site: 'https://dev-in-the-bm.github.io/'
-  base: '/AstroAuthor/'
+  name: Ctrl, Shift, Esc
+  site: 'https://localhost:4321'
+  base: '/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
@@ -9,23 +9,23 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroAuthor
-    template: '%s — AstroAuthor'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Ctrl, Shift, Esc
+    template: '%s — Ctrl, Shift, Esc'
+  description: "\U0001F680 My blogging site."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroAuthor
+    site_name: Ctrl, Shift, Esc
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
-    cardType: summary_large_image
+    handle:
+    site:
+    cardType:
 
 i18n:
   language: en

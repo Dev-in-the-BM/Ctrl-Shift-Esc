@@ -11,7 +11,7 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
 
 {toc.length > 0 ? (
   <aside class="hidden xl:block absolute right-full top-0 bottom-0 w-64 pr-4 opacity-70 hover:opacity-100 transition-opacity duration-300">
-    <nav class="sticky top-28 self-start">
+    <nav class="sticky top-28 self-start bg-gray-50 dark:bg-slate-800/50 rounded-2xl p-6 shadow-sm">
       <div class="text-xs font-bold uppercase tracking-widest text-muted mb-3">
         On this page
       </div>

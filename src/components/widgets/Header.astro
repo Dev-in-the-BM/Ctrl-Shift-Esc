@@ -1,13 +1,16 @@
 ---
 import { Icon } from 'astro-icon/components';
-import Logo from '~/components/Logo.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
+import { Image } from 'astro:assets';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import Button from '~/components/ui/Button.astro';
 
-import { getHomePermalink } from '~/utils/permalinks';
-import { trimSlash, getAsset } from '~/utils/permalinks';
+import { getHomePermalink, getBlogPermalink } from '~/utils/permalinks';
+import { trimSlash, getAsset, getPermalink } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
+import { getCollection } from 'astro:content';
+
+import avatarImage from '~/assets/Avatar scaled down-min.webp';
 
 interface Link {
   text?: string;
@@ -24,7 +27,7 @@ export interface Props {
   id?: string;
   links?: Array<MenuLink>;
   actions?: Array<CallToAction>;
-  isSticky?: boolean;
+  // isSticky?: boolean; // Removed as we're implementing custom scroll behavior
   isDark?: boolean;
   isFullWidth?: boolean;
   showToggleTheme?: boolean;
@@ -36,7 +39,7 @@ const {
   id = 'header',
   links = [],
   actions = [],
-  isSticky = false,
+  // isSticky = false, // Removed as we're implementing custom scroll behavior
   isDark = false,
   isFullWidth = false,
   showToggleTheme = false,
@@ -45,14 +48,19 @@ const {
 } = Astro.props;
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
+
+const posts = await getCollection('post');
+const cleanSlug = (text: string) => text.toString().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
+
+const uniqueCategories = Array.from(new Set(posts.map(p => p.data.category).filter(Boolean))).map(title => ({ title: title as string, slug: cleanSlug(title as string) }));
+const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filter(Boolean))).map(title => ({ title: title as string, slug: cleanSlug(title as string) }));
 ---
 
 <header
   class:list={[
-    { sticky: isSticky, relative: !isSticky, dark: isDark },
-    'top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out',
+    { dark: isDark },
+    'relative z-40 flex-none mx-auto w-full border-b border-gray-50/0',
   ]}
-  {...isSticky ? { 'data-aw-sticky-header': true } : {}}
   {...id ? { id } : {}}
 >
   <div class="absolute inset-0"></div>
@@ -70,16 +78,22 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       },
     ]}
   >
-    <div class:list={[{ 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' }, 'flex justify-between']}>
-      <a class="flex items-center" href={getHomePermalink()}>
-        <Logo />
+    <div class:list={[{ 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' }, 'flex justify-between items-center']}>
+      <a class="flex items-center" href="https://dev-in-the-bm.github.io">
+        <Image
+          src={avatarImage}
+          alt="Dev in the BM Avatar"
+          width={40}
+          height={40}
+          class="rounded-full object-cover ml-2 rtl:ml-0 rtl:mr-2"
+        />
       </a>
       <div class="flex items-center md:hidden">
         <ToggleMenu />
       </div>
     </div>
     <nav
-      class="items-center w-full md:w-auto hidden md:flex md:mx-5 text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:justify-self-center"
+      class="items-center w-full md:w-auto hidden md:flex md:mx-5 text-default overflow-y-auto overflow-x-hidden md:overflow-visible md:justify-self-center"
       aria-label="Main navigation"
     >
       <ul
@@ -87,8 +101,45 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       >
         {
           links.map(({ text, href, links }) => (
-            <li class={links?.length ? 'dropdown' : ''}>
-              {links?.length ? (
+            <li class={links?.length || text === 'Blog' ? 'dropdown group relative' : ''}>
+              {text === 'Blog' ? (
+                <>
+                  <a
+                    class:list={[
+                      'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap',
+                      { 'aw-link-active': href === currentPath },
+                    ]}
+              href={getBlogPermalink()}
+                  >
+                    {text}{' '}
+                    <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
+                  </a>
+                  <ul class="dropdown-menu md:absolute md:top-full left-1/2 -translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible font-medium md:w-[800px] md:max-w-[90vw] shadow-2xl text-sm z-[100] rounded-2xl bg-gray-100 dark:bg-gray-700 transition-all duration-300 ease-out md:translate-y-2 group-hover:md:translate-y-0">
+                    <li class="p-4 md:p-6">
+                      <div class="flex justify-center space-x-8 mb-6">
+                  <button type="button" class="blog-tab-btn active text-lg text-primary dark:text-blue-500 font-semibold transition-colors" data-target="categories-tab">Categories</button>
+                  <button type="button" class="blog-tab-btn text-lg text-muted hover:text-gray-900 dark:hover:text-gray-100 transition-colors" data-target="tags-tab">Tags</button>
+                      </div>
+                      <div id="categories-tab" class="blog-tab-content block">
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar text-center">
+                          {uniqueCategories.map(cat => (
+                            <a href={getPermalink(cat.slug, 'category')} class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-blue-500 transition-colors line-clamp-1 py-2">{cat.title}</a>
+                          ))}
+                        </div>
+                      </div>
+                      <div id="tags-tab" class="blog-tab-content hidden">
+                        <div class="flex flex-wrap justify-center gap-3 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
+                          {uniqueTags.map(tag => (
+                            <a href={getPermalink(tag.slug, 'tag')} class="py-1.5 px-4 rounded-lg bg-white dark:bg-slate-800 text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200 lowercase font-medium transition-colors duration-800 ease-out shadow-sm">
+                              {tag.title}
+                            </a>
+                          ))}
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </>
+              ) : links?.length ? (
                 <>
                   <button
                     type="button"
@@ -165,3 +216,44 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
     </div>
   </div>
 </header>
+
+<script>
+  function initBlogTabs() {
+    const tabBtns = document.querySelectorAll('.blog-tab-btn');
+    
+    tabBtns.forEach(btn => {
+      if (btn.getAttribute('data-init')) return;
+      btn.setAttribute('data-init', 'true');
+
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const container = btn.closest('.dropdown-menu');
+        if (!container) return;
+        
+        const localBtns = container.querySelectorAll('.blog-tab-btn');
+        const localContents = container.querySelectorAll('.blog-tab-content');
+
+        localBtns.forEach(b => {
+          b.classList.remove('active', 'text-primary', 'dark:text-blue-500', 'font-semibold');
+          b.classList.add('text-muted');
+        });
+        localContents.forEach(c => {
+          c.classList.add('hidden');
+          c.classList.remove('block');
+        });
+
+        const targetId = btn.getAttribute('data-target');
+        btn.classList.add('active', 'text-primary', 'dark:text-blue-500', 'font-semibold');
+        btn.classList.remove('text-muted');
+        
+        const targetContent = container.querySelector(`#${targetId}`);
+        targetContent?.classList.remove('hidden');
+        targetContent?.classList.add('block');
+      });
+    });
+  }
+  
+  // Supports both standard page loads and Astro's ViewTransitions
+  document.addEventListener('astro:page-load', initBlogTabs);
+  document.addEventListener('DOMContentLoaded', initBlogTabs);
+</script>

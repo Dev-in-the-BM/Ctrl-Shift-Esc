@@ -84,7 +84,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
             {socialLinks.map(({ ariaLabel, href, text, icon }) => (
               <li>
                 <a
-                  class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                  class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center transition-colors duration-800 ease-out"
                   aria-label={ariaLabel}
                   href={href}
                 >
@@ -99,7 +99,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
         )
       }
 
-      <div class="text-sm mr-4 dark:text-muted">
+      <div class="text-sm mr-4 dark:text-muted [&_a]:transition [&_a]:duration-150 [&_a]:ease-in-out [&_a:hover]:underline">
         <Fragment set:html={footNote} />
       </div>
     </div>

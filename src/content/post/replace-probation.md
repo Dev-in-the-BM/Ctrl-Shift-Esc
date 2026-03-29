@@ -1,12 +1,13 @@
 ---
 title: The replace is a probation.
 pubDate: 2026-03-27T19:18:24.587Z
-description: We know that before blankets, jaws were only ATMS. The first upstair breath is, in its own way, a time.
+excerpt: We know that before blankets, jaws were only ATMS. The first upstair breath is, in its own way, a time.
 image: ../../assets/Gemini_Generated_Image_6hu1pc6hu1pc6hu1-min.webp
 heroImage: ../../assets/Gemini_Generated_Image_6hu1pc6hu1pc6hu1-min.webp
 tags:
     - Lorum Ipsum
     - Placeholder Article
+slug: replace-probation
 ---
 
 ## Some assert that hooks are quartic losses.

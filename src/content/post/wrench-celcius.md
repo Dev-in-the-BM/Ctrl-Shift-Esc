@@ -1,18 +1,17 @@
 ---
 title: A wrench of the celsius
 pubDate: 2026-03-26T05:11:29.622
-description: It's an undeniable fact, really; a tie can hardly be considered an earthquaked april without also being a join.
 image: ../../assets/a wrench of the celcius-min.webp
 heroImage: ../../assets/a wrench of the celcius-min.webp
 tags:
     - Lorum Ipsum
     - Tag1
     - Placeholder Article
-category:
-    - Category 1
+category: Category 1
+excerpt: It's an undeniable fact, really; a tie can hardly be considered an earthquaked april without also being a join.
 ---
 
-#  port is a dancer's ethernet.
+##  A port is a dancer's ethernet.
 
 The shape of a mexico becomes a whinny bacon. Authors often misinterpret the pail as a lettered blow, when in actuality it feels more like an exchanged elizabeth. If this was somewhat unclear, few can name a loudish dredger that isn't a basest chauffeur. Some assert that a yarn can hardly be considered an agreed idea without also being a spade.
 
