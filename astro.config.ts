@@ -16,7 +16,9 @@ import astrowind from './vendor/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
 import remarkDirective from 'remark-directive';
 import remarkLinkCard from 'remark-link-card';
+import remarkSpoilers from 'remark-spoilers';
 
+import remarkBreaks from 'remark-breaks'; // Import remark-breaks
 import { remarkSmartImages, remarkCustomDirectives } from './remark-custom-plugins.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -84,7 +86,9 @@ export default defineConfig({
       remarkLinkCard,
       remarkDirective,
       remarkSmartImages,
+      remarkBreaks, // Add remarkBreaks here
       remarkCustomDirectives,
+      remarkSpoilers,
     ],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },

@@ -1,5 +1,10 @@
 ---
 title: "Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies"
+category:
+    - Dialing Down
+tags:
+    - ADB
+    - Android
 ---
 
 **What is ADB?**

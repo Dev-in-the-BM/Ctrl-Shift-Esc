@@ -1,6 +1,6 @@
 ---
 title: Kosher phones, dumbphones, and where they meet.
-category: Dumbphones
+category: Typed with T9
 tags:
     - Review
 pubDate: 2026-03-30T09:39:43.000Z
@@ -159,7 +159,7 @@ It has options for email and hotspot, which most of these phones don't have, and
 
 It's UI is extremely dated, to the point that it makes you not want to use it.
 
-**Verdict:** A little outdated and lower specs than , but great if you want simplicity, quality build, hotspot, and email
+**Verdict:** A little outdated and lower specs than the others, but great if you want simplicity, quality build, hotspot, and email
 
 **Rating:**
 
