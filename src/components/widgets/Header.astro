@@ -9,6 +9,7 @@ import { getHomePermalink, getBlogPermalink } from '~/utils/permalinks';
 import { trimSlash, getAsset, getPermalink } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
 import { getCollection } from 'astro:content';
+import { SITE } from 'astrowind:config';
 
 import avatarImage from '~/assets/Avatar scaled down-min.webp';
 
@@ -100,18 +101,20 @@ const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filt
         class="flex flex-col md:flex-row md:self-center w-full md:w-auto text-xl md:text-[0.9375rem] tracking-[0.01rem] font-medium md:justify-center"
       >
         {
-          links.map(({ text, href, links }) => (
-            <li class={links?.length || text === 'Blog' ? 'dropdown group relative' : ''}>
-              {text === 'Blog' ? (
+          links.map(({ text, href, links }) => {
+            const isBlogTab = text === 'Blog' || href === getBlogPermalink();
+            return (
+            <li class={links?.length || isBlogTab ? 'dropdown group relative' : ''}>
+              {isBlogTab ? (
                 <>
                   <a
                     class:list={[
                       'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap',
                       { 'aw-link-active': href === currentPath },
                     ]}
-              href={getBlogPermalink()}
+                    href={getBlogPermalink()}
                   >
-                    {text}{' '}
+                    {SITE?.name || SITE?.title || text}{' '}
                     <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                   </a>
                   <ul class="dropdown-menu md:absolute md:top-full left-1/2 -translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible font-medium md:w-[800px] md:max-w-[90vw] shadow-2xl text-sm z-[100] rounded-2xl bg-gray-100 dark:bg-gray-700 transition-all duration-300 ease-out md:translate-y-2 group-hover:md:translate-y-0">
@@ -176,7 +179,7 @@ const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filt
                 </a>
               )}
             </li>
-          ))
+          )})
         }
       </ul>
     </nav>

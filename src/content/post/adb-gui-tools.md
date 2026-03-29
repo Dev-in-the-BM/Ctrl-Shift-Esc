@@ -12,7 +12,7 @@ pubDate: 2026-03-29T11:38:06.126Z
 
 ADB is a powerful tool that you can use to control your Android device and tweak hidden settings, but the command line can be too complicated for many.
 
-The following desktop apps offer a GUI for ADB, allowing you to make use of ADBs powerful functionality without having to use the terminal.
+These apps offer a GUI for ADB, allowing you to make use of ADBs powerful functionality without having to use the terminal.
 
 :::box[Best picks for you]
 - No setup needed: **Tango ADB**
@@ -20,6 +20,47 @@ The following desktop apps offer a GUI for ADB, allowing you to make use of ADBs
 - Most powerful cross platform app: **Xtreme ADB**
 - Slickest Windows App: **Android Toolbox**
 :::
+
+- - -
+
+### Tango
+
+A brand new way of managing Android devices
+
+:::details[Features]
+#### Instant
+Plug in your android device with a USB cable and you are ready. No need for download or installation.
+
+#### Secure
+Tango works entirely in your browser. All data is transferred directly between your Android devices and your browser.
+
+#### Powerful
+File browser, App manager, Screen mirror and more features are waiting to be explored...
+:::
+
+#### Platforms:
+
+- **Chrome:** Yes ![Check Mark Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png#inline-30)
+- **Firefox:** No ![Cross Mark](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Cross%20Mark.png#inline-30)
+- **Windows:** Yes ![Check Mark Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png#inline-30)
+- **Linux:** Yes ![Check Mark Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png#inline-30)
+- **MacOs:** Yes ![Check Mark Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png#inline-30)
+
+
+**Licensing: Freemium, FOSS** ![Penguin](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png#inline-33) ![Free Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Free%20Button.png#inline-30) ![Money Bag](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Money%20Bag.png#inline-30)
+
+:::grid[Screenshots]
+![Tango Overview](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_46_38(1).png)
+![Tango File browser](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_46_38(1).png)
+![Tango App manager](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_48_50.png)
+:::
+
+https://github.com/yume-chan/ya-webadb
+z
+https://app.tangoapp.dev
+
+---
+
 
 ### Android Toolbox
 

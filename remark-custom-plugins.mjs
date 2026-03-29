@@ -64,7 +64,7 @@ export function remarkCustomDirectives() {
       if (node.name === 'box') {
         data.hName = 'div';
         data.hProperties = data.hProperties || {};
-        data.hProperties.class = 'py-4 px-10 my-6 bg-gray-50 dark:bg-slate-800 rounded-lg w-fit mx-auto min-w-[250px] max-w-full shadow-sm';
+        data.hProperties.class = 'py-4 px-10 my-12 bg-gray-50 dark:bg-slate-800 rounded-lg w-fit mx-auto min-w-[250px] max-w-full shadow-sm';
 
         // The directive's label `[My Heading]` becomes a bold heading text
         const labelParagraph = node.children[0];
