@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon/components';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
+import { Image } from 'astro:assets';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import Button from '~/components/ui/Button.astro';
 
@@ -8,6 +9,8 @@ import { getHomePermalink, getBlogPermalink } from '~/utils/permalinks';
 import { trimSlash, getAsset, getPermalink } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
 import { getCollection } from 'astro:content';
+
+import avatarImage from '~/assets/Avatar scaled down-min.webp';
 
 interface Link {
   text?: string;
@@ -75,9 +78,15 @@ const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filt
       },
     ]}
   >
-    <div class:list={[{ 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' }, 'flex justify-between']}>
-      <a class="flex items-center" href={getHomePermalink()}>
-        <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">✒️</span>
+    <div class:list={[{ 'mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' }, 'flex justify-between items-center']}>
+      <a class="flex items-center" href="https://dev-in-the-bm.github.io">
+        <Image
+          src={avatarImage}
+          alt="Dev in the BM Avatar"
+          width={40}
+          height={40}
+          class="rounded-full object-cover ml-2 rtl:ml-0 rtl:mr-2"
+        />
       </a>
       <div class="flex items-center md:hidden">
         <ToggleMenu />
