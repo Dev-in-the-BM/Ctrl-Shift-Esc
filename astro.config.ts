@@ -16,7 +16,7 @@ import astrowind from './vendor/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
 import remarkDirective from 'remark-directive';
 import remarkLinkCard from 'remark-link-card';
-import remarkSpoilers from 'remark-spoilers';
+// import remarkSpoilers from 'remark-spoilers';
 
 import remarkBreaks from 'remark-breaks'; // Import remark-breaks
 import { remarkSmartImages, remarkCustomDirectives } from './remark-custom-plugins.mjs';
@@ -88,7 +88,7 @@ export default defineConfig({
       remarkSmartImages,
       remarkBreaks, // Add remarkBreaks here
       remarkCustomDirectives,
-      remarkSpoilers,
+      // remarkSpoilers, // Pass the plugin function directly - Temporarily disabled due to "Cannot read properties of undefined (reading 'prototype')" error
     ],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
