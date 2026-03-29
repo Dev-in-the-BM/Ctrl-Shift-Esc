@@ -61,6 +61,19 @@ export function remarkCustomDirectives() {
         }
       }
 
+      if (node.name === 'box') {
+        data.hName = 'div';
+        data.hProperties = data.hProperties || {};
+        data.hProperties.class = 'py-4 px-10 my-6 bg-gray-50 dark:bg-slate-800 rounded-lg w-fit mx-auto min-w-[250px] max-w-full shadow-sm';
+
+        // The directive's label `[My Heading]` becomes a bold heading text
+        const labelParagraph = node.children[0];
+        if (labelParagraph && labelParagraph.type === 'paragraph' && labelParagraph.data && labelParagraph.data.directiveLabel) {
+          labelParagraph.data.hName = 'div';
+          labelParagraph.data.hProperties = { class: 'font-bold mb-2 pb-1 border-b border-gray-200 dark:border-gray-700 text-center px-12' };
+        }
+      }
+
       if (node.name === 'grid') {
         data.hName = 'div';
         data.hProperties = data.hProperties || {};

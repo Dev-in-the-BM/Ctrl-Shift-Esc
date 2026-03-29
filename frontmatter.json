@@ -65,6 +65,11 @@
           "title": "image",
           "name": "image",
           "type": "image"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }

@@ -10,7 +10,7 @@ excerpt: No browser, no app store, zero distractions. Here's why the kosher tech
 slug: kosher-phones-dumbphones-meet
 ---
 
-### About the kosher tech world
+## About the kosher tech world
 
 From the wide variety of dumbphones out there, there are ones designed to be kosher phones. Although they're often not designed specifically for the digital detox community, a lot of what the kosher and minimialist tech users want intersect, and these phones can be great options for many of us.
 
@@ -199,7 +199,7 @@ Just about usable.
 
 I think that's a big minus.
 
-But otherwise it's a great phone, solid body, and a beautiful but minimal custom OS.
+But otherwise it's a great phone, solid body, and has a beautiful but minimal custom OS.
 
 Possible future features include Android Auto, email, hotspot, banking, authentication, and some Google productivity apps.
 
@@ -212,7 +212,6 @@ Possible future features include Android Auto, email, hotspot, banking, authenti
 **Build Quality:** ⭐⭐⭐⭐☆
 **Camera:** ⭐⭐⭐⭐⭐
 **D-pad compatibility:** ⭐⭐⭐⭐⭐
-**T9:** N/A
 **Keypad tactile:** ⭐⭐⭐⭐☆
 **UI Simplicity:** ⭐⭐⭐⭐☆
 **UI Polish:** ⭐⭐⭐⭐⭐
