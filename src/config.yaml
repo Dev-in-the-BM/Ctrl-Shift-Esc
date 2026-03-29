@@ -1,7 +1,7 @@
 site:
   name: Ctrl, Shift, Esc
-  site: 'https://localhost:4321'
-  base: '/'
+  site: 'https://devinthebm.github.io'
+  base: '/blog/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
