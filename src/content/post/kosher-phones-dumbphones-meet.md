@@ -167,7 +167,7 @@ It's camera isn't great, and voice typing needs a subscription.
 
 It has options for email and hotspot, which most of these phones don't have, and it can also have Waze.
 
-It's UI is extremely dated, to the point that it makes you not want to use it.
+It's UI is dated and unattractive, to the point that it makes you not want to use it.
 
 **Verdict:** A little outdated and lower specs than the others, but great if you want simplicity, quality build, hotspot, and email
 
