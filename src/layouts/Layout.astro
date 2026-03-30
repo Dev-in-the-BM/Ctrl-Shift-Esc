@@ -50,12 +50,7 @@ const { language, textDirection } = I18N;
         --f-animation-easing: ease-in-out;
       }
 
-      /* Hide unwanted Fancybox toolbar buttons via CSS */
-      [data-fancybox-play], /* Hides the "Play Slideshow" button */
-      [data-fancybox-fullscreen], /* Hides the "Toggle Fullscreen" button */
-      [data-fancybox-thumbs] { /* Hides the "Toggle Thumbnails" button */
-        display: none !important;
-      }
+      /* Reverting CSS changes as per user request, using JS API instead */
 
       /* --- Rich Link Card Redesign --- */
 
@@ -184,7 +179,22 @@ const { language, textDirection } = I18N;
         if (typeof Fancybox !== 'undefined') {
           Fancybox.unbind('[data-fancybox]');
           Fancybox.bind('[data-fancybox]', {
-            Images: { zoom: true } // Keep zoom functionality enabled
+            Images: { zoom: true }, // Keep zoom functionality enabled
+            // Customize toolbar items to hide specific buttons by providing an empty template
+            Toolbar: {
+              items: {
+                slideshow: {
+                  tpl: '', // Hide the "Play Slideshow" button
+                },
+                fullscreen: {
+                  tpl: '', // Hide the "Toggle Fullscreen" button
+                },
+                thumbs: {
+                  tpl: '', // Hide the "Toggle Thumbnails" button
+                },
+                // Other buttons like 'zoom', 'close', 'infobar' will use their default templates
+              },
+            },
           });
         }
 
