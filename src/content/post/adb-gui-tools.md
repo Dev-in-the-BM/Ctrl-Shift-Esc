@@ -9,7 +9,7 @@ slug: adb-gui-tools
 heroImage: ../../assets/generate_a_preview_202603300121.png
 image: ../../assets/generate_a_preview_202603300121.png
 excerpt: |-
-  While ADB was made for developers, these tools were not.
+  While ADB was made for developers, these tools are for everyone.
   I tested the best ones so you can take control of your phone.
 pubDate: 2026-03-29T11:38:06.126Z
 ---
