@@ -97,8 +97,8 @@ export function remarkCustomDirectives() {
           if (child.type === 'paragraph') {
             // Iterate through the items inside the paragraph (images, text nodes)
             for (const item of child.children) {
-              // Skip empty text nodes (like newlines between images)
-              if (item.type === 'text' && item.value.trim() === '') continue;
+              // Skip empty text nodes (like newlines between images) and break nodes
+              if ((item.type === 'text' && item.value.trim() === '') || item.type === 'break') continue;
   
               // Find the actual image node, whether it's standalone or in a link
               const imageNode = item.type === 'image' ? item : (item.type === 'link' && item.children?.[0]?.type === 'image' ? item.children[0] : null);
