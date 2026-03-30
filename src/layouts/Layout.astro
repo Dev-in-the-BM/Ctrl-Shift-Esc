@@ -157,6 +157,18 @@ const { language, textDirection } = I18N;
 
     <script is:inline>
       document.addEventListener('astro:page-load', () => {
+        // Fix for local images in Fancybox - Astro doesn't resolve relative hrefs in markdown wrappers
+        document.querySelectorAll('a[data-fancybox]').forEach(a => {
+          const img = a.querySelector('img');
+          if (img && img.src) {
+            const href = a.getAttribute('href');
+            // If href is a relative path (e.g., ../../assets/...) update it to the resolved image src
+            if (href && !href.startsWith('http') && !href.startsWith('//') && !href.startsWith('/')) {
+              a.setAttribute('href', img.src);
+            }
+          }
+        });
+
         // Re-bind Fancybox events when moving between pages
         if (typeof Fancybox !== 'undefined') {
           Fancybox.unbind('[data-fancybox]');
