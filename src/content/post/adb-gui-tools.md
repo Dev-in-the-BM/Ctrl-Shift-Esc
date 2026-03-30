@@ -4,9 +4,13 @@ tags:
   - ADB
   - Tools
   - Software
-description: List of GUI apps that allow you to use ADB without opening a terminal.
 categories: In Plaintext
 slug: adb-gui-tools
+heroImage: ../../assets/generate_a_preview_202603300121.png
+image: ../../assets/generate_a_preview_202603300121.png
+excerpt: |-
+  While ADB was made for developers, these tools were not.
+  I tested the best ones so you can take control of your phone.
 pubDate: 2026-03-29T11:38:06.126Z
 ---
 
@@ -14,11 +18,13 @@ ADB is a powerful tool that you can use to control your Android device and tweak
 
 These apps offer a GUI for ADB, allowing you to make use of ADBs powerful functionality without having to use the terminal.
 
-:::box[Best picks for you]
-- No setup needed: **Tango ADB**
-- Most powerful Windows app: **ADB AppControl**
-- Most powerful cross platform app: **Xtreme ADB**
-- Slickest Windows App: **Android Toolbox**
+- - -
+
+:::box[Best picks]
+- No setup needed: [**Tango ADB**](#tango)
+- Most powerful Windows app: [**ADB AppControl**](#adb-appcontrol)
+- Most powerful cross platform app: [**Xtreme ADB**](#xtreme-adb)
+- Slickest Windows App: [**Android Toolbox**](#android-toolbox)
 :::
 
 - - -
@@ -152,6 +158,10 @@ It offers a clean and modern graphical interface for working with ADB and automa
 https://adbappcontrol.com/en
 
 ---
+
+![pic](../../assets/generate_a_preview_202603300138.png)
+
+- - -
 
 ### Xtreme ADB
 
