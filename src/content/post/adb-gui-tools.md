@@ -50,13 +50,13 @@ File browser, App manager, Screen mirror and more features are waiting to be exp
 **Licensing: Freemium, FOSS** ![Penguin](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png#inline-33) ![Free Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Free%20Button.png#inline-30) ![Money Bag](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Money%20Bag.png#inline-30)
 
 :::grid[Screenshots]
-![Tango Overview](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_46_38(1).png)
+![Tango Overview](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_46_38.png)
 ![Tango File browser](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_46_38(1).png)
 ![Tango App manager](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_48_50.png)
 :::
 
 https://github.com/yume-chan/ya-webadb
-z
+
 https://app.tangoapp.dev
 
 ---
