@@ -4,7 +4,7 @@ tags:
   - ADB
   - Tools
   - Software
-categories: In Plaintext
+category: In Plaintext
 slug: adb-gui-tools
 heroImage: ../../assets/generate_a_preview_202603300121.png
 image: ../../assets/generate_a_preview_202603300121.png
