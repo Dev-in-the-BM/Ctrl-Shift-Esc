@@ -115,6 +115,10 @@ The only problems I had with it is that it's T9 needs improving, and the camera 
 **UI Simplicity:** ⭐⭐⭐⭐☆
 **UI Polish:** ⭐⭐⭐⭐⭐
 
+#### Buy it here:
+
+https://thephonegesheft.com/product/wonder-phone-13?ref=rdumbphones
+
 ---
 
 ### Megalife F1
@@ -144,6 +148,8 @@ It has a regular smartphone Android UI, which is a definite minus.
 **Keypad tactile:** ⭐⭐⭐☆☆
 **UI Simplicity:** ⭐☆☆☆☆
 **UI Polish:** ⭐⭐⭐⭐⭐
+
+### [Buy it here](https://43841bdc.streak-link.com/CzfCPRBW1hQMPPNXzAbElUsf/https%3A%2F%2Fshop.megalifephones.com%2Fs%2F2b7dba)
 
 ---
 
@@ -216,3 +222,17 @@ Possible future features include Android Auto, email, hotspot, banking, authenti
 **UI Simplicity:** ⭐⭐⭐⭐☆
 **UI Polish:** ⭐⭐⭐⭐⭐
 
+- - -
+
+
+### Hit K1
+
+The Hit phone is currently the only 4G slide QWERTY phone.
+
+It isn't cheap, and it doesn't do a great job justifying it's price tag.
+
+There's nothing special about it spec or feature wise, and it's a bit laggy.
+
+It isn't touchscreen, but has weather, Waze, and Gmail that can be used with the built in cursor.
+
+**Verdict:** Somewhat decent phone, you're only 

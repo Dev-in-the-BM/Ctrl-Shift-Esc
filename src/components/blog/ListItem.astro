@@ -22,7 +22,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
 ---
 
 <article
-  class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 transition-colors duration-800 ease-out intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade bg-gray-50 dark:bg-slate-800/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-md ${image ? 'md:grid-cols-2' : ''}`}
+  class={`relative max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 transition-colors duration-800 ease-out intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade bg-gray-50 dark:bg-slate-800/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-md ${image ? 'md:grid-cols-2' : ''}`}
 >
   {
     image &&
@@ -82,7 +82,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
               <>
                 {' '}
                 ·{' '}
-                <a class="hover:underline" href={getPermalink(post.category.slug, 'category')}>
+                <a class="hover:underline relative z-10" href={getPermalink(post.category.slug, 'category')}>
                   {post.category.title}
                 </a>
               </>
@@ -94,7 +94,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
         {
           link ? (
             <a
-              class="inline-block hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
+              class="inline-block hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200 before:absolute before:inset-0"
               href={link}
             >
               {post.title}
@@ -109,7 +109,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
     {post.excerpt && <p class="flex-grow text-muted dark:text-slate-400 text-lg">{post.excerpt}</p>}
     {
       post.tags && Array.isArray(post.tags) ? (
-        <footer class="mt-5">
+        <footer class="mt-5 relative z-10">
           <PostTags tags={post.tags} />
         </footer>
       ) : (
