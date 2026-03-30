@@ -127,7 +127,7 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
                 <>
                   <a
                     class:list={[
-                      'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap',
+                      'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap z-[110] relative',
                       { 'aw-link-active': href === currentPath },
                     ]}
                     href={getBlogPermalink()}
@@ -135,7 +135,9 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
                     {SITE?.name || SITE?.title || text}{' '}
                     <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                   </a>
-                  <ul class="dropdown-menu md:absolute md:top-full left-1/2 -translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible font-medium md:w-[800px] md:max-w-[90vw] text-sm z-[100] rounded-2xl bg-white dark:bg-slate-900 transition-all duration-300 ease-out md:mt-3 md:translate-y-4 group-hover:md:translate-y-2 shadow-[0_0_300px_100px_rgba(0,0,0,0.4)] dark:shadow-[0_0_300px_100px_rgba(0,0,0,0.95)] ring-1 ring-black/5 dark:ring-white/10 before:absolute before:-top-5 before:left-0 before:w-full before:h-5">
+                  <!-- Blur Overlay -->
+                  <div class="fixed inset-0 z-[90] backdrop-blur-md bg-black/20 transition-opacity duration-300 ease-out opacity-0 pointer-events-none group-hover:md:opacity-100"></div>
+                  <ul class="dropdown-menu md:absolute md:top-full left-1/2 -translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible font-medium md:w-[800px] md:max-w-[90vw] text-sm z-[100] rounded-2xl bg-white dark:bg-slate-900 transition-all duration-300 ease-out md:mt-1 shadow-2xl ring-1 ring-black/5 dark:ring-white/10">
                     <li class="p-4 md:p-6">
                       <h2 class="text-lg text-white dark:text-white font-semibold mb-6 text-center">Categories</h2>
                       
