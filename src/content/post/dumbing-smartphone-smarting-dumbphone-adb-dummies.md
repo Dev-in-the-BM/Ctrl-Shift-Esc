@@ -5,8 +5,8 @@ tags:
     - ADB
     - Android
 slug: dumbing-smartphone-smarting-dumbphone-adb-dummies
-heroImage: ../../assets/changed_the_icons_202603292253.png
-image: ../../assets/changed_the_icons_202603292253.png
+heroImage: ../../assets/generate_a_preview_202603292254.png
+image: ../../assets/generate_a_preview_202603292254.png
 excerpt: |-
     Strip the junk off a smartphone, or force-install essentials onto a basic flip phone.
     ADB can let you do all that and more -  and you don't need to be a techie to use it.
@@ -37,7 +37,7 @@ All this can be very useful for dumbing down devices, and extending the function
 
 While ADB is really a command line tool, there are a bunch of easy to use GUI apps that let you use a lot of ADB features without having to know any ADB commands.
 
-See my article [over here](link) for some of the best ones:
+See my article [over here](adb-gui-tools-md) for some of the best ones:
 
 ---
 
@@ -59,19 +59,25 @@ On some phones you might need to repeat that last step every time the phone rest
 
 The first time you connect the phone to a computer to use ADB, you'll get a popup on the phone asking you to authorize the connection with that computer.
 
-On the TCL, enable USB debugging by dialing `*#*#33284#*#*` (hint - 33284 is 'debug' on the phones keypad).
+On the TCL Flip 2, enable USB debugging by dialing `*#*#33284#*#*` (hint - 33284 is 'debug' on the phones keypad).
 
 ---
+
+![Debloating](../../assets/changed_the_icons_202603292253.png)
 
 ## ADB in the browser
 
 If you want to skip having to install ADB apps and drivers, you can use ADB in your browser.
 
-Just go to [webadb.com](https://webadb.com/), and you have full ADB in the browser!
+Just go to [app.tangoapp.dev](https://app.tangoapp.dev/) or [webadb.com](https://webadb.com/), and you have full ADB in the browser!
 
 WebADB works in Chromium based browsers including Chrome, Edge, Vivaldi and Brave.
 
 It doesn't work in Firefox based browsers.
+
+https://app.tangoapp.dev
+
+https://webadb.com
 
 ---
 
