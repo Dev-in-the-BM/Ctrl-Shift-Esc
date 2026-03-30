@@ -6,7 +6,9 @@ tags:
 pubDate: 2026-03-30T09:39:43.000Z
 image: ../../assets/generate_a_preview_202603290616.png
 heroImage: ../../assets/generate_a_preview_202603290616.png
-excerpt: No browser, no app store, zero distractions. Here's why the kosher tech world has the exact tools that digital minimalists have been looking for.
+excerpt: |-
+    No browser, no app store, zero distractions. 
+    Here's why the kosher tech world has the exact tools that digital minimalists have been looking for.
 slug: kosher-phones-dumbphones-meet
 ---
 
@@ -71,9 +73,11 @@ They do not have huge profit margins.
 
 They are not trying to rip you off.
 
-Yes, I agree the prices aren't great or very affordable, but it is what it is.
+Yes, I agree the prices aren't great and might not be very affordable for some, but it is what it is.
 
 ---
+
+![Kosher phones](../../assets/wmremove-transformed.png)
 
 ## The best Kosher phones
 
