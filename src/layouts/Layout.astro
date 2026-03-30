@@ -50,6 +50,13 @@ const { language, textDirection } = I18N;
         --f-animation-easing: ease-in-out;
       }
 
+      /* Hide unwanted Fancybox toolbar buttons via CSS */
+      [data-fancybox-play], /* Hides the "Play Slideshow" button */
+      [data-fancybox-fullscreen], /* Hides the "Toggle Fullscreen" button */
+      [data-fancybox-thumbs] { /* Hides the "Toggle Thumbnails" button */
+        display: none !important;
+      }
+
       /* --- Rich Link Card Redesign --- */
 
       /* Main container for the link card */
@@ -177,28 +184,7 @@ const { language, textDirection } = I18N;
         if (typeof Fancybox !== 'undefined') {
           Fancybox.unbind('[data-fancybox]');
           Fancybox.bind('[data-fancybox]', {
-2           Images: { zoom: true }, // Ensure zoom functionality is enabled
-            // Configure the toolbar to explicitly display only the desired buttons
-            Toolbar: {
-              display: {
-                left: ["infobar"], // Keeps the image count/title (e.g., "1 / 5")
-                middle: [],        // No buttons in the middle section (as per your request)
-                right: ["zoom", "close"], // Keeps the zoom and close buttons
-              },
-              // Explicitly define the zoom button to ensure its presence
-              // This uses Fancybox's default SVG path for the zoom icon
-              items: {
-                zoom: {
-                  tpl: `
-                    <button data-fancybox-zoom class="fancybox__button--zoom" title="{{ZOOM}}">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" tabindex="-1">
-                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-                      </svg>
-                    </button>
-                  `,
-                },
-              },
-            },
+            Images: { zoom: true } // Keep zoom functionality enabled
           });
         }
 
