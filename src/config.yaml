@@ -11,7 +11,7 @@ metadata:
   title:
     default: Ctrl, Shift, Esc
     template: '%s — Ctrl, Shift, Esc'
-  description: "\U0001F680 My blogging site."
+  description: "\U0001F680 MMy thoughts on dumbphones, intentional tech and the systems underneath: The tinkerers guide to taking back control."
   robots:
     index: true
     follow: true

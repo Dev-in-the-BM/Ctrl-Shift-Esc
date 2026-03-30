@@ -38,10 +38,27 @@ const metadata = {
 <Layout metadata={metadata}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline
-      subtitle="My blog."
+      subtitle="My thoughts on dumbphones, intentional tech and the systems underneath: <br> The tinkerers guide to taking back control."
     >
       Ctrl, Shift, Esc
     </Headline>
+
+    <div
+      class="max-w-2xl mx-auto mt-8 mb-12 p-4 bg-gray-50 dark:bg-slate-800 rounded-lg shadow-md flex flex-col sm:flex-row justify-around items-center text-center gap-4"
+    >
+      <a href="/category/typed-with-t9"
+        class="text-lg font-semibold text-gray-800 dark:text-gray-200 hover:underline px-2 py-1 rounded-md hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 whitespace-nowrap">
+        Typed with T9
+      </a>
+      <a href="/category/dialing-down"
+        class="text-lg font-semibold text-gray-800 dark:text-gray-200 hover:underline px-2 py-1 rounded-md hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 whitespace-nowrap">
+        Dialing Down
+      </a>
+      <a href="/category/in-plaintext"
+        class="text-lg font-semibold text-gray-800 dark:text-gray-200 hover:underline px-2 py-1 rounded-md hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 whitespace-nowrap">
+        In Plaintext
+      </a>
+    </div>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     <!--
