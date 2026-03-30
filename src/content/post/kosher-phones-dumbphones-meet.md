@@ -89,6 +89,12 @@ I'm going to focus on what makes them stand out and how they compare to each oth
 
 I've tested most of these phones, using them as my main phone until I could get a feel for what they're like.
 
+### How I rate these phones
+
+I judged these phones in different areas, rating them on a scale form 1-5.
+
+3 is average, 4 is above average, and 5 is the perfect..
+
 - - - 
 
 ### Wonder phone
