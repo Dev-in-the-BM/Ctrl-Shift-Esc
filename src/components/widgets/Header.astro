@@ -12,6 +12,9 @@ import { getCollection } from 'astro:content';
 import { SITE } from 'astrowind:config';
 
 import avatarImage from '~/assets/Avatar scaled down-min.webp';
+import imgT9 from '~/assets/Generate_a_minimalist,_202603301537.png';
+import imgDialing from '~/assets/Digital_minimalism_reclaiming_202603301538.jpeg';
+import imgPlaintext from '~/assets/Terminal_window_code_202603301545.jpeg';
 
 interface Link {
   text?: string;
@@ -55,6 +58,21 @@ const cleanSlug = (text: string) => text.toString().toLowerCase().replace(/[^a-z
 
 const uniqueCategories = Array.from(new Set(posts.map(p => p.data.category).filter(Boolean))).map(title => ({ title: title as string, slug: cleanSlug(title as string) }));
 const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filter(Boolean))).map(title => ({ title: title as string, slug: cleanSlug(title as string) }));
+
+const categoryDetails: Record<string, { subtitle: string; image: any }> = {
+  'Typed with T9': {
+    subtitle: 'Reviews and insights on dumb hardware.',
+    image: imgT9,
+  },
+  'Dialing Down': {
+    subtitle: 'Tools and tactics for intentional tech usage.',
+    image: imgDialing, 
+  },
+  'In Plaintext': {
+    subtitle: 'Tinkering with Linux, Android, and the tools underneath.',
+    image: imgPlaintext,
+  },
+};
 ---
 
 <header
@@ -117,23 +135,34 @@ const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filt
                     {SITE?.name || SITE?.title || text}{' '}
                     <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                   </a>
-                  <ul class="dropdown-menu md:absolute md:top-full left-1/2 -translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible font-medium md:w-[800px] md:max-w-[90vw] shadow-2xl text-sm z-[100] rounded-2xl bg-gray-100 dark:bg-gray-700 transition-all duration-300 ease-out md:translate-y-2 group-hover:md:translate-y-0">
+                  <ul class="dropdown-menu md:absolute md:top-full left-1/2 -translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible font-medium md:w-[800px] md:max-w-[90vw] text-sm z-[100] rounded-2xl bg-white dark:bg-slate-900 transition-all duration-300 ease-out md:mt-3 md:translate-y-4 group-hover:md:translate-y-2 shadow-[0_0_300px_100px_rgba(0,0,0,0.4)] dark:shadow-[0_0_300px_100px_rgba(0,0,0,0.95)] ring-1 ring-black/5 dark:ring-white/10 before:absolute before:-top-5 before:left-0 before:w-full before:h-5">
                     <li class="p-4 md:p-6">
-                      <div class="flex justify-center space-x-8 mb-6">
-                  <button type="button" class="blog-tab-btn active text-lg text-primary dark:text-blue-500 font-semibold transition-colors" data-target="categories-tab">Categories</button>
-                  <button type="button" class="blog-tab-btn text-lg text-muted hover:text-gray-900 dark:hover:text-gray-100 transition-colors" data-target="tags-tab">Tags</button>
-                      </div>
-                      <div id="categories-tab" class="blog-tab-content block">
-                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar text-center">
+                      <h2 class="text-lg text-white dark:text-white font-semibold mb-6 text-center">Categories</h2>
+                      
+                      <div class="max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
+                        <div class="flex flex-col gap-3 text-left max-w-2xl mx-auto">
                           {uniqueCategories.map(cat => (
-                            <a href={getPermalink(cat.slug, 'category')} class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-blue-500 transition-colors line-clamp-1 py-2">{cat.title}</a>
+                            <a href={getPermalink(cat.slug, 'category')} class="group flex items-center gap-5 p-4 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200">
+                              <Image 
+                                src={categoryDetails[cat.title]?.image || avatarImage} 
+                                alt={cat.title} 
+                                width={128}
+                                height={128}
+                                class="w-14 h-14 md:w-16 md:h-16 flex-shrink-0 object-cover rounded-lg shadow-sm bg-gray-200 dark:bg-slate-600"
+                              />
+                              <div class="flex flex-col">
+                                <span class="text-lg md:text-xl font-bold text-gray-900 dark:text-white transition-colors">{cat.title}</span>
+                                <span class="text-sm text-muted dark:text-slate-400 mt-0.5">{categoryDetails[cat.title]?.subtitle || ''}</span>
+                              </div>
+                            </a>
                           ))}
                         </div>
-                      </div>
-                      <div id="tags-tab" class="blog-tab-content hidden">
+
+                        <h2 class="text-lg text-white dark:text-white font-semibold mt-8 mb-4 text-center">Tags</h2>
+
                         <div class="flex flex-wrap justify-center gap-3 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
-                          {uniqueTags.map(tag => (
-                            <a href={getPermalink(tag.slug, 'tag')} class="py-1.5 px-4 rounded-lg bg-white dark:bg-slate-800 text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200 lowercase font-medium transition-colors duration-800 ease-out shadow-sm">
+                          {uniqueTags.map(tag => ( 
+                            <a href={getPermalink(tag.slug, 'tag')} class="py-1.5 px-4 rounded-lg bg-gray-50 dark:bg-slate-800 border border-gray-100 dark:border-slate-800 hover:border-gray-200 dark:hover:border-slate-700 text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200 lowercase font-medium transition-all duration-200 ease-out shadow-sm hover:shadow-md">
                               {tag.title}
                             </a>
                           ))}
@@ -142,7 +171,7 @@ const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filt
                     </li>
                   </ul>
                 </>
-              ) : links?.length ? (
+              ) : links?.length ? ( /* This block handles dropdowns for other menu items if they exist */
                 <>
                   <button
                     type="button"
@@ -219,44 +248,3 @@ const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filt
     </div>
   </div>
 </header>
-
-<script>
-  function initBlogTabs() {
-    const tabBtns = document.querySelectorAll('.blog-tab-btn');
-    
-    tabBtns.forEach(btn => {
-      if (btn.getAttribute('data-init')) return;
-      btn.setAttribute('data-init', 'true');
-
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const container = btn.closest('.dropdown-menu');
-        if (!container) return;
-        
-        const localBtns = container.querySelectorAll('.blog-tab-btn');
-        const localContents = container.querySelectorAll('.blog-tab-content');
-
-        localBtns.forEach(b => {
-          b.classList.remove('active', 'text-primary', 'dark:text-blue-500', 'font-semibold');
-          b.classList.add('text-muted');
-        });
-        localContents.forEach(c => {
-          c.classList.add('hidden');
-          c.classList.remove('block');
-        });
-
-        const targetId = btn.getAttribute('data-target');
-        btn.classList.add('active', 'text-primary', 'dark:text-blue-500', 'font-semibold');
-        btn.classList.remove('text-muted');
-        
-        const targetContent = container.querySelector(`#${targetId}`);
-        targetContent?.classList.remove('hidden');
-        targetContent?.classList.add('block');
-      });
-    });
-  }
-  
-  // Supports both standard page loads and Astro's ViewTransitions
-  document.addEventListener('astro:page-load', initBlogTabs);
-  document.addEventListener('DOMContentLoaded', initBlogTabs);
-</script>
