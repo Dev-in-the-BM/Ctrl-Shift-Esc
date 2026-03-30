@@ -93,7 +93,7 @@ I've tested most of these phones, using them as my main phone until I could get 
 
 I judged these phones in different areas, rating them on a scale form 1-5.
 
-3 is average, 4 is above average, and 5 is the perfect..
+3 is average, 4 is above average, and 5 is the perfect.
 
 - - - 
 
