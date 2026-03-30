@@ -125,7 +125,7 @@ The only problems I had with it is that it's T9 needs improving, and the camera 
 **UI Simplicity:** ⭐⭐⭐⭐☆
 **UI Polish:** ⭐⭐⭐⭐⭐
 
-#### Buy it here:
+**Buy it here:**
 
 https://thephonegesheft.com/product/wonder-phone-13?ref=rdumbphones
 
