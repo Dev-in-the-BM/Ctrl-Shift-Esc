@@ -1,4 +1,5 @@
 import merge from 'lodash.merge';
+import { loadEnv } from 'vite';
 
 import type { MetaData } from '~/types';
 
@@ -96,11 +97,13 @@ const getSite = (config: Config) => {
 
   const siteConfig = merge({}, _default, config?.site ?? {}) as SiteConfig;
 
-  if (process.env.SITE) {
-    siteConfig.site = process.env.SITE;
+  const env = loadEnv(process.env.NODE_ENV || 'development', process.cwd(), '');
+
+  if (env.PUBLIC_SITE_URL) {
+    siteConfig.site = env.PUBLIC_SITE_URL;
   }
-  if (process.env.BASE) {
-    siteConfig.base = process.env.BASE;
+  if (env.PUBLIC_BASE_URL) {
+    siteConfig.base = env.PUBLIC_BASE_URL;
   }
 
   return siteConfig;
