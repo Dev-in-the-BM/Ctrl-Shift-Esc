@@ -1,0 +1,25 @@
+---
+export interface Props {
+  url: string | URL;
+}
+
+const { url } = Astro.props;
+---
+
+<div id="discourse-comments"></div>
+<script type="text/javascript" is:inline define:vars={{ discourseEmbedUrl: String(url) }}>
+  window.DiscourseEmbed = {
+    discourseUrl: 'https://forums.jtechforums.org/',
+    template: 'complete',
+    fullApp: true,
+    discourseEmbedUrl: discourseEmbedUrl,
+  };
+
+  (function () {
+    var d = document.createElement('script');
+    d.type = 'text/javascript';
+    d.async = true;
+    d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>

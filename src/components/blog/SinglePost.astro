@@ -5,6 +5,7 @@ import ToC from '~/components/blog/ToC.astro';
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
+import DiscourseComments from '~/components/blog/DiscourseComments.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
@@ -104,24 +105,16 @@ const { post, url, headings = [] } = Astro.props;
       <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
-    <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8">
-      <div id="discourse-comments"></div>
-      <script type="text/javascript" is:inline define:vars={{ discourseEmbedUrl: String(url) }}>
-        window.DiscourseEmbed = {
-          discourseUrl: 'https://forums.jtechforums.org/',
-          template: 'complete',
-            fullApp: true,
-          discourseEmbedUrl: discourseEmbedUrl,
-        };
-
-        (function () {
-          var d = document.createElement('script');
-          d.type = 'text/javascript';
-          d.async = true;
-          d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-        })();
-      </script>
+    <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-12 mb-12">
+      <div class="bg-gray-50 dark:bg-slate-800/50 rounded-2xl p-6 shadow-sm">
+        <div class="flex items-center gap-3 mb-6">
+          <img src="https://github.com/Dev-in-the-BM/Dev-in-the-BM.github.io/blob/main/Assets/Jtech%20logo%20cropped.png?raw=true" alt="Jtech Forums logo" class="w-7 h-7 opacity-70 invert dark:invert-0" />
+          <h2 class="text-2xl font-bold font-heading dark:text-slate-300 m-0">Comments</h2>
+        </div>
+        <div class="overflow-hidden rounded-xl min-h-[300px]">
+          <DiscourseComments url={url} />
+        </div>
+      </div>
     </div>
   </article>
 </section>
