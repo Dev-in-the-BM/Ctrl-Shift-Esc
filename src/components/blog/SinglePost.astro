@@ -104,5 +104,22 @@ const { post, url, headings = [] } = Astro.props;
       <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
+    <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8">
+      <div id="discourse-comments"></div>
+      <script type="text/javascript" is:inline define:vars={{ discourseEmbedUrl: String(url) }}>
+        window.DiscourseEmbed = {
+          discourseUrl: 'https://forums.jtechforums.org/',
+          discourseEmbedUrl: discourseEmbedUrl,
+        };
+
+        (function () {
+          var d = document.createElement('script');
+          d.type = 'text/javascript';
+          d.async = true;
+          d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+        })();
+      </script>
+    </div>
   </article>
 </section>
