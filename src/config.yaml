@@ -1,6 +1,6 @@
 site:
   name: Ctrl, Shift, Esc
-  site: 'https://devinthebm.github.io'
+  site: 'https://dev-in-the-bm.github.io'
   base: '/Ctrl-Shift-Esc/'
   trailingSlash: false
 
