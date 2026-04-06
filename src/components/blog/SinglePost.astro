@@ -72,12 +72,16 @@ const { post, url, headings = [] } = Astro.props;
       >
         {post.excerpt}
       </p>
+    </header>
+
+    <div class="relative w-full">
+      <ToC headings={headings} />
 
       {
         post.image ? (
           <Image
             src={post.image}
-            class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+            class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
             widths={[400, 900]}
             sizes="(max-width: 900px) 400px, 900px"
             alt={post?.excerpt || ''}
@@ -92,13 +96,12 @@ const { post, url, headings = [] } = Astro.props;
           </div>
         )
       }
-    </header>
-    <div class="mx-auto relative max-w-3xl mt-8">
-      <ToC headings={headings} />
-      <div
-        class="px-6 sm:px-6 prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg prose-headings:scroll-mt-[80px] prose-li:my-0"
-      >
-        <slot />
+      <div class="mx-auto max-w-3xl mt-8">
+        <div
+          class="px-6 sm:px-6 prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg prose-headings:scroll-mt-[80px] prose-li:my-0"
+        >
+          <slot />
+        </div>
       </div>
     </div>
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex flex-col gap-5">
