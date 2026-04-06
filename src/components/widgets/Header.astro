@@ -129,7 +129,7 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
                 <>
                   <a
                     class:list={[
-                      'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap z-[110] relative',
+                      'hover:text-link dark:hover:text-white px-4 py-3 hidden md:flex items-center whitespace-nowrap z-[110] relative',
                       { 'aw-link-active': href === currentPath },
                     ]}
                     href={getBlogPermalink()}
@@ -140,13 +140,13 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
                   <!-- Blur Overlay -->
                   <div class="fixed inset-0 z-[90] backdrop-blur-md bg-black/20 transition-opacity duration-300 ease-out opacity-0 pointer-events-none group-hover:md:opacity-100"></div>
                   <div class="md:absolute md:top-full md:left-1/2 md:-translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible z-[100] md:mt-1">
-                    <ul class="dropdown-menu font-medium md:w-[800px] md:max-w-[90vw] text-sm rounded-2xl bg-white dark:bg-slate-900 shadow-2xl ring-1 ring-black/5 dark:ring-white/10 motion-safe:group-hover:md:animate-fade" style="animation-fill-mode: forwards;">
+                    <ul class="dropdown-menu font-medium md:w-[800px] md:max-w-[90vw] text-sm rounded-2xl bg-white dark:bg-slate-900 shadow-2xl ring-1 ring-black/5 dark:ring-white/10 motion-safe:opacity-0 [.expanded_&]:motion-safe:animate-fade motion-safe:group-hover:md:animate-fade" style="animation-fill-mode: forwards;">
                       <li class="p-4 md:p-6">
                       
                       <div class="max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
                         <div class="flex flex-col gap-3 text-left max-w-2xl mx-auto">
                           {uniqueCategories.map((cat, index) => (
-                            <a href={getPermalink(cat.slug, 'category')} class="group flex items-center gap-5 p-4 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 motion-safe:md:opacity-0 motion-safe:group-hover:md:animate-fade" style={`animation-delay: ${(index + 1) * 100}ms; animation-fill-mode: forwards;`}>
+                            <a href={getPermalink(cat.slug, 'category')} class="group flex items-center gap-5 p-4 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 motion-safe:opacity-0 [.expanded_&]:motion-safe:animate-fade motion-safe:group-hover:md:animate-fade" style={`animation-delay: ${(index + 1) * 100}ms; animation-fill-mode: forwards;`}>
                               <Image 
                                 src={categoryDetails[cat.title]?.image || avatarImage} 
                                 alt={cat.title} 
@@ -162,7 +162,7 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
                           ))}
                         </div>
 
-                        <div class="flex flex-wrap justify-center gap-3 mt-6 motion-safe:md:opacity-0 motion-safe:group-hover:md:animate-fade" style={`animation-delay: ${(uniqueCategories.length + 1) * 100}ms; animation-fill-mode: forwards;`}>
+                        <div class="flex flex-wrap justify-center gap-3 mt-6 motion-safe:opacity-0 [.expanded_&]:motion-safe:animate-fade motion-safe:group-hover:md:animate-fade" style={`animation-delay: ${(uniqueCategories.length + 1) * 100}ms; animation-fill-mode: forwards;`}>
                           {uniqueTags.map(tag => (
                             <a href={getPermalink(tag.slug, 'tag')} class="py-1.5 px-4 rounded-lg bg-gray-50 dark:bg-slate-800 border border-gray-100 dark:border-slate-800 hover:border-gray-200 dark:hover:border-slate-700 text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200 lowercase font-medium transition-all duration-200 ease-out shadow-sm hover:shadow-md">
                               {tag.title}
