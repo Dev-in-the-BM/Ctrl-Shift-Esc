@@ -45,21 +45,50 @@ import { UI } from 'astrowind:config';
     let ticking = true;
 
     attachEvent('#header nav', 'click', function () {
-      document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
+      const elem = document.querySelector('[data-aw-toggle-menu]');
+      elem?.classList.remove('expanded');
       document.body.classList.remove('overflow-hidden');
       document.getElementById('header')?.classList.remove('expanded');
-      document.getElementById('header')?.classList.remove('bg-page');
-      document.querySelector('#header nav')?.classList.add('hidden');
-      document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
+      
+      setTimeout(() => {
+        if (!document.querySelector('[data-aw-toggle-menu]')?.classList.contains('expanded')) {
+          document.getElementById('header')?.classList.remove('bg-page');
+          document.querySelector('#header nav')?.classList.add('hidden');
+          document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
+        }
+      }, 300); // Match transition duration
     });
 
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
-      elem.classList.toggle('expanded');
-      document.body.classList.toggle('overflow-hidden');
-      document.getElementById('header')?.classList.toggle('expanded');
-      document.getElementById('header')?.classList.toggle('bg-page');
-      document.querySelector('#header nav')?.classList.toggle('hidden');
-      document.querySelector('#header > div > div:last-child')?.classList.toggle('hidden');
+      const nav = document.querySelector('#header nav');
+      const lastChild = document.querySelector('#header > div > div:last-child');
+      const header = document.getElementById('header');
+      
+      if (!elem.classList.contains('expanded')) {
+        nav?.classList.remove('hidden');
+        lastChild?.classList.remove('hidden');
+        
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            elem.classList.add('expanded');
+            document.body.classList.add('overflow-hidden');
+            header?.classList.add('expanded');
+            header?.classList.add('bg-page');
+          });
+        });
+      } else {
+        elem.classList.remove('expanded');
+        document.body.classList.remove('overflow-hidden');
+        header?.classList.remove('expanded');
+        
+        setTimeout(() => {
+          if (!elem.classList.contains('expanded')) {
+            header?.classList.remove('bg-page');
+            nav?.classList.add('hidden');
+            lastChild?.classList.add('hidden');
+          }
+      }, 300); // Match transition duration
+      }
     });
 
     attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
@@ -125,9 +154,14 @@ import { UI } from 'astrowind:config';
       document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
       document.body.classList.remove('overflow-hidden');
       document.getElementById('header')?.classList.remove('expanded');
-      document.getElementById('header')?.classList.remove('bg-page');
-      document.querySelector('#header nav')?.classList.add('hidden');
-      document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
+      
+      setTimeout(() => {
+        if (!document.querySelector('[data-aw-toggle-menu]')?.classList.contains('expanded')) {
+          document.getElementById('header')?.classList.remove('bg-page');
+          document.querySelector('#header nav')?.classList.add('hidden');
+          document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
+        }
+      }, 300); // Match transition duration
     });
 
     function applyHeaderStylesOnScroll() {
@@ -161,7 +195,11 @@ import { UI } from 'astrowind:config';
     }
     document.body.classList.remove('overflow-hidden');
     document.getElementById('header')?.classList.remove('expanded');
-    document.querySelector('#header nav')?.classList.add('hidden');
+    
+    setTimeout(() => {
+      document.querySelector('#header nav')?.classList.add('hidden');
+      document.querySelector('#header > div > div:last-child')?.classList.add('hidden'); // Also hide the last child if it's the actions bar
+    }, 300); // Match transition duration
   };
 
   window.onload = onLoad;

@@ -83,7 +83,7 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
   {...id ? { id } : {}}
 >
   <!-- Mobile Blur Overlay -->
-  <div class="fixed inset-0 z-[-1] backdrop-blur-md bg-black/20 opacity-0 pointer-events-none transition-opacity duration-300 ease-out [.expanded_&]:opacity-100 [.expanded_&]:pointer-events-auto md:hidden"></div>
+  <div class="fixed inset-0 z-[-1] backdrop-blur-md bg-black/20 md:hidden menu-blur-overlay" aria-hidden="true"></div>
   <div class="absolute inset-0"></div>
   <div
     class:list={[
@@ -114,7 +114,7 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
       </div>
     </div>
     <nav
-      class="items-center w-full md:w-auto hidden md:flex md:mx-5 text-default overflow-y-auto overflow-x-hidden md:overflow-visible md:justify-self-center max-h-[80vh] md:max-h-none"
+      class="items-center w-full absolute md:static top-full left-0 z-[100] md:z-auto md:w-auto hidden md:flex md:mx-5 text-default overflow-y-auto overflow-x-hidden md:overflow-visible md:justify-self-center max-h-[80vh] md:max-h-none transition-opacity duration-[300ms] ease-out opacity-0 [.expanded_&]:opacity-100 md:opacity-100 md:transition-none"
       aria-label="Main navigation"
     >
       <ul
@@ -138,15 +138,15 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
                     <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                   </a>
                   <!-- Blur Overlay -->
-                  <div class="fixed inset-0 z-[90] backdrop-blur-md bg-black/20 transition-opacity duration-300 ease-out opacity-0 pointer-events-none group-hover:md:opacity-100"></div>
-                  <div class="md:absolute md:top-full md:left-1/2 md:-translate-x-1/2 md:!block md:opacity-0 md:invisible group-hover:md:opacity-100 group-hover:md:visible z-[100] md:mt-1">
-                    <ul class="dropdown-menu font-medium md:w-[800px] md:max-w-[90vw] text-sm rounded-2xl bg-white dark:bg-slate-900 shadow-2xl ring-1 ring-black/5 dark:ring-white/10 motion-safe:opacity-0 [.expanded_&]:motion-safe:animate-fade motion-safe:group-hover:md:animate-fade" style="animation-fill-mode: forwards;">
+                  <div class="fixed inset-0 z-[90] backdrop-blur-md bg-black/20 hidden md:block menu-blur-overlay" aria-hidden="true"></div>
+                  <div class="md:absolute md:top-full md:left-1/2 md:!block z-[100] md:pt-2 popup-container" role="menu" aria-orientation="vertical" aria-labelledby="blog-menu-button">
+                    <ul class="font-medium md:w-[800px] md:max-w-[90vw] text-sm rounded-2xl bg-white dark:bg-slate-900 shadow-2xl ring-1 ring-black/5 dark:ring-white/10">
                       <li class="p-4 md:p-6">
                       
                       <div class="max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
                         <div class="flex flex-col gap-3 text-left max-w-2xl mx-auto">
                           {uniqueCategories.map((cat, index) => (
-                            <a href={getPermalink(cat.slug, 'category')} class="group flex items-center gap-5 p-4 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors duration-200 motion-safe:opacity-0 [.expanded_&]:motion-safe:animate-fade motion-safe:group-hover:md:animate-fade" style={`animation-delay: ${(index + 1) * 100}ms; animation-fill-mode: forwards;`}>
+                            <a href={getPermalink(cat.slug, 'category')} class="group flex items-center gap-5 p-4 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 popup-item" style={`animation-delay: ${(index + 1) * 100}ms;`}>
                               <Image 
                                 src={categoryDetails[cat.title]?.image || avatarImage} 
                                 alt={cat.title} 
@@ -162,7 +162,7 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
                           ))}
                         </div>
 
-                        <div class="flex flex-wrap justify-center gap-3 mt-6 motion-safe:opacity-0 [.expanded_&]:motion-safe:animate-fade motion-safe:group-hover:md:animate-fade" style={`animation-delay: ${(uniqueCategories.length + 1) * 100}ms; animation-fill-mode: forwards;`}>
+                        <div class="flex flex-wrap justify-center gap-3 mt-6 popup-item" style={`animation-delay: ${(uniqueCategories.length + 1) * 100}ms;`}>
                           {uniqueTags.map(tag => (
                             <a href={getPermalink(tag.slug, 'tag')} class="py-1.5 px-4 rounded-lg bg-gray-50 dark:bg-slate-800 border border-gray-100 dark:border-slate-800 hover:border-gray-200 dark:hover:border-slate-700 text-muted dark:text-slate-300 hover:text-primary dark:hover:text-gray-200 lowercase font-medium transition-all duration-200 ease-out shadow-sm hover:shadow-md">
                               {tag.title}
@@ -218,7 +218,7 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
     <div
       class:list={[
         { 'ml-auto rtl:ml-0 rtl:mr-auto': position === 'left' },
-        'hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0 md:justify-self-end',
+        'hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0 md:justify-self-end transition-opacity duration-300 ease-out opacity-0 [.expanded_&]:opacity-100 md:opacity-100 md:transition-none',
       ]}
     >
       <div class="items-center flex justify-between w-full md:w-auto">
@@ -251,3 +251,53 @@ const categoryDetails: Record<string, { subtitle: string; image: any }> = {
     </div>
   </div>
 </header>
+
+<style is:global>
+  /* Blur Overlay */
+  .menu-blur-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+  }
+  .expanded .menu-blur-overlay,
+  .group:hover .menu-blur-overlay {
+    opacity: 1;
+    /* pointer-events must remain none so the overlay doesn't trap the mouse hover state! */
+  }
+
+  /* Desktop Parent Container */
+  @media (min-width: 768px) {
+    .popup-container {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateX(-50%) translateY(8px);
+      transition: all 0.3s ease-out;
+    }
+    .expanded .popup-container,
+    .group:hover .popup-container {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+
+  /* Staggered Children Animation */
+  @keyframes popup-item-entrance {
+    0% { opacity: 0; transform: translateY(16px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .popup-item {
+    /* Base state is visible! This ensures a smooth parent fade-out without snapping */
+    opacity: 1; 
+    transform: translateY(0);
+  }
+  
+  .expanded .popup-item,
+  .group:hover .popup-item {
+    /* fill-mode: backwards ensures they stay hidden during their stagger delay */
+    animation: popup-item-entrance 0.3s ease-out backwards;
+  }
+</style>
