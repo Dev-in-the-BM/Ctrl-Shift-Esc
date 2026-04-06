@@ -11,7 +11,14 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
 
 {toc.length > 0 ? (
   <aside class="hidden xl:block absolute left-[calc(50%-40rem)] top-0 bottom-0 w-64 pr-4 z-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
-    <nav class="sticky top-28 self-start bg-gray-50 dark:bg-slate-800/50 rounded-2xl p-6 shadow-sm">
+    <nav class="relative sticky top-28 self-start bg-gray-50 dark:bg-slate-800/50 rounded-2xl p-6 shadow-sm overflow-hidden">
+      <!-- Progress Bar -->
+      <div
+        id="toc-progress-bar"
+        class="absolute inset-0 pointer-events-none border-l border-gray-400/40 dark:border-white/30 rounded-2xl transition-all duration-150 ease-out"
+        style="clip-path: inset(0 0 100% 0);"
+      ></div>
+
       <div class="text-xs font-bold uppercase tracking-widest text-muted mb-3">
         On this page
       </div>
@@ -24,7 +31,8 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
           ]}>
             <a
               href={`#${heading.slug}`}
-              class="text-gray-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors line-clamp-2"
+              data-toc-link={heading.slug}
+              class="toc-link text-gray-500 dark:text-slate-500 opacity-70 hover:text-primary dark:hover:text-primary hover:opacity-100 transition-all duration-200 line-clamp-2"
             >
               {heading.text}
             </a>
@@ -36,3 +44,64 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
 ) : (
   <div class="hidden xl:block absolute right-full top-0 bottom-0 w-64 pr-4 text-red-500 text-xs mt-10">ToC Debug: No headings passed!</div>
 )}
+
+<script>
+  let scrollListener = null;
+
+  const initTocProgress = () => {
+    const progressBar = document.getElementById('toc-progress-bar');
+    const article = document.querySelector('article');
+    const prose = document.querySelector('.prose');
+    const tocLinks = document.querySelectorAll('.toc-link');
+    
+    if (!progressBar || !article) return;
+    
+    const headings = Array.from(tocLinks).map(link => {
+      return document.getElementById(link.getAttribute('data-toc-link'));
+    }).filter(Boolean);
+
+    const updateProgress = () => {
+      const proseRect = prose ? prose.getBoundingClientRect() : article.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+      const centerY = windowHeight / 2;
+      
+      const readingHeight = proseRect.height;
+      const scrolledPast = centerY - proseRect.top;
+      
+      let progress = readingHeight > 0 ? (scrolledPast / readingHeight) * 100 : 100;
+      
+      progressBar.style.clipPath = `inset(0 0 ${Math.max(0, Math.min(100, 100 - progress))}% 0)`;
+
+      // Highlight active heading
+      let activeHeading = null;
+      for (const heading of headings) {
+        const rect = heading.getBoundingClientRect();
+        if (rect.top <= centerY + 50) {
+          activeHeading = heading;
+        } else {
+          break; // First heading below center; stop looking
+        }
+      }
+
+      tocLinks.forEach(link => {
+        if (activeHeading && link.getAttribute('data-toc-link') === activeHeading.id) {
+          link.classList.remove('text-gray-500', 'dark:text-slate-500', 'opacity-70');
+          link.classList.add('text-gray-800', 'dark:text-slate-200', 'opacity-90');
+        } else {
+          link.classList.remove('text-gray-800', 'dark:text-slate-200', 'opacity-90');
+          link.classList.add('text-gray-500', 'dark:text-slate-500', 'opacity-70');
+        }
+      });
+    };
+    
+    if (scrollListener) window.removeEventListener('scroll', scrollListener);
+    scrollListener = updateProgress;
+    
+    window.addEventListener('scroll', scrollListener, { passive: true });
+    updateProgress();
+  };
+
+  // Setup on initial page load and when navigating via View Transitions
+  initTocProgress();
+  document.addEventListener('astro:after-swap', initTocProgress);
+</script>
