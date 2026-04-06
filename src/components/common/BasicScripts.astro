@@ -47,7 +47,6 @@ import { UI } from 'astrowind:config';
     attachEvent('#header nav', 'click', function () {
       document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
       document.body.classList.remove('overflow-hidden');
-      document.getElementById('header')?.classList.remove('h-screen');
       document.getElementById('header')?.classList.remove('expanded');
       document.getElementById('header')?.classList.remove('bg-page');
       document.querySelector('#header nav')?.classList.add('hidden');
@@ -57,7 +56,6 @@ import { UI } from 'astrowind:config';
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
       elem.classList.toggle('expanded');
       document.body.classList.toggle('overflow-hidden');
-      document.getElementById('header')?.classList.toggle('h-screen');
       document.getElementById('header')?.classList.toggle('expanded');
       document.getElementById('header')?.classList.toggle('bg-page');
       document.querySelector('#header nav')?.classList.toggle('hidden');
@@ -126,7 +124,6 @@ import { UI } from 'astrowind:config';
     screenSize.addEventListener('change', function () {
       document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
       document.body.classList.remove('overflow-hidden');
-      document.getElementById('header')?.classList.remove('h-screen');
       document.getElementById('header')?.classList.remove('expanded');
       document.getElementById('header')?.classList.remove('bg-page');
       document.querySelector('#header nav')?.classList.add('hidden');
@@ -163,7 +160,6 @@ import { UI } from 'astrowind:config';
       elem.classList.remove('expanded');
     }
     document.body.classList.remove('overflow-hidden');
-    document.getElementById('header')?.classList.remove('h-screen');
     document.getElementById('header')?.classList.remove('expanded');
     document.querySelector('#header nav')?.classList.add('hidden');
   };
