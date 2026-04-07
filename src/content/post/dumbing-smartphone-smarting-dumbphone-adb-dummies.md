@@ -71,7 +71,7 @@ If you want to skip having to install ADB apps and drivers, you can use ADB in y
 
 Just go to [app.tangoapp.dev](https://app.tangoapp.dev/) or [webadb.com](https://webadb.com/), and you have full ADB in the browser!
 
-WebADB works in Chromium based browsers including Chrome, Edge, Vivaldi and Brave.
+Browser based ADB works in Chromium based browsers including Chrome, Edge, Vivaldi and Brave.
 
 It doesn't work in Firefox based browsers.
 

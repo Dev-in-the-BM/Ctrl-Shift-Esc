@@ -4,6 +4,7 @@ tags:
   - ADB
   - Tools
   - Software
+  - Android
 category: In Plaintext
 slug: adb-gui-tools
 heroImage: ../../assets/generate_a_preview_202603300121.png
@@ -24,7 +25,7 @@ These apps offer a GUI for ADB, allowing you to make use of ADBs powerful functi
 - No setup needed: [**Tango ADB**](#tango)
 - Most powerful Windows app: [**ADB AppControl**](#adb-appcontrol)
 - Most powerful cross platform app: [**Xtreme ADB**](#xtreme-adb)
-- Slickest Windows App: [**Android Toolbox**](#android-toolbox)
+- Slickest app: [**Android Toolbox**](#android-toolbox)
 :::
 
 - - -
@@ -89,7 +90,7 @@ Android-Toolbox is a desktop app which enables the user to access android device
 
 - **Windows:** Yes ![Check Mark Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png#inline-30)
 - **Linux:** Planned ![Hourglass Not Done](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Hourglass%20Not%20Done.png#inline-30)
-- **macOs:** Planned ![Hourglass Not Done](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Hourglass%20Not%20Done.png#inline-30)
+- **macOs:** Yes ![Check Mark Button](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png#inline-30)
 
 **Licensing: FOSS** ![Penguin](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png#inline-33)
 
