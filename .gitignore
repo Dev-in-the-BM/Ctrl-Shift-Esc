@@ -25,3 +25,4 @@ pnpm-lock.yaml
 .gemini
 .frontmatter
 discourse_embed.html
+stylingscript.js
