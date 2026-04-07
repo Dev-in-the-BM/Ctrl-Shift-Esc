@@ -1,8 +1,15 @@
+---
+title: Cross Device Sync tools
+slug: cross-device-sync-tools
+tags:
+    - Android
+category: In Plaintext
+---
 Androids Quick Share and Microsofts Phone Link are popular apps for linking your devices, but they can have limitations.
 
 They're both dependant on Googles invasive Play Services, and support limited platforms.
 
-These open source alternatives are cross platform, and in many ways better than the proprietary ones.
+These open source alternatives are cross platform, and in many ways are better than the proprietary ones.
 
 ### LocalSend
 

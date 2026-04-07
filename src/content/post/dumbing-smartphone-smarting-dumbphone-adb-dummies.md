@@ -37,7 +37,7 @@ All this can be very useful for dumbing down devices, and extending the function
 
 While ADB is really a command line tool, there are a bunch of easy to use GUI apps that let you use a lot of ADB features without having to know any ADB commands.
 
-See my article [over here](adb-gui-tools-md) for some of the best ones.
+See my article [over here](../adb-gui-tools) for some of the best ones.
 
 ---
 

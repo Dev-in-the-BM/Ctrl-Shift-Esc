@@ -125,8 +125,6 @@ The only problems I had with it is that it's T9 needs improving, and the camera 
 **UI Simplicity:** ⭐⭐⭐⭐☆
 **UI Polish:** ⭐⭐⭐⭐⭐
 
-**Buy it here:**
-
 https://thephonegesheft.com/product/wonder-phone-13?ref=rdumbphones
 
 ---
@@ -188,6 +186,8 @@ It's UI is dated and unattractive, which is great if you want a phone that's pur
 **Keypad tactile:** ⭐⭐⭐☆☆
 **UI Simplicity:** ⭐⭐⭐⭐⭐
 **UI Polish:** ⭐☆☆☆☆
+
+https://sunbeamwireless.com/by/devinthebm/ 
 
 ---
 

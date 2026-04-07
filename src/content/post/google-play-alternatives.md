@@ -1,3 +1,11 @@
+---
+title: Google Play Alternatives
+slug: google-play-alternatives
+category: In Plaintext
+tags:
+    - Degoogle
+    - Android
+---
 When it comes to downloading apps on Android, Google Play rules, but although it may seem convenient and there to serve you, it has its drawbacks.
 
 It's dependent on Google Play Services, which is extremely invasive, resource intensive, and isn't available on all devices.
