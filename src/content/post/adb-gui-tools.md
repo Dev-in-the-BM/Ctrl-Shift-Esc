@@ -62,9 +62,10 @@ File browser, App manager, Screen mirror and more features are waiting to be exp
 ![Tango App manager](../../assets/screenshot-app.tangoapp.dev-2026.03.29-17_48_50.png)
 :::
 
-https://github.com/yume-chan/ya-webadb
 
 https://app.tangoapp.dev
+
+https://github.com/yume-chan/ya-webadb
 
 ---
 

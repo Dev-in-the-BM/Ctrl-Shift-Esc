@@ -132,3 +132,49 @@ They also keep the most archives of older versions of apps.
 https://apkpure.com/
 
 - - -
+
+## XAPK, APKM, APKS - What happened to the simple APK?
+
+For the first 10 plus years, Android apps were built and installed as APK files.
+
+Even if you got your apps from GOogle Play, the Play store and Google Plays servers were dealing  with APK files, and if you got your apps from other sources, it was as simple as donwloading an APK file and installing it from Android file mananger.
+
+If you're trying to download APKs from websites, you might notice that many apps aren't available as APKs anymore.
+
+Instead, you'll be offered XAPKs, APKMs, APKS's, and other formats.
+
+The reason for that is that Google has changed how apps are built and delivered, moving from monolithic APKs to split APKs.
+
+It used to be that the entire app, with all its code designed for different processor architectures, screen, sizes, and languages, would all be bundled into a single APK file. This  meant that the app could take up a lot of space on your phone for componenets that you'd never use.
+
+Now, with split APKs, device specific components get generated as separate APKs, and your phone only gets the parts it needs.
+
+While this is a lot more efficient, the APK file format can't bundle multiple APKs in it, and Google didn't give us a file format that could bundle multiple APks third, leaving us without a way to distribute split APKs outside of the Play Store.
+
+A bunch of different vendors each tried solving this, leaving us with a bunch of new formats.
+
+XAPK is the most popular, but APKS is also popular and widely supported.
+
+Since Android doesn't natively support these formats, you'll have to use an installer app to install apps from these format
+There are a bunch of great FOSS ones, including [InstallerX Revived](https://github.com/wxxsfxyzm/InstallerX-Revived), [Package Manager](https://smartpack.github.io/PackageManager/), [Package Installer](https://github.com/SanmerApps/PI), and [Spli App Installer](https://github.com/aefyr/SAI).
+
+https://github.com/wxxsfxyzm/InstallerX-Revived/blob/main/docs/README.md
+
+https://smartpack.github.io/PackageManager/
+
+https://github.com/SanmerApps/PI/blob/main/README.md
+
+https://github.com/Aefyr/SAI/blob/master/README.md
+
+## Armv8, armv7, and x86 builds
+
+Some developers, instead of distributing apps as split APK formats that aren't natively supported, choose to just build multiple APK for each device type.
+
+The most important thing to focus on is processor architecture.
+You might see APKs for armv8, sometimes reffered to as x64, armv7, and x86.
+
+Most modern Android devices are armv8.
+
+Older devices and Android dumbphones might be armv7.
+
+x86 builds are for Chromebooks with AMD/Intel processors, and Androifd emulators on PCs.
