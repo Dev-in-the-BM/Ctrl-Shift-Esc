@@ -7,6 +7,29 @@ const { url } = Astro.props;
 ---
 
 <div id="discourse-comments"></div>
+<style is:global>
+  #discourse-comments-wrapper { /* Target the outer box for resizing */
+    resize: vertical;
+    overflow: auto;
+    height: 700px; /* Taller default height, adjusted to make the iframe content ~600px */
+    min-height: 300px;
+  }
+  #discourse-comments {
+    /* This div will contain the iframe and should fill its parent (#discourse-comments-wrapper) */
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  #discourse-comments iframe {
+    width: 100%;
+    flex-grow: 1;
+    height: 100% !important; /* Ensures the iframe stretches with its immediate parent (#discourse-comments) */
+    resize: none !important; /* Explicitly prevent iframe from being resizable */
+    overflow: hidden !important; /* Prevent internal scrollbars on the iframe itself */
+  }
+</style>
+
 <script type="text/javascript" is:inline define:vars={{ discourseEmbedUrl: String(url) }}>
   window.DiscourseEmbed = {
     discourseUrl: 'https://forums.jtechforums.org/',
@@ -21,5 +44,21 @@ const { url } = Astro.props;
     d.async = true;
     d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+
+  // Handle resizing and saving the height configuration
+  (function() {
+    var container = document.getElementById('discourse-comments-wrapper'); // Target the outer resizable container
+    if (!container) return;
+
+    var savedHeight = localStorage.getItem('discourse-comments-height');
+    if (savedHeight) {
+      container.style.height = savedHeight;
+    } // No else needed, CSS handles default height
+
+    var observer = new ResizeObserver(function(entries) {
+      localStorage.setItem('discourse-comments-height', entries[0].contentRect.height + 'px');
+    });
+    observer.observe(container);
   })();
 </script>
