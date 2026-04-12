@@ -66,9 +66,17 @@ const { url } = Astro.props;
   (function() {
     var reloadBtn = document.getElementById('reload-discourse-comments');
     if (reloadBtn) {
+      var currentRotation = 0;
       reloadBtn.addEventListener('click', function() {
         var iframe = document.querySelector('#discourse-comments iframe');
         if (iframe) iframe.src = iframe.src; // Safe cross-origin refresh
+        
+        // Animate the icon 360 degrees
+        currentRotation -= 360;
+        var icon = reloadBtn.querySelector('svg');
+        if (icon) {
+          icon.style.transform = 'rotate(' + currentRotation + 'deg)';
+        }
       });
     }
   })();
