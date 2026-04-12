@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discourse Embed Sandbox</title>
+  <!-- Suppress missing favicon 404 requests from GitHub Pages -->
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --bg-color: #f8fafc;
+      --box-border: #cbd5e1;
+      --primary-btn: #3b82f6;
+      --primary-btn-hover: #2563eb;
+      --text-main: #1e293b;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .input-group label {
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .input-group input {
+      flex: 1;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    
+    .input-group input:focus {
+      outline: none;
+      border-color: var(--primary-btn);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      background-color: var(--primary-btn);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: var(--primary-btn-hover);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    /* The resizable box component */
+    .resizable-frame {
+      background: white;
+      border: 2px dashed var(--box-border);
+      border-radius: 8px;
+      padding: 1rem;
+      
+      /* Key properties for resizing */
+      resize: both;
+      overflow: auto;
+      
+      width: 100%;
+      height: 600px;
+      min-width: 320px;
+      min-height: 200px;
+      
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    #discourse-comments {
+      width: 100%;
+      height: 100%;
+      display: flex;
+    }
+    
+    #discourse-comments iframe {
+      width: 100% !important;
+      height: 100% !important;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Discourse Embed Testing Sandbox</h1>
+    
+    <div class="toolbar">
+      <div class="input-group">
+        <label for="embed-url">Page URL:</label>
+        <input type="text" id="embed-url" value="https://dev-in-the-bm.github.io/Ctrl-Shift-Esc/replace-probation" placeholder="e.g., https://mysite.com/post-1">
+      </div>
+      <button id="reload-btn">Reload Embed</button>
+    </div>
+
+    <!-- Resizable Box -->
+    <div class="resizable-frame">
+      <div id="discourse-comments"></div>
+    </div>
+  </div>
+
+  <script>
+    function loadDiscourseEmbed() {
+      const container = document.getElementById('discourse-comments');
+      const urlInputField = document.getElementById('embed-url');
+      
+      const urlInput = urlInputField.value;
+      
+      // 1. Clear the container (removes the existing iframe)
+      container.innerHTML = '';
+      
+      // 2. Remove the old script tag if it exists
+      const oldScript = document.getElementById('discourse-embed-script');
+      if (oldScript) {
+        oldScript.remove();
+      }
+
+      // 3. Set up the global Discourse configuration matching the Astro component
+      window.DiscourseEmbed = {
+        discourseUrl: 'https://forums.jtechforums.org/',
+        template: 'complete',
+        fullApp: true,
+        discourseEmbedUrl: urlInput || window.location.href,
+      };
+
+      // 4. Inject the embed script
+      var d = document.createElement('script');
+      d.id = 'discourse-embed-script';
+      d.type = 'text/javascript';
+      d.async = true;
+      // Append a timestamp to the URL to bypass browser caching of the script execution.
+      // This forces the script to re-evaluate and re-inject the iframe when we reload it.
+      d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js?t=' + Date.now();
+      
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+    }
+
+    // Attach event listener to reload button
+    document.getElementById('reload-btn').addEventListener('click', loadDiscourseEmbed);
+
+    // Initial load on page load
+    window.addEventListener('DOMContentLoaded', loadDiscourseEmbed);
+  </script>
+</body>
+</html>
