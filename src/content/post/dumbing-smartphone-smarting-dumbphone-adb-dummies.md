@@ -16,9 +16,7 @@ excerpt: |-
 
 ADB is a tool that you can use from your computer to do a lot things to Android phones that can't be done from the phone itself.
 
-### What can I do with ADB?
-
-ADB lets you:
+With ADB, you can:
 
 - **Uninstall apps**
 - **Install apps**
@@ -28,8 +26,6 @@ ADB lets you:
 Often, ADB will let you do more than the phone itself lets.
 
 You can use it to uninstall apps that came with the phone, install apps on some dumbphones that restrict installing APKs directly on the phone, and change phone settings and app permissions that you can't set from the phone itself.
-
-### Why should I use ADB?
 
 All this can be very useful for dumbing down devices, and extending the functionality of dumbphones.
 
@@ -119,6 +115,27 @@ PM is the package manager, which deals with apps.
 
 `adb shell am force-stop {package_name}` will kill the app.
 
+`adb shell wm density {DPI}` changes the screen density. Lowering the DPI can make apps designed for larger screens fit better on a small dumbphone screen by making everything appear smaller. 
+
+`adb shell wm density reset` resets the screen density to its default.
+
 ---
 
 ## Shizuku
+
+Shizuku is an Android app that allows apps to take advantage of ADBs superpowers, letting it do things that wouldn't otherwise be possible.
+
+There are many apps that use Shizuku, including debloaters, app managers, and app installers.
+
+See this [awesome list](https://github.com/timschneeb/awesome-shizuku) for a comprehensive collection of apps that use Shizuku.
+
+https://shizuku.rikka.app/
+
+https://github.com/RikkaApps/Shizuku
+
+- - -
+
+
+ADB is basically a master key for your Android. Whether you're stripping junk off a smartphone to make it dumb, forcing apps onto a flip phone, or just want to tweak your device, it gives you the control you need. 
+
+With all the GUI tools and browser apps available today, there's no reason to be intimidated. Grab a cable, plug in your phone, and make your device work for you.

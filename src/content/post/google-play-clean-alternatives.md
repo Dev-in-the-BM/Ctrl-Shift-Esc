@@ -1,12 +1,20 @@
 ---
-title: Google Play Alternatives
-slug: google-play-alternatives
+title: Google Play isn't as clean as you'd think, and these alternatives are better
+slug: google-play-clean-alternatives
 category: In Plaintext
 tags:
     - Degoogle
     - Android
     - Apps
+excerpt: |-
+    When it comes to Android apps, the Play Store is king, but it has its drawbacks.
+    Here's why you should avoid Google Play, and what to use instead.
+image: ../../assets/android bot discarding play store.png
+heroImage: ../../assets/android bot discarding play store.png
 ---
+
+
+## The Play Store's darker side
 
 While Google Play dominates app distribution on Android, and may appear convenient, it comes with several drawbacks.
 
@@ -76,6 +84,9 @@ It can be accessed in the same ways as F-Droid, through its website and F-Droid 
 
 
 https://apt.izzysoft.de/fdroid
+
+
+![Destroying the Play Store](../../assets/breaking_google_play.png)
 
 - - -
 
@@ -163,15 +174,25 @@ https://github.com/SanmerApps/PI/blob/main/README.md
 
 https://github.com/Aefyr/SAI/blob/master/README.md
 
+- - -
+
 ## Armv8, armv7, and x86 builds
 
-Some developers, instead of distributing apps as split APK formats that aren't natively supported, choose to just build multiple APK for each device type.
+Some developers, instead of distributing apps as split APK formats that aren't natively supported, choose to just build multiple APKs for each device type.
 
 The most important thing to focus on is processor architecture.
-You might see APKs for armv8, sometimes reffered to as x64, armv7, and x86.
+You might see APKs for armv8, sometimes referred to as x64, and for armv7, and x86.
 
 Most modern Android devices are armv8.
 
 Older devices and Android dumbphones might be armv7.
 
-x86 builds are for Chromebooks with AMD/Intel processors, and Androifd emulators on PCs.
+x86 builds are for Chromebooks with AMD/Intel processors, and Android emulators on PCs.
+
+---
+
+## Wrapping up
+
+Whether you're daily-driving a dumbphone that doesn't support Play Services, keeping your smartphone degoogled for privacy, or you just prefer sideloading raw APKs without being tied to an app store, you have plenty of options. 
+
+You don't need Google's official store to get the apps you need. With a little bit of know-how and the right tools, you can forget about the Play Store entirely and set up your device exactly the way you want it.
