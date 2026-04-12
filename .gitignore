@@ -26,3 +26,4 @@ pnpm-lock.yaml
 .frontmatter
 discourse_embed.html
 stylingscript.js
+.sample discourse embed.html
