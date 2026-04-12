@@ -61,4 +61,15 @@ const { url } = Astro.props;
     });
     observer.observe(container);
   })();
+
+  // Handle reload button click
+  (function() {
+    var reloadBtn = document.getElementById('reload-discourse-comments');
+    if (reloadBtn) {
+      reloadBtn.addEventListener('click', function() {
+        var iframe = document.querySelector('#discourse-comments iframe');
+        if (iframe) iframe.src = iframe.src; // Safe cross-origin refresh
+      });
+    }
+  })();
 </script>
