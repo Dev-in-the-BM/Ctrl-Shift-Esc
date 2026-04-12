@@ -109,18 +109,20 @@ const { post, url, headings = [] } = Astro.props;
       <SocialShare url={url} text={post.title} class="align-middle text-gray-500 dark:text-slate-600" />
     </div>
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-12 mb-12">
-      <div id="discourse-comments-wrapper" class="bg-gray-50 dark:bg-slate-800/50 rounded-2xl px-4 pt-8 pb-6 shadow-sm flex flex-col">
-        <div class="flex items-center justify-between mb-3 shrink-0 w-full px-2">
-          <div class="flex items-center gap-2">
-            <img src="https://github.com/Dev-in-the-BM/Dev-in-the-BM.github.io/blob/main/Assets/Jtech%20logo%20cropped.png?raw=true" alt="Jtech Forums logo" class="w-[35px] h-[35px] object-contain object-center invert dark:invert-0 border-[0.1px] border-gray-200 dark:border-white p-[3.0px] rounded-lg" />
-            <h2 class="text-3xl font-bold font-heading dark:text-white m-0 leading-none">Comments</h2>
+      <div class="bg-gray-50 dark:bg-slate-800/50 rounded-2xl shadow-sm">
+        <div id="discourse-comments-wrapper" class="px-4 pt-8 pb-6 flex flex-col h-full w-full">
+          <div class="flex items-center justify-between mb-3 shrink-0 w-full px-2">
+            <div class="flex items-center gap-2">
+              <img src="https://github.com/Dev-in-the-BM/Dev-in-the-BM.github.io/blob/main/Assets/Jtech%20logo%20cropped.png?raw=true" alt="Jtech Forums logo" class="w-[35px] h-[35px] object-contain object-center invert dark:invert-0 border-[0.1px] border-gray-200 dark:border-white p-[3.0px] rounded-lg" />
+              <h2 class="text-3xl font-bold font-heading dark:text-white m-0 leading-none">Comments</h2>
+            </div>
+            <button id="reload-discourse-comments" class="opacity-40 hover:opacity-100 transition-opacity text-slate-600 dark:text-slate-300 p-1" aria-label="Reload comments" title="Reload comments">
+              <Icon name="tabler:refresh" class="w-6 h-6 transition-transform duration-1000" />
+            </button>
           </div>
-          <button id="reload-discourse-comments" class="opacity-40 hover:opacity-100 transition-opacity text-slate-600 dark:text-slate-300 p-1" aria-label="Reload comments" title="Reload comments">
-            <Icon name="tabler:refresh" class="w-6 h-6 transition-transform duration-1000" />
-          </button>
-        </div>
-        <div class="rounded-xl flex-grow flex flex-col w-full">
-          <DiscourseComments url={url} />
+          <div class="rounded-xl flex-grow flex flex-col w-full">
+            <DiscourseComments url={url} />
+          </div>
         </div>
       </div>
     </div>

@@ -10,9 +10,23 @@ const { url } = Astro.props;
 <style is:global>
   #discourse-comments-wrapper { /* Target the outer box for resizing */
     resize: vertical;
-    overflow: auto;
+    overflow: hidden; /* Clips the corner so the resize handle respects the border-radius */
+    clip-path: inset(0 0 0 0 round 1rem); /* Force-clips Firefox's native boxy resizer to the rounded corner */
     height: 732px; /* Adjusted default height to ensure iframe content is ~600px with new padding/margin and header changes */
     min-height: 300px;
+    /* Universal custom resize handle shade to ensure it is clearly visible on Firefox and others */
+    background-image: linear-gradient(135deg, transparent 50%, rgba(156, 163, 175, 0.1) 50%);
+    background-size: 24px 24px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  /* Expands the hidden native scrollbars, which invisibly forces the WebKit resize hit-area to be larger */
+  #discourse-comments-wrapper::-webkit-scrollbar {
+    width: 80px;
+    height: 80px;
+  }
+  #discourse-comments-wrapper::-webkit-resizer {
+    background-color: transparent; /* Hides the native WebKit gray square so our universal background shows through */
   }
   #discourse-comments {
     /* This div will contain the iframe and should fill its parent (#discourse-comments-wrapper) */
