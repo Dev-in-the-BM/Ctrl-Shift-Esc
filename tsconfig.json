@@ -1,13 +1,21 @@
 {
-  "extends": "astro/tsconfigs/base",
-  "compilerOptions": {
-    "strictNullChecks": true,
-    "allowJs": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
-    }
-  },
-  "include": ["old cache .astro/types.d.ts", "**/*"],
-  "exclude": ["dist/"]
+	"extends": "astro/tsconfigs/base",
+	"compilerOptions": {
+		"strictNullChecks": true,
+		"allowJs": true,
+		"baseUrl": ".",
+		"paths": {
+			"~/*": [
+				"src/*"
+			]
+		}
+	},
+	"include": [
+		"old cache .astro/types.d.ts",
+		"**/*",
+		"./worker-configuration.d.ts"
+	],
+	"exclude": [
+		"dist/"
+	]
 }

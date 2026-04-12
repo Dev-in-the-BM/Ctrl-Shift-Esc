@@ -21,6 +21,8 @@ import remarkLinkCard from 'remark-link-card';
 import remarkBreaks from 'remark-breaks'; // Import remark-breaks
 import { remarkSmartImages, remarkCustomDirectives } from './remark-custom-plugins.mjs';
 
+import cloudflare from "@astrojs/cloudflare";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const hasExternalScripts = false;
@@ -100,4 +102,6 @@ export default defineConfig({
       },
     },
   },
+
+  adapter: cloudflare()
 });
