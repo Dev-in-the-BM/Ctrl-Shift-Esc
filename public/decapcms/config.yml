@@ -2,10 +2,10 @@ backend:
   name: github
   repo: Dev-in-the-BM/Ctrl-Shift-Esc
   branch: main
-  base_url: https://sveltia-admin.devinthebm.workers.dev/ # <-- REPLACE THIS with your Cloudflare Worker URL
+  base_url: https://sveltia-admin.devinthebm.workers.dev # <-- REPLACE THIS with your Cloudflare Worker URL
 
 media_folder: 'src/assets'
-public_folder: '../../assets'
+public_folder: '/src/assets'
 
 collections:
   - name: 'post'
