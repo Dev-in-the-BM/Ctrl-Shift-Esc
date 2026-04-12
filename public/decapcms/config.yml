@@ -1,9 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Dev-in-the-BM/Ctrl-Shift-Esc
   branch: main
+  base_url: https://sveltia-admin.devinthebm.workers.dev/ # <-- REPLACE THIS with your Cloudflare Worker URL
 
-media_folder: 'src/assets/images'
-public_folder: '/_astro'
+media_folder: 'src/assets'
+public_folder: '../../assets'
 
 collections:
   - name: 'post'
@@ -12,18 +14,11 @@ collections:
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string', required: false }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text', required: false }
       - { label: 'Category', name: 'category', widget: 'string' }
-      - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'list',
-          allow_add: true,
-          allow_delete: true,
-          collapsed: false,
-          field: { label: 'Tag', name: 'tag', widget: 'string' },
-        }
-      - { label: 'Image', name: 'image', widget: 'string' }
-      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', required: false }
-      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - { label: 'Hero Image', name: 'heroImage', widget: 'image', required: false }
+      - { label: 'Publish Date', name: 'pubDate', widget: 'datetime', required: false }
       - { label: 'Content', name: 'body', widget: 'markdown' }

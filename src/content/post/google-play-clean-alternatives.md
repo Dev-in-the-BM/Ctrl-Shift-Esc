@@ -191,8 +191,6 @@ x86 builds are for Chromebooks with AMD/Intel processors, and Android emulators 
 
 ---
 
-## Wrapping up
-
 Whether you're daily-driving a dumbphone that doesn't support Play Services, keeping your smartphone degoogled for privacy, or you just prefer sideloading raw APKs without being tied to an app store, you have plenty of options. 
 
 You don't need Google's official store to get the apps you need. With a little bit of know-how and the right tools, you can forget about the Play Store entirely and set up your device exactly the way you want it.
