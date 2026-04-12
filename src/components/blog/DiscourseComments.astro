@@ -60,15 +60,15 @@ const { url } = Astro.props;
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
   })();
 
-  // Handle resizing and saving the height configuration
+  /* Handle resizing and saving the height configuration */
   (function() {
-    var container = document.getElementById('discourse-comments-wrapper'); // Target the outer resizable container
+    var container = document.getElementById('discourse-comments-wrapper'); /* Target the outer resizable container */
     if (!container) return;
 
     var savedHeight = localStorage.getItem('discourse-comments-height');
     if (savedHeight) {
       container.style.height = savedHeight;
-    } // No else needed, CSS handles default height
+    } /* No else needed, CSS handles default height */
 
     var observer = new ResizeObserver(function(entries) {
       localStorage.setItem('discourse-comments-height', entries[0].contentRect.height + 'px');
@@ -76,16 +76,16 @@ const { url } = Astro.props;
     observer.observe(container);
   })();
 
-  // Handle reload button click
+  /* Handle reload button click */
   (function() {
     var reloadBtn = document.getElementById('reload-discourse-comments');
     if (reloadBtn) {
       var currentRotation = 0;
       reloadBtn.addEventListener('click', function() {
         var iframe = document.querySelector('#discourse-comments iframe');
-        if (iframe) iframe.src = iframe.src; // Safe cross-origin refresh
+        if (iframe) iframe.src = iframe.src; /* Safe cross-origin refresh */
         
-        // Animate the icon 360 degrees
+        /* Animate the icon 360 degrees */
         currentRotation -= 360;
         var icon = reloadBtn.querySelector('svg');
         if (icon) {
