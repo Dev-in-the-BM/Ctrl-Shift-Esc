@@ -29,6 +29,19 @@ const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
+import fs from 'fs';
+import fg from 'fast-glob';
+const { globSync } = fg;
+
+// Find slugs of unlisted dotfiles to exclude them from the sitemap
+const unlistedSlugs = globSync('src/content/post/.*.md').map(file => {
+  const content = fs.readFileSync(file, 'utf8');
+  const slugMatch = content.match(/slug:\s*['"]?([^'"\n]+)['"]?/);
+  if (slugMatch) return slugMatch[1];
+  const filename = path.basename(file, path.extname(file)).replace(/^\./, '');
+  return filename;
+});
+
 export default defineConfig({
   output: 'static',
 
@@ -36,7 +49,15 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        // page is a URL string like 'https://example.com/blog/my-post'
+        const url = new URL(page);
+        const pathSlug = url.pathname.split('/').filter(Boolean).pop();
+        if (!pathSlug) return true;
+        return !unlistedSlugs.includes(pathSlug);
+      }
+    }),
     mdx(),
     icon({
       include: {

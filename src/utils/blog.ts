@@ -111,7 +111,83 @@ const load = async function (): Promise<Array<Post>> {
   return results;
 };
 
+const loadUnlisted = async function (): Promise<Array<Post>> {
+  const postsGlob = import.meta.glob('/src/content/post/.*.md', { eager: true });
+  const allAssets = import.meta.glob('/src/assets/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,JPEG,JPG,PNG,TIFF,WEBP,GIF,SVG}', { eager: true });
+  
+  const normalizedPosts = Object.entries(postsGlob).map(async ([file, post]: [string, any]) => {
+    const { frontmatter, Content } = post;
+    const {
+      publishDate: rawPublishDate = new Date(),
+      updateDate: rawUpdateDate,
+      title,
+      excerpt,
+      tags: rawTags = [],
+      category: rawCategory,
+      author,
+      draft = false,
+      metadata = {},
+    } = frontmatter;
+    
+    let image = frontmatter.image;
+    if (typeof image === 'string' && image.startsWith('../../assets/')) {
+      const resolvedPath = image.replace('../../assets/', '/src/assets/');
+      if (allAssets[resolvedPath]) {
+        image = (allAssets[resolvedPath] as any).default;
+      }
+    } else if (typeof image === 'string' && image.startsWith('~/assets/')) {
+      const resolvedPath = image.replace('~/', '/src/');
+      if (allAssets[resolvedPath]) {
+        image = (allAssets[resolvedPath] as any).default;
+      }
+    }
+
+    const id = file.split('/').pop() || '';
+    const slug = frontmatter.slug || cleanSlug(id.replace(/^\./, '').replace(/\.mdx?$/, '')); 
+    const publishDate = new Date(rawPublishDate);
+    const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
+
+    const category = rawCategory
+      ? {
+          slug: cleanSlug(rawCategory),
+          title: rawCategory,
+        }
+      : undefined;
+
+    const tags = rawTags.map((tag: string) => ({
+      slug: cleanSlug(tag),
+      title: tag,
+    }));
+
+    return {
+      id: id,
+      slug: slug,
+      permalink: await generatePermalink({ id, slug, publishDate, category: category?.slug }),
+      publishDate: publishDate,
+      updateDate: updateDate,
+      title: title,
+      excerpt: excerpt,
+      image: image,
+      category: category,
+      tags: tags,
+      author: author,
+      draft: draft,
+      metadata,
+      Content: Content,
+      readingTime: frontmatter.readingTime,
+      getHeadings: post.getHeadings,
+    } as Post;
+  });
+
+  const results = (await Promise.all(normalizedPosts))
+    .sort((a, b) => b.publishDate.valueOf() - a.publishDate.valueOf())
+    .filter((post) => !post.draft);
+
+  return results;
+};
+
 let _posts: Array<Post>;
+let _unlistedPosts: Array<Post>;
 
 /** */
 export const isBlogEnabled = APP_BLOG.isEnabled;
@@ -135,6 +211,15 @@ export const fetchPosts = async (): Promise<Array<Post>> => {
   }
 
   return _posts;
+};
+
+/** */
+export const fetchUnlistedPosts = async (): Promise<Array<Post>> => {
+  if (!_unlistedPosts) {
+    _unlistedPosts = await loadUnlisted();
+  }
+
+  return _unlistedPosts;
 };
 
 /** */
@@ -185,7 +270,9 @@ export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateF
 /** */
 export const getStaticPathsBlogPost = async () => {
   if (!isBlogEnabled || !isBlogPostRouteEnabled) return [];
-  return (await fetchPosts()).flatMap((post) => ({
+  const posts = await fetchPosts();
+  const unlistedPosts = await fetchUnlistedPosts();
+  return [...posts, ...unlistedPosts].flatMap((post) => ({
     params: {
       blog: post.permalink,
     },

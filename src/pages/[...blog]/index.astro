@@ -38,18 +38,22 @@ try {
   if (entry) {
     const rendered = await render(entry);
     headings = rendered.headings || [];
+  } else if (typeof (post as any).getHeadings === 'function') {
+    headings = await (post as any).getHeadings() || [];
   }
 } catch (e) {
   console.error("Error fetching ToC headings:", e);
 }
+
+const isUnlisted = post.id.startsWith('.');
 
 const metadata = merge(
   {
     title: post.title,
     description: post.excerpt,
     robots: {
-      index: blogPostRobots?.index,
-      follow: blogPostRobots?.follow,
+      index: isUnlisted ? false : blogPostRobots?.index,
+      follow: isUnlisted ? false : blogPostRobots?.follow,
     },
     openGraph: {
       type: 'article',

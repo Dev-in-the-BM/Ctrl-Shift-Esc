@@ -1,0 +1,6 @@
+---
+const posts = import.meta.glob('/src/content/post/.*.md', { eager: true });
+const firstPost = Object.values(posts)[0];
+---
+<pre>{JSON.stringify(Object.keys(firstPost), null, 2)}</pre>
+<pre>{JSON.stringify(firstPost.frontmatter, null, 2)}</pre>
