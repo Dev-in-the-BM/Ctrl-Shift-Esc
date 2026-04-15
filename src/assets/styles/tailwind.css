@@ -110,7 +110,7 @@
 }
 
 .prose .rlc-info {
-  @apply p-4 flex flex-col justify-between flex-1;
+  @apply p-4 flex flex-col justify-between flex-1 pr-6;
 }
 
 .prose .rlc-title {
@@ -134,7 +134,7 @@
 }
 
 .prose .rlc-image-container {
-  @apply w-full sm:w-64 h-48 sm:h-auto shrink-0 bg-transparent border-none;
+  @apply w-full sm:w-64 h-48 sm:h-auto shrink-0 bg-transparent border-none pl-6;
 }
 
 .prose .rlc-image {
