@@ -12,6 +12,7 @@ collections:
     label: 'Post'
     folder: 'src/content/post'
     create: true
+    preview_template: templates/post-preview
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string', required: false }

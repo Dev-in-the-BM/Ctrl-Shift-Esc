@@ -36,6 +36,7 @@
     "hastscript": "^9.0.1",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "rehype-sanitize": "^6.0.0",
     "remark-attributes": "^0.3.2",
     "remark-breaks": "^4.0.0",
     "remark-directive": "^4.0.0",

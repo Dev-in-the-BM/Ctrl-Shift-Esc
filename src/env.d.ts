@@ -1,5 +1,22 @@
-// eslint-disable-next-line @typescript-eslint/triple-slash-reference
-/// <reference path="../old cache .astro/types.d.ts" />
+/// <reference path="../.astro/types.d.ts" />
 /// <reference types="astro/client" />
-/// <reference types="vite/client" />
-/// <reference types="../vendor/integration/types.d.ts" />
+
+declare module 'remark-link-card' {
+  import { Plugin } from 'unified';
+  const remarkLinkCard: Plugin;
+  export default remarkLinkCard;
+}
+
+declare module 'rehype-sanitize' {
+  import { Plugin } from 'unified';
+  import { Schema } from 'hast-util-sanitize';
+  
+  export const defaultSchema: Schema;
+  
+  interface SanitizePluginOptions {
+    schema?: Schema;
+  }
+  
+  const rehypeSanitize: Plugin<[SanitizePluginOptions?]>;
+  export default rehypeSanitize;
+}
