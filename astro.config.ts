@@ -9,6 +9,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
+import favicons from 'astro-favicons';
 import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
@@ -74,6 +75,14 @@ export default defineConfig({
           'database',
         ],
       },
+    }),
+
+    favicons({
+      input: {
+        favicons: ['./src/assets/favicons/favicon_fullsize.png'],
+      },
+      name: 'Ctrl, Shift, Esc',
+      short_name: 'Ctrl, Shift, Esc',
     }),
 
     ...whenExternalScripts(() =>
