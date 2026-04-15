@@ -134,7 +134,7 @@
 }
 
 .prose .rlc-image-container {
-  @apply w-full sm:w-64 h-48 sm:h-auto shrink-0 border-t sm:border-t-0 sm:border-l border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900;
+  @apply w-full sm:w-64 h-48 sm:h-auto shrink-0 bg-transparent border-none;
 }
 
 .prose .rlc-image {

@@ -128,7 +128,6 @@ const { language, textDirection } = I18N;
         flex-shrink: 0;
         max-height: none;
         order: 1; /* Puts image on the right */
-        background-color: rgb(var(--aw-color-bg-subtle));
       }
 
       .rlc-image {
@@ -237,6 +236,15 @@ const { language, textDirection } = I18N;
                 title.textContent = titleMatch[1].trim();
               }
             }
+          }
+
+          // --- Image error handling: hide image container if image fails to load ---
+          const img = card.querySelector('.rlc-image');
+          const imgContainer = card.querySelector('.rlc-image-container');
+          if (img && imgContainer) {
+            img.onerror = () => {
+              imgContainer.style.display = 'none';
+            };
           }
         });
       }
