@@ -12,7 +12,7 @@ import { getCollection } from 'astro:content';
 import { SITE } from 'astrowind:config';
 
 import avatarImage from '~/assets/Avatar scaled down-min.webp';
-import imgT9 from '~/assets/Generate_a_minimalist,_202603301537.png';
+import imgT9 from '~/assets/T9_category.webp';
 import imgDialing from '~/assets/Digital_minimalism_reclaiming_202603301538.jpeg';
 import imgPlaintext from '~/assets/Terminal_window_code_202603301545.jpeg';
 
@@ -60,7 +60,7 @@ const uniqueCategories = Array.from(new Set(posts.map(p => p.data.category).filt
 const uniqueTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []).filter(Boolean))).map(title => ({ title: title as string, slug: cleanSlug(title as string) }));
 
 const categoryDetails: Record<string, { subtitle: string; image: any }> = {
-  'Typed with T9': {
+  'Typed With T9': {
     subtitle: 'Reviews and insights on dumb hardware.',
     image: imgT9,
   },
