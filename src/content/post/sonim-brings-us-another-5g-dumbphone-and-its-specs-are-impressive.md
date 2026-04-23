@@ -1,7 +1,6 @@
 ---
 title: Sonim brings us another 5G dumbphone, and its specs are impressive
-description: |-
-    It's been a year since we last heard from Sonim, and they're back, with another phone with premium performance and military grade durability.
+description: It's been a year since we last heard from Sonim, and they're back, with another phone with premium performance and military grade durability.
 pubDate: 2026-04-17T22:08:35.528Z
 category: Typed With T9
 tags:
