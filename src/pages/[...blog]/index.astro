@@ -2,7 +2,7 @@
 import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
 
 import merge from 'lodash.merge';
-import { getEntry, render } from 'astro:content';
+import { getEntry, getCollection, render } from 'astro:content';
 import type { ImageMetadata } from 'astro';
 import Layout from '~/layouts/PageLayout.astro';
 import SinglePost from '~/components/blog/SinglePost.astro';
@@ -30,11 +30,27 @@ const image = (await findImage(post.image)) as ImageMetadata | string | undefine
 // Reach into Astro's content collection to extract the hidden headings array
 let headings = [];
 try {
-  // In Astro 5, content IDs typically exclude the file extension, whereas Astrowind's post.id might include it
-  const rawId = post.id || post.slug;
-  const cleanId = rawId.replace(/\.mdx?$/, '');
+  // First try to get headings directly from the post's rendered Content
+  // This avoids needing to re-lookup the entry
+  if (post.Content) {
+    // For posts that have pre-rendered Content, we can't easily get headings
+    // without re-rendering, so fall through to the getEntry approach
+  }
   
-  const entry = await getEntry('post', cleanId) || await getEntry('post', rawId);
+  // Try to find the entry by slug via getEntry first
+  let entry = await getEntry('post', post.slug);
+  
+  // If not found, try to find by id
+  if (!entry && post.id) {
+    entry = await getEntry('post', post.id.replace(/\.mdx?$/, ''));
+  }
+  
+  // If still not found, try finding from collection by slug
+  if (!entry) {
+    const allEntries = await getCollection('post');
+    entry = allEntries.find((e) => e.id === post.slug || e.id === post.id || e.slug === post.slug);
+  }
+  
   if (entry) {
     const rendered = await render(entry);
     headings = rendered.headings || [];

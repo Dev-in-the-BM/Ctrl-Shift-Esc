@@ -90,7 +90,21 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
     if (!progressBar || !article) return;
     
     const headings = Array.from(tocLinks).map(link => {
-      return document.getElementById(link.getAttribute('data-toc-link'));
+      const slug = link.getAttribute('data-toc-link');
+      // Use querySelector with attribute selector for more robust matching
+      // Falls back to finding heading by text content within the article
+      let heading = document.querySelector(`[id="${CSS.escape(slug)}"]`);
+      if (!heading && article) {
+        // Try to find heading by matching text content
+        const allHeadings = article.querySelectorAll('h1, h2, h3, h4, h5, h6');
+        for (const h of allHeadings) {
+          if (h.textContent?.trim() === link.textContent?.trim()) {
+            heading = h;
+            break;
+          }
+        }
+      }
+      return heading;
     }).filter(Boolean);
 
     const updateProgress = () => {
