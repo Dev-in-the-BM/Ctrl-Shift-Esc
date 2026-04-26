@@ -1,5 +1,6 @@
 ---
 title: Jelly fish with tangerines
+slug: jelly-fish-tangerines
 ---
 
 
