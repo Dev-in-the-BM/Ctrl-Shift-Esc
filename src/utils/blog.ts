@@ -112,7 +112,7 @@ const load = async function (): Promise<Array<Post>> {
 };
 
 const loadUnlisted = async function (): Promise<Array<Post>> {
-  const postsGlob = import.meta.glob('/src/content/post/.*.md', { eager: true });
+  const postsGlob = import.meta.glob('/src/content/post/_*.md', { eager: true });
   const allAssets = import.meta.glob('/src/assets/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,JPEG,JPG,PNG,TIFF,WEBP,GIF,SVG}', { eager: true });
   
   const normalizedPosts = Object.entries(postsGlob).map(async ([file, post]: [string, any]) => {
@@ -143,7 +143,7 @@ const loadUnlisted = async function (): Promise<Array<Post>> {
     }
 
     const id = file.split('/').pop() || '';
-    const slug = frontmatter.slug || cleanSlug(id.replace(/^\./, '').replace(/\.mdx?$/, '')); 
+    const slug = frontmatter.slug || cleanSlug(id.replace(/^_/, '').replace(/\.mdx?$/, ''));
     const publishDate = new Date(rawPublishDate);
     const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
 

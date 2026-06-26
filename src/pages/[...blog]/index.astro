@@ -61,7 +61,7 @@ try {
   console.error("Error fetching ToC headings:", e);
 }
 
-const isUnlisted = post.id.startsWith('.');
+const isUnlisted = post.id.startsWith('_');
 
 const metadata = merge(
   {
