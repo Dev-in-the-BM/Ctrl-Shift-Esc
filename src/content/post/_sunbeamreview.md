@@ -69,10 +69,10 @@ Other than that, I think that the phone is a great phone, and one of the best op
 
 **Responsiveness:** . . 👍 . .
 **Battery:** . . 👍 . .
-**Build Quality:** . . . 🥈 .
-**Camera:** . 😐 . . .
-**D.pad compatibility:** . . . 🥈 .
-**T9:** . . . 🥈 .
+**Build Quality:** .\ .\ . 🥈 .
+**Camera:** . 😐 .\ .\ .
+**D.pad compatibility:** .\ .\ . 🥈 .
+**T9:** .\ .\ . 🥈 .
 **Keypad tactile:** . . 👍 . .
-**UI Simplicity:** . . . . 🥇
-**UI Polish:** 1 . . . .
+**UI Simplicity:** .\ .\ . . 🥇
+**UI Polish:** 1 .\ .\ . .
