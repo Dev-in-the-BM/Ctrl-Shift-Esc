@@ -3,14 +3,14 @@ title: "Sunbeam F1 Pro: A Basic Flip Phone that won't Dissapoint"
 slug: sunbeam-f1-pro
 excerpt: |-
   The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you.
-  While it feels like a basic phone, it's anything but basic, offering just the right features  to stay helpful without getting in your way.---
+  While it feels like a basic phone, it's anything but basic, offering just the right features  to stay helpful without getting in your way.
 category: Typed With T9
 tags:
   - dumbphones
   - phone reviews
-image: ../../assets/generate_a_preview_202603292254.png
-heroImage: ../../assets/generate_a_preview_202603292254.png
-pubDate: ''
+image: /src/assets/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.png
+heroImage: /src/assets/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.png
+pubDate: 2026-06-29T22:27
 ---
 
 :::box[Verdict:]
@@ -39,6 +39,8 @@ The app is available for Android, iOs, Linux, Windows, and macOs.
 
 It has options for Waze, email, hotspot, weather and their own navigation app.
 Voice typing, NumberLink, and some features inside their weather and navigation apps, are all available as an optional subscription add-on.
+
+![Numberlink](/src/assets/sunbeam-wireless-use-your-phone-number-across-multiple-devices-with-numberlink-header-icon%20%28Edited%202%29.png)
 
 ### A utility that doesn't try to distract
 
