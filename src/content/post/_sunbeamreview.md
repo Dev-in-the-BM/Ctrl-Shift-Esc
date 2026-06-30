@@ -35,7 +35,11 @@ But don't get me wrong, this phone isn't just a better HMD phone.
  It has many modern features, some of which are innovative and can be quite useful.
  One of its latest add-ons, NumberLink, allows you to pair your phone with their app to access your phone remotely. 
 Once connected, you'll be able to read and respond to messages, and make and receive calls using your number.
-The app is available for Android, iOs, Linux, Windows, and macOs.
+The app is available for Android, iOs, Linux, Windows, and macOS.
+
+ They also just added an option to sync contacts and and calendar entries with providers like Google and Outlook. 
+
+One of the interesting things about this phone is that Sunbeam offers multiple variants, each offering different combinations of capabilities like texting, media playback, and email, allowing you to choose an option that has what you need without any extra distractions. 
 
 It has options for Waze, email, hotspot, weather and their own navigation app.
 Voice typing, NumberLink, and some features inside their weather and navigation apps, are all available as an optional subscription add-on.
@@ -51,7 +55,6 @@ Its apps are built custom, work very well, and are fully dpad compatible.
 
 It has a strong body, letting it take hits without falling apart.
 
-One of the interesting things about this phone is that Sunbeam offers multiple variants, each offering different combinations of capabilities like texting, media playback, and email, allowing you to choose an option that has what you need without any extra distractions. 
 
 The phone gets periodic OTA updates, fixing bugs and optimizing the phone.
 
@@ -73,7 +76,7 @@ Other than that, I think that the phone is a great phone, and one of the best op
 
 ***
 
-### Ratings:
+### Ratings
 
 **Responsiveness:** . . 👍 . .
 **Battery:** . . 👍 . .
