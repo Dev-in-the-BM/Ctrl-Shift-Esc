@@ -1,5 +1,5 @@
 ---
-title: "Sunbeam F1 Pro: A Basic Flip Phone that won't Dissapoint"
+title: "Sunbeam F1 Pro: A Basic Flip Phone that won't Disappoint"
 slug: sunbeam-f1-pro
 excerpt: |-
   The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you.
