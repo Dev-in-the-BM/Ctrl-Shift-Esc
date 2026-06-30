@@ -55,7 +55,6 @@ Its apps are built custom, work very well, and are fully dpad compatible.
 
 It has a strong body, letting it take hits without falling apart.
 
-
 The phone gets periodic OTA updates, fixing bugs and optimizing the phone.
 
 Another area that I think the  Sunbeam really shines is as a senior phone.
