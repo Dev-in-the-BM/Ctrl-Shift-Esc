@@ -84,3 +84,5 @@ Other than that, I think that the phone is a great phone, and one of the best op
 **Keypad tactile:** . . 👍 . .
 **UI Simplicity:** . . . . 🥇
 **UI Polish:** 1 . . . .
+
+https://sunbeamwireless.com/f1-pro-rugged-dumbphone/by/ctrlshiftescape
