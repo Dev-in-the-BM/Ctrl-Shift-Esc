@@ -44,7 +44,7 @@ One of the interesting things about this phone is that Sunbeam offers multiple v
 It has options for Waze, email, hotspot, weather and their own navigation app.
 Voice typing, NumberLink, and some features inside their weather and navigation apps, are all available as an optional subscription add-on.
 
-![Numberlink](/src/assets/sunbeam-wireless-use-your-phone-number-across-multiple-devices-with-numberlink-header-icon%20%28Edited%202%29.png)
+![Numberlink](../../sunbeam-wireless-use-your-phone-number-across-multiple-devices-with-numberlink-header-icon%20%28Edited%202%29.png)
 
 ### A utility that doesn't try to distract
 
