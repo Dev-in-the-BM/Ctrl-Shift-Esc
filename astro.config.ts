@@ -20,6 +20,7 @@ import remarkLinkCard from 'remark-link-card';
 // import remarkSpoilers from 'remark-spoilers';
 
 import remarkBreaks from 'remark-breaks'; // Import remark-breaks
+import remarkSmartypants from 'remark-smartypants';
 import { remarkSmartImages, remarkCustomDirectives } from './remark-custom-plugins.mjs';
 
 import cloudflare from "@astrojs/cloudflare";
@@ -114,12 +115,14 @@ export default defineConfig({
   },
 
   markdown: {
+    smartypants: false,
     remarkPlugins: [
       remarkLinkCard,
       remarkDirective,
       remarkSmartImages,
       remarkBreaks, // Add remarkBreaks here
       remarkCustomDirectives,
+      [remarkSmartypants as any, { ellipses: 'unspaced' }],
       // remarkSpoilers, // Pass the plugin function directly - Temporarily disabled due to "Cannot read properties of undefined (reading 'prototype')" error
     ],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
