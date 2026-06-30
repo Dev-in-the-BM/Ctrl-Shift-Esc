@@ -8,8 +8,8 @@ category: Typed With T9
 tags:
   - dumbphones
   - phone reviews
-image: /src/assets/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.png
-heroImage: /src/assets/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.png
+image: /../../assets/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.png
+heroImage: /../../assets/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.png
 pubDate: 2026-06-29T22:27
 ---
 
