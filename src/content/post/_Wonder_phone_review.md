@@ -64,13 +64,13 @@ As a locked down kosher phone, there's no:
 ### What I don't like about the Wonder
 
 Its keypad is too big, and the tactile isn't great, making typing using the keypad annoying.
- 
+
 I also think that's the UI, while clean and minimal, is too animated, with too much eye candy, but that's just my opinion. 
 
 It's camera isn't great, and I would expect better for the price.
 
 I'm not either very sure that it has good enough build quality.
 
-
+### Takeaway
 
 At the end of the day, I've found the top be one of the best options for me, and is what I currently use as my main phone, and I highly recommend it for those willing to pay for a premium simpler phone with some modern features.
