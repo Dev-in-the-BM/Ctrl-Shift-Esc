@@ -9,7 +9,7 @@ excerpt: |
 tags:
     - dumbphones
     - Reviews
-slug: wonder-phone-sleek-premium-flip-phone
+slug: wonder-sleek-premium-flip-phone
 ---
 
 ### Not just another overpriced flip phone
