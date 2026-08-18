@@ -1,3 +1,15 @@
+---
+title: Can Matrix be the Messaging solution for dumbphones?
+description: |-
+    Dumbphones users have been held back by the limitations of SMS.
+     Can Matrix change that?
+tags:
+    - dumbphones
+    - messaging
+category:
+    - Typed with T9
+slug: matrix-messaging-solution-dumbphones
+---
 In 2026, most of the world communicates using platforms like WhatsApp, Telegram, iMessage, and Google RCS to communicate.
 
 Being free, very well featured, and most being accessible to almost everyone, these platforms are used in every area of life, from workplace discussions, group chats with families, and direct messaging and vocie calls.
