@@ -9,6 +9,10 @@ tags:
 category:
     - Typed with T9
 slug: matrix-messaging-solution-dumbphones
+excerpt: |-
+    The works for everyone besides for minimalist and kosher phone users.
+
+    People using these phones are usually forced to rely on SMS & MMS text messaging, which is too limited for many use cases, including most group chats.
 ---
 In 2026, most of the world communicates using platforms like WhatsApp, Telegram, iMessage, and Google RCS to communicate.
 
@@ -42,7 +46,7 @@ You can use any Matrix app you want.
 
 Anyone can host their own Matrix server.
 
-### What does this have to with messaging on dumbphones?
+### What does this have to do with messaging on dumbphones?
 
 This is the thing: Since Matrix is open to any app designed for Matrix, and any developer can build their own Matrix app, it's possible to build a Matrix client that's as minimalist as you want, including or leaving out whichever features you want.
 
