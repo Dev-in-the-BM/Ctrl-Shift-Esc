@@ -12,6 +12,8 @@ tags:
 slug: phone-sleek-premium-flip-phone
 ---
 
+### Not just another overpriced flip phone
+
 When I first heard about the wonder phone, I was a bit skeptical.
 
 Another $300+ locked down touchscreen flip phone? Who needed more of the same?
@@ -23,6 +25,8 @@ A while later, I got my hands on a Wonder phone, and I completely changed my min
 I now use the Wonder as my daily driver, and I love it. 
 
 What's so great about it?
+
+### Sleek UX, modern features
 
 It's core apps are all made from scratch by their team.
 It's UI is beautiful, polished, simple, and dpad native.
@@ -59,12 +63,14 @@ As a locked down kosher phone, there's no:
 
 ### What I don't like about the Wonder
 
-Its keypad is too big, and the tactile isn't great, making typing using the keypad annoying. 
+Its keypad is too big, and the tactile isn't great, making typing using the keypad annoying.
+ 
 I also think that's the UI, while clean and minimal, is too animated, with too much eye candy, but that's just my opinion. 
 
-It's camera isn't the best, and I would expect better for the price.
+It's camera isn't great, and I would expect better for the price.
 
 I'm not either very sure that it has good enough build quality.
+
 
 
 At the end of the day, I've found the top be one of the best options for me, and is what I currently use as my main phone, and I highly recommend it for those willing to pay for a premium simpler phone with some modern features.
