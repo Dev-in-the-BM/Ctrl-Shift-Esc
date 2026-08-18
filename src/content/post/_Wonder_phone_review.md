@@ -5,11 +5,11 @@ excerpt: |
     They tried marketing themselves as a replacement for the LG Exalt, but come on, don't try telling me that they actually managed to make a basic phone polished enough to compare.
 
     A while later, I got my hands on a Wonder phone, and I completely changed my mind.
-    category: Typed With T9
+category: Typed With T9
 tags:
     - dumbphones
     - Reviews
-slug: wonder-sleek-premium-flip-phone
+slug: "wonder-sleek-premium-flip-phone"
 ---
 
 ### Not just another overpriced flip phone
