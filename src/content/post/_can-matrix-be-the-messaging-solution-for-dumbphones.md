@@ -8,7 +8,7 @@ tags:
     - messaging
 category:
     - Typed with T9
-slug: matrix-messaging-solution-dumbphones
+slug: "matrix-messaging-solution-dumbphones"
 excerpt: |-
     This works for everyone besides for minimalist and kosher phone users.
 
