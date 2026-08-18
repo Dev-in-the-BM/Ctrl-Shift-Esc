@@ -1,4 +1,16 @@
-wonder phone review
+---
+title: "The Wonder phone: A sleek, premium flip phone"
+pubDate: 2026-08-18T18:22:00.409Z
+excerpt: |
+    They tried marketing themselves as a replacement for the LG Exalt, but come on, don't try telling me that they actually managed to make a basic phone polished enough to compare.
+
+    A while later, I got my hands on a Wonder phone, and I completely changed my mind.
+    category: Typed With T9
+tags:
+    - dumbphones
+    - Reviews
+slug: phone-sleek-premium-flip-phone
+---
 
 When I first heard about the wonder phone, I was a bit skeptical.
 
