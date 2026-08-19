@@ -3,15 +3,17 @@ title: Can Matrix be the Messaging solution for dumbphones?
 description: |-
     Dumbphone users have been held back by the limitations of SMS.
      Can Matrix change that?
+category: Typed with T9
 tags:
     - dumbphones
     - messaging
-category: Typed with T9
-slug: "matrix-messaging-solution-dumbphones"
+slug: matrix-messaging-solution-dumbphones
 excerpt: |-
     This works for everyone besides for minimalist and kosher phone users.
 
     People using these phones are usually forced to rely on SMS & MMS text messaging, which is too limited for many use cases, including most group chats.
+image: ../../assets/dumbphone-hero-banner-mobile-370x215.jpeg
+heroImage: ../../assets/dumbphone-hero-banner-mobile-370x215.jpeg
 ---
 In 2026, most of the world communicates using platforms like WhatsApp, Telegram, iMessage, and Google RCS.
 
@@ -44,6 +46,8 @@ You can use whichever Matrix server you want, and message someone using any othe
 You can use any Matrix app you want.
 
 It's an open system that anyone can work with.
+
+![Element Chat](../../assets/element-chat.svg)
 
 ### A mature, fully featured platform
 
