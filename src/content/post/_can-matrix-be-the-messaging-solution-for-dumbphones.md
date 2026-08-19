@@ -47,7 +47,7 @@ You can use any Matrix app you want.
 
 It's an open system that anyone can work with.
 
-![Element Chat](../../assets/element-chat.svg)
+<img src="../../assets/element-chat.svg" alt="Element Chat" width="300" />
 
 ### A mature, fully featured platform
 
