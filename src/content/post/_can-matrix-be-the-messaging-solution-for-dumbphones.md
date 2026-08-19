@@ -23,7 +23,7 @@ This works for almost everyone, except for minimalist and kosher phone users.
 
 Most modern dumbphones don't support these platforms.
 
-Some phones block them because the platforms can have distracting features and design, others because the phone is too dumb to be able to run the app.
+Some phones block them because the platforms can have distracting features and designs, others because the phone is too dumb to be able to run the app.
 
 People using these phones are usually forced to rely on SMS & MMS text messaging, which is too limited for many use cases, including most group chats.
 
