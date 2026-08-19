@@ -79,4 +79,4 @@ Dumbphone manufacturers, can we make this happen?
 
 I'm talking to *you*, Light, Sunbeam, Fig, and all other minimalist phone companies.
 
-Let's make this happen!
+Let's do this!
