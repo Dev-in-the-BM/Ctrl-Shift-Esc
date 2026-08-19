@@ -8,10 +8,6 @@ tags:
     - dumbphones
     - messaging
 slug: matrix-messaging-solution-dumbphones
-excerpt: |-
-    This works for everyone besides for minimalist and kosher phone users.
-
-    People using these phones are usually forced to rely on SMS & MMS text messaging, which is too limited for many use cases, including most group chats.
 image: ../../assets/dumbphone-hero-banner-mobile-370x215.jpeg
 heroImage: ../../assets/dumbphone-hero-banner-mobile-370x215.jpeg
 ---
