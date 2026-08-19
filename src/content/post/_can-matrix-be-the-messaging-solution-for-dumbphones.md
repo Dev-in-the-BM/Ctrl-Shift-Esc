@@ -19,7 +19,7 @@ In 2026, most of the world communicates using platforms like WhatsApp, Telegram,
 
 Being free, very well featured, and accessible to almost everyone, these platforms are used in every area of life; from workplace discussions and family group chats, to direct messaging and voice calls.
 
-This works for almost everyone - except for minimalist and kosher phone users.
+This works for almost everyone, except for minimalist and kosher phone users.
 
 Most modern dumbphones don't support these platforms.
 
