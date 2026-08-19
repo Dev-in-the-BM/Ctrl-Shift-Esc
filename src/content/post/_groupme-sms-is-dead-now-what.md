@@ -13,6 +13,10 @@ tags:
 slug: groupme-sms-dead
 heroImage: ../../assets/Knife_slicing_digital_data_stream_202608191542.jpeg
 image: ../../assets/Knife_slicing_digital_data_stream_202608191542.jpeg
+excerpt: |-
+    The frum world relied on GroupMe's SMS feature for group chats.
+    That's now gone.
+    What do we do now?
 ---
 ### The frum world in the digital age
 
