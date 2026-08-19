@@ -5,8 +5,7 @@ description: |-
     That's now gone.
     What do we do now?
 publishDate: 2026-08-19T17:32:30.891Z
-category:
-    - Typed with T9
+category: Typed with T9
 tags:
     - kosher phones
     - Messaging
