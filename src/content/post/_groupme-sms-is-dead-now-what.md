@@ -49,7 +49,8 @@ MMS group chats are limited to 20 people, and don't allow adding or removing peo
 All this means that traditional text-message-based group chats are no longer an option for many things that we relied on.
 
 :::box
-The question facing our community is: *Now what?*
+The question facing our community is:
+ *Now what?*
 :::
 
 To answer that, we have to first look at the options.
