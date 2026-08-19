@@ -12,6 +12,8 @@ tags:
     - Messaging
     - dumbphones
 slug: groupme-sms-dead
+heroImage: ../../assets/Knife_slicing_digital_data_stream_202608191542.jpeg
+image: ../../assets/Knife_slicing_digital_data_stream_202608191542.jpeg
 ---
 ### The frum world in the digital age
 
@@ -58,6 +60,9 @@ After all, most kosher phones today are essentially dumbed-down Android devices,
 Why can't the filters just allow WhatsApp?
 
 The answer is nuanced, and boils down to a few points:
+
+![Holding dumbphone](../../assets/what-you-can-do-on-a-dumb-phone-1765847399.jpeg)
+
 
 #### 1. Non-kosher features
 
