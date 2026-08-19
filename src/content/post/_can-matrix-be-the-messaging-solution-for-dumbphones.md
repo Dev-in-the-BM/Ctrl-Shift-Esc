@@ -47,7 +47,7 @@ You can use any Matrix app you want.
 
 It's an open system that anyone can work with.
 
-<img src="https://raw.githubusercontent.com/Dev-in-the-BM/Ctrl-Shift-Esc/87d7745c5c49eb5fa5c67f2bb3d28864808874ee/src/assets/element-chat.svg" alt="Element Chat" width="300" />
+<img src="https://raw.githubusercontent.com/Dev-in-the-BM/Ctrl-Shift-Esc/87d7745c5c49eb5fa5c67f2bb3d28864808874ee/src/assets/element-chat.svg" alt="Element Chat" width="900" />
 
 ### A mature, fully featured platform
 
