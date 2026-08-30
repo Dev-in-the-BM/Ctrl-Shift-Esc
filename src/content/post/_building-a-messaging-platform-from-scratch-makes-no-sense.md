@@ -118,7 +118,7 @@ All this, because they were dependent on another company that had a monopoly.
 
 If kosher phone brands go with a centralized platform, and that platform can't live up to expectations, it can lower the appeal of the best kosher phones, making people look at them as cheap knockoff options.
 
-Wonder, Fusion, it's in your best interests to take matters into your own hands and make sure that whichever system kosher phone users adopt is one that can highlight your phones as premium devices, not draw attention to their flaws.
+Kosher phone makers, it's in your best interests to take matters into your own hands and make sure that whichever system kosher phone users adopt is one that can highlight your phones as premium devices, not draw attention to their flaws.
 
 ---
 
