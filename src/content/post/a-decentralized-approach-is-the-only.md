@@ -1,3 +1,7 @@
+---
+title: A decentralized approach is the only
+slug: decentralized-approach
+---
 Dumbphone users have long relied on GroupMe for having group chats with kosher phone users.
 When GroupMe recently announced that they're shutting down their SMS option, we were left scrambling to find an alternative.
 
