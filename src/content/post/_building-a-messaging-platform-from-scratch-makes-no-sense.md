@@ -4,6 +4,7 @@ slug: building-messaging-platform-scratch-sense
 categories: Typed with T9
 image: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 heroimage: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
+heroImage: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 ---
 Dumbphone users have long relied on GroupMe for having group chats with kosher phone users.
 When GroupMe recently announced that they're shutting down their SMS option, we were left scrambling to find an alternative.
