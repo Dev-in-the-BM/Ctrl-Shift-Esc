@@ -2,6 +2,8 @@
 title: Building a messaging platform from scratch makes no sense
 slug: building-messaging-platform-scratch-sense
 categories: Typed with T9
+image: ../../..assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
+heroimage: ../../..assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 ---
 Dumbphone users have long relied on GroupMe for having group chats with kosher phone users.
 When GroupMe recently announced that they're shutting down their SMS option, we were left scrambling to find an alternative.
@@ -69,6 +71,8 @@ You might point out that if we're talking about using an external provider, then
 The answer is that most centralized platforms don't allow third-party clients.
 
 The ones that do only tolerate them, and there's no guarantee that they always will.
+
+
 
 ### So now what
 
