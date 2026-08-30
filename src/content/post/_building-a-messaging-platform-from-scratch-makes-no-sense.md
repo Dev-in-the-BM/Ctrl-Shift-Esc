@@ -1,6 +1,7 @@
 ---
-title: A decentralized approach is the only way
-slug: decentralized-approach
+title: Building a messaging platform from scratch makes no sense
+slug: building-messaging-platform-scratch-sense
+categories: Typed with T9
 ---
 Dumbphone users have long relied on GroupMe for having group chats with kosher phone users.
 When GroupMe recently announced that they're shutting down their SMS option, we were left scrambling to find an alternative.
