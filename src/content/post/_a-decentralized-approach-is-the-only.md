@@ -1,5 +1,5 @@
 ---
-title: A decentralized approach is the only
+title: A decentralized approach is the only way
 slug: decentralized-approach
 ---
 Dumbphone users have long relied on GroupMe for having group chats with kosher phone users.
