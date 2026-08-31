@@ -1,7 +1,7 @@
 ---
 title: Building a messaging platform from scratch makes no sense
 slug: building-messaging-platform-scratch-sense
-categories: Typed with T9
+categories: Typed With T9
 image: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 heroimage: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 heroImage: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
