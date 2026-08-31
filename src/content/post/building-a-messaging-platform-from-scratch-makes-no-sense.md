@@ -4,7 +4,7 @@ slug: building-messaging-platform-scratch-sense
 image: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 heroimage: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 heroImage: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
-categories: Typed With T9
+category: Typed With T9
 tags:
     - messaging
 ---
