@@ -3,7 +3,7 @@ title: Can Matrix be the Messaging solution for dumbphones?
 description: |-
     Dumbphone users have been held back by the limitations of SMS.
      Can Matrix change that?
-category: Typed with T9
+category: Typed With T9
 tags:
     - dumbphones
     - messaging

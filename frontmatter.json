@@ -70,6 +70,11 @@
           "title": "categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "heroimage",
+          "name": "heroimage",
+          "type": "image"
         }
       ]
     }
