@@ -1,14 +1,16 @@
 ---
 title: "Rumor: The Mind phones keypad might be real"
+slug: rumor-mind-phones-keypad-real
+image: ../../assets/ducttapekosherphone.png
 heroImage: ../../assets/ducttapekosherphone.png
-description: Rumor has it that the Mind phone not only has a keypad, but it also works.
-excerpt: Rumor has it that the Mind phone not only has a keypad, but it also works.
+heroimage: ../../assets/ducttapekosherphone.png
+description: "Rumor has it that the Mind phone not only has a keypad, but it also works."
+excerpt: "Rumor has it that the Mind phone not only has a keypad, but it also works."
 publishDate: 2026-09-01T20:14:44.972Z
+category: Typed With T9
 tags:
     - kosher phones
     - dumbphones
-heroimage: ../../assets/ducttapekosherphone.png
-slug: rumo-mind-phones-keypad-real
 ---
 
 There's a rumor going around that the physical keypad on the Mind Phone is real and fully functional.
