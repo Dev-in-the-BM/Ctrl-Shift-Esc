@@ -21,4 +21,4 @@ Regardless, reviews for the keypad remain overwhelmingly positive. Users agree i
 
 Meanwhile, Fig and Wonder users keep submitting feedback asking the brands to release models without the keypad, which doesn't serve any purpose, and to make the screen a more practical size, like 6 inches.
 
-While some have suggested getting smartphones filtered to just talk & text, or with a kosher OS preinstalled, flip phone users are outraged at the idea, insisting that they would never compromise on their values. 
+While some have suggested getting smartphones filtered to just talk & text, or with a kosher OS preinstalled, flip phone users are outraged at the idea, insisting that they would never compromise on their values.
