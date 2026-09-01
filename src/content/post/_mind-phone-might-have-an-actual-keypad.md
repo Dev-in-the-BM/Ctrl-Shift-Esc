@@ -2,7 +2,7 @@
 title: "Rumor: The Mind phones keypad might be real"
 heroImage: ../../assets/ducttapekosherphone.png
 description: Rumor has it that the Mind phone not only has a keypad, but it also works.
-excerpt: Rumor has it that the Mid phone not only has a keypad, but it also works.
+excerpt: Rumor has it that the Mind phone not only has a keypad, but it also works.
 publishDate: 2026-09-01T20:14:44.972Z
 tags:
     - kosher phones
