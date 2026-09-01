@@ -17,7 +17,7 @@ There's a rumor going around that the physical keypad on the Mind Phone is real 
 
 I've tried to verify this, but it turned out to be impossible, as no one has tested it yet.
 
-Regardless, reviews for the keypad remain overwhelmingly positive. Users agree it's a massive upgrade over the Fig and Wonder phones, as it's keypad doesn't doesn't hang down at a weird angle when typing on Gboard.
+Regardless, reviews for the keypad remain overwhelmingly positive. Users agree it's a massive upgrade over the Fig and Wonder phones, as its keypad doesn't hang down at a weird angle when typing on Gboard.
 
 Meanwhile, Fig and Wonder users keep submitting feedback asking the brands to release models without the keypad, which doesn't serve any purpose, and to make the screen a more practical size, like 6 inches.
 
