@@ -19,10 +19,10 @@ Eventually, Keyphone was available for preorder and I decided to go for it.
 I got mine in the beginning of this year.
 
 At first it was too raw to be a daily driver, and I ended up going with another phone for a while.
-Within a half a year, they polished off the software and fixed up the keypad, and it quickly became one my favorite phones.
+Within a half a year, they polished off the software and fixed up the keypad, and it quickly became one of my favorite phones.
 
 Until I went back to using it as my main phone, 
-every time I went back to the Keyphone, two things hit me right away: How it feels holding it, and it's perfect UI design.
+every time I went back to the Keyphone, two things hit me right away: How it feels holding it, and its perfect UI design.
 
 ### Perfect form factor
 
@@ -42,19 +42,19 @@ Modern, clean, and minimal.
 ### Innovative features and design
 
 In a market of dumbphones with UX mostly inspired by either Android or old school dumbphones, Keyphone brings a breath of fresh air.
-It's launcher is unique, with a layout that's different, but easy to use, and optimized for a dumbphone.
-They have their own custom notification and recent apps screens, which are simpler and a lot better suited to a small-screen button-phone, and a custo quick settings screen is supposed to be on the way as well.
+Its launcher is unique, with a layout that's different, but easy to use, and optimized for a dumbphone.
+They have their own custom notification and recent apps screens, which are simpler and a lot better suited to a small-screen button-phone, and a custom quick settings screen is supposed to be on the way as well.
 
 The phone gets frequent OTA updates, bringing improvements, bug fixes, and new features.
 This is another area I think they do a terrific job on.
 I've seen other phones that prioritize shiny extras over bug fixes, and think that that's a big mistake.
-Keyphone updates having a good balance of bugs fixes, adding essential missing functionality, and fancier features.
+Keyphone updates strike a good balance between bug fixes, adding missing functionality, and fancier features.
 
 Upcoming features include their own maps app, email, and the ability to customize the functionality of the buttons on the side.
 
 ### Dare to innovate
 
-I've had a few conversations with {Shlomo?|some people} at Keyphone, and one I've the things I've seen is that they're not afraid to attempt what seems impossible, and are willing to think out of the box to be able to offer modern features while keeping things simple and undistracting.
+I've had a few conversations with {Shlomo?|some people} at Keyphone, and one of the things I've seen is that they're not afraid to attempt what seems impossible, and are willing to think out of the box to be able to offer modern features while keeping things simple and undistracting.
 
 Building navigation that can satisfy isn't easy, and most won't even try.
 Keyphone isn't daunted, and their Maps is in the works.
@@ -79,7 +79,7 @@ They spent 4 years iterating and fine tuning.
 
 When they saw that the original manufacturer they were working with wasn't able to make something that met their standards, Keyphone went elsewhere.
 
-The first verion of their keypads had some problems, but Keyphone kept going at it, and a few versions later, their keypad is very good.
+The first version of their keypads had some problems, but Keyphone kept going at it, and a few versions later, their keypad is very good.
 
 All this paid off, and I think that the Keyphone is probably one of the highest quality modern basic phones out there.
 
@@ -119,12 +119,12 @@ Yes, there are features that are still being implemented, but that's expected wi
 That said, there are still a few things that I think could be better.
 
 The d-pad is very small, and at first was too small to be usable.
-Like I siad before, Keyphones Keyboard went through a few versions, and it's dpad is now a lot better.
-It would be great if it was a little bigger, but is definitely good enough. 
+Like I said before, Keyphone's keyboard went through a few versions, and its d-pad is now a lot better.
+It would be great if it was a little bigger, but it is definitely good enough. 
 
 I've heard some say that the QWERTY keyboard is too small to be usable, but  while I agree that it's small, I don't think it's *too* small, and find typing works great on it.
 
-I also think that the soft-keys being touch was a mistake
+I also think that the soft-keys being touch was a mistake.
 
 At the end of the day, all these might be a bit annoying, but aren't a big deal, and when contrasted with the other options, Keyphone is the clear winner.
 
