@@ -10,7 +10,7 @@ slug: keyphone-minimalism
 
 When I first heard about Keyphone, I was pretty impressed.
 
-Between the hardware and features designed in-house, its modularity, and its custom minimal custom skin, it sounded very cool.
+Between the hardware and features designed in-house, its modularity, and its minimal custom skin, it sounded very cool.
 
 I kept listening out for updates, waiting to hear more details and news about it.
 
@@ -21,15 +21,14 @@ I got mine in the beginning of this year.
 At first it was too raw to be a daily driver, and I ended up going with another phone for a while.
 Within a half a year, they polished off the software and fixed up the keypad, and it quickly became one of my favorite phones.
 
-Until I went back to using it as my main phone, 
-every time I went back to the Keyphone, two things hit me right away: How it feels holding it, and its perfect UI design.
+Until then, every time I went back to the Keyphone, two things hit me right away: How it feels holding it, and its perfect UI design.
 
 ### Perfect form factor
 
 Most of the phones I've used as my daily drivers were big and clunky.
 The Keyphone isn't just not clunky, it feels so *good* holding it.
 Yeah, I know, they say it's "designed to live in your pocket, not in your hand", but you would've never guessed it.
-It's a great size, feels solid, weight balanced, the form is just right.
+It's a great size, feels solid, weight well balanced, sized just right.
 
 ### Minimalist UI
 
@@ -97,11 +96,11 @@ The Keyphone is designed to be a simpler, locked down phone, which on the one ha
 
 Things Keyphone doesn't have:
 
-- No sideloading apps
-- No flashing custom ROMs
-- No WhatsApp
-- No music streaming
-- No on screen keyboard or swipe typing
+- Sideloading apps
+- Flashing custom ROMs
+- WhatsApp
+- Music streaming
+- On screen keyboard or swipe typing
 
 These are all things that many dumbphones don't have, and are part of choosing to live with a basic phone.
 
@@ -122,9 +121,10 @@ The d-pad is very small, and at first was too small to be usable.
 Like I said before, Keyphone's keyboard went through a few versions, and its d-pad is now a lot better.
 It would be great if it was a little bigger, but it is definitely good enough. 
 
-I've heard some say that the QWERTY keyboard is too small to be usable, but  while I agree that it's small, I don't think it's *too* small, and find typing works great on it.
+I've heard some say that the QWERTY keyboard is too cramped to be usable.
+I personally think that while it is small, it isn't *too* small, and I find that typing works great on it.
 
-I also think that the soft-keys being touch was a mistake.
+I also think that making the soft-keys capacitive touch was a mistake.
 
 At the end of the day, all these might be a bit annoying, but aren't a big deal, and when contrasted with the other options, Keyphone is the clear winner.
 
