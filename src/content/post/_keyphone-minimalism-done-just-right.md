@@ -86,7 +86,7 @@ It's very durable, and can handle a lot.
 
 The buttons feel and click great.
 
-It has an option for a physical QWERTY keyboard, and that was the feature I missed the most going back to my Wonder.
+It has an option for a physical QWERTY keyboard, and that was the feature I missed the most going back to my Wonder phone.
 
 ---
 
@@ -124,7 +124,7 @@ It would be great if it was a little bigger, but it is definitely good enough.
 I've heard some say that the QWERTY keyboard is too cramped to be usable.
 I personally think that while it is small, it isn't *too* small, and I find that typing works great on it.
 
-I also think that making the soft-keys capacitive touch was a mistake.
+I also think that making the soft-keys touch-sensitive was a mistake.
 
 At the end of the day, all these might be a bit annoying, but aren't a big deal, and when contrasted with the other options, Keyphone is the clear winner.
 
