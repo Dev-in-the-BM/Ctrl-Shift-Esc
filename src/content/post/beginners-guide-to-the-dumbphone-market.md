@@ -3,8 +3,7 @@ title: Beginners guide to the dumbphone market
 description: Many are opting to switch to simpler devices to control their screen time and reclaim their lives, but the options can be overwhelming.
 pubDate: 2026-09-14T22:53:55.597Z
 publishDate: 2026-09-14T22:53:59.895Z
-category:
-    - Typed With T9
+category: Typed With T9
 slug: beginners-guide-dumbphone-market
 ---
 Beginners guide to the dumbphone market
