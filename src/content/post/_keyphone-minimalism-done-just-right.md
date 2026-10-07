@@ -57,8 +57,6 @@ I've had a few conversations with {Shlomo?|some people} at Keyphone, and one of 
 
 Building navigation that can satisfy isn't easy, and most won't even try.
 Keyphone isn't daunted, and their Maps is in the works.
-RCS without Google Messages is impossible, right?
-Keyphone has to at least try.
 When working on email, Keyphone churned out 5 solutions to offer email while keeping things simple, and then put out a poll asking users which they'd prefer.
 
 I've sometimes given creative suggestions of what Keyphone can add to improve the phone, and they're always open to all ideas.
