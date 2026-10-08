@@ -53,7 +53,7 @@ Upcoming features include their own maps app, email, and the ability to customiz
 
 ### Dare to innovate
 
-I've had a few conversations with {Shlomo?|some people} at Keyphone, and one of the things I've seen is that they're not afraid to attempt what seems impossible, and are willing to think out of the box to be able to offer modern features while keeping things simple and undistracting.
+I've had a few conversations with the team at Keyphone, and one of the things I've seen is that they're not afraid to attempt what seems impossible, and are willing to think out of the box to be able to offer modern features while keeping things simple and undistracting.
 
 Building navigation that can satisfy isn't easy, and most won't even try.
 Keyphone isn't daunted, and their Maps is in the works.
