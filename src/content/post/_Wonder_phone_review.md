@@ -73,11 +73,14 @@ The newer Wonder Pro reportedly has an improved camera, but I think that for the
 
 Its build quality isn't great, although they do offer free repairs for the first year after purchase, and the leather case does a great job protecting it.
 
-Another frustrating point is that they seem to be prioritizing flashy new features over ux and bug fixes.
+The physical controls are a drop too slow to respond.
+
+Another frustrating point is that they seem to be prioritizing flashy new features over UX and bug fixes.
 With a new phone made by a small company with minimal resources, some missing features, bugs, and UX quirks are to be expected.
 I'm fine with that, as long as those issues are short-term, and the company prioritizes ironing them out.
 While Wonder has significantly improved the phone's software, it still has things that need to be fixed, and over the past half a year they seem to have been prioritizing extras over essentials.
 This is what ended up pushing me to another phone.
+
 
 ### Takeaway
 
