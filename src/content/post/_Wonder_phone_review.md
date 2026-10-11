@@ -9,7 +9,8 @@ category: Typed With T9
 tags:
     - dumbphones
     - Reviews
-slug: "wonder-sleek-premium-flip-phone"
+slug: wonder-sleek-premium-flip-phone
+heroimage: /tkm8q0aenzr.jpg
 ---
 
 ### Not just another overpriced flip phone
