@@ -10,6 +10,7 @@ tags:
     - dumbphones
     - Reviews
 slug: wonder-sleek-premium-flip-phone
+image: ../../tkm8q0aenzr.jpg
 heroImage: ../../tkm8q0aenzr.jpg
 ---
 
