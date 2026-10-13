@@ -51,7 +51,9 @@ These phones one strong point is terrific battery life, but I don't think that m
 
 There is one phone that might be a good option, but it hasn't been tested in the US.
 
-If someone wants to pay to import it and test it, then we might
+If someone wants to pay to import it and test it, then we might have a great option.
+
+There is also the Punkt Mp02, but it's quite expensive.
 
 ### 2: KaiOs phones
 
@@ -83,13 +85,11 @@ These same tools also allow disabling many features that these phones ship with,
 
 Overall, this is my favorite category of dumbphone, and whether you're looking for something simple and reliable or something that can run apps but still feel dumb, these are the phones I usually recommend.
 
-### Modern kosher phone
+### Restricted midwit phones
 
-Just to be clear, when I say *modern kosher phone*, I'm not talking about all phone that count as kosher phones.
+These phones are part of a newer generation of midwit phones that strike an interesting balance between modern utility features, higher-end hardware, while having restrictions to prevent installing distracting apps.
 
-I'm referring to a newer generation of kosher phones that has emerged in recent years, that are in many ways similar to the previous category.
-
-While they both use Android and usually flip, the difference between them is that these kosher phones are more premium and restricted.
+They're often, but not always, sold as kosher phones.
 
 These phones usually have: 
 - Better cameras
@@ -111,7 +111,7 @@ These phones aren't all the same, though, some offer their own app store with a 
 
 They usually put more work into UI and UX, delivering a product that's both easier to use while keeping things simpler and cleaner.
 
-### Keypad phones and small screen phones
+### Keypad phones and small screen smartphones
 
 These phones are technically full fledged Android smartphones, and you can do anything on them that you can do on a smartphone.
 
@@ -123,11 +123,11 @@ For many these can be a good compromise between minimalism and functionality.
 
 ### The E-ink Monotone
 
-Another interesting type of phone are e-ink Androids.
+Another interesting type of compromise phone are e-ink Androids.
 
 These include the Mudita Kompakt, BigMe Hibreak, and the original Minimal Phone.
 
-These run full Android, and can do everything a standard can do, albeit in black  white, at the speed of e-ink.
+These run full Android, and can do everything a standard smartphone can do, albeit in black  white, at the speed of e-ink.
 
 Many e-ink screens aren't as fast as traditonal phone screens, which adds friction, and encourages more mindful use.
 Removing all color from the phone also removes a lot of the appeal of consuming.
@@ -149,7 +149,7 @@ Some great options include the Gabb phone and Sleke phone.
 
 ### The Innovators
 
-The last and most interesting category are phones that just do things different, using creative methods to give a simpler experience.
+The last and most interesting category are phones that just do things different, using creative methods to give a more intentional experience.
 
 There's the Light Phone, which keeps the UI very simple.
  No animations, minimal graphics, and everything black and white.
@@ -158,9 +158,12 @@ There's the upcoming Basic Phone, which will have a black & white e-ink screen, 
 
 There's the Dumbphone 2, which took the TCL Flip 2, and loaded it with features and tools like music streaming, WhatsApp and iMessage, and
 
+And the Amoeba's kickstarter is just getting {something?}, promsing a keychain sized phone with basic utilities.
+
 Each of these take their own creative route trying to give a different, simpler experience.
 
 ---
 
- I hope I was able to make the options clearer
+I hope I was able to make the options clearer
+
 If you the need for specific apps have been holding you back from cutting down, there's are more intentional phones that could work for you, so stop pushing it off!
