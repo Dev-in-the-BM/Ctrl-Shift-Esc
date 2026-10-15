@@ -51,6 +51,8 @@ Its battery life is excellent, easily lasting a day or two, depending on usage, 
 It also has a parental control feature that allows you to disable many of the phone's features, including the touchscreen, media playback, MMS, SMS, and any of its apps.
 It's very secure, even persisting through full device resets.
 
+![Wonder phone display](../../assets/Display-new.png)
+
 ### What the Wonder doesn't have
 
 As a locked down kosher phone, there's no:
