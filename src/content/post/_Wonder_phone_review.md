@@ -75,7 +75,7 @@ The newer Wonder Pro reportedly has an improved camera, but I think that for the
 
 Its build quality isn't great, although they do offer free repairs for the first year after purchase, and the leather case does a great job protecting it.
 
-The phones response to button presses is slightly delayed, although it responds to screen taps instantly.
+The phone's response to button presses is slightly delayed, although it responds to screen taps instantly.
 
 Another frustrating point is that they seem to be prioritizing flashy new features over UX and bug fixes.
 With a new phone made by a small company with minimal resources, some missing features, bugs, and UX quirks are to be expected.
@@ -87,6 +87,6 @@ This is what ended up pushing me to another phone.
 
 The Wonder has many things going for it, with UX being one of its strong points.
 
-It also has some problems which I'd' love to see resolved, but no midwit phone is perfect, and there are tradeoffs between all of them.
+It also has some problems which I'd love to see resolved, but no midwit phone is perfect, and there are tradeoffs between all of them.
 
 I think that it can be an excellent option for those looking for a phone that offers smartphone UI polish and ease of use, in a simpler and more intentional package.
