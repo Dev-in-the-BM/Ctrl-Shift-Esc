@@ -9,7 +9,9 @@ category: Typed With T9
 tags:
     - dumbphones
     - Reviews
-slug: "wonder-sleek-premium-flip-phone"
+slug: wonder-sleek-premium-flip-phone
+image: ../../assets/tkm8q0aenzr.jpg
+heroImage: ../../assets/tkm8q0aenzr.jpg
 ---
 
 ### Not just another overpriced flip phone
@@ -45,7 +47,6 @@ Google Maps is also available, but only on Android Auto.
 Its other features include weather and a dedicated feedback app.
 
 Its battery life is excellent, easily lasting a day or two, depending on usage, and could probably last at least a week if you're not using it too much.
-
 
 It also has a parental control feature that allows you to disable many of the phone's features, including the touchscreen, media playback, MMS, SMS, and any of its apps.
 It's very secure, even persisting through full device resets.
