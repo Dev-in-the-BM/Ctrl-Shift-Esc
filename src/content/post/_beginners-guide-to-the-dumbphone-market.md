@@ -6,7 +6,6 @@ publishDate: 2026-09-14T22:53:59.895Z
 category: Typed With T9
 slug: beginners-guide-dumbphone-market
 ---
-Beginners guide to the dumbphone market
 
 These days, the world is more digital than ever, and everything in life seems to be moving online.
 
@@ -53,7 +52,7 @@ There is one phone that might be a good option, but it hasn't been tested in the
 
 If someone wants to pay to import it and test it, then we might have a great option.
 
-There is also the Punkt Mp02, but it's quite expensive.
+There is also the Punkt MP02, but it's quite expensive for something so simple.
 
 ### 2: KaiOs phones
 
