@@ -12,7 +12,8 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
 {toc.length > 0 ? (
   <>
     <!-- Mobile ToC (Collapsible) -->
-    <div class="xl:hidden w-full max-w-3xl mx-auto px-4 sm:px-6 mb-6">
+    <!-- Collapsible ToC shown until there is room for the desktop sidebar (>= 1440px) -->
+    <div class="min-[1440px]:hidden w-full max-w-3xl mx-auto px-4 sm:px-6 mb-6">
       <details class="group bg-gray-50 dark:bg-slate-800/50 rounded-2xl shadow-sm overflow-hidden">
         <summary class="p-5 text-xs font-bold uppercase tracking-widest text-muted cursor-pointer list-none relative flex justify-center items-center transition-colors hover:bg-gray-100 dark:hover:bg-slate-800">
           <span>On this page</span>
@@ -42,7 +43,8 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
     </div>
 
     <!-- Desktop ToC -->
-    <aside class="hidden xl:block absolute left-[calc(50%-43rem)] top-0 bottom-0 w-64 pr-4 z-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
+    <!-- max() clamp keeps the sidebar inside the viewport at any root font size / width -->
+    <aside class="hidden min-[1440px]:block absolute left-[max(1.5rem,calc(50%-43rem))] top-0 bottom-0 w-64 pr-4 z-10 opacity-70 hover:opacity-100 transition-opacity duration-300">
       <nav class="relative sticky top-28 self-start bg-gray-50 dark:bg-slate-800/50 rounded-2xl p-6 shadow-sm overflow-hidden">
         <!-- Progress Bar -->
         <div
@@ -75,7 +77,7 @@ const toc = (headings || []).filter((h) => h.depth >= 1 && h.depth <= 3); // Inc
     </aside>
   </>
 ) : (
-  <div class="hidden xl:block absolute right-full top-0 bottom-0 w-64 pr-4 text-red-500 text-xs mt-10">ToC Debug: No headings passed!</div>
+  <div class="hidden min-[1440px]:block absolute right-full top-0 bottom-0 w-64 pr-4 text-red-500 text-xs mt-10">ToC Debug: No headings passed!</div>
 )}
 
 <script>
