@@ -1,5 +1,6 @@
 ---
 title: Building a messaging platform from scratch makes no sense
+pubDate: 2026-08-31
 slug: building-messaging-platform-scratch-sense
 image: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp
 heroimage: ../../assets/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.webp

@@ -1,5 +1,6 @@
 ---
 title: Can Matrix be the Messaging solution for dumbphones?
+pubDate: 2026-08-19
 description: |-
     Dumbphone users have been held back by the limitations of SMS.
      Can Matrix change that?

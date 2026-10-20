@@ -1,5 +1,6 @@
 ---
 title: "Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies"
+pubDate: 2026-04-12
 category: Dialing Down
 tags:
     - ADB

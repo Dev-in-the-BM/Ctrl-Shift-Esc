@@ -1,5 +1,6 @@
 ---
 title: Google Play isn't as clean as you'd think, and these alternatives are better
+pubDate: 2026-04-12
 slug: google-play-clean-alternatives
 category: In Plaintext
 tags:

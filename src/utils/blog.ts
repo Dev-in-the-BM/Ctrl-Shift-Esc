@@ -45,7 +45,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   const { Content, remarkPluginFrontmatter } = await render(post);
 
   const {
-    publishDate: rawPublishDate = new Date(),
+    publishDate: rawPublishDate,
+    pubDate: rawPubDate,
     updateDate: rawUpdateDate,
     title,
     excerpt,
@@ -58,7 +59,9 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   } = data;
 
   const slug = cleanSlug(id.replace(/\.mdx?$/, '')); // cleanSlug(rawSlug.split('/').pop());
-  const publishDate = new Date(rawPublishDate);
+  // DecapCMS writes `pubDate`, while older posts may use `publishDate`.
+  // Prefer the canonical field, then the CMS field; only use now as a last resort.
+  const publishDate = new Date(rawPublishDate ?? rawPubDate ?? new Date());
   const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
 
   const category = rawCategory
@@ -118,7 +121,8 @@ const loadUnlisted = async function (): Promise<Array<Post>> {
   const normalizedPosts = Object.entries(postsGlob).map(async ([file, post]: [string, any]) => {
     const { frontmatter, Content } = post;
     const {
-      publishDate: rawPublishDate = new Date(),
+      publishDate: rawPublishDate,
+      pubDate: rawPubDate,
       updateDate: rawUpdateDate,
       title,
       excerpt,
@@ -144,7 +148,7 @@ const loadUnlisted = async function (): Promise<Array<Post>> {
 
     const id = file.split('/').pop() || '';
     const slug = frontmatter.slug || cleanSlug(id.replace(/^_/, '').replace(/\.mdx?$/, ''));
-    const publishDate = new Date(rawPublishDate);
+    const publishDate = new Date(rawPublishDate ?? rawPubDate ?? new Date());
     const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
 
     const category = rawCategory
