@@ -82,8 +82,8 @@ export default defineConfig({
       input: {
         favicons: ['./src/assets/favicons/favicon_fullsize.png'],
       },
-      name: 'Ctrl, Shift, Esc',
-      short_name: 'Ctrl, Shift, Esc',
+      name: 'In Plaintext',
+      short_name: 'In Plaintext',
     }),
 
     ...whenExternalScripts(() =>

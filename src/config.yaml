@@ -1,7 +1,7 @@
 site:
-  name: Ctrl, Shift, Esc
+  name: In Plaintext
   site: 'https://dev-in-the-bm.github.io'
-  base: '/Ctrl-Shift-Esc/'
+  base: '/In-Plaintext/'
   trailingSlash: false
 
   googleSiteVerificationId: oBl2q0dhvB0EDWlh5Re460Hzqom440dAtBi2ETSblyA
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Ctrl, Shift, Esc
-    template: '%s — Ctrl, Shift, Esc'
+    default: In Plaintext
+    template: '%s — In Plaintext'
   description: "\U0001F680 My thoughts on dumbphones, intentional tech and the systems underneath: The tinkerers guide to taking back control."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Ctrl, Shift, Esc
+    site_name: In Plaintext
     images:
       - url: '~/assets/images/default.png'
         width: 1200

@@ -174,7 +174,7 @@ REDDIT_POST="# $TITLE
 
 $EXCERPT
 
-**[Click here](https://ctrl-shift-esc.devinthebm.workers.dev/$SLUG) to see the full version of this article.**
+**[Click here](https://in-plaintext.devinthebm.workers.dev/$SLUG) to see the full version of this article.**
 
 $ARTICLE"
 

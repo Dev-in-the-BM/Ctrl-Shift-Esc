@@ -2,7 +2,7 @@
 
 Its been a year since we last heard from Sonim, and theyre back, with another phone with premium performance and military grade durability.
 
-**[Click here](https://ctrl-shift-esc.devinthebm.workers.dev/sonim-brings-5g-dumbphone-specs-impressive) to see the full version of this article.**
+**[Click here](https://in-plaintext.devinthebm.workers.dev/sonim-brings-5g-dumbphone-specs-impressive) to see the full version of this article.**
 
 ## Sonim does it again
 The last time we heard from Sonim was when they released the Sonim Xp3Plus 5G, one of the first 5G dumbphones.

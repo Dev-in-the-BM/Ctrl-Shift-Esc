@@ -2,7 +2,7 @@
 
 While ADB was made for developers, these tools are for everyone. I tested the best ones so you can take control of your phone.
 
-**[Click here](https://ctrl-shift-esc.devinthebm.workers.dev/adb-gui-tools) to see the full version of this article.**
+**[Click here](https://in-plaintext.devinthebm.workers.dev/adb-gui-tools) to see the full version of this article.**
 
 ADB is a powerful tool that you can use to control your Android device and tweak hidden settings, but the command line can be too complicated for many.
 These apps offer a GUI for ADB, allowing you to make use of ADBs powerful functionality without having to use the terminal.

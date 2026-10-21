@@ -77,7 +77,7 @@ The answer is that most centralized platforms don't allow third-party clients.
 The ones that do only tolerate them, and there's no guarantee that they always will.
 
 
-![Typing on dumbphone](https://github.com/Dev-in-the-BM/Ctrl-Shift-Esc/blob/Main/src/assets/dumb-phone-01-68e3c18117b93.jpg?raw=true)
+![Typing on dumbphone](https://github.com/Dev-in-the-BM/In-Plaintext/blob/Main/src/assets/dumb-phone-01-68e3c18117b93.jpg?raw=true)
 
 
 ### So now what
