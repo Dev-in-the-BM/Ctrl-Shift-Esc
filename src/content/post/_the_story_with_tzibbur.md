@@ -12,7 +12,7 @@ publishDate: 2026-10-26T05:43:39.036Z
 ---
 There's been a lot of debate here on JTech about Tzibbur.
 
-Pro Tzibbur, anti Tzibbur, why Tzibbur is doing things the way it is, how it should do things, and plenty of misinformation.
+Pro Tzibbur, anti Tzibbur, why Tzibbur is doing things the way it is, how it should do things differently, and plenty of misinformation.
 
 I've written plenty of my own arguments, some not very complimentary, but more recently, defending Tzibbur from a lot of garbage.
 
