@@ -32,3 +32,6 @@ stylingscript.js
 .dev.vars*
 !.dev.vars.example
 !.env.example
+
+# Local OpenCode worktrees are not repository submodules
+/worktrees/
