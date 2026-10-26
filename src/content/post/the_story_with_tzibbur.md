@@ -10,6 +10,7 @@ image: "../../assets/tzibbur_CENSOREDx2 (Edited).jpg"
 category: Tablets of Stone
 tags:
     - messaging
+    - kosher phones
 publishDate: 2026-10-26T05:43:39.036Z
 ---
 
@@ -33,7 +34,7 @@ You can instead [send them my way](https://complaintboxoffice.com).
 
 ### The story with tzibbur
 
-:::details[For those that haven't read through the full conversation surrounding this, and might not have seen what I posted, this is basically the story:]
+:::details[For those that haven't read through the full conversation surrounding this, and might not have seen what I posted, this is basically the story.]
 
  In August 2026, GroupMe shut down their SMS feature, leaving tens of thousands of Yidden that relied on it for important chats stuck.
 Someone, I'll call Yehuda (the name Levi was already taken), realized that we have a problem on our hands, and wanted to try to work out a solution. His goal wasn't to make money; it was to bring a solution for group messaging to kosher phones. He did hope to be able to make a little money from this on the side, but that's not why he started it, and he didn't expect to make that much.
