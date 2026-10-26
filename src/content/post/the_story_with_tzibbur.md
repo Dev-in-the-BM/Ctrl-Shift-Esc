@@ -12,7 +12,7 @@ tags:
 publishDate: 2026-10-26T05:43:39.036Z
 excerpt: |-
     As Tzibbur has begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
-        Here's the truth about Tzibbur.
+    Here's the truth about Tzibbur.
 ---
 
 ### The Tizbbur is debating
