@@ -1,0 +1,20 @@
+[     502ms] [WARNING] XSLTProcessor and XSLT Processing Instructions have been deprecated by all browsers. These features will be removed from this browser soon. See https://chromestatus.com/feature/4709671889534976. @ https://discuss.flarum.org/d/36949-bb-code-cheat-sheet-for-flarum/4:28
+[     597ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:0
+[     985ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     986ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     987ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     987ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     987ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     987ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     987ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     987ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[     987ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682

@@ -1,0 +1,151 @@
+- generic [ref=f48e1]:
+  - banner [ref=f48e2]:
+    - link "Skip to content" [ref=f48e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f48e4]:
+      - link "In Plaintext home" [ref=f48e5] [cursor=pointer]:
+        - /url: /In-Plaintext
+        - text: In Plaintext
+      - generic [ref=f48e6]:
+        - button "Browse" [ref=f48e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f48e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f48e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f48e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - group "Temporary design preview controls" [ref=f48e13]:
+    - generic [ref=f48e14]:
+      - generic [ref=f48e15]: Temporary preview · remove before publication
+      - generic [ref=f48e16]: Preview palette
+      - combobox "Preview palette" [ref=f48e17]:
+        - option "01 · Porcelain & Mushroom"
+        - option "02 · Milk & Soft Umber"
+        - option "03 · Ivory & Fawn"
+        - option "04 · Chalk & Cocoa"
+        - option "05 · Cream & Graphite"
+        - option "06 · Limestone & Walnut" [selected]
+  - main [ref=f48e18]:
+    - generic [ref=f48e19]:
+      - generic [ref=f48e20]:
+        - heading "In Plaintext" [level=1] [ref=f48e22]
+        - paragraph [ref=f48e23]: Essays, explanations, and opinions on technology, community, and how we live.
+      - navigation "Writing categories" [ref=f48e24]:
+        - link "All writing" [ref=f48e25] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - link "Typed With T9" [ref=f48e26] [cursor=pointer]:
+          - /url: /In-Plaintext/category/typed-with-t9
+        - link "Dialing Down" [ref=f48e27] [cursor=pointer]:
+          - /url: /In-Plaintext/category/dialing-down
+        - link "~/Tinkering" [ref=f48e28] [cursor=pointer]:
+          - /url: /In-Plaintext/category/tinkering
+      - list [ref=f48e29]:
+        - listitem [ref=f48e30]:
+          - article [ref=f48e31]:
+            - paragraph [ref=f48e32]:
+              - time [ref=f48e33]: Sep 1, 2026
+              - link "Typed With T9" [ref=f48e34] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f48e35]:
+              - heading [level=2] [ref=f48e36]:
+                - 'link "Rumor: The Mind phones keypad might be real" [ref=f48e37] [cursor=pointer]':
+                  - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+              - paragraph [ref=f48e38]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+            - link [aria-hidden] [ref=f48e39] [cursor=pointer]:
+              - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+        - listitem [ref=f48e40]:
+          - article [ref=f48e41]:
+            - paragraph [ref=f48e42]:
+              - time [ref=f48e43]: Aug 31, 2026
+              - link "Typed With T9" [ref=f48e44] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - heading [level=2] [ref=f48e46]:
+              - link "Building a messaging platform from scratch makes no sense" [ref=f48e47] [cursor=pointer]:
+                - /url: /In-Plaintext/building-a-messaging-platform-from-scratch-makes-no-sense
+            - link [aria-hidden] [ref=f48e48] [cursor=pointer]:
+              - /url: /In-Plaintext/building-a-messaging-platform-from-scratch-makes-no-sense
+        - listitem [ref=f48e49]:
+          - article [ref=f48e50]:
+            - paragraph [ref=f48e51]:
+              - time [ref=f48e52]: Aug 19, 2026
+              - link "Typed With T9" [ref=f48e53] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f48e54]:
+              - heading [level=2] [ref=f48e55]:
+                - link "GroupMe SMS is dead, now what?" [ref=f48e56] [cursor=pointer]:
+                  - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+              - paragraph [ref=f48e57]: The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?
+            - link [aria-hidden] [ref=f48e58] [cursor=pointer]:
+              - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+        - listitem [ref=f48e59]:
+          - article [ref=f48e60]:
+            - paragraph [ref=f48e61]:
+              - time [ref=f48e62]: Aug 19, 2026
+              - link "Typed With T9" [ref=f48e63] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - heading [level=2] [ref=f48e65]:
+              - link "Can Matrix be the Messaging solution for dumbphones?" [ref=f48e66] [cursor=pointer]:
+                - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+            - link [aria-hidden] [ref=f48e67] [cursor=pointer]:
+              - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+        - listitem [ref=f48e68]:
+          - article [ref=f48e69]:
+            - paragraph [ref=f48e70]:
+              - time [ref=f48e71]: Jun 30, 2026
+              - link "Typed With T9" [ref=f48e72] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f48e73]:
+              - heading [level=2] [ref=f48e74]:
+                - 'link "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f48e75] [cursor=pointer]':
+                  - /url: /In-Plaintext/sunbeam-f1-pro
+              - paragraph [ref=f48e76]: The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you. While it feels like a basic phone, it's anything but basic, offering just the right features to stay helpful without getting in your way.
+            - link [aria-hidden] [ref=f48e77] [cursor=pointer]:
+              - /url: /In-Plaintext/sunbeam-f1-pro
+        - listitem [ref=f48e78]:
+          - article [ref=f48e79]:
+            - paragraph [ref=f48e80]:
+              - time [ref=f48e81]: Apr 17, 2026
+              - link "Typed With T9" [ref=f48e82] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f48e83]:
+              - heading [level=2] [ref=f48e84]:
+                - link "Sonim brings us another 5G dumbphone, and its specs are impressive" [ref=f48e85] [cursor=pointer]:
+                  - /url: /In-Plaintext/sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+              - paragraph [ref=f48e86]: It's been a year since we last heard from Sonim, and they're back, with another phone with premium performance and military grade durability.
+            - link [aria-hidden] [ref=f48e87] [cursor=pointer]:
+              - /url: /In-Plaintext/sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+      - navigation "Writing pages" [ref=f48e88]:
+        - link "Older posts" [ref=f48e89] [cursor=pointer]:
+          - /url: /In-Plaintext/2
+          - text: Older posts
+          - generic [aria-hidden] [ref=f48e90]: →
+  - contentinfo [ref=f48e91]:
+    - generic [ref=f48e92]:
+      - generic [ref=f48e93]:
+        - link "In Plaintext" [ref=f48e94] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - navigation "Legal" [ref=f48e95]:
+          - link "Terms" [ref=f48e96] [cursor=pointer]:
+            - /url: /In-Plaintext/terms
+          - generic [aria-hidden] [ref=f48e97]: ·
+          - link "Privacy Policy" [ref=f48e98] [cursor=pointer]:
+            - /url: /In-Plaintext/privacy
+      - generic [ref=f48e99]:
+        - list "Elsewhere" [ref=f48e100]:
+          - listitem [ref=f48e101]:
+            - link "Reddit" [ref=f48e102] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f48e105]:
+            - link "Jtech Forums" [ref=f48e106] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f48e107]
+          - listitem [ref=f48e108]:
+            - link "RSS" [ref=f48e109] [cursor=pointer]:
+              - /url: /In-Plaintext/rss.xml
+          - listitem [ref=f48e112]:
+            - link "Github" [ref=f48e113] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f48e116]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f48e117] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.

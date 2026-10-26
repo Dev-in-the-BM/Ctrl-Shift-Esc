@@ -1,0 +1,207 @@
+- generic [ref=f31e1]:
+  - banner [ref=f31e2]:
+    - link "Skip to content" [ref=f31e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f31e4]:
+      - link "In Plaintext home" [ref=f31e5] [cursor=pointer]:
+        - /url: /
+        - text: In Plaintext
+      - generic [ref=f31e6]:
+        - button "Browse" [ref=f31e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f31e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f31e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f31e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - group "Temporary design preview controls" [ref=f31e13]:
+    - generic [ref=f31e14]:
+      - generic [ref=f31e15]: Temporary preview · remove before publication
+      - generic [ref=f31e16]: Preview palette
+      - combobox "Preview palette" [ref=f31e17]:
+        - option "01 · Porcelain & Mushroom" [selected]
+        - option "02 · Milk & Soft Umber"
+        - option "03 · Ivory & Fawn"
+        - option "04 · Chalk & Cocoa"
+        - option "05 · Cream & Graphite"
+        - option "06 · Limestone & Walnut"
+  - main [ref=f31e18]:
+    - article [ref=f31e20]:
+      - generic [ref=f31e21]:
+        - link "All writing" [ref=f31e22] [cursor=pointer]:
+          - /url: /
+          - generic [aria-hidden] [ref=f31e23]: ←
+          - text: All writing
+        - paragraph [ref=f31e24]:
+          - link "Typed With T9" [ref=f31e25] [cursor=pointer]:
+            - /url: /category/typed-with-t9
+          - generic [aria-hidden] [ref=f31e26]: ·
+          - time [ref=f31e27]: Aug 31, 2026
+        - heading "Building a messaging platform from scratch makes no sense" [level=1] [ref=f31e28]
+      - generic [ref=f31e29]:
+        - complementary "On this page" [ref=f31e30]:
+          - generic [ref=f31e31]:
+            - heading "On this page" [level=2] [ref=f31e32]
+            - navigation [ref=f31e33]:
+              - list [ref=f31e34]:
+                - listitem [ref=f31e35]:
+                  - link "Covering costs" [ref=f31e36] [cursor=pointer]:
+                    - /url: "#covering-costs"
+                - listitem [ref=f31e37]:
+                  - link "Monopolies are dangerous" [ref=f31e38] [cursor=pointer]:
+                    - /url: "#monopolies-are-dangerous"
+                - listitem [ref=f31e39]:
+                  - link "Development and maintenance" [ref=f31e40] [cursor=pointer]:
+                    - /url: "#development-and-maintenance"
+                - listitem [ref=f31e41]:
+                  - link "Decentralized or just pre-existing?" [ref=f31e42] [cursor=pointer]:
+                    - /url: "#decentralized-or-just-pre-existing"
+                - listitem [ref=f31e43]:
+                  - link "So now what" [ref=f31e44] [cursor=pointer]:
+                    - /url: "#so-now-what"
+                - listitem [ref=f31e45]:
+                  - link "Why should kosher phone companies care?" [ref=f31e46] [cursor=pointer]:
+                    - /url: "#why-should-kosher-phone-companies-care"
+        - generic [ref=f31e47]:
+          - img "Building a messaging platform from scratch makes no sense" [ref=f31e48]
+          - generic [ref=f31e49]:
+            - paragraph [ref=f31e50]: Dumbphone users have long relied on GroupMe for having group chats with kosher phone users. When GroupMe recently announced that they’re shutting down their SMS option, we were left scrambling to find an alternative.
+            - paragraph [ref=f31e51]: "As we work on bringing an alternative to kosher phone and dumbphone users, we have two models our system can use: centralized and decentralized."
+            - paragraph [ref=f31e52]: A centralized system would rely on one provider, likely run by whoever builds this alternative.
+            - paragraph [ref=f31e53]: A decentralized system would allow users to choose any service provider for chats, similar to how email works, leaving us to focus on building a kosher client.
+            - paragraph [ref=f31e54]: While some might be inclined to go with a centralized option, there are multiple problems with such an approach that a decentralized system would avoid.
+            - heading "Covering costs" [level=3] [ref=f31e55]
+            - paragraph [ref=f31e56]: There are many expenses to running a group chat platform. There are hosting fees, development and maintenance costs, and costs of cybersecurity.
+            - paragraph [ref=f31e57]: If we rely on our own centralized platform, then all those costs fall on us. Covering them wouldn’t be fun.
+            - paragraph [ref=f31e58]: A one-time fee isn’t likely to be enough. A subscription wouldn’t work either. Smartphone users won’t pay, and it wouldn’t go over well if only kosher phone users have to pay. That leaves ads as the only viable way of covering expenses, which is problematic for a few reasons. No one wants to buy a basic phone like a Kyocera or TCL, get it filtered to talk & text only, and then have ads appearing on their phone. A basic phone is expected to stay just that, not act as a funnel for serving ads. Same for the fancier kosher phones. People don’t want to be paying upwards of $300 for phones that will be showing them ads. People don’t want to be chatting with friends, or having discussions with coworkers, and have an ad for Moshele’s Gefilte stuck in.
+            - heading "Monopolies are dangerous" [level=3] [ref=f31e59]
+            - paragraph [ref=f31e60]: Going with a centralized provider means that the provider will have a monopoly over group chats for kosher phones.
+            - paragraph [ref=f31e61]: Whether you buy a Kyocera, TCL, Fig or Wonder, you are going to be forced to use that provider for group chats.
+            - paragraph [ref=f31e62]: In the real world we see again and again that when a company has a market to itself with no real competition, it doesn’t turn out well.
+            - paragraph [ref=f31e63]: What usually happens is the company has no incentive to put too much work into maintaining the service well, they push more ads and higher subscriptions, necessary features are left out, and the users end up with a terrible product.
+            - paragraph [ref=f31e64]: In this case, we won’t be able to escape it. As long as you have a kosher phone, you’ll be stuck with this platform. Getting everyone to adopt a platform isn’t going to happen again.
+            - heading "Development and maintenance" [level=3] [ref=f31e65]
+            - paragraph [ref=f31e66]: Building and maintaining a messaging platform isn’t simple.
+            - paragraph [ref=f31e67]: There’s the backend, which includes databases, security, and real-time message handling. There are the apps that users will be using.
+            - paragraph [ref=f31e68]: All that can be complex both to build and maintain. If we rely on our own centralized platform, that will fall on us.
+            - paragraph [ref=f31e69]: If we use an existing platform, we can offload those components.
+            - heading "Decentralized or just pre-existing?" [level=3] [ref=f31e70]
+            - paragraph [ref=f31e71]: You might point out that if we’re talking about using an external provider, then why does it have to be decentralized?
+            - paragraph [ref=f31e72]: The answer is that most centralized platforms don’t allow third-party clients.
+            - paragraph [ref=f31e73]: The ones that do only tolerate them, and there’s no guarantee that they always will.
+            - paragraph:
+              - img "Typing on dumbphone"
+            - heading "So now what" [level=3] [ref=f31e74]
+            - paragraph [ref=f31e75]: "Out of all the existing platforms, two stand out as the best fit for our needs: Matrix and Delta Chat."
+            - paragraph [ref=f31e76]: Matrix is a modern messaging platform, with a huge community around it, and likely as many users as Signal.
+            - paragraph [ref=f31e77]: It has a lot of work and money going into maintaining it, and a large ecosystem of tools for hosting servers and building clients.
+            - paragraph [ref=f31e78]: Delta Chat takes an entirely different approach.
+            - paragraph [ref=f31e79]: It builds on top of email technologies, giving a chat UI and instant messaging features to good ol’ email.
+            - paragraph [ref=f31e80]: People use their existing email addresses, and can add anyone who uses email to chats.
+            - heading "Why should kosher phone companies care?" [level=3] [ref=f31e81]
+            - paragraph [ref=f31e82]: Why should Fig or Wonder care about how their phones messaging works?
+            - paragraph [ref=f31e83]: The phones will sell either way, no?
+            - paragraph [ref=f31e84]: Let’s take a look at some recent news in the tech scene.
+            - paragraph [ref=f31e85]: Apple released the MacBook Neo, their first “budget” laptop. Rival laptop brands are desperate, trying to figure out how to compete.
+            - paragraph [ref=f31e86]: What’s the big deal?
+            - paragraph [ref=f31e87]: Don’t they already have better laptops for cheaper?
+            - paragraph [ref=f31e88]: The problem is that their laptops all ship with Windows.
+            - paragraph [ref=f31e89]: Windows, having a monopoly for decades, has rotted away, and is now slow, unreliable, confusing to use, and dated.
+            - paragraph [ref=f31e90]: This makes even the premium laptops from Dell and Lenovo very unattractive.
+            - paragraph [ref=f31e91]: All this, because they were dependent on another company that had a monopoly.
+            - paragraph [ref=f31e92]: If kosher phone brands go with a centralized platform, and that platform can’t live up to expectations, it can lower the appeal of the best kosher phones, making people look at them as cheap knockoff options.
+            - paragraph [ref=f31e93]: Kosher phone makers, it’s in your best interests to take matters into your own hands and make sure that whichever system kosher phone users adopt is one that can highlight your phones as premium devices, not draw attention to their flaws.
+            - separator [ref=f31e94]
+            - paragraph [ref=f31e95]: When looking at the big picture, an existing decentralized platform is the only approach that truly makes sense, and I urge everyone involved in this to make sure that this is how we do things.
+          - generic [ref=f31e96]:
+            - list [ref=f31e97]:
+              - listitem [ref=f31e98]:
+                - link "messaging" [ref=f31e99] [cursor=pointer]:
+                  - /url: /tag/messaging
+            - generic [ref=f31e100]:
+              - text: "Share:"
+              - button "Share" [ref=f31e101] [cursor=pointer]
+              - button "Share with SMS" [ref=f31e104] [cursor=pointer]
+              - button "Share with email" [ref=f31e107] [cursor=pointer]
+              - button "Share with WhatsApp" [ref=f31e110] [cursor=pointer]
+              - button "Share with Telegram" [ref=f31e113] [cursor=pointer]
+              - button "Share with Reddit" [ref=f31e116] [cursor=pointer]
+              - button "Share with LinkedIn" [ref=f31e119] [cursor=pointer]
+              - button "Share with X" [ref=f31e122] [cursor=pointer]
+      - region [ref=f31e125]:
+        - generic [ref=f31e126]:
+          - heading "Comments" [level=2] [ref=f31e127]
+          - button "Reload comments" [ref=f31e128] [cursor=pointer]
+        - iframe [ref=f31e133]
+    - link "All writing" [ref=f31e135] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f31e136]: ←
+      - text: All writing
+    - generic [ref=f31e138]:
+      - generic [ref=f31e140]:
+        - heading "Related Posts" [level=2] [ref=f31e141]
+        - link "View All Posts »" [ref=f31e142] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f31e143]:
+        - article [ref=f31e144]:
+          - 'link "Read: GroupMe SMS is dead, now what?" [ref=f31e146] [cursor=pointer]':
+            - /url: /groupme-sms-is-dead-now-what
+          - heading [level=3] [ref=f31e147]:
+            - link "GroupMe SMS is dead, now what?" [ref=f31e148] [cursor=pointer]:
+              - /url: /groupme-sms-is-dead-now-what
+          - paragraph [ref=f31e149]: The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?
+        - article [ref=f31e150]:
+          - 'link "Read: Can Matrix be the Messaging solution for dumbphones?" [ref=f31e152] [cursor=pointer]':
+            - /url: /can-matrix-be-the-messaging-solution-for-dumbphones
+          - heading [level=3] [ref=f31e153]:
+            - link "Can Matrix be the Messaging solution for dumbphones?" [ref=f31e154] [cursor=pointer]:
+              - /url: /can-matrix-be-the-messaging-solution-for-dumbphones
+        - article [ref=f31e155]:
+          - 'link "Read: Rumor: The Mind phones keypad might be real" [ref=f31e157] [cursor=pointer]':
+            - /url: /mind-phone-might-have-an-actual-keypad
+          - heading [level=3] [ref=f31e158]:
+            - 'link "Rumor: The Mind phones keypad might be real" [ref=f31e159] [cursor=pointer]':
+              - /url: /mind-phone-might-have-an-actual-keypad
+          - paragraph [ref=f31e160]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+        - article [ref=f31e161]:
+          - 'link "Read: Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f31e163] [cursor=pointer]':
+            - /url: /sunbeam-f1-pro
+          - heading [level=3] [ref=f31e164]:
+            - 'link "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f31e165] [cursor=pointer]':
+              - /url: /sunbeam-f1-pro
+          - paragraph [ref=f31e166]: The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you. While it feels like a basic phone, it's anything but basic, offering just the right features to stay helpful without getting in your way.
+  - contentinfo [ref=f31e167]:
+    - generic [ref=f31e168]:
+      - generic [ref=f31e169]:
+        - link "In Plaintext" [ref=f31e170] [cursor=pointer]:
+          - /url: /
+        - navigation "Legal" [ref=f31e171]:
+          - link "Terms" [ref=f31e172] [cursor=pointer]:
+            - /url: /terms
+          - generic [aria-hidden] [ref=f31e173]: ·
+          - link "Privacy Policy" [ref=f31e174] [cursor=pointer]:
+            - /url: /privacy
+      - generic [ref=f31e175]:
+        - list "Elsewhere" [ref=f31e176]:
+          - listitem [ref=f31e177]:
+            - link "Reddit" [ref=f31e178] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f31e181]:
+            - link "Jtech Forums" [ref=f31e182] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f31e183]
+          - listitem [ref=f31e184]:
+            - link "RSS" [ref=f31e185] [cursor=pointer]:
+              - /url: /rss.xml
+          - listitem [ref=f31e188]:
+            - link "Github" [ref=f31e189] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f31e192]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f31e193] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.
+  - generic [ref=f31e196]:
+    - button [ref=f31e197]
+    - button [ref=f31e203]
+    - button [ref=f31e207]
+    - button [ref=f31e212]

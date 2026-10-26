@@ -1,0 +1,208 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e3]: INITIALIZING VIBES...
+  - generic [ref=f7e21]:
+    - navigation [ref=f7e22]:
+      - generic [ref=f7e25]:
+        - link "Home" [ref=f7e26] [cursor=pointer]:
+          - /url: "#hero"
+        - link "About" [ref=f7e27] [cursor=pointer]:
+          - /url: "#about"
+        - link "Projects" [ref=f7e28] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Sponsor" [ref=f7e29] [cursor=pointer]:
+          - /url: "#sponsor"
+        - link "Skills" [ref=f7e30] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Contact" [ref=f7e31] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=f7e32]:
+      - generic [ref=f7e37]:
+        - heading "Hi, Waving Hand I'm D e v - i n - t h e - B M" [level=1] [ref=f7e39]:
+          - generic [ref=f7e40]:
+            - generic [ref=f7e41]: Hi,
+            - img "Waving Hand"
+            - generic [ref=f7e42]: I'm
+          - generic [ref=f7e43]:
+            - generic [ref=f7e44]: D
+            - generic [ref=f7e45]: e
+            - generic [ref=f7e46]: v
+            - generic [ref=f7e47]: "-"
+            - generic [ref=f7e48]: i
+            - generic [ref=f7e49]: "n"
+            - generic [ref=f7e50]: "-"
+            - generic [ref=f7e51]: t
+            - generic [ref=f7e52]: h
+            - generic [ref=f7e53]: e
+            - generic [ref=f7e54]: "-"
+            - generic [ref=f7e55]: B
+            - generic [ref=f7e56]: M
+        - generic [ref=f7e58]:
+          - generic [ref=f7e59]:
+            - img "Top Hat" [ref=f7e60]
+            - text: Yeshiva Bochur
+          - generic [ref=f7e61]: •
+          - generic [ref=f7e62]:
+            - img "Sparkles" [ref=f7e63]
+            - text: Vibe Coder
+      - 'link "About phone Android version 12 Kernel version 4.14.170-g235889708 #1 Thu Oct 9 05:37:13 UTC 2023 Build number AOSP++ aosp_crosshatch-userdebug 12 SP1A.210812.016.C1 eng.gary.20220526.154443 test-keys About" [ref=f7e64] [cursor=pointer]':
+        - /url: "#about"
+        - generic:
+          - generic:
+            - generic:
+              - heading "About phone" [level=3]
+          - generic:
+            - generic:
+              - generic: Android version
+              - generic: "12"
+            - generic:
+              - generic: Kernel version
+              - generic: 4.14.170-g235889708#1 Thu Oct 9 05:37:13 UTC 2023
+            - generic:
+              - generic: Build number
+              - generic: AOSP++ aosp_crosshatch-userdebug 12SP1A.210812.016.C1 eng.gary.20220526.154443 test-keys
+        - generic [ref=f7e65]: About
+    - generic [ref=f7e70]:
+      - heading [level=2] [ref=f7e71]:
+        - generic [ref=f7e72]:
+          - img "Information" [ref=f7e73]
+          - text: About Me
+      - generic [ref=f7e74]:
+        - generic [ref=f7e76] [cursor=pointer]:
+          - img "Top Hat" [ref=f7e77]
+          - generic [ref=f7e78]:
+            - heading "Yeshiva bochur" [level=3] [ref=f7e79]
+            - paragraph [ref=f7e80]: Currently learning בתולה נשאת
+        - generic [ref=f7e82] [cursor=pointer]:
+          - img "Speech Bubble" [ref=f7e83]
+          - generic [ref=f7e84]:
+            - heading "JTech Forums" [level=3] [ref=f7e85]
+            - paragraph [ref=f7e86]: Discussing filtering, Linux, app modding, and pretty much anything tech related
+        - generic [ref=f7e88] [cursor=pointer]:
+          - img "Hammer and Wrench" [ref=f7e89]
+          - generic [ref=f7e90]:
+            - heading "App modder" [level=3] [ref=f7e91]
+            - paragraph [ref=f7e92]: Creating kosher mods for filtered devices
+        - generic [ref=f7e94] [cursor=pointer]:
+          - img "Penguin" [ref=f7e95]
+          - generic [ref=f7e96]:
+            - heading "Linux Enthusiast" [level=3] [ref=f7e97]
+            - paragraph [ref=f7e98]: Somehow my Linux environment still works. Not sure why.
+    - generic [ref=f7e100]:
+      - heading [level=2] [ref=f7e101]:
+        - generic [ref=f7e102]:
+          - img "Glowing Star" [ref=f7e103]
+          - text: Featured Projects
+      - generic [ref=f7e104]:
+        - generic [ref=f7e106]:
+          - heading "ZmanBar" [level=3] [ref=f7e108]
+          - paragraph [ref=f7e111]: Seamlessly integrates the Hebrew date into the GNOME top panel. This elegant GNOME extension ensures the current Hebrew date is always visible and perfectly integrated.
+          - generic [ref=f7e112]:
+            - generic [ref=f7e113] [cursor=pointer]: JavaScript
+            - generic [ref=f7e114] [cursor=pointer]: GNOME
+            - generic [ref=f7e115] [cursor=pointer]: jewish-date
+          - generic [ref=f7e116]:
+            - link [ref=f7e117] [cursor=pointer]:
+              - /url: https://extensions.gnome.org/extension/8774/zmanbar/
+              - img "GNOME" [ref=f7e118]
+              - text: Get it on GNOME Extensions
+            - link "View on GitHub" [ref=f7e119] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/ZmanBar
+        - generic [ref=f7e123]:
+          - heading "Fluid ID" [level=3] [ref=f7e125]
+          - paragraph [ref=f7e130]: AI-powered identity shifter. Instantly remix photos using a custom Prompt Builder to be anyone, anywhere, while keeping your face recognizable.
+          - generic [ref=f7e131]:
+            - generic [ref=f7e132] [cursor=pointer]: React
+            - generic [ref=f7e133] [cursor=pointer]: TypeScript
+            - generic [ref=f7e134] [cursor=pointer]: Image editing
+            - generic [ref=f7e135] [cursor=pointer]: AI
+          - generic [ref=f7e136]:
+            - link "Use in Google AI Studio" [ref=f7e137] [cursor=pointer]:
+              - /url: https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221V3wjVOF1bdK4wLFwndbPXhgIgwazxbpL%22%5D,%22action%22:%22open%22,%22userId%22:%22113814095754292775986%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
+            - link "View on GitHub" [ref=f7e139] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/Fluid-ID
+    - generic [ref=f7e143]:
+      - heading [level=2] [ref=f7e144]:
+        - generic [ref=f7e145]:
+          - img "Gem Stone" [ref=f7e146]
+          - text: Sponsor my projects
+      - generic [ref=f7e147]:
+        - generic [ref=f7e148] [cursor=pointer]:
+          - img "Tux Linux Mascot" [ref=f7e149]
+          - heading "FOSS Projects" [level=3] [ref=f7e150]
+          - paragraph [ref=f7e151]: Contributing to and creating open-source software for the community.
+        - generic [ref=f7e152] [cursor=pointer]:
+          - img "Android Head" [ref=f7e153]
+          - heading "Android App Mods" [level=3] [ref=f7e154]
+          - paragraph [ref=f7e155]: Modifying Android apps for kashrus and better usability on filtered devices.
+        - generic [ref=f7e156] [cursor=pointer]:
+          - img "JTech Logo" [ref=f7e157]
+          - heading "JTech Forums" [level=3] [ref=f7e158]
+          - paragraph [ref=f7e159]: Active participation and contributions to discussions about kosher tech, filtering, Linux, and more.
+      - generic [ref=f7e160]:
+        - paragraph [ref=f7e161]: Your sponsorship helps me dedicate more time to these projects.
+        - link [ref=f7e162] [cursor=pointer]:
+          - /url: https://buymeacoffee.com/devinthebm
+          - img "Chocolate Bar" [ref=f7e163]
+          - text: Buy me some chocolate
+        - paragraph [ref=f7e164]:
+          - text: Thank you for your support!
+          - img "Folded Hands" [ref=f7e165]
+    - generic [ref=f7e167]:
+      - heading [level=2] [ref=f7e168]:
+        - generic [ref=f7e169]:
+          - img "Brain" [ref=f7e170]
+          - text: Skills & Tools
+      - generic [ref=f7e171]:
+        - heading "Languages" [level=3] [ref=f7e172]
+        - generic [ref=f7e174] [cursor=pointer]:
+          - img "Python" [ref=f7e175]
+          - text: Python
+      - generic [ref=f7e176]:
+        - heading [level=3] [ref=f7e177]:
+          - img "Toolbox" [ref=f7e178]
+          - text: Environments & Tools
+        - generic [ref=f7e179]:
+          - generic [ref=f7e180] [cursor=pointer]:
+            - img "StackBlitz" [ref=f7e181]
+            - text: Yiddeshe Kup
+          - generic [ref=f7e182] [cursor=pointer]:
+            - img "Linux" [ref=f7e183]
+            - text: Linux
+          - generic [ref=f7e184] [cursor=pointer]:
+            - img "Ubuntu" [ref=f7e185]
+            - text: Ubuntu
+          - generic [ref=f7e186] [cursor=pointer]:
+            - img "GNOME" [ref=f7e187]
+            - text: GNOME
+          - generic [ref=f7e188] [cursor=pointer]:
+            - img "Git" [ref=f7e189]
+            - text: Git
+          - generic [ref=f7e190] [cursor=pointer]:
+            - img "VS Code" [ref=f7e191]
+            - text: VS Code
+          - generic [ref=f7e192] [cursor=pointer]:
+            - img "Zen Browser" [ref=f7e193]
+            - text: Zen Browser
+    - generic [ref=f7e195]:
+      - heading [level=2] [ref=f7e196]:
+        - generic [ref=f7e197]:
+          - img "Left Speech Bubble" [ref=f7e198]
+          - text: Get In Touch
+      - paragraph [ref=f7e199]: I'm always interested in hearing about new projects, collaborations, and opportunities.
+      - generic [ref=f7e200]:
+        - link "Email Me" [ref=f7e201] [cursor=pointer]:
+          - /url: mailto:devinthebm@outlook.com
+        - link "GitHub" [ref=f7e205] [cursor=pointer]:
+          - /url: https://github.com/Dev-in-the-BM
+      - generic [ref=f7e208]:
+        - link [ref=f7e209] [cursor=pointer]:
+          - /url: https://github.com/Dev-in-the-BM
+        - link [ref=f7e212] [cursor=pointer]:
+          - /url: https://forums.jtechforums.org/invites/8jD5U8NMxr
+          - img "JTech Forums" [ref=f7e213]
+    - contentinfo [ref=f7e214]:
+      - paragraph [ref=f7e216]:
+        - text: © 2026 Dev-in-the-BM. Built with
+        - img "Brain" [ref=f7e217]
+        - text: Yiddeshe Kup and lots of
+        - img "Hot Beverage" [ref=f7e218]

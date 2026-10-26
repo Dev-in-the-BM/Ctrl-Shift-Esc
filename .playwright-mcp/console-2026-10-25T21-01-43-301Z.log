@@ -1,0 +1,17 @@
+[     208ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     383ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[     386ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/shared/images/fdroid_repo_qr.png:0
+[     819ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[     939ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/shared/images/fdroid_repo_qr.png:0
+[    1304ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[    1317ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/shared/images/fdroid_repo_qr.png:0
+[  224791ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[  224825ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/shared/images/fdroid_repo_qr.png:0
+[  224854ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[  225364ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[  225380ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/shared/images/fdroid_repo_qr.png:0
+[  237212ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[  237237ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[  237257ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/shared/images/fdroid_repo_qr.png:0
+[  237840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[  237859ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4322/shared/images/fdroid_repo_qr.png:0

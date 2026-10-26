@@ -1,0 +1,18 @@
+- main [ref=f68e2]:
+  - 'heading "404: Not found" [level=1] [ref=f68e7]'
+  - paragraph [ref=f68e8]:
+    - text: Your site is configured with
+    - code [ref=f68e9]: trailingSlash
+    - text: set to
+    - code [ref=f68e10]: never
+    - text: . Do you want to go to
+    - link "/In-Plaintext/dumbing-smartphone-smarting-dumbphone-adb-dummies" [ref=f68e11] [cursor=pointer]:
+      - /url: /In-Plaintext/dumbing-smartphone-smarting-dumbphone-adb-dummies
+    - text: instead?
+  - paragraph [ref=f68e12]:
+    - text: See
+    - link [ref=f68e13] [cursor=pointer]:
+      - /url: https://docs.astro.build/en/reference/configuration-reference/#trailingslash
+      - text: the documentation for
+      - code [ref=f68e14]: trailingSlash
+    - text: if you need help.

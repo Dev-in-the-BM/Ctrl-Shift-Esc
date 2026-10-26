@@ -1,0 +1,140 @@
+- generic [ref=f23e1]:
+  - banner [ref=f23e2]:
+    - link "Skip to content" [ref=f23e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f23e4]:
+      - link "In Plaintext home" [ref=f23e5] [cursor=pointer]:
+        - /url: /In-Plaintext
+        - text: In Plaintext
+      - generic [ref=f23e6]:
+        - button "Browse" [ref=f23e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f23e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f23e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f23e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - main [ref=f23e13]:
+    - generic [ref=f23e14]:
+      - generic [ref=f23e15]:
+        - heading "In Plaintext" [level=1] [ref=f23e17]
+        - paragraph [ref=f23e19]: Essays, explanations, and opinions on technology, community, and how we live.
+      - navigation "Writing categories" [ref=f23e20]:
+        - link "All writing" [ref=f23e21] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - link "Typed With T9" [ref=f23e22] [cursor=pointer]:
+          - /url: /In-Plaintext/category/typed-with-t9
+        - link "Dialing Down" [ref=f23e23] [cursor=pointer]:
+          - /url: /In-Plaintext/category/dialing-down
+        - link "~/Tinkering" [ref=f23e24] [cursor=pointer]:
+          - /url: /In-Plaintext/category/tinkering
+      - list [ref=f23e25]:
+        - listitem [ref=f23e26]:
+          - article [ref=f23e27]:
+            - paragraph [ref=f23e28]:
+              - time [ref=f23e29]: Sep 1, 2026
+              - link "Typed With T9" [ref=f23e30] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f23e31]:
+              - heading [level=2] [ref=f23e32]:
+                - 'link "Rumor: The Mind phones keypad might be real" [ref=f23e33] [cursor=pointer]':
+                  - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+              - paragraph [ref=f23e34]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+            - link [aria-hidden] [ref=f23e35] [cursor=pointer]:
+              - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+        - listitem [ref=f23e36]:
+          - article [ref=f23e37]:
+            - paragraph [ref=f23e38]:
+              - time [ref=f23e39]: Aug 31, 2026
+              - link "Typed With T9" [ref=f23e40] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - heading [level=2] [ref=f23e42]:
+              - link "Building a messaging platform from scratch makes no sense" [ref=f23e43] [cursor=pointer]:
+                - /url: /In-Plaintext/building-a-messaging-platform-from-scratch-makes-no-sense
+            - link [aria-hidden] [ref=f23e44] [cursor=pointer]:
+              - /url: /In-Plaintext/building-a-messaging-platform-from-scratch-makes-no-sense
+        - listitem [ref=f23e45]:
+          - article [ref=f23e46]:
+            - paragraph [ref=f23e47]:
+              - time [ref=f23e48]: Aug 19, 2026
+              - link "Typed With T9" [ref=f23e49] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f23e50]:
+              - heading [level=2] [ref=f23e51]:
+                - link "GroupMe SMS is dead, now what?" [ref=f23e52] [cursor=pointer]:
+                  - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+              - paragraph [ref=f23e53]: The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?
+            - link [aria-hidden] [ref=f23e54] [cursor=pointer]:
+              - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+        - listitem [ref=f23e55]:
+          - article [ref=f23e56]:
+            - paragraph [ref=f23e57]:
+              - time [ref=f23e58]: Aug 19, 2026
+              - link "Typed With T9" [ref=f23e59] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - heading [level=2] [ref=f23e61]:
+              - link "Can Matrix be the Messaging solution for dumbphones?" [ref=f23e62] [cursor=pointer]:
+                - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+            - link [aria-hidden] [ref=f23e63] [cursor=pointer]:
+              - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+        - listitem [ref=f23e64]:
+          - article [ref=f23e65]:
+            - paragraph [ref=f23e66]:
+              - time [ref=f23e67]: Jun 30, 2026
+              - link "Typed With T9" [ref=f23e68] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f23e69]:
+              - heading [level=2] [ref=f23e70]:
+                - 'link "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f23e71] [cursor=pointer]':
+                  - /url: /In-Plaintext/sunbeam-f1-pro
+              - paragraph [ref=f23e72]: The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you. While it feels like a basic phone, it's anything but basic, offering just the right features to stay helpful without getting in your way.
+            - link [aria-hidden] [ref=f23e73] [cursor=pointer]:
+              - /url: /In-Plaintext/sunbeam-f1-pro
+        - listitem [ref=f23e74]:
+          - article [ref=f23e75]:
+            - paragraph [ref=f23e76]:
+              - time [ref=f23e77]: Apr 17, 2026
+              - link "Typed With T9" [ref=f23e78] [cursor=pointer]:
+                - /url: /In-Plaintext/category/typed-with-t9
+            - generic [ref=f23e79]:
+              - heading [level=2] [ref=f23e80]:
+                - link "Sonim brings us another 5G dumbphone, and its specs are impressive" [ref=f23e81] [cursor=pointer]:
+                  - /url: /In-Plaintext/sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+              - paragraph [ref=f23e82]: It's been a year since we last heard from Sonim, and they're back, with another phone with premium performance and military grade durability.
+            - link [aria-hidden] [ref=f23e83] [cursor=pointer]:
+              - /url: /In-Plaintext/sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+      - navigation "Writing pages" [ref=f23e84]:
+        - link "Older posts" [ref=f23e85] [cursor=pointer]:
+          - /url: /In-Plaintext/In-Plaintext/2
+          - text: Older posts
+          - generic [aria-hidden] [ref=f23e86]: →
+  - contentinfo [ref=f23e87]:
+    - generic [ref=f23e88]:
+      - generic [ref=f23e89]:
+        - link "In Plaintext" [ref=f23e90] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - navigation "Legal" [ref=f23e91]:
+          - link "Terms" [ref=f23e92] [cursor=pointer]:
+            - /url: /In-Plaintext/terms
+          - generic [aria-hidden] [ref=f23e93]: ·
+          - link "Privacy Policy" [ref=f23e94] [cursor=pointer]:
+            - /url: /In-Plaintext/privacy
+      - generic [ref=f23e95]:
+        - list "Elsewhere" [ref=f23e96]:
+          - listitem [ref=f23e97]:
+            - link "Reddit" [ref=f23e98] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f23e101]:
+            - link "Jtech Forums" [ref=f23e102] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f23e103]
+          - listitem [ref=f23e104]:
+            - link "RSS" [ref=f23e105] [cursor=pointer]:
+              - /url: /In-Plaintext/rss.xml
+          - listitem [ref=f23e108]:
+            - link "Github" [ref=f23e109] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f23e112]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f23e113] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.

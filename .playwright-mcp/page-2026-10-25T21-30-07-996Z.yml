@@ -1,0 +1,621 @@
+- generic [ref=f30e2]:
+  - generic [ref=f30e3]:
+    - generic "Skip navigation links":
+      - generic:
+        - link "Skip to last reply" [ref=f30e4] [cursor=pointer]:
+          - /url: /t/posting-code-or-preformatted-text/188910/7
+        - link "Skip to top" [ref=f30e5] [cursor=pointer]:
+          - /url: /t/posting-code-or-preformatted-text/188910/1
+      - link "Skip to main content" [ref=f30e6] [cursor=pointer]:
+        - /url: "#main-container"
+    - generic [ref=f30e15]:
+      - button "Sidebar" [expanded] [ref=f30e17] [cursor=pointer]
+      - link [ref=f30e21] [cursor=pointer]:
+        - /url: /
+        - img "Discourse Meta" [ref=f30e23]
+      - generic [ref=f30e28]:
+        - link "Open advanced search":
+          - /url: /search?expanded=true
+        - generic [ref=f30e31]:
+          - searchbox "Search" [ref=f30e32]
+          - button "Open advanced search" [ref=f30e34] [cursor=pointer]
+      - navigation "Header" [ref=f30e36]:
+        - generic [ref=f30e38]:
+          - button "Sign Up" [ref=f30e39] [cursor=pointer]
+          - button "Log In" [ref=f30e41] [cursor=pointer]
+        - list [ref=f30e44]:
+          - listitem [ref=f30e45]:
+            - button "EN" [ref=f30e46]
+    - main [ref=f30e49]:
+      - navigation "Sidebar" [ref=f30e51]:
+        - generic [ref=f30e52]:
+          - generic [ref=f30e53]:
+            - generic [ref=f30e54]:
+              - link "Back to Forum" [ref=f30e55] [cursor=pointer]:
+                - /url: /
+              - button "Collapse all sections" [ref=f30e58] [cursor=pointer]
+            - textbox "Filter links..." [ref=f30e63]
+          - generic [ref=f30e64]:
+            - button "General Usage" [expanded] [ref=f30e66] [cursor=pointer]
+            - list [ref=f30e70]:
+              - listitem [ref=f30e71]:
+                - link "New user guide" [ref=f30e72] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/discourse-new-user-guide/96331?silent=true
+              - listitem [ref=f30e76]:
+                - link "Activity summary emails" [ref=f30e77] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/change-frequency-or-unsubscribe-from-activity-summary-emails/239689?silent=true
+              - listitem [ref=f30e81]:
+                - link "Notification email replies" [ref=f30e82] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/configure-whether-previous-replies-are-included-in-your-notification-emails/39834?silent=true
+              - listitem [ref=f30e86]:
+                - link "Invites" [ref=f30e87] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/create-and-use-invites/263314?silent=true
+              - listitem [ref=f30e91]:
+                - link "Trust level permissions" [ref=f30e92] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/trust-level-permissions-table-inc-moderator-roles/224824?silent=true
+              - listitem [ref=f30e96]:
+                - link "Trust level requirements" [ref=f30e97] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/discourse-trust-levels-a-detailed-explanation/396792?silent=true
+              - listitem [ref=f30e101]:
+                - link "Likes" [ref=f30e102] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/what-are-likes/30803?silent=true
+              - listitem [ref=f30e106]:
+                - link "Default badges" [ref=f30e107] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/default-badges-reference-guide/310717?silent=true
+              - listitem [ref=f30e111]:
+                - link "Link click counters" [ref=f30e112] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/what-are-link-click-counters/254552?silent=true
+              - listitem [ref=f30e116]:
+                - link "Mixed text direction" [ref=f30e117] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/what-does-the-support-mixed-text-direction-setting-do/91247?silent=true
+              - listitem [ref=f30e121]:
+                - link "Flagging posts" [ref=f30e122] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/what-happens-when-you-flag-a-post/275?silent=true
+              - listitem [ref=f30e126]:
+                - link "Wiki posts" [ref=f30e127] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/what-is-a-wiki-post/30801?silent=true
+              - listitem [ref=f30e131]:
+                - link "Export User Data" [ref=f30e132] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/export-user-data/313677?silent=true
+              - listitem [ref=f30e136]:
+                - link "Discourse version" [ref=f30e137] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/find-what-version-of-discourse-youre-using/104326?silent=true
+          - generic [ref=f30e141]:
+            - button "Writing" [expanded] [ref=f30e143] [cursor=pointer]
+            - list [ref=f30e147]:
+              - listitem [ref=f30e148]:
+                - link "Formatting posts" [ref=f30e149] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/supported-formatting-in-posts-markdown-bbcode-and-html/239348?silent=true
+              - listitem [ref=f30e153]:
+                - link "Copying links" [ref=f30e154] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/copy-and-paste-topic-titles-and-other-links-into-posts/106987?silent=true
+              - listitem [ref=f30e158]:
+                - link "Markdown tables" [ref=f30e159] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/add-a-table-to-your-post-using-markdown/66544?silent=true
+              - listitem [ref=f30e163]:
+                - link "Creating polls" [ref=f30e164] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/create-a-poll-that-others-can-vote-on/77548?silent=true
+              - listitem [ref=f30e168]:
+                - link "Featured links" [ref=f30e169] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/adding-a-featured-link-to-your-topic/317027
+              - listitem [ref=f30e173]:
+                - link "Onebox previews" [ref=f30e174] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/create-rich-link-previews-with-onebox/98088?silent=true
+              - listitem [ref=f30e178]:
+                - link "Linking to headings" [ref=f30e179] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/link-to-a-heading-within-a-post-or-topic/47552?silent=true
+              - listitem [ref=f30e183]:
+                - link "Code formatting" [ref=f30e184] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/post-code-or-preformatted-text/188910?silent=true
+              - listitem [ref=f30e188]:
+                - link "Code block languages" [ref=f30e189] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/select-the-programming-language-used-in-code-blocks/19247?silent=true
+              - listitem [ref=f30e193]:
+                - link "Anonymous mode" [ref=f30e194] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/use-anonymous-mode-to-reply-or-create-topics/240039?silent=true
+              - listitem [ref=f30e198]:
+                - link "Creating calendars" [ref=f30e199] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/create-calendars/283773?silent=true
+              - listitem [ref=f30e203]:
+                - link "Creating events" [ref=f30e204] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/create-events/149964?silent=true
+              - listitem [ref=f30e208]:
+                - link "Pre-filled PMs" [ref=f30e209] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/create-a-link-to-start-a-new-personal-message-with-pre-filled-information/35984?silent=true
+              - listitem [ref=f30e213]:
+                - link "Pre-filled topics" [ref=f30e214] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/create-a-link-to-start-a-new-topic-with-pre-filled-information/28074?silent=true
+          - generic [ref=f30e218]:
+            - button "Reading" [expanded] [ref=f30e220] [cursor=pointer]
+            - list [ref=f30e224]:
+              - listitem [ref=f30e225]:
+                - link "Suggested topics" [ref=f30e226] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/suggested-topic-logic/252936?silent=true
+              - listitem [ref=f30e230]:
+                - link "Topic stats" [ref=f30e231] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/topic-views-posts-read-and-reading-time/254542?silent=true
+              - listitem [ref=f30e235]:
+                - link "Infinite scrolling" [ref=f30e236] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/what-is-infinite-scrolling/30804?silent=true
+              - listitem [ref=f30e240]:
+                - link "Email unsubscribe" [ref=f30e241] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/unsubscribe-from-a-topic-using-email/62748?silent=true
+              - listitem [ref=f30e245]:
+                - link "RSS feeds" [ref=f30e246] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/discourse-rss-feeds-list/264134?silent=true
+          - generic [ref=f30e250]:
+            - button "Search and Filters" [expanded] [ref=f30e252] [cursor=pointer]
+            - list [ref=f30e256]:
+              - listitem [ref=f30e257]:
+                - link "Search tips" [ref=f30e258] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/search-tips-and-tricks/273328?silent=true
+              - listitem [ref=f30e262]:
+                - link "Time-based search" [ref=f30e263] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/search-for-posts-created-within-a-certain-timeframe/41011?silent=true
+              - listitem [ref=f30e267]:
+                - link "Query string filters" [ref=f30e268] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/use-query-strings-to-filter-topic-views/248224?silent=true
+              - listitem [ref=f30e272]:
+                - link "Filtering topics" [ref=f30e273] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/filtering-topic-lists-in-discourse/375558?silent=true
+          - generic [ref=f30e277]:
+            - button "Interface" [expanded] [ref=f30e279] [cursor=pointer]
+            - list [ref=f30e283]:
+              - listitem [ref=f30e284]:
+                - link "UI elements" [ref=f30e285] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/names-of-user-interface-elements-in-discourse/103351?silent=true
+              - listitem [ref=f30e289]:
+                - link "Notifications menu" [ref=f30e290] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/how-does-the-notifications-menu-work/3059?silent=true
+              - listitem [ref=f30e294]:
+                - link "Sidebar features" [ref=f30e295] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/an-overview-of-sidebar-features/258478?silent=true
+              - listitem [ref=f30e299]:
+                - link "Top topics" [ref=f30e300] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/how-are-top-topics-calculated/240928?silent=true
+              - listitem [ref=f30e304]:
+                - link "Flagging posts" [ref=f30e305] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/flag-a-post-for-moderator-attention/32783?silent=true
+              - listitem [ref=f30e309]:
+                - link "Print to PDF" [ref=f30e310] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/print-a-topic-as-a-pdf/160061?silent=true
+              - listitem [ref=f30e314]:
+                - link "Preference links" [ref=f30e315] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/quick-access-to-discourse-preference-pages-with-easy-relative-links/276375?silent=true
+              - listitem [ref=f30e319]:
+                - link "User cards" [ref=f30e320] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/quickly-view-a-bit-about-each-other-with-user-cards/44093?silent=true
+              - listitem [ref=f30e324]:
+                - link "Browser tab indicators" [ref=f30e325] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/see-how-many-new-topics-and-posts-are-available-to-read-in-the-browser-tab/33508?silent=true
+          - generic [ref=f30e329]:
+            - button "Chat" [expanded] [ref=f30e331] [cursor=pointer]
+            - list [ref=f30e335]:
+              - listitem [ref=f30e336]:
+                - link "Chat features" [ref=f30e337] [cursor=pointer]:
+                  - /url: https://meta.discourse.org/t/an-overview-of-features-in-discourse-chat/239695?silent=true
+        - generic [ref=f30e343]:
+          - group [ref=f30e345]:
+            - 'generic "Filter by: Meta Branded" [ref=f30e346] [cursor=pointer]':
+              - generic "Meta Branded" [ref=f30e348]
+          - 'button "Color mode, currently [missing %{mode} value]" [ref=f30e350]'
+          - button "Keyboard Shortcuts" [ref=f30e352] [cursor=pointer]
+      - generic [ref=f30e354]:
+        - generic [ref=f30e355]:
+          - generic [ref=f30e357]:
+            - heading [level=1] [ref=f30e358]:
+              - link "Posting code or preformatted text" [ref=f30e359] [cursor=pointer]:
+                - /url: /t/posting-code-or-preformatted-text/188910
+            - generic [ref=f30e360]:
+              - link "Documentation" [ref=f30e361] [cursor=pointer]:
+                - /url: /c/documentation/10
+              - link "Using Discourse" [ref=f30e365] [cursor=pointer]:
+                - /url: /c/documentation/using-discourse/126
+              - list "Tags" [ref=f30e370]:
+                - listitem [ref=f30e371]:
+                  - link "how-to" [ref=f30e372] [cursor=pointer]:
+                    - /url: /tag/how-to/478
+          - generic [ref=f30e373]:
+            - generic [ref=f30e376]:
+              - generic [ref=f30e377]:
+                - list [ref=f30e378]:
+                  - listitem [ref=f30e379]:
+                    - link "Summary" [ref=f30e380] [cursor=pointer]:
+                      - /url: "#p-929307-summary-1"
+                - list [ref=f30e381]:
+                  - listitem [ref=f30e382]:
+                    - link "Inline code formatting" [ref=f30e383] [cursor=pointer]:
+                      - /url: "#p-929307-inline-code-formatting-2"
+                    - list:
+                      - listitem [ref=f30e384]:
+                        - link "Example 1:" [ref=f30e385] [cursor=pointer]:
+                          - /url: "#p-929307-example-1-3"
+                      - listitem [ref=f30e386]:
+                        - link "Example 2:" [ref=f30e387] [cursor=pointer]:
+                          - /url: "#p-929307-example-2-4"
+                - list [ref=f30e388]:
+                  - listitem [ref=f30e389]:
+                    - link "Entire line code formatting" [ref=f30e390] [cursor=pointer]:
+                      - /url: "#p-929307-entire-line-code-formatting-5"
+                    - list:
+                      - listitem [ref=f30e391]:
+                        - link "Example:" [ref=f30e392] [cursor=pointer]:
+                          - /url: "#p-929307-example-6"
+                - list [ref=f30e393]:
+                  - listitem [ref=f30e394]:
+                    - link "Block code formatting" [ref=f30e395] [cursor=pointer]:
+                      - /url: "#p-929307-block-code-formatting-7"
+                    - list:
+                      - listitem [ref=f30e396]:
+                        - link "Example:" [ref=f30e397] [cursor=pointer]:
+                          - /url: "#p-929307-example-8"
+                - list [ref=f30e398]:
+                  - listitem [ref=f30e399]:
+                    - link "BBCode and HTML" [ref=f30e400] [cursor=pointer]:
+                      - /url: "#p-929307-bbcode-and-html-9"
+                - list [ref=f30e401]:
+                  - listitem [ref=f30e402]:
+                    - link "Specifying the Programming Language" [ref=f30e403] [cursor=pointer]:
+                      - /url: "#p-929307-specifying-the-programming-language-10"
+                    - list:
+                      - listitem [ref=f30e404]:
+                        - link "Example" [ref=f30e405] [cursor=pointer]:
+                          - /url: "#p-929307-example-11"
+                - list [ref=f30e406]:
+                  - listitem [ref=f30e407]:
+                    - link "Suppressing highlighting" [ref=f30e408] [cursor=pointer]:
+                      - /url: "#p-929307-suppressing-highlighting-12"
+                    - list:
+                      - listitem [ref=f30e409]:
+                        - link "Example" [ref=f30e410] [cursor=pointer]:
+                          - /url: "#p-929307-example-13"
+                - list [ref=f30e411]:
+                  - listitem [ref=f30e412]:
+                    - link "Best practices" [ref=f30e413] [cursor=pointer]:
+                      - /url: "#p-929307-best-practices-14"
+                - list [ref=f30e414]:
+                  - listitem [ref=f30e415]:
+                    - link "Additional resources" [ref=f30e416] [cursor=pointer]:
+                      - /url: "#p-929307-additional-resources-15"
+                - button "Jump to end" [ref=f30e418] [cursor=pointer]
+              - button "Timeline" [ref=f30e421] [cursor=pointer]
+            - generic [ref=f30e428]:
+              - heading "post by Discourse on May 2, 2021" [level=2] [ref=f30e429]
+              - article "post by Discourse on May 2, 2021" [ref=f30e430]:
+                - generic [ref=f30e432]:
+                  - generic [ref=f30e434]:
+                    - button "post edit history" [ref=f30e436] [cursor=pointer]:
+                      - generic [ref=f30e438]: "7"
+                    - link "May 2, 2021" [ref=f30e440] [cursor=pointer]:
+                      - /url: /t/posting-code-or-preformatted-text/188910
+                      - generic [aria-hidden] [ref=f30e441]: May 2021
+                  - generic [ref=f30e442]:
+                    - generic [ref=f30e443]:
+                      - blockquote [ref=f30e444]:
+                        - paragraph [ref=f30e445]:
+                          - img ":bookmark:" [ref=f30e446]
+                          - text: This guide explains how to post code or preformatted text in Discourse using Markdown, BBCode, and HTML formats.
+                        - paragraph [ref=f30e447]:
+                          - img ":person_raising_hand:" [ref=f30e448]
+                          - text: "Required user level: All users"
+                      - paragraph [ref=f30e449]: Have a line of code you need to share? Maybe you need to share an error log from your site? Reading unformatted code can be challenging, especially if the code depends on spacing or contains special characters that Discourse transforms.
+                      - heading "Heading linkSummary" [level=2] [ref=f30e450]:
+                        - link "Heading link":
+                          - /url: "#p-929307-summary-1"
+                        - text: Summary
+                      - paragraph [ref=f30e451]: "In this guide, you’ll learn:"
+                      - list [ref=f30e452]:
+                        - listitem [ref=f30e453]: How to format inline code.
+                        - listitem [ref=f30e454]: How to format entire lines of code.
+                        - listitem [ref=f30e455]: How to format blocks of code.
+                        - listitem [ref=f30e456]: How to use BBCode and HTML for code formatting.
+                        - listitem [ref=f30e457]: How to disable automatic code styling.
+                      - heading "Heading linkInline code formatting" [level=2] [ref=f30e458]:
+                        - link "Heading link":
+                          - /url: "#p-929307-inline-code-formatting-2"
+                        - text: Inline code formatting
+                      - paragraph [ref=f30e459]: To format a specific section of text, use a single backtick on each side of the code. This can be done within regular text, or when the code is on its own line. Inline formatting does not apply any automatic code formatting (see below), and only applies the “code style” to the text between backticks.
+                      - heading "Heading linkExample 1:" [level=3] [ref=f30e460]:
+                        - link "Heading link":
+                          - /url: "#p-929307-example-1-3"
+                        - text: "Example 1:"
+                      - paragraph [ref=f30e461]:
+                        - strong [ref=f30e462]: "Typing:"
+                      - paragraph [ref=f30e463]: "`This is a line of code`"
+                      - paragraph [ref=f30e464]:
+                        - strong [ref=f30e465]: "Produces:"
+                      - paragraph [ref=f30e466]:
+                        - code [ref=f30e467]: This is a line of code
+                      - heading "Heading linkExample 2:" [level=3] [ref=f30e468]:
+                        - link "Heading link":
+                          - /url: "#p-929307-example-2-4"
+                        - text: "Example 2:"
+                      - paragraph [ref=f30e469]:
+                        - strong [ref=f30e470]: "Typing:"
+                      - paragraph [ref=f30e471]: "Here’s some text with `a bit of code` inside!"
+                      - paragraph [ref=f30e472]:
+                        - strong [ref=f30e473]: "Produces:"
+                      - paragraph [ref=f30e474]:
+                        - text: Here’s some text with
+                        - code [ref=f30e475]: a bit of code
+                        - text: inside!
+                      - heading "Heading linkEntire line code formatting" [level=2] [ref=f30e476]:
+                        - link "Heading link":
+                          - /url: "#p-929307-entire-line-code-formatting-5"
+                        - text: Entire line code formatting
+                      - paragraph [ref=f30e477]: To format an entire line, add 4 spaces at the start of a line. All text until the next line break will be code.
+                      - heading "Heading linkExample:" [level=3] [ref=f30e478]:
+                        - link "Heading link":
+                          - /url: "#p-929307-example-6"
+                        - text: "Example:"
+                      - paragraph [ref=f30e479]:
+                        - strong [ref=f30e480]: "Typing:"
+                      - generic [ref=f30e481]: All text after 4 spaces will be formatted.
+                      - paragraph [ref=f30e482]:
+                        - strong [ref=f30e483]: "Produces:"
+                      - code [ref=f30e486]: All text after 4 spaces will be formatted.
+                      - heading "Heading linkBlock code formatting" [level=2] [ref=f30e487]:
+                        - link "Heading link":
+                          - /url: "#p-929307-block-code-formatting-7"
+                        - text: Block code formatting
+                      - paragraph [ref=f30e488]: While you can use the 4-space method to produce multiple lines of code, this can be tedious, especially if you are copying and pasting and need to type 4 spaces on multiple lines of text.
+                      - paragraph [ref=f30e489]:
+                        - text: "Instead, use 3 backticks (```)"
+                        - strong [ref=f30e490]: on their own line
+                        - text: above and below your code. Be sure there are no spaces on the lines with the backticks, or this will not work.
+                      - heading "Heading linkExample:" [level=3] [ref=f30e491]:
+                        - link "Heading link":
+                          - /url: "#p-929307-example-8"
+                        - text: "Example:"
+                      - paragraph [ref=f30e492]:
+                        - strong [ref=f30e493]: "Typing:"
+                      - generic [ref=f30e494]: "``` public class CodeFormatting { public static void main(String[] args) { System.out.println(\"I can format code now!\"); } } ```"
+                      - paragraph [ref=f30e495]:
+                        - strong [ref=f30e496]: "Produces:"
+                      - code [ref=f30e499]: "public class CodeFormatting { public static void main(String[] args) { System.out.println(\"I can format code now!\"); } }"
+                      - heading "Heading linkBBCode and HTML" [level=2] [ref=f30e500]:
+                        - link "Heading link":
+                          - /url: "#p-929307-bbcode-and-html-9"
+                        - text: BBCode and HTML
+                      - paragraph [ref=f30e501]: In addition to Markdown, Discourse supports a subset of BBCode and HTML.
+                      - paragraph [ref=f30e502]:
+                        - text: For HTML, use the
+                        - code [ref=f30e503]: <pre>
+                        - text: and
+                        - code [ref=f30e504]: <code>
+                        - text: "tags:"
+                      - code [ref=f30e507]: "<pre><code> public class CodeFormatting { public static void main(String[] args) { System.out.println(\"I can format code now!\"); } } </code></pre>"
+                      - paragraph [ref=f30e508]:
+                        - text: For BBCode, use the
+                        - code [ref=f30e509]: "[code]"
+                        - text: "tag:"
+                      - code [ref=f30e512]: "[code] public class CodeFormatting { public static void main(String[] args) { System.out.println(\"I can format code now!\"); } [/code]"
+                      - heading "Heading linkSpecifying the Programming Language" [level=2] [ref=f30e513]:
+                        - link "Heading link":
+                          - /url: "#p-929307-specifying-the-programming-language-10"
+                        - text: Specifying the Programming Language
+                      - paragraph [ref=f30e514]: By default, Discourse detects the language of your code and styles it accordingly.
+                      - paragraph [ref=f30e515]: "To manually specify the programming language for a code block, type the name of the language right after the first set of backticks:"
+                      - code [ref=f30e518]: "``` your_language # Your code here"
+                      - heading "Heading linkExample" [level=3] [ref=f30e519]:
+                        - link "Heading link":
+                          - /url: "#p-929307-example-11"
+                        - text: Example
+                      - paragraph [ref=f30e520]: "To specify Ruby:"
+                      - paragraph [ref=f30e521]:
+                        - strong [ref=f30e522]: "Type:"
+                      - generic [ref=f30e523]: "``` ruby 3.times do |stuff| stuff.do end ```"
+                      - paragraph [ref=f30e524]:
+                        - strong [ref=f30e525]: "Produces:"
+                      - code [ref=f30e528]: 3.times do |stuff| stuff.do end
+                      - paragraph [ref=f30e529]:
+                        - text: The language must be one of the
+                        - code [ref=f30e530]: highlighted languages
+                        - text: configured for syntax highlighting on your site. The default list can be found in
+                        - link "config/site_settings.yml link clicked 10 times" [ref=f30e531] [cursor=pointer]:
+                          - /url: https://github.com/discourse/discourse/blob/main/config/site_settings.yml
+                          - code [ref=f30e532]: config/site_settings.yml
+                          - text: "10"
+                        - text: by searching for
+                        - code [ref=f30e533]: highlighted_languages
+                        - text: .
+                      - paragraph [ref=f30e534]:
+                        - text: You can also set the default code language with the
+                        - code [ref=f30e535]: default code lang
+                        - text: site setting.
+                      - heading "Heading linkSuppressing highlighting" [level=2] [ref=f30e536]:
+                        - link "Heading link":
+                          - /url: "#p-929307-suppressing-highlighting-12"
+                        - text: Suppressing highlighting
+                      - paragraph [ref=f30e537]:
+                        - text: If you want to prevent any syntax highlighting, you can use
+                        - code [ref=f30e538]: text
+                        - text: "as the language:"
+                      - heading "Heading linkExample" [level=3] [ref=f30e539]:
+                        - link "Heading link":
+                          - /url: "#p-929307-example-13"
+                        - text: Example
+                      - paragraph [ref=f30e540]:
+                        - strong [ref=f30e541]: "Typing:"
+                      - code [ref=f30e544]: "``` text Your text to NOT highlight here"
+                      - paragraph [ref=f30e545]:
+                        - strong [ref=f30e546]: "Produces:"
+                      - code [ref=f30e549]: Your text to NOT highlight here
+                      - heading "Heading linkBest practices" [level=2] [ref=f30e550]:
+                        - link "Heading link":
+                          - /url: "#p-929307-best-practices-14"
+                        - text: Best practices
+                      - list [ref=f30e551]:
+                        - listitem [ref=f30e552]: Always ensure your inline code is framed with single backticks for clarity.
+                        - listitem [ref=f30e553]: Use block code formatting for sharing larger snippets of code.
+                        - listitem [ref=f30e554]: Avoid automatic code styling when sharing text or logs that do not benefit from language-specific styling.
+                        - listitem [ref=f30e555]: Specify the language if automatic detection is not recognizing your code correctly.
+                      - heading "Heading linkAdditional resources" [level=2] [ref=f30e556]:
+                        - link "Heading link":
+                          - /url: "#p-929307-additional-resources-15"
+                        - text: Additional resources
+                      - list [ref=f30e557]:
+                        - listitem [ref=f30e558]:
+                          - link "Configure which programming languages are available for syntax highlighting link clicked 16 times" [ref=f30e559] [cursor=pointer]:
+                            - /url: https://meta.discourse.org/t/configure-which-programming-languages-are-available-for-syntax-highlighting/239717
+                            - text: Configure which programming languages are available for syntax highlighting 16
+                        - listitem [ref=f30e560]:
+                          - link "Selecting the programming language used in code blocks link clicked 11 times" [ref=f30e561] [cursor=pointer]:
+                            - /url: https://meta.discourse.org/t/selecting-the-programming-language-used-in-code-blocks/19247
+                            - text: Selecting the programming language used in code blocks 11
+                        - listitem [ref=f30e562]:
+                          - link "Supported Formatting In Posts (markdown, BBCode, and HTML)" [ref=f30e563] [cursor=pointer]:
+                            - /url: https://meta.discourse.org/t/supported-formatting-in-posts-markdown-bbcode-and-html/239348
+                        - listitem [ref=f30e564]:
+                          - link "Interactive Markdown Guide link clicked 13 times" [ref=f30e565] [cursor=pointer]:
+                            - /url: https://markdown-it.github.io/
+                            - text: Interactive Markdown Guide 13
+                      - blockquote [ref=f30e566]:
+                        - paragraph [ref=f30e567]:
+                          - text: Last edited by
+                          - link "@hugh" [ref=f30e568] [cursor=pointer]:
+                            - /url: /u/hugh
+                          - generic [ref=f30e569] [cursor=pointer]: June 26, 2024 8:44 PM
+                        - text: ►
+                    - group "Post actions" [ref=f30e570]:
+                      - button "15 reactions" [ref=f30e573] [cursor=pointer]:
+                        - img "heart" [ref=f30e577]
+                        - generic [aria-hidden]: "15"
+                      - button "This post has 1 reply" [ref=f30e578] [cursor=pointer]:
+                        - generic [ref=f30e579]: 1 Reply
+                      - generic [ref=f30e581]:
+                        - generic "Please sign up or log in to like this post" [ref=f30e584] [cursor=pointer]:
+                          - button "Please sign up or log in to like this post"
+                        - button "copy a link to this post to clipboard" [ref=f30e585] [cursor=pointer]
+                        - button "show more" [ref=f30e587] [cursor=pointer]
+                      - generic:
+                        - list
+                  - list [ref=f30e590]:
+                    - listitem [ref=f30e591]:
+                      - link "Security on post code 3" [ref=f30e592] [cursor=pointer]:
+                        - /url: https://meta.discourse.org/t/security-on-post-code/306894
+                        - generic [ref=f30e594]: Security on post code
+                        - text: "3"
+                    - listitem [ref=f30e595]:
+                      - link "Discourse 发布代码或者格式化文本" [ref=f30e596] [cursor=pointer]:
+                        - /url: https://meta.discourse.org/t/discourse/339107
+                    - listitem [ref=f30e599]:
+                      - link "Blocking spammer.<random>.domain registration attempts" [ref=f30e600] [cursor=pointer]:
+                        - /url: https://meta.discourse.org/t/blocking-spammer-random-domain-registration-attempts/382755/8
+                    - listitem [ref=f30e603]:
+                      - link "Add markdown to selected text" [ref=f30e604] [cursor=pointer]:
+                        - /url: https://meta.discourse.org/t/add-markdown-to-selected-text/357385/10
+                  - button "Show 2 comments" [ref=f30e608] [cursor=pointer]
+              - link "Ad Did you know Discourse offers hosting? - Plans start at $0!" [ref=f30e612] [cursor=pointer]:
+                - /url: https://discourse.org/pricing?utm_source=meta.discourse.org&utm_content=brandaware-free&utm_campaign=mh2025&ad_placement=between_posts
+                - generic [ref=f30e613]: Ad
+                - generic [ref=f30e614]: Did you know Discourse offers hosting? - Plans start at $0!
+          - region [ref=f30e617]:
+            - button "Reply" [ref=f30e619] [cursor=pointer]
+          - complementary [ref=f30e624]:
+            - heading "Related topics" [level=3] [ref=f30e625]
+            - table [ref=f30e630]:
+              - caption [ref=f30e631]: Topic list, column headers with buttons are sortable.
+              - rowgroup [ref=f30e632]:
+                - row [ref=f30e633]:
+                  - columnheader "Topic" [ref=f30e634]
+                  - columnheader "Replies" [ref=f30e636]
+                  - columnheader "Views" [ref=f30e638]
+                  - columnheader "Activity" [ref=f30e640]
+              - rowgroup [ref=f30e642]:
+                - row [ref=f30e643]:
+                  - cell [ref=f30e644]:
+                    - heading [level=2] [ref=f30e645]:
+                      - link "Discourse publishes code or formatted text" [ref=f30e646] [cursor=pointer]:
+                        - /url: /t/discourse/339107
+                    - generic [ref=f30e647]:
+                      - link "Users" [ref=f30e648] [cursor=pointer]:
+                        - /url: /c/wiki/users/181
+                      - list "Tags" [ref=f30e651]:
+                        - listitem [ref=f30e652]:
+                          - link "chinese-translation" [ref=f30e653] [cursor=pointer]:
+                            - /url: /tag/chinese-translation/297
+                  - cell [ref=f30e654]:
+                    - link "0 replies, jump to first post" [ref=f30e655] [cursor=pointer]:
+                      - /url: /t/discourse/339107/1
+                      - text: "0"
+                  - cell "306" [ref=f30e656]
+                  - cell [ref=f30e657]:
+                    - link "Nov 2024" [ref=f30e658] [cursor=pointer]:
+                      - /url: /t/discourse/339107/1
+                - row [ref=f30e659]:
+                  - cell [ref=f30e660]:
+                    - heading [level=2] [ref=f30e661]:
+                      - link "Selecting the programming language used in code blocks" [ref=f30e662] [cursor=pointer]:
+                        - /url: /t/selecting-the-programming-language-used-in-code-blocks/19247
+                    - generic [ref=f30e663]:
+                      - link "Using Discourse" [ref=f30e664] [cursor=pointer]:
+                        - /url: /c/documentation/using-discourse/126
+                      - list "Tags" [ref=f30e667]:
+                        - listitem [ref=f30e668]:
+                          - link "how-to" [ref=f30e669] [cursor=pointer]:
+                            - /url: /tag/how-to/478
+                  - cell [ref=f30e670]:
+                    - link "0 replies, jump to first post" [ref=f30e671] [cursor=pointer]:
+                      - /url: /t/selecting-the-programming-language-used-in-code-blocks/19247/1
+                      - text: "0"
+                  - cell "17.7k" [ref=f30e672]
+                  - cell [ref=f30e673]:
+                    - link "Mar 18" [ref=f30e674] [cursor=pointer]:
+                      - /url: /t/selecting-the-programming-language-used-in-code-blocks/19247/1
+                - row [ref=f30e675]:
+                  - cell [ref=f30e676]:
+                    - heading [level=2] [ref=f30e677]:
+                      - generic [ref=f30e678]:
+                        - generic "This topic is closed; it no longer accepts new replies" [ref=f30e679]
+                        - generic "This topic has a solution" [ref=f30e681]
+                      - link "Plugins for writing coding text in the topics" [ref=f30e683] [cursor=pointer]:
+                        - /url: /t/plugins-for-writing-coding-text-in-the-topics/154460
+                    - link "Product Support" [ref=f30e685] [cursor=pointer]:
+                      - /url: /c/support/6
+                  - cell [ref=f30e689]:
+                    - link "6 replies, jump to first post" [ref=f30e690] [cursor=pointer]:
+                      - /url: /t/plugins-for-writing-coding-text-in-the-topics/154460/1
+                      - text: "6"
+                  - cell "1.3k" [ref=f30e691]
+                  - cell [ref=f30e692]:
+                    - link "Jun 2020" [ref=f30e693] [cursor=pointer]:
+                      - /url: /t/plugins-for-writing-coding-text-in-the-topics/154460/7
+                - row [ref=f30e694]:
+                  - cell [ref=f30e695]:
+                    - heading [level=2] [ref=f30e696]:
+                      - link "Disable Code Formatting for inappropriate 4 space indent?" [ref=f30e697] [cursor=pointer]:
+                        - /url: /t/disable-code-formatting-for-inappropriate-4-space-indent/112161
+                    - link "Feature" [ref=f30e699] [cursor=pointer]:
+                      - /url: /c/contribute/feature/2
+                  - cell [ref=f30e702]:
+                    - link "11 replies, jump to first post" [ref=f30e703] [cursor=pointer]:
+                      - /url: /t/disable-code-formatting-for-inappropriate-4-space-indent/112161/1
+                      - text: "11"
+                  - cell "1.8k" [ref=f30e704]
+                  - cell [ref=f30e705]:
+                    - link "Sep 23" [ref=f30e706] [cursor=pointer]:
+                      - /url: /t/disable-code-formatting-for-inappropriate-4-space-indent/112161/14
+                - row [ref=f30e707]:
+                  - cell [ref=f30e708]:
+                    - heading [level=2] [ref=f30e709]:
+                      - link "Issue with Code Block Formatting in Discourse – Red Text and Unintended Highlighting" [ref=f30e710] [cursor=pointer]:
+                        - /url: /t/issue-with-code-block-formatting-in-discourse-red-text-and-unintended-highlighting/321315
+                    - generic [ref=f30e711]:
+                      - link "Product Support" [ref=f30e712] [cursor=pointer]:
+                        - /url: /c/support/6
+                      - list "Tags" [ref=f30e716]:
+                        - listitem [ref=f30e717]:
+                          - link "code" [ref=f30e718] [cursor=pointer]:
+                            - /url: /tag/code/819
+                  - cell [ref=f30e719]:
+                    - link "23 replies, jump to first post" [ref=f30e720] [cursor=pointer]:
+                      - /url: /t/issue-with-code-block-formatting-in-discourse-red-text-and-unintended-highlighting/321315/1
+                      - text: "23"
+                  - cell "711" [ref=f30e721]
+                  - cell [ref=f30e722]:
+                    - link "Aug 2024" [ref=f30e723] [cursor=pointer]:
+                      - /url: /t/issue-with-code-block-formatting-in-discourse-red-text-and-unintended-highlighting/321315/25
+        - dialog "User card"
+  - status [ref=f30e724]
+  - alert [ref=f30e725]

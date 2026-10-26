@@ -1,0 +1,178 @@
+- generic [ref=f36e1]:
+  - banner [ref=f36e2]:
+    - link "Skip to content" [ref=f36e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f36e4]:
+      - link "In Plaintext home" [ref=f36e5] [cursor=pointer]:
+        - /url: /In-Plaintext
+        - text: In Plaintext
+      - generic [ref=f36e6]:
+        - button "Browse" [ref=f36e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f36e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f36e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f36e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - main [ref=f36e13]:
+    - article [ref=f36e15]:
+      - generic [ref=f36e16]:
+        - link "All writing" [ref=f36e17] [cursor=pointer]:
+          - /url: /In-Plaintext
+          - generic [aria-hidden] [ref=f36e18]: ←
+          - text: All writing
+        - paragraph [ref=f36e19]:
+          - link "Typed With T9" [ref=f36e20] [cursor=pointer]:
+            - /url: /In-Plaintext/category/typed-with-t9
+          - generic [aria-hidden] [ref=f36e21]: ·
+          - time [ref=f36e22]: Apr 17, 2026
+        - heading "Sonim brings us another 5G dumbphone, and its specs are impressive" [level=1] [ref=f36e23]
+        - paragraph [ref=f36e24]: It's been a year since we last heard from Sonim, and they're back, with another phone with premium performance and military grade durability.
+      - generic [ref=f36e25]:
+        - group [ref=f36e26]:
+          - generic "On this page" [ref=f36e27] [cursor=pointer]:
+            - text: On this page
+            - generic [aria-hidden] [ref=f36e28]: ⌄
+        - generic [ref=f36e29]:
+          - img "Sonim brings us another 5G dumbphone, and its specs are impressive" [ref=f36e30]
+          - generic [ref=f36e31]:
+            - heading "Sonim does it again" [level=2] [ref=f36e32]
+            - paragraph [ref=f36e33]: The last time we heard from Sonim was when they released the Sonim Xp3Plus 5G, one of the first 5G dumbphones.A year later Sonim is back and doing it again, releasing another phone with premium performance and military grade durability.
+            - paragraph [ref=f36e34]: The successor to the Sonim Xp5900, it’s been upgraded with 5G, Android 15, and powerful internals.
+            - paragraph [ref=f36e35]: While the older Xp5Plus’s processor was already impressive, the Xp5Plus 5G takes things to a whole new level.It’s Snapdragon 4 Gen 2 uses Cortex-A78 performance cores, built on a 4nm process, giving it processing power and greater battery efficieny, and surpassing pretty much every dumb/minimalist phone out there, besides for Unihertz’s.
+            - paragraph [ref=f36e36]: It has a 3500 mAh battery, with 15W fast charging. Combined that it’s uber effecient processor, and we have a phone that lasts as long as you need it.
+            - paragraph [ref=f36e37]: It’s also upgraded with a generous 4 GB of RAM, 64 GB of storage, and a AOSP 15 based OS.
+            - paragraph [ref=f36e38]: All this comes at a price, and the Xp3Plus 5G sells for $330, which isn’t cheap.
+            - separator [ref=f36e39]
+            - heading "A closer look" [level=3] [ref=f36e40]
+            - generic [ref=f36e42]:
+              - link [ref=f36e44]:
+                - /url: http://localhost:8001/In-Plaintext/_astro/x530-1.rNbyDVq9_qD38c.webp
+                - img "x530-1" [ref=f36e45]
+              - link [ref=f36e47]:
+                - /url: http://localhost:8001/In-Plaintext/_astro/x530-2.BiayTTHe_1tPWXq.webp
+                - img "x530-2" [ref=f36e48]
+              - link [ref=f36e50]:
+                - /url: http://localhost:8001/In-Plaintext/_astro/x530-3.bX3MqOWw_1ENEzg.webp
+                - img "x530-3" [ref=f36e51]
+              - link [ref=f36e53]:
+                - /url: http://localhost:8001/In-Plaintext/_astro/x530-4.BiDxFQyW_Z1N4Pcp.webp
+                - img "x530-4" [ref=f36e54]
+              - link [ref=f36e56]:
+                - /url: http://localhost:8001/In-Plaintext/_astro/x530-5.B4SMTzi9_2mTlXo.webp
+                - img "x530-5" [ref=f36e57]
+              - link [ref=f36e59]:
+                - /url: http://localhost:8001/In-Plaintext/_astro/x530-6.Bj5bjNTF_1xhXHu.webp
+                - img "x530-6" [ref=f36e60]
+            - heading "The stuff it’s made of" [level=3] [ref=f36e61]
+            - group [ref=f36e62]:
+              - generic "Full specs" [ref=f36e63] [cursor=pointer]
+            - heading "Verdict" [level=3] [ref=f36e64]
+            - paragraph [ref=f36e65]: The Sonim Xp5Plus 5G is a phone with modern internals, in a simple package.If you want a phone that’s indestructible, has great battery life, modern Android specs, inside of a dumb brick bar form factor, then this is your phone.
+            - paragraph [ref=f36e66]: Overall, this sounds like a terrific phone, and I can’t wait to get my hands on it and try it.
+            - link "sonimtech | Sonim XP5plus 5G — Rugged Reliable radio-like… The Sonim XP5plus 5G combines FirstNet Ready connectivity, tactile controls, and rugged reliability. The ultimate LMR replacement or interop solution. sonimtech | Sonim XP5plus 5G — Rugged Reliable radio-like… favicon sonimtech.com sonimtech | Sonim XP5plus 5G — Rugged Reliable radio-like…" [ref=f36e67] [cursor=pointer]:
+              - /url: https://www.sonimtech.com/products/phones/xp5plus5g
+              - generic [ref=f36e68]:
+                - generic [ref=f36e69]: sonimtech | Sonim XP5plus 5G — Rugged Reliable radio-like…
+                - generic [ref=f36e70]: The Sonim XP5plus 5G combines FirstNet Ready connectivity, tactile controls, and rugged reliability. The ultimate LMR replacement or interop solution.
+                - generic [ref=f36e71]:
+                  - img "sonimtech | Sonim XP5plus 5G — Rugged Reliable radio-like… favicon" [ref=f36e72]
+                  - generic [ref=f36e73]: sonimtech.com
+              - img "sonimtech | Sonim XP5plus 5G — Rugged Reliable radio-like…" [ref=f36e75]
+            - link "www.att.com www.att.com favicon att.com" [ref=f36e76] [cursor=pointer]:
+              - /url: https://www.att.com/buy/phones/sonim-xp5plus-5g-no-knobs.html
+              - generic [ref=f36e77]:
+                - generic [ref=f36e78]: www.att.com
+                - generic [ref=f36e79]:
+                  - img "www.att.com favicon" [ref=f36e80]
+                  - generic [ref=f36e81]: att.com
+          - generic [ref=f36e82]:
+            - list [ref=f36e83]:
+              - listitem [ref=f36e84]:
+                - link "dumbphones" [ref=f36e85] [cursor=pointer]:
+                  - /url: /In-Plaintext/tag/dumbphones
+              - listitem [ref=f36e86]:
+                - link "phone news" [ref=f36e87] [cursor=pointer]:
+                  - /url: /In-Plaintext/tag/phone-news
+            - generic [ref=f36e88]:
+              - text: "Share:"
+              - button "Share" [ref=f36e89] [cursor=pointer]
+              - button "Share with SMS" [ref=f36e92] [cursor=pointer]
+              - button "Share with email" [ref=f36e95] [cursor=pointer]
+              - button "Share with WhatsApp" [ref=f36e98] [cursor=pointer]
+              - button "Share with Telegram" [ref=f36e101] [cursor=pointer]
+              - button "Share with Reddit" [ref=f36e104] [cursor=pointer]
+              - button "Share with LinkedIn" [ref=f36e107] [cursor=pointer]
+              - button "Share with X" [ref=f36e110] [cursor=pointer]
+      - region [ref=f36e113]:
+        - generic [ref=f36e114]:
+          - heading "Comments" [level=2] [ref=f36e115]
+          - button "Reload comments" [ref=f36e116] [cursor=pointer]
+        - iframe [ref=f36e121]
+    - link "All writing" [ref=f36e123] [cursor=pointer]:
+      - /url: /In-Plaintext
+      - generic [aria-hidden] [ref=f36e124]: ←
+      - text: All writing
+    - generic [ref=f36e126]:
+      - generic [ref=f36e128]:
+        - heading "Related Posts" [level=2] [ref=f36e129]
+        - link "View All Posts »" [ref=f36e130] [cursor=pointer]:
+          - /url: /In-Plaintext
+      - generic [ref=f36e131]:
+        - article [ref=f36e132]:
+          - 'link "Read: Rumor: The Mind phones keypad might be real" [ref=f36e134] [cursor=pointer]':
+            - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+          - heading [level=3] [ref=f36e135]:
+            - 'link "Rumor: The Mind phones keypad might be real" [ref=f36e136] [cursor=pointer]':
+              - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+          - paragraph [ref=f36e137]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+        - article [ref=f36e138]:
+          - 'link "Read: GroupMe SMS is dead, now what?" [ref=f36e140] [cursor=pointer]':
+            - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+          - heading [level=3] [ref=f36e141]:
+            - link "GroupMe SMS is dead, now what?" [ref=f36e142] [cursor=pointer]:
+              - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+          - paragraph [ref=f36e143]: The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?
+        - article [ref=f36e144]:
+          - 'link "Read: Can Matrix be the Messaging solution for dumbphones?" [ref=f36e146] [cursor=pointer]':
+            - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+          - heading [level=3] [ref=f36e147]:
+            - link "Can Matrix be the Messaging solution for dumbphones?" [ref=f36e148] [cursor=pointer]:
+              - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+        - article [ref=f36e149]:
+          - 'link "Read: Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f36e151] [cursor=pointer]':
+            - /url: /In-Plaintext/sunbeam-f1-pro
+          - heading [level=3] [ref=f36e152]:
+            - 'link "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f36e153] [cursor=pointer]':
+              - /url: /In-Plaintext/sunbeam-f1-pro
+          - paragraph [ref=f36e154]: The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you. While it feels like a basic phone, it's anything but basic, offering just the right features to stay helpful without getting in your way.
+  - contentinfo [ref=f36e155]:
+    - generic [ref=f36e156]:
+      - generic [ref=f36e157]:
+        - link "In Plaintext" [ref=f36e158] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - navigation "Legal" [ref=f36e159]:
+          - link "Terms" [ref=f36e160] [cursor=pointer]:
+            - /url: /In-Plaintext/terms
+          - generic [aria-hidden] [ref=f36e161]: ·
+          - link "Privacy Policy" [ref=f36e162] [cursor=pointer]:
+            - /url: /In-Plaintext/privacy
+      - generic [ref=f36e163]:
+        - list "Elsewhere" [ref=f36e164]:
+          - listitem [ref=f36e165]:
+            - link "Reddit" [ref=f36e166] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f36e169]:
+            - link "Jtech Forums" [ref=f36e170] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f36e171]
+          - listitem [ref=f36e172]:
+            - link "RSS" [ref=f36e173] [cursor=pointer]:
+              - /url: /In-Plaintext/rss.xml
+          - listitem [ref=f36e176]:
+            - link "Github" [ref=f36e177] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f36e180]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f36e181] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.

@@ -48,11 +48,12 @@ Text messaging are shown in inbox and outbox folders like email, instead of the 
 
 These phones one strong point is terrific battery life, but I don't think that makes it worth it.
 
-There is one phone that might be a good option, but it hasn't been tested in the US.
+There is the Punkt MP02, but it's quite expensive for something so simple.
+
+There is another phone that might be a good option, the Navi phone, but it hasn't been tested in the US.
 
 If someone wants to pay to import it and test it, then we might have a great option.
 
-There is also the Punkt MP02, but it's quite expensive for something so simple.
 
 ### 2: KaiOs phones
 
@@ -84,9 +85,9 @@ These same tools also allow disabling many features that these phones ship with,
 
 Overall, this is my favorite category of dumbphone, and whether you're looking for something simple and reliable or something that can run apps but still feel dumb, these are the phones I usually recommend.
 
-### Restricted midwit phones
+### Restricted hybrid phones
 
-These phones are part of a newer generation of midwit phones that strike an interesting balance between modern utility features, higher-end hardware, while having restrictions to prevent installing distracting apps.
+These phones are part of a newer generation of hybrid phones that strike an interesting balance between modern utility, features, and higher-end hardware, while having restrictions to prevent installing distracting apps.
 
 They're often, but not always, sold as kosher phones.
 
@@ -135,14 +136,14 @@ These features make for a phone that can do what you need, while being less temp
 
 ### The Straitjacketed Smartphone
 
-These phones are standard smartphones, that have been modified to restrict them to their own curated selection of utility apps.
+These phones are standard smartphones that have been modified to restrict them to their own curated selection of utility apps.
 
 This usually includes tools like navigation apps, messaging platforms, email, music streaming, sometimes limited browsers.
 
 These phones obviously won't feel like a dumbphone at all.
 They have the ease of use and slick UI of smartphones, which all encourage spending more time on even utility apps.
 
-On the one hand, the biggest time wasters are blocked.
+On the other hand, the biggest time wasters are blocked.
 
 Some great options include the Gabb phone and Sleke phone.
 
@@ -155,7 +156,7 @@ There's the Light Phone, which keeps the UI very simple.
 
 There's the upcoming Basic Phone, which will have a black & white e-ink screen, QWERTY keyboard, a custom Linux based OS, and it's own apps and app store.
 
-There's the Dumbphone 2, which took the TCL Flip 2, and loaded it with features and tools like music streaming, WhatsApp and iMessage, and
+There's the Dumbphone 2, which took the TCL Flip 2, and loaded it with features and tools like music streaming, WhatsApp, iMessage, and Spotify.
 
 And the Amoeba's kickstarter is just getting {something?}, promsing a keychain sized phone with basic utilities.
 
@@ -163,6 +164,8 @@ Each of these take their own creative route trying to give a different, simpler 
 
 ---
 
-I hope I was able to make the options clearer
+I hope I was able to make the options clearer.
+
+If I did, then I'd recommend checking [The Dumbphone Finder](https://dumbphones.org), Jose Briones reviews of phones on YouTube, and looking through r/dumbphones.
 
 If you the need for specific apps have been holding you back from cutting down, there's are more intentional phones that could work for you, so stop pushing it off!

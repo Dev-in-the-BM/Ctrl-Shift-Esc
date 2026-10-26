@@ -1,0 +1,5 @@
+[     140ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     283ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[     284ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/shared/images/fdroid_repo_qr.png:0
+[     705ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[     729ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/shared/images/fdroid_repo_qr.png:0

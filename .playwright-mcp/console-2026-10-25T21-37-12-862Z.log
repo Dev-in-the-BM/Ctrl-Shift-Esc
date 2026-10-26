@@ -1,0 +1,2 @@
+[     847ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://try.discourse.org/?theme_id=-1:0
+[     888ms] [LOG] ℹ️ Discourse v2026.10.0-latest.1 — https://github.com/discourse/discourse/commits/eafa0d1225 — Ember v7.3.0 @ https://global.discourse-cdn.com/try/assets/br/discourse-cszc5ygs.digested.js:177

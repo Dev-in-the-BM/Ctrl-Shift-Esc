@@ -1,0 +1,8 @@
+[    2870ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[    2872ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'. @ :0
+[    2872ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[    2872ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'otp-credentials'. @ :0
+[    2872ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'web-share'. @ :0
+[   14830ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: 7b4ada6829} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-BURiVPfB.js:4
+[   27744ms] [WARNING] [LOCAL_STORAGE] IndexedDB state read did not settle within the hydration timeout; continuing without persisted state {timeoutMs: 5000} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-datadog-BURiVPfB.js:4
+[   28371ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://s-cdn.anthropic.com/s.js:0

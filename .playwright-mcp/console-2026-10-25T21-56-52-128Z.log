@@ -1,0 +1,9 @@
+[     151ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/privacy.C9Wh-u1U.css:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/privacy.DfjGUW4C.css:0
+[     170ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js:0
+[     208ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     282ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/Avatar%20scaled%20down-min.DuU8jePp_Z1QRxwr.webp:0
+[     285ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/Knife_slicing_digital_data_stream_202608191542.C4WJoVLJ_Z1Yk0cd.webp:0
+[     286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.ComGQFnL_Zb3tUo.webp:0
+[     286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/dumbphone-hero-banner-mobile-370x215.DzScqriF_ZhoEnK.webp:0
+[     286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:44433/In-Plaintext/_astro/ducttapekosherphone.CfbKTI-o_1cl7WG.webp:0

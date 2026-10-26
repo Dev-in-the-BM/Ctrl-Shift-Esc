@@ -1,0 +1,106 @@
+- generic [active] [ref=f29e152]:
+  - banner [ref=f29e153]:
+    - link "Skip to content" [ref=f29e154] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f29e155]:
+      - link "In Plaintext home" [ref=f29e156] [cursor=pointer]:
+        - /url: /In-Plaintext
+        - text: In Plaintext
+      - generic [ref=f29e157]:
+        - button "Browse" [ref=f29e158] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f29e159]: +
+        - button "Toggle between Dark and Light mode" [ref=f29e160] [cursor=pointer]
+        - link "Dev in the BM" [ref=f29e163] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - main [ref=f29e164]:
+    - generic [ref=f29e165]:
+      - generic [ref=f29e166]:
+        - heading "All writing" [level=1] [ref=f29e167]
+        - paragraph [ref=f29e168]: Page 2
+      - navigation "Writing categories" [ref=f29e169]:
+        - link "All writing" [ref=f29e170] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - link "Typed With T9" [ref=f29e171] [cursor=pointer]:
+          - /url: /In-Plaintext/category/typed-with-t9
+        - link "Dialing Down" [ref=f29e172] [cursor=pointer]:
+          - /url: /In-Plaintext/category/dialing-down
+        - link "~/Tinkering" [ref=f29e173] [cursor=pointer]:
+          - /url: /In-Plaintext/category/tinkering
+      - list [ref=f29e174]:
+        - listitem [ref=f29e175]:
+          - article [ref=f29e176]:
+            - paragraph [ref=f29e177]:
+              - time [ref=f29e178]: Apr 12, 2026
+              - link "~/Tinkering" [ref=f29e179] [cursor=pointer]:
+                - /url: /In-Plaintext/category/tinkering
+            - generic [ref=f29e180]:
+              - heading [level=2] [ref=f29e181]:
+                - link "Google Play isn't as clean as you'd think, and these alternatives are better" [ref=f29e182] [cursor=pointer]:
+                  - /url: /In-Plaintext/google-play-clean-alternatives
+              - paragraph [ref=f29e183]: When it comes to Android apps, the Play Store is king, but it has its drawbacks. Here's why you should avoid Google Play, and what to use instead.
+            - link [aria-hidden] [ref=f29e184] [cursor=pointer]:
+              - /url: /In-Plaintext/google-play-clean-alternatives
+        - listitem [ref=f29e185]:
+          - article [ref=f29e186]:
+            - paragraph [ref=f29e187]:
+              - time [ref=f29e188]: Apr 12, 2026
+              - link "Dialing Down" [ref=f29e189] [cursor=pointer]:
+                - /url: /In-Plaintext/category/dialing-down
+            - generic [ref=f29e190]:
+              - heading [level=2] [ref=f29e191]:
+                - 'link "Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies" [ref=f29e192] [cursor=pointer]':
+                  - /url: /In-Plaintext/dumbing-smartphone-smarting-dumbphone-adb-dummies
+              - paragraph [ref=f29e193]: Strip the junk off a smartphone, or force-install essentials onto a basic flip phone. ADB can let you do all that and more - and you don't need to be a techie to use it.
+            - link [aria-hidden] [ref=f29e194] [cursor=pointer]:
+              - /url: /In-Plaintext/dumbing-smartphone-smarting-dumbphone-adb-dummies
+        - listitem [ref=f29e195]:
+          - article [ref=f29e196]:
+            - paragraph [ref=f29e197]:
+              - time [ref=f29e198]: Mar 29, 2026
+              - link "~/Tinkering" [ref=f29e199] [cursor=pointer]:
+                - /url: /In-Plaintext/category/tinkering
+            - generic [ref=f29e200]:
+              - heading [level=2] [ref=f29e201]:
+                - link "These apps let you use ADB without touching the command line" [ref=f29e202] [cursor=pointer]:
+                  - /url: /In-Plaintext/adb-gui-tools
+              - paragraph [ref=f29e203]: While ADB was made for developers, these tools are for everyone. I tested the best ones so you can take control of your phone.
+            - link [aria-hidden] [ref=f29e204] [cursor=pointer]:
+              - /url: /In-Plaintext/adb-gui-tools
+      - navigation "Writing pages" [ref=f29e205]:
+        - link "Newer posts" [ref=f29e206] [cursor=pointer]:
+          - /url: /In-Plaintext/
+          - generic [aria-hidden] [ref=f29e207]: ←
+          - text: Newer posts
+  - contentinfo [ref=f29e208]:
+    - generic [ref=f29e209]:
+      - generic [ref=f29e210]:
+        - link "In Plaintext" [ref=f29e211] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - navigation "Legal" [ref=f29e212]:
+          - link "Terms" [ref=f29e213] [cursor=pointer]:
+            - /url: /In-Plaintext/terms
+          - generic [aria-hidden] [ref=f29e214]: ·
+          - link "Privacy Policy" [ref=f29e215] [cursor=pointer]:
+            - /url: /In-Plaintext/privacy
+      - generic [ref=f29e216]:
+        - list "Elsewhere" [ref=f29e217]:
+          - listitem [ref=f29e218]:
+            - link "Reddit" [ref=f29e219] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f29e222]:
+            - link "Jtech Forums" [ref=f29e223] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f29e224]
+          - listitem [ref=f29e225]:
+            - link "RSS" [ref=f29e226] [cursor=pointer]:
+              - /url: /In-Plaintext/rss.xml
+          - listitem [ref=f29e229]:
+            - link "Github" [ref=f29e230] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f29e233]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f29e234] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.
+  - generic [ref=f29e235]: Writing — Page 2

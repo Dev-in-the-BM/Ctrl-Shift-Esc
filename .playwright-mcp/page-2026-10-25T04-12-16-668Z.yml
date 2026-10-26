@@ -1,0 +1,164 @@
+- generic [ref=f8e1]:
+  - link "Skip to main content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f8e3]:
+    - navigation "Main" [ref=f8e4]:
+      - generic [ref=f8e7]:
+        - link "News" [ref=f8e8] [cursor=pointer]:
+          - /url: /news
+        - button [ref=f8e9] [cursor=pointer]
+        - button [ref=f8e13] [cursor=pointer]
+        - button [ref=f8e17] [cursor=pointer]
+      - link "Anthropic" [ref=f8e22] [cursor=pointer]:
+        - /url: /
+        - img "Anthropic" [ref=f8e24]
+      - generic [ref=f8e36]:
+        - generic [ref=f8e38]:
+          - generic [ref=f8e40]:
+            - button [ref=f8e43] [cursor=pointer]
+            - button [ref=f8e48] [cursor=pointer]
+          - search [ref=f8e53]:
+            - generic [ref=f8e54]:
+              - combobox "Search" [ref=f8e55]
+              - textbox [aria-hidden] [ref=f8e56]
+        - generic [ref=f8e57]:
+          - link "Search" [ref=f8e58] [cursor=pointer]:
+            - /url: /search
+          - button "Open menu" [ref=f8e62] [cursor=pointer]
+  - main [ref=f8e66]:
+    - article [ref=f8e67]:
+      - generic [ref=f8e73]:
+        - generic [ref=f8e77]:
+          - generic:
+            - heading "2026 Public Benefit Report" [level=2]
+            - generic:
+              - paragraph: Anthropic is a Public Benefit Corporation (PBC), a designation that requires us to balance the financial interests of shareholders with the benefit to the broader public. This report takes stock of what we are doing to serve the public benefit, and of the work ahead.
+            - link "Learn more":
+              - /url: /public-benefit-charter
+        - button "Pause animation" [ref=f8e78] [cursor=pointer]
+      - generic [ref=f8e87]:
+        - article [ref=f8e88]:
+          - generic [ref=f8e89]:
+            - button "Related to Introducing Claude Haiku 5.5" [ref=f8e91] [cursor=pointer]
+            - paragraph [ref=f8e96]:
+              - link "Announcements" [ref=f8e97] [cursor=pointer]:
+                - /url: /news/announcements
+            - time [ref=f8e98]: Oct 7, 2026
+          - generic [ref=f8e99]:
+            - heading [level=3] [ref=f8e100]:
+              - link "Introducing Claude Haiku 5.5" [ref=f8e101] [cursor=pointer]:
+                - /url: /claude-haiku-5-5
+            - paragraph [ref=f8e102]: Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.
+          - generic [ref=f8e103]:
+            - generic [ref=f8e104]:
+              - term [ref=f8e105]: Model Details
+              - definition [ref=f8e106]:
+                - link "Haiku" [ref=f8e107] [cursor=pointer]:
+                  - /url: /claude/haiku
+            - generic [ref=f8e112]:
+              - term [ref=f8e113]: System Card
+              - definition [ref=f8e114]:
+                - link "View" [ref=f8e115] [cursor=pointer]:
+                  - /url: /document/claude-haiku-5-5-system-card
+          - link [ref=f8e120] [cursor=pointer]:
+            - /url: /claude-haiku-5-5
+        - article [ref=f8e124]:
+          - generic [ref=f8e125]:
+            - button "Related to Introducing Claude Sonnet 5.5" [ref=f8e127] [cursor=pointer]
+            - paragraph [ref=f8e132]:
+              - link "Announcements" [ref=f8e133] [cursor=pointer]:
+                - /url: /news/announcements
+            - time [ref=f8e134]: Sep 28, 2026
+          - generic [ref=f8e135]:
+            - heading [level=3] [ref=f8e136]:
+              - link "Introducing Claude Sonnet 5.5" [ref=f8e137] [cursor=pointer]:
+                - /url: /claude-sonnet-5-5
+            - paragraph [ref=f8e138]: Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.
+          - generic [ref=f8e139]:
+            - generic [ref=f8e140]:
+              - term [ref=f8e141]: Model Details
+              - definition [ref=f8e142]:
+                - link "Sonnet" [ref=f8e143] [cursor=pointer]:
+                  - /url: /claude/sonnet
+            - generic [ref=f8e148]:
+              - term [ref=f8e149]: System Card
+              - definition [ref=f8e150]:
+                - link "View" [ref=f8e151] [cursor=pointer]:
+                  - /url: /document/claude-sonnet-5-5-system-card
+          - link [ref=f8e156] [cursor=pointer]:
+            - /url: /claude-sonnet-5-5
+        - article [ref=f8e160]:
+          - generic [ref=f8e161]:
+            - button "Related to Introducing Claude Opus 5.5" [ref=f8e163] [cursor=pointer]
+            - paragraph [ref=f8e168]:
+              - link "Announcements" [ref=f8e169] [cursor=pointer]:
+                - /url: /news/announcements
+            - time [ref=f8e170]: Sep 22, 2026
+          - generic [ref=f8e171]:
+            - heading [level=3] [ref=f8e172]:
+              - link "Introducing Claude Opus 5.5" [ref=f8e173] [cursor=pointer]:
+                - /url: /claude-opus-5-5
+            - paragraph [ref=f8e174]: Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.
+          - generic [ref=f8e175]:
+            - generic [ref=f8e176]:
+              - term [ref=f8e177]: Model Details
+              - definition [ref=f8e178]:
+                - link "Opus" [ref=f8e179] [cursor=pointer]:
+                  - /url: /claude/opus
+            - generic [ref=f8e184]:
+              - term [ref=f8e185]: System Card
+              - definition [ref=f8e186]:
+                - link "View" [ref=f8e187] [cursor=pointer]:
+                  - /url: /document/claude-opus-5-5-system-card
+          - link [ref=f8e192] [cursor=pointer]:
+            - /url: /claude-opus-5-5
+      - heading "Learn more" [level=2] [ref=f8e198]
+  - contentinfo [ref=f8e200]:
+    - generic [ref=f8e201]:
+      - link "Anthropic home" [ref=f8e203] [cursor=pointer]:
+        - /url: /
+        - img "Anthropic" [ref=f8e204]
+      - generic [ref=f8e215]:
+        - heading [level=3] [ref=f8e217]:
+          - button "Research" [ref=f8e218] [cursor=pointer]
+        - heading [level=3] [ref=f8e224]:
+          - button "Policy" [ref=f8e225] [cursor=pointer]
+        - heading [level=3] [ref=f8e231]:
+          - button "Commitments" [ref=f8e232] [cursor=pointer]
+        - heading [level=3] [ref=f8e238]:
+          - button "Company" [ref=f8e239] [cursor=pointer]
+        - heading [level=3] [ref=f8e245]:
+          - button "Products" [ref=f8e246] [cursor=pointer]
+        - heading [level=3] [ref=f8e252]:
+          - button "Models" [ref=f8e253] [cursor=pointer]
+        - heading [level=3] [ref=f8e259]:
+          - button "Solutions" [ref=f8e260] [cursor=pointer]
+        - heading [level=3] [ref=f8e266]:
+          - button "Help and security" [ref=f8e267] [cursor=pointer]
+        - heading [level=3] [ref=f8e273]:
+          - button "Terms and policies" [ref=f8e274] [cursor=pointer]
+      - generic [ref=f8e279]:
+        - generic [ref=f8e280]:
+          - heading "Our mission" [level=3] [ref=f8e281]
+          - paragraph [ref=f8e283]: AI research and products that put safety at the frontier. AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks.
+        - generic [ref=f8e284]:
+          - heading "Log in" [level=3] [ref=f8e285]
+          - list [ref=f8e287]:
+            - listitem [ref=f8e288]:
+              - link "Claude.ai" [ref=f8e289] [cursor=pointer]:
+                - /url: https://claude.ai/
+            - listitem [ref=f8e292]:
+              - link "Claude console" [ref=f8e293] [cursor=pointer]:
+                - /url: https://platform.claude.com/
+      - generic [ref=f8e297]:
+        - generic [ref=f8e298]: © 2026 Anthropic PBC
+        - list [ref=f8e299]:
+          - listitem [ref=f8e300]:
+            - link "Link to Anthropic's youtube account" [ref=f8e301] [cursor=pointer]:
+              - /url: https://www.youtube.com/@anthropic-ai
+          - listitem [ref=f8e304]:
+            - link "Link to Anthropic's x account" [ref=f8e305] [cursor=pointer]:
+              - /url: https://x.com/AnthropicAI
+          - listitem [ref=f8e308]:
+            - link "Link to Anthropic's linkedin account" [ref=f8e309] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/anthropicresearch

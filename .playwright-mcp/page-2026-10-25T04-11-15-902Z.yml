@@ -1,0 +1,25 @@
+- generic [ref=f6e2]:
+  - heading "404" [level=1] [ref=f6e3]
+  - paragraph [ref=f6e4]:
+    - strong [ref=f6e5]: File not found
+  - paragraph [ref=f6e6]: The site configured at this address does not contain the requested file.
+  - paragraph [ref=f6e7]:
+    - text: If this is your site, make sure that the filename case matches the URL as well as any file permissions. For root URLs (like
+    - code [ref=f6e8]: http://example.com/
+    - text: ) you must provide an
+    - code [ref=f6e9]: index.html
+    - text: file.
+  - paragraph [ref=f6e10]:
+    - link "Read the full documentation" [ref=f6e11] [cursor=pointer]:
+      - /url: https://help.github.com/pages/
+    - text: for more information about using
+    - strong [ref=f6e12]: GitHub Pages
+    - text: .
+  - generic [ref=f6e13]:
+    - link "GitHub Status" [ref=f6e14] [cursor=pointer]:
+      - /url: https://githubstatus.com
+    - text: —
+    - link "@githubstatus" [ref=f6e15] [cursor=pointer]:
+      - /url: https://twitter.com/githubstatus
+  - link [ref=f6e16] [cursor=pointer]:
+    - /url: /

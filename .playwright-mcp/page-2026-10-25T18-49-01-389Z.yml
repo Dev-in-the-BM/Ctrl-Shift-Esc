@@ -1,0 +1,18 @@
+- main [ref=f4e2]:
+  - 'heading "404: Not found" [level=1] [ref=f4e7]'
+  - paragraph [ref=f4e8]:
+    - text: Your site is configured with
+    - code [ref=f4e9]: trailingSlash
+    - text: set to
+    - code [ref=f4e10]: never
+    - text: . Do you want to go to
+    - link "/sunbeam-f1-pro" [ref=f4e11] [cursor=pointer]:
+      - /url: /sunbeam-f1-pro
+    - text: instead?
+  - paragraph [ref=f4e12]:
+    - text: See
+    - link [ref=f4e13] [cursor=pointer]:
+      - /url: https://docs.astro.build/en/reference/configuration-reference/#trailingslash
+      - text: the documentation for
+      - code [ref=f4e14]: trailingSlash
+    - text: if you need help.

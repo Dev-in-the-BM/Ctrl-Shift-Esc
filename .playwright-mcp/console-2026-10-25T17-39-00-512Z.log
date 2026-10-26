@@ -1,0 +1,23 @@
+[     335ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     516ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kpr-man.github.io&size=16:0
+[     667ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://opengraph.githubassets.com/00e7e853a4a9feb8dc77de8828ab37a34dbdf1523bf46c230c610cae99dcc55d/liriliri/aya:0
+[   49863ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[   49954ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://opengraph.githubassets.com/00e7e853a4a9feb8dc77de8828ab37a34dbdf1523bf46c230c610cae99dcc55d/liriliri/aya:0
+[   50012ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kpr-man.github.io&size=16:0
+[   50078ms] RangeError: Maximum call stack size exceeded
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:41:25)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+    at applyPalette2 (http://127.0.0.1:4321/src/components/PreviewAccent.astro?astro&type=script&index=0&lang.ts:42:5)
+[   53968ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[   54016ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kpr-man.github.io&size=16:0
+[   60080ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[   60239ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kpr-man.github.io&size=16:0
+[   80636ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[   90937ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0

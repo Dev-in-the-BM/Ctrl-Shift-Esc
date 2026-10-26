@@ -1,0 +1,25 @@
+[   -7349ms] [WARNING] XSLTProcessor and XSLT Processing Instructions have been deprecated by all browsers. These features will be removed from this browser soon. See https://chromestatus.com/feature/4709671889534976. @ https://discuss.flarum.org/d/36949-bb-code-cheat-sheet-for-flarum/4:28
+[   -7292ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:0
+[   -6929ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://sentry.io/api/1498784/envelope/?sentry_version=7&sentry_key=289edde6a2d64beaaecf06d22aac3b5a&sentry_client=sentry.javascript.browser%2F10.76.1:0
+[   -6910ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://sentry.io/api/1498784/envelope/?sentry_version=7&sentry_key=289edde6a2d64beaaecf06d22aac3b5a&sentry_client=sentry.javascript.browser%2F10.76.1:0
+[    -832ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://sentry.io/api/1498784/envelope/?sentry_version=7&sentry_key=289edde6a2d64beaaecf06d22aac3b5a&sentry_client=sentry.javascript.browser%2F10.76.1:0
+[    -832ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://sentry.io/api/1498784/envelope/?sentry_version=7&sentry_key=289edde6a2d64beaaecf06d22aac3b5a&sentry_client=sentry.javascript.browser%2F10.76.1:0
+[    -614ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://sentry.io/api/1498784/envelope/?sentry_version=7&sentry_key=289edde6a2d64beaaecf06d22aac3b5a&sentry_client=sentry.javascript.browser%2F10.76.1:0
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Could not find the language 'bbcode', did you forget to load/include a language module? @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682
+[   -6879ms] [LOG] WARN: Falling back to no-highlight mode for this block. JSHandle@node @ https://discuss.flarum.org/assets/forum.js?v=6a41cb8c:682

@@ -1,0 +1,1003 @@
+- generic [ref=f22e1]:
+  - link "Skip to main content" [ref=f22e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f22e6]:
+    - generic:
+      - generic: "I started learning python yesterday, critique my code: : r/learnpython"
+      - banner [ref=f22e10]:
+        - navigation [ref=f22e11]:
+          - link "Home" [ref=f22e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+          - search [ref=f22e33]:
+            - generic [ref=f22e35]:
+              - generic "Remove r/learnpython filter and expand search to all of Reddit" [ref=f22e41] [cursor=pointer]:
+                - button [pressed] [ref=f22e42]:
+                  - generic [aria-hidden] [ref=f22e46]: r/learnpython
+              - textbox "Remove r/learnpython filter and expand search to all of Reddit" [ref=f22e52]:
+                - /placeholder: Search in ⁨r/learnpython⁩
+          - generic [ref=f22e53]:
+            - link "Sign Up" [ref=f22e59] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+            - link "Log In" [ref=f22e65] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+            - button "Expand user menu" [ref=f22e72] [cursor=pointer]
+      - generic [ref=f22e78]:
+        - generic [ref=f22e79]:
+          - generic [ref=f22e80]:
+            - generic:
+              - generic:
+                - link "Skip to Sign up" [ref=f22e81] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "Skip to Right Sidebar" [ref=f22e82] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=f22e83]:
+            - main [ref=f22e84]:
+              - 'generic "I started learning python yesterday, critique my code: : r/learnpython"'
+              - generic [ref=f22e85]:
+                - generic [ref=f22e86]:
+                  - generic [ref=f22e87]:
+                    - button "Back" [ref=f22e89] [cursor=pointer]
+                    - link "Go to learnpython" [ref=f22e97] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/learnpython/
+                    - group [ref=f22e102]:
+                      - generic [ref=f22e103]:
+                        - link "r/learnpython" [ref=f22e107] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/learnpython/
+                        - generic [aria-hidden] [ref=f22e108]: •
+                        - time [ref=f22e110]: 2mo ago
+                      - 'link "Author: Itz_rainy365" [ref=f22e116] [cursor=pointer]':
+                        - /url: https://www.reddit.com/user/Itz_rainy365/
+                        - generic [ref=f22e117]: u/Itz_rainy365
+                  - button "Open user actions" [ref=f22e122] [cursor=pointer]
+                - 'heading "Post Title: I started learning python yesterday, critique my code:" [level=1] [ref=f22e129]': "I started learning python yesterday, critique my code:"
+                - generic [ref=f22e133]:
+                  - paragraph [ref=f22e134]:
+                    - text: I wrote this code in VsCode using functions after I completed the free trial in [boot.dev](
+                    - link "http://boot.dev" [ref=f22e135] [cursor=pointer]:
+                      - /url: http://boot.dev
+                    - text: "), if you notice anything I can improve or make better, please write it in the comments:"
+                  - paragraph [ref=f22e136]: "def main():"
+                  - paragraph [ref=f22e137]: print("This code is starting...")
+                  - paragraph [ref=f22e138]: "if __name__ == \"__main__\":"
+                  - paragraph [ref=f22e139]: main()
+                  - paragraph [ref=f22e140]: "def stats(title, weapon, mana, health):"
+                  - paragraph [ref=f22e141]: print("Character Stats:")
+                  - paragraph [ref=f22e142]: "print(f\"Title: {title}\")"
+                  - paragraph [ref=f22e143]: "print(f\"Weapon: {weapon}\")"
+                  - paragraph [ref=f22e144]: "print(f\"Mana: {mana}\")"
+                  - paragraph [ref=f22e145]: "print(f\"Health: {health}\")"
+                  - paragraph [ref=f22e146]: "def take_damage(health, damage):"
+                  - paragraph [ref=f22e147]: print("===================================")
+                  - paragraph [ref=f22e148]: "print(f\"Current Health: {health}\")"
+                  - paragraph [ref=f22e149]: updated_health = health - damage
+                  - paragraph [ref=f22e150]: "if updated_health < 0:"
+                  - paragraph [ref=f22e151]: updated_health = 0
+                  - paragraph [ref=f22e152]: "print(f\"You took {damage} damage, You Died!\")"
+                  - paragraph [ref=f22e153]: "else:"
+                  - paragraph [ref=f22e154]: "print(f\"You took {damage} damage!\")"
+                  - paragraph [ref=f22e155]: "print(f\"Updated Health: {updated_health}\")"
+                  - paragraph [ref=f22e156]: return updated_health
+                  - paragraph [ref=f22e157]: stats("Warrior", "Sword", 50, 100)
+                  - paragraph [ref=f22e158]: take_damage(100, 30)
+                  - paragraph [ref=f22e159]: take_damage(70, 80)
+                  - paragraph [ref=f22e160]: "def respawn(updated_health):"
+                  - paragraph [ref=f22e161]: print("===================================")
+                  - paragraph [ref=f22e162]: "if updated_health <= 0:"
+                  - paragraph [ref=f22e163]: print("Respawning...")
+                  - paragraph [ref=f22e164]: updated_health = 100
+                  - paragraph [ref=f22e165]: "print(f\"Health has been restored to {updated_health}.\")"
+                  - paragraph [ref=f22e166]: "else:"
+                  - paragraph [ref=f22e167]: "print(f\"You are still alive! You have {updated_health} health remaining.\")"
+                  - paragraph [ref=f22e168]: return updated_health
+                  - paragraph [ref=f22e169]: respawn(0)
+                  - paragraph [ref=f22e170]: take_damage(100, 41)
+                  - paragraph [ref=f22e171]: take_damage(59, 20)
+                  - paragraph [ref=f22e172]: take_damage(39, 20)
+                  - paragraph [ref=f22e173]: respawn(19)
+                - generic "Actions available for this post" [ref=f22e175]:
+                  - generic [ref=f22e178]:
+                    - button "Upvote" [ref=f22e179] [cursor=pointer]
+                    - generic [ref=f22e184]: "0"
+                    - button "Downvote" [ref=f22e186] [cursor=pointer]
+                  - button "15 Go to comments" [ref=f22e191] [cursor=pointer]:
+                    - generic [ref=f22e192]: "15"
+                    - generic [ref=f22e198]: Go to comments
+                  - button "Share" [ref=f22e202] [cursor=pointer]
+              - generic [ref=f22e210]:
+                - generic:
+                  - generic [ref=f22e211]:
+                    - button "Button to add a comment" [disabled]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - textbox [disabled]:
+                                  - /placeholder: Join the conversation
+                  - generic [ref=f22e216]:
+                    - generic [ref=f22e218]:
+                      - generic [aria-hidden] [ref=f22e219]: "Sort by:"
+                      - button "Sort by Best" [ref=f22e224] [cursor=pointer]
+                    - button "Search Comments Expand comment search" [ref=f22e231] [cursor=pointer]:
+                      - generic [ref=f22e232]: Search Comments
+                      - generic [ref=f22e239]: Expand comment search
+              - region "Comments" [ref=f22e242]:
+                - heading "Comments Section" [level=1] [ref=f22e243]
+                - article "Comment from Diapolo10 2 months ago" [ref=f22e245]:
+                  - generic [ref=f22e246] [cursor=pointer]:
+                    - link "Diapolo10's profile --- avatar" [ref=f22e252]:
+                      - /url: https://www.reddit.com/user/Diapolo10/
+                    - generic [ref=f22e261]:
+                      - generic [ref=f22e262]:
+                        - link "Diapolo10's profile" [ref=f22e266]:
+                          - /url: https://www.reddit.com/user/Diapolo10/
+                          - generic [ref=f22e267]: Diapolo10
+                        - generic [aria-hidden] [ref=f22e269]: •
+                        - link [ref=f22e271]:
+                          - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7u3sag/
+                          - time [ref=f22e273]: 2mo ago
+                      - generic [ref=f22e276]:
+                        - img "Profile Badge for the Achievement Top 1% Commenter" [ref=f22e277]
+                        - text: Top 1% Commenter
+                  - generic [ref=f22e279]:
+                    - generic [ref=f22e282]:
+                      - paragraph [ref=f22e283]: This isn't formatted correctly for Reddit, so I'll have to make some assumptions. Let me know if the indentation doesn't match yours.
+                      - generic [ref=f22e284]: "def main(): print(\"This code is starting...\") if __name__ == \"__main__\": main() def stats(title, weapon, mana, health): print(\"Character Stats:\") print(f\"Title: {title}\") print(f\"Weapon: {weapon}\") print(f\"Mana: {mana}\") print(f\"Health: {health}\") def take_damage(health, damage): print(\"===================================\") print(f\"Current Health: {health}\") updated_health = health - damage if updated_health < 0: updated_health = 0 print(f\"You took {damage} damage, You Died!\") else: print(f\"You took {damage} damage!\") print(f\"Updated Health: {updated_health}\") return updated_health stats(\"Warrior\", \"Sword\", 50, 100) take_damage(100, 30) take_damage(70, 80) def respawn(updated_health): print(\"===================================\") if updated_health <= 0: print(\"Respawning...\") updated_health = 100 print(f\"Health has been restored to {updated_health}.\") else: print(f\"You are still alive! You have {updated_health} health remaining.\") return updated_health respawn(0) take_damage(100, 41) take_damage(59, 20) take_damage(39, 20) respawn(19)"
+                      - paragraph [ref=f22e285]:
+                        - text: I'm still not sure this is correct, because somehow I get the feeling you've indented
+                        - emphasis [ref=f22e286]: everything
+                        - text: inside the
+                        - code [ref=f22e287]: if __name__ == '__main__'
+                        - text: block, but surely that can't be the case, right?
+                      - paragraph [ref=f22e288]: There's not much for me to say, this program doesn't really seem to do much.
+                    - generic [ref=f22e291]:
+                      - 'article "Comment thread level 1: Reply from Itz_rainy365 2 months ago" [ref=f22e293]':
+                        - generic [ref=f22e294] [cursor=pointer]:
+                          - link "Itz_rainy365's profile --- avatar" [ref=f22e300]:
+                            - /url: https://www.reddit.com/user/Itz_rainy365/
+                            - img "u/Itz_rainy365 avatar" [ref=f22e303]
+                          - generic [ref=f22e307]:
+                            - link "Itz_rainy365's profile" [ref=f22e311]:
+                              - /url: https://www.reddit.com/user/Itz_rainy365/
+                              - generic [ref=f22e312]: Itz_rainy365
+                            - generic "Comment distinguished as the original poster" [ref=f22e316]: OP
+                            - generic [aria-hidden] [ref=f22e317]: •
+                            - link [ref=f22e319]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7z1pj9/
+                              - time [ref=f22e321]: 2mo ago
+                        - generic [ref=f22e323]:
+                          - paragraph [ref=f22e327]:
+                            - text: This might seem surprising, but I don't know 😅, I wrote this code to practice using functions and if statements, matter fact I don't even know what you mean by " you've indented
+                            - emphasis [ref=f22e328]: everything
+                            - text: inside the
+                            - code [ref=f22e329]: if __name__ == '__main__'
+                            - text: block, but surely that can't be the case, right?"😅
+                          - 'article "Comment thread level 2: Reply from Diapolo10 2 months ago" [ref=f22e334]':
+                            - generic [ref=f22e335] [cursor=pointer]:
+                              - link "Diapolo10's profile --- avatar" [ref=f22e341]:
+                                - /url: https://www.reddit.com/user/Diapolo10/
+                              - generic [ref=f22e350]:
+                                - generic [ref=f22e351]:
+                                  - link "Diapolo10's profile" [ref=f22e355]:
+                                    - /url: https://www.reddit.com/user/Diapolo10/
+                                    - generic [ref=f22e356]: Diapolo10
+                                  - generic [aria-hidden] [ref=f22e358]: •
+                                  - link [ref=f22e360]:
+                                    - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7zcp8y/
+                                    - time [ref=f22e362]: 2mo ago
+                                - generic [ref=f22e365]:
+                                  - img "Profile Badge for the Achievement Top 1% Commenter" [ref=f22e366]
+                                  - text: Top 1% Commenter
+                            - generic [ref=f22e371]:
+                              - paragraph [ref=f22e372]: Okay, so basically I was looking at this part
+                              - blockquote [ref=f22e373]:
+                                - generic [ref=f22e374]: "def main(): print(\"This code is starting...\") if __name__ == \"__main__\": main()"
+                              - paragraph [ref=f22e375]: and thought to myself, "why on Earth would that be the only thing this program puts in an import guard?", when there's a lot of code after this that would always run.
+                              - paragraph [ref=f22e376]:
+                                - text: The "
+                                - code [ref=f22e377]: if __name__ == "__main__"
+                                - text: "\" part is meant to be used to make sure certain parts of the file won't execute when you import the file, but that still get run if you run the file directly (e.g."
+                                - code [ref=f22e378]: python this_script.pt
+                                - text: ), so while fixing your formatting I kept thinking if all the other stuff was
+                                - emphasis [ref=f22e379]: also
+                                - text: meant to be inside this block, because generally anything that isn't either a function, a class, or a global constant would go there. But the thing is that the rest of the file is a mix of functions and parts where you call those functions, so I kept doubting myself.
+                              - paragraph [ref=f22e380]: On that note, the fact that your main function only prints one line of text was also really weird.
+                      - 'article "Comment thread level 1: Reply from Expensive-Bear-1376 2 months ago" [ref=f22e384]':
+                        - generic [ref=f22e385] [cursor=pointer]:
+                          - link "Expensive-Bear-1376's profile --- avatar" [ref=f22e391]:
+                            - /url: https://www.reddit.com/user/Expensive-Bear-1376/
+                            - img "u/Expensive-Bear-1376 avatar" [ref=f22e394]
+                          - generic [ref=f22e398]:
+                            - link "Expensive-Bear-1376's profile" [ref=f22e402]:
+                              - /url: https://www.reddit.com/user/Expensive-Bear-1376/
+                              - generic [ref=f22e403]: Expensive-Bear-1376
+                            - generic [aria-hidden] [ref=f22e405]: •
+                            - link [ref=f22e407]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p80gaet/
+                              - time [ref=f22e409]: 2mo ago
+                        - generic [ref=f22e414]:
+                          - blockquote [ref=f22e415]:
+                            - paragraph [ref=f22e416]: I'll have to make some assumptions
+                          - paragraph [ref=f22e417]: No you don't, you could just tell them (how) to format their code and then wait for that.
+                - article "Comment from AmanBabuHemant 2 months ago" [ref=f22e421]:
+                  - generic [ref=f22e422] [cursor=pointer]:
+                    - link "AmanBabuHemant's profile --- avatar" [ref=f22e428]:
+                      - /url: https://www.reddit.com/user/AmanBabuHemant/
+                      - img "u/AmanBabuHemant avatar" [ref=f22e431]
+                    - generic [ref=f22e435]:
+                      - link "AmanBabuHemant's profile" [ref=f22e439]:
+                        - /url: https://www.reddit.com/user/AmanBabuHemant/
+                        - generic [ref=f22e440]: AmanBabuHemant
+                      - generic [aria-hidden] [ref=f22e442]: •
+                      - link [ref=f22e444]:
+                        - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7u4cif/
+                        - time [ref=f22e446]: 2mo ago
+                  - paragraph [ref=f22e452]:
+                    - code [ref=f22e453]: main
+                    - text: function suppose to do "main" thing...
+                - article "Comment from TurtleFetus 2 months ago" [ref=f22e457]:
+                  - generic [ref=f22e458] [cursor=pointer]:
+                    - link "TurtleFetus's profile --- avatar" [ref=f22e464]:
+                      - /url: https://www.reddit.com/user/TurtleFetus/
+                      - img "u/TurtleFetus avatar" [ref=f22e467]
+                    - generic [ref=f22e471]:
+                      - link "TurtleFetus's profile" [ref=f22e475]:
+                        - /url: https://www.reddit.com/user/TurtleFetus/
+                        - generic [ref=f22e476]: TurtleFetus
+                      - generic [aria-hidden] [ref=f22e478]: •
+                      - link [ref=f22e480]:
+                        - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7ugxuj/
+                        - time [ref=f22e482]: 2mo ago
+                  - generic [ref=f22e484]:
+                    - paragraph [ref=f22e488]: It would be easier to provide meaningful feedback if you told us what your code is intended to do. It appears to simulate messages one might see while playing a video game?
+                    - 'article "Comment thread level 1: Reply from Theykilledmyunicorn 2 months ago" [ref=f22e493]':
+                      - generic [ref=f22e494] [cursor=pointer]:
+                        - link "Theykilledmyunicorn's profile --- avatar" [ref=f22e500]:
+                          - /url: https://www.reddit.com/user/Theykilledmyunicorn/
+                          - img "u/Theykilledmyunicorn avatar" [ref=f22e503]
+                        - generic [ref=f22e507]:
+                          - link "Theykilledmyunicorn's profile" [ref=f22e511]:
+                            - /url: https://www.reddit.com/user/Theykilledmyunicorn/
+                            - generic [ref=f22e512]: Theykilledmyunicorn
+                          - generic [aria-hidden] [ref=f22e514]: •
+                          - link [ref=f22e516]:
+                            - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7ukyvk/
+                            - time [ref=f22e518]: 2mo ago
+                      - paragraph [ref=f22e524]: I'm guessing it's the start of a tutorial for making a simple python rpg game of some sort. Probably going to introduce characters and enemies through through a person class I would guess?
+                - article "Comment from horizon_games 2 months ago" [ref=f22e528]:
+                  - generic [ref=f22e529] [cursor=pointer]:
+                    - link "horizon_games's profile --- avatar" [ref=f22e535]:
+                      - /url: https://www.reddit.com/user/horizon_games/
+                      - img "u/horizon_games avatar" [ref=f22e538]
+                    - generic [ref=f22e542]:
+                      - link "horizon_games's profile" [ref=f22e546]:
+                        - /url: https://www.reddit.com/user/horizon_games/
+                        - generic [ref=f22e547]: horizon_games
+                      - generic [aria-hidden] [ref=f22e549]: •
+                      - link [ref=f22e551]:
+                        - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7uyrlq/
+                        - time [ref=f22e553]: 2mo ago
+                  - paragraph [ref=f22e559]: Just keep learning, keep your enthusiasm and excitement, and don't check on Reddit about how you're doing. You wanna make a game then make a game and have fun. You don't need internet strangers to validate anything.
+                - article "Comment from ekchew 2 months ago" [ref=f22e563]:
+                  - generic [ref=f22e564] [cursor=pointer]:
+                    - link "ekchew's profile --- avatar" [ref=f22e570]:
+                      - /url: https://www.reddit.com/user/ekchew/
+                    - generic [ref=f22e580]:
+                      - link "ekchew's profile" [ref=f22e584]:
+                        - /url: https://www.reddit.com/user/ekchew/
+                        - generic [ref=f22e585]: ekchew
+                      - generic [aria-hidden] [ref=f22e587]: •
+                      - link [ref=f22e589]:
+                        - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7v2v6w/
+                        - time [ref=f22e591]: 2mo ago
+                  - generic [ref=f22e596]:
+                    - paragraph [ref=f22e597]:
+                      - text: The
+                      - code [ref=f22e598]: take_damage
+                      - text: function calculates an updated health value and returns it, but you are not doing anything with that return value. It would probably make sense to have a variable
+                      - code [ref=f22e599]: health
+                      - text: you update whenever you call the function.
+                    - generic [ref=f22e600]: "health = 100 # health starts at 100 health = take_damage(health, 30) # health should now drop to 70 health = take_damage(health, 20) # health should now drop to 50"
+                - article "Comment from -moron 2 months ago" [ref=f22e604]:
+                  - generic [ref=f22e605] [cursor=pointer]:
+                    - link "-moron's profile --- avatar" [ref=f22e611]:
+                      - /url: https://www.reddit.com/user/-moron/
+                      - img "u/-moron avatar" [ref=f22e614]
+                    - generic [ref=f22e618]:
+                      - link "-moron's profile" [ref=f22e622]:
+                        - /url: https://www.reddit.com/user/-moron/
+                        - generic [ref=f22e623]: "-moron"
+                      - generic [aria-hidden] [ref=f22e625]: •
+                      - link [ref=f22e627]:
+                        - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7um51b/
+                        - time [ref=f22e629]: 2mo ago
+                  - generic [ref=f22e631]:
+                    - generic [ref=f22e634]:
+                      - paragraph [ref=f22e635]: "This would be a good opportunity to learn about classes. Here is how I would do it:"
+                      - generic [ref=f22e636]: "from typing import Final SEPARATOR: Final[str] = \"=\" * 35 class Character: def __init__(self, title: str, weapon: str, max_health: int, max_mana: int) -> None: self.title = title self.weapon = weapon self.max_health = max_health self.max_mana = max_mana self.health = max_health self.mana = max_mana def print_stats(self) -> None: print(\"Character Stats:\") print(f\"Title: {self.title}\") print(f\"Weapon: {self.weapon}\") print(f\"Health: {self.health}/{self.max_health}\") print(f\"Mana: {self.mana}/{self.max_mana}\") def apply_damage(self, damage: int) -> None: print(SEPARATOR) print(f\"Current health: {self.health}\") # Update health without letting it become negative self.health = max(0, self.health - damage) print(f\"You took {damage} damage!\") print(f\"Updated health: {self.health}\") # Handle death if self.health == 0: print(\"You died!\") def respawn(self) -> None: print(SEPARATOR) if self.health <= 0: print(\"Respawning...\") self.health = self.max_health print(f\"Health has been restored to {self.health}.\") else: print(f\"You are still alive! You have {self.health} health remaining.\") def main() -> None: print(\"This code is starting...\") player = Character(\"Warrior\", \"Sword\", 100, 50) player.print_stats() player.apply_damage(30) player.apply_damage(80) player.respawn() player.apply_damage(41) player.apply_damage(20) player.apply_damage(20) player.respawn() if __name__ == \"__main__\": main()"
+                      - paragraph [ref=f22e637]: Note that you don't need to use type hinting quite that much, but I find it helps prevent subtle errors. Also, there are still edge cases you could try to handle. E.g. what happens when a character is created with negative max health? Should that be allowed? What happens when a negative amount of damage is applied? Could the character's health exceed its max health if that happens?
+                    - 'article "Comment thread level 1: Reply from nog642 2 months ago" [ref=f22e642]':
+                      - generic [ref=f22e643] [cursor=pointer]:
+                        - link "nog642's profile --- avatar" [ref=f22e649]:
+                          - /url: https://www.reddit.com/user/nog642/
+                        - generic [ref=f22e659]:
+                          - link "nog642's profile" [ref=f22e663]:
+                            - /url: https://www.reddit.com/user/nog642/
+                            - generic [ref=f22e664]: nog642
+                          - generic [aria-hidden] [ref=f22e666]: •
+                          - link [ref=f22e668]:
+                            - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7un7gp/
+                            - time [ref=f22e670]: 2mo ago
+                      - generic [ref=f22e672]:
+                        - paragraph [ref=f22e676]: I don't think day 2 of programming is a good opportunity to learn about classes. Takes some time to get familiar with functions first.
+                        - 'article "Comment thread level 2: Reply from -moron 2 months ago" [ref=f22e681]':
+                          - generic [ref=f22e682] [cursor=pointer]:
+                            - link "-moron's profile --- avatar" [ref=f22e688]:
+                              - /url: https://www.reddit.com/user/-moron/
+                              - img "u/-moron avatar" [ref=f22e691]
+                            - generic [ref=f22e695]:
+                              - link "-moron's profile" [ref=f22e699]:
+                                - /url: https://www.reddit.com/user/-moron/
+                                - generic [ref=f22e700]: "-moron"
+                              - generic [aria-hidden] [ref=f22e702]: •
+                              - link [ref=f22e704]:
+                                - /url: https://www.reddit.com/r/learnpython/comments/1w7d7rs/comment/p7ur85u/
+                                - time [ref=f22e706]: 2mo ago
+                          - generic [ref=f22e708]:
+                            - paragraph [ref=f22e712]: I guess they could use a dictionary or dataclass and pass it into each function, but I don't see how that's any simpler given what they're trying to do. Python isn't C; it's pretty hard to avoid classes.
+                            - button "3 more replies" [ref=f22e719] [cursor=pointer]:
+                              - generic [ref=f22e724]:
+                                - generic [ref=f22e725]: "3"
+                                - text: more replies
+            - generic [ref=f22e726]:
+              - generic [ref=f22e727]:
+                - complementary "People also ask about section" [ref=f22e728]:
+                  - heading "People also ask about section" [level=1] [ref=f22e729]
+                  - generic [ref=f22e730]: People also ask about
+                  - generic [ref=f22e735]:
+                    - link "How to structure python functions" [ref=f22e737] [cursor=pointer]:
+                      - /url: https://www.reddit.com/answers/c3d75858-9e45-4c61-ae23-83d02b257b30/?q=How+to+structure+python+functions&source=PDP&ep=pdp_unit&relatedPostId=t3_1w7d7rs
+                    - link "Best practices for python code" [ref=f22e746] [cursor=pointer]:
+                      - /url: https://www.reddit.com/answers/9c7eace5-aa62-4c5a-bd03-1dc35c99fba7/?q=Best+practices+for+python+code&source=PDP&ep=pdp_unit&relatedPostId=t3_1w7d7rs
+                    - link "Common python code mistakes" [ref=f22e755] [cursor=pointer]:
+                      - /url: https://www.reddit.com/answers/5cf40a5b-5d49-4f0a-94cd-bf8447b15b8a/?q=Common+python+code+mistakes&source=PDP&ep=pdp_unit&relatedPostId=t3_1w7d7rs
+                    - link "Improving code readability" [ref=f22e764] [cursor=pointer]:
+                      - /url: https://www.reddit.com/answers/ba37431b-fd9b-4b87-914f-73991a45a953/?q=Improving+code+readability&source=PDP&ep=pdp_unit&relatedPostId=t3_1w7d7rs
+                    - link "Tips for efficient python coding" [ref=f22e773] [cursor=pointer]:
+                      - /url: https://www.reddit.com/answers/69b03f26-3182-48ea-91d0-0d0ef818189a/?q=Tips+for+efficient+python+coding&source=PDP&ep=pdp_unit&relatedPostId=t3_1w7d7rs
+                - generic [ref=f22e781]:
+                  - complementary "Related Posts Section" [ref=f22e782]:
+                    - heading "Related Posts Section" [level=1] [ref=f22e783]: More posts you may like
+                    - generic [ref=f22e784]: Related posts
+                    - list [ref=f22e790]:
+                      - listitem [ref=f22e791]:
+                        - generic [ref=f22e792]:
+                          - generic [ref=f22e793]:
+                            - link "Started python learning for a bit of fun and to keep the old brain going but am lost as to why my code is different to the solution code I am given" [ref=f22e794] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/PythonLearning/comments/1tpbni8/started_python_learning_for_a_bit_of_fun_and_to/
+                            - generic [ref=f22e796]:
+                              - generic [ref=f22e797]:
+                                - generic [ref=f22e800]:
+                                  - link "r/PythonLearning" [ref=f22e801] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/PythonLearning/
+                                  - generic [aria-hidden] [ref=f22e806]: •
+                                  - time [ref=f22e808]: 5mo ago
+                                - link [ref=f22e810] [cursor=pointer]:
+                                  - /url: /r/PythonLearning/comments/1tpbni8/started_python_learning_for_a_bit_of_fun_and_to/
+                                  - heading "List item post - Started python learning for a bit of fun and to keep the ol..." [level=3] [ref=f22e813]: Started python learning for a bit of fun and to keep the old brain going but am lost as to why my code is different to the solution code I am given
+                              - link "r/PythonLearning - Started python learning for a bit of fun and to keep the old brain going but am lost as to why my code is different to the solution code I am given" [ref=f22e816] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/PythonLearning/comments/1tpbni8/started_python_learning_for_a_bit_of_fun_and_to/
+                                - img "r/PythonLearning - Started python learning for a bit of fun and to keep the old brain going but am lost as to why my code is different to the solution code I am given" [ref=f22e817]
+                            - generic [ref=f22e819]:
+                              - generic [ref=f22e820]: "223"
+                              - text: upvotes ·
+                              - generic [ref=f22e821]: "39"
+                              - text: comments
+                          - separator [ref=f22e822]
+                      - listitem [ref=f22e823]:
+                        - generic [ref=f22e825]:
+                          - generic:
+                            - 'link "Advertisement: Coding model stuck in a single file? Muse Spark works across whole repos." [ref=f22e826] [cursor=pointer]':
+                              - /url: https://alb.reddit.com/cr?za=5M_NN6kUxMFuD7ukPjtZI5FbKI99eqAPWDst_bm6DSHSRJJjEhxkQG23cl7j9_JbiKLUqG__Q2TTL5xD1OE8wINMLv1AvRhD5zNpmQwfSToRNbMeCg_QudSVitu5LFDSxfWSlnDcWa9u7aPSKAQ585vexth-0Ksl_e55YT7Eqd9HbGz3fS3wN33YcjAR0Tdep2046fKUPrE_75r3TDJHMyBkET7Wp9FnuaXG6Yk75hX88MMncujJhLLTHSnd1zntVOXF0vNAX9eEVJdlC-T1VHTy6F4AoB2knPE262A3NGVq3y-LO7lgrqVb4wcMzp6ZprycU_XgyNthD4zA09vloFiYLsqbbhhWS-mxEPuh_DeCbqhb3ObZ3hvW07a55VBqvYM4oFl0CCvXn-d4HikCSg3H22CC6z1lE86JSp-nRTnlwpYZcFju-pNasK3GzdWTjqEKKDXVt7evdE1hBIzv5IWh6LbjUM_OjbqHO9NW1w9fLcmx-01oILXL5-i-VPo73GjDJawinlgnFIa4k-krdrlsVvd2ZplIeBIlIADtOx5Mi91RcO7WcnoyDUp59-CTXXTVhbhF-Lje1oMIPn1AqDxyToCTo_m8yVwaxz2p3MA3Y8x0CNV-5VXvg6ttUaNUZqplYGEqmm5KZiz1Xp2FlGfLJ2Jdn9jXyYwGL-lBxI1s7w8g3YIUUEoH1C8M1OajvgkXpEss4KScrcbOKQFLgA4HsKul_w&zp=jx9JdyKBcYb2zE6UFoNjllJZ6e0JG1MuEYlUcl-bHf1Ur0fB9kA2j5_TQgCPEYKs8Nwjo89XzmZxdrw1nU-PoMDwarX0ETCgJbDERovH-PqrClahw_VSNcJ9Bge2Ya5exkzfSJzq_YpBUl9tVH26bMu0wZEH2CMS5JvQwNHvEaL8UrBkSIUoInMBPNiQFpt9E2sKNuJlNxXIx04SH7d-juz6raAa0YNu9v33jjqq_R2br91fTB4Cs8tCK1ZWOLWxggDkPw__0UkFw4tPE-t_ci03PQoFNZSxBjMpSAlagqemQPqsErRh6qwP-zpxNMS-nopNZYPqmc474G-YOc0MLZi9cdcyO-gSImrspuF7FPZnmDwK5CH9lN6VtsR_FtevQV-b7ZI0tQgXbEP7e-lmb9z5cIQmSRNdd7dgiMQl9vty92jHLD16Wo81Aniii1kbiFSNJmAAjpQqMq7d0nPwdt_SBriskDtSiP49xE-LhWZrVJCXDZdSjfTHaOL26cJ98vhpiQzO6ZqXhSP87tsOho8Kyk4J-uBVUsXMrJKbmBc9EwnpIAnLpnr6Dc92m55Y2kK4nuROlplCxINQArHCwH3gpRo8mw2BQUV5ZtpAsObDyhpFAeJcn-b97SOrVVWoVtLQ8CCEeLkaxEJCyNty_7QW-n19Pg
+                            - generic [ref=f22e827]:
+                              - generic [ref=f22e828]:
+                                - generic [ref=f22e829]:
+                                  - generic [ref=f22e830]:
+                                    - generic [ref=f22e831]:
+                                      - link "u/MetaforDevelopers avatar MetaforDevelopers" [ref=f22e834] [cursor=pointer]:
+                                        - /url: /user/MetaforDevelopers/
+                                        - img "u/MetaforDevelopers avatar" [ref=f22e837]
+                                        - generic [ref=f22e838]: MetaforDevelopers
+                                      - generic [ref=f22e839]: •
+                                      - link "Ad" [ref=f22e841] [cursor=pointer]:
+                                        - /url: /user/MetaforDevelopers/
+                                      - link [ref=f22e843] [cursor=pointer]:
+                                        - /url: https://alb.reddit.com/cr?za=5M_NN6kUxMFuD7ukPjtZI5FbKI99eqAPWDst_bm6DSHSRJJjEhxkQG23cl7j9_JbiKLUqG__Q2TTL5xD1OE8wINMLv1AvRhD5zNpmQwfSToRNbMeCg_QudSVitu5LFDSxfWSlnDcWa9u7aPSKAQ585vexth-0Ksl_e55YT7Eqd9HbGz3fS3wN33YcjAR0Tdep2046fKUPrE_75r3TDJHMyBkET7Wp9FnuaXG6Yk75hX88MMncujJhLLTHSnd1zntVOXF0vNAX9eEVJdlC-T1VHTy6F4AoB2knPE262A3NGVq3y-LO7lgrqVb4wcMzp6ZprycU_XgyNthD4zA09vloFiYLsqbbhhWS-mxEPuh_DeCbqhb3ObZ3hvW07a55VBqvYM4oFl0CCvXn-d4HikCSg3H22CC6z1lE86JSp-nRTnlwpYZcFju-pNasK3GzdWTjqEKKDXVt7evdE1hBIzv5IWh6LbjUM_OjbqHO9NW1w9fLcmx-01oILXL5-i-VPo73GjDJawinlgnFIa4k-krdrlsVvd2ZplIeBIlIADtOx5Mi91RcO7WcnoyDUp59-CTXXTVhbhF-Lje1oMIPn1AqDxyToCTo_m8yVwaxz2p3MA3Y8x0CNV-5VXvg6ttUaNUZqplYGEqmm5KZiz1Xp2FlGfLJ2Jdn9jXyYwGL-lBxI1s7w8g3YIUUEoH1C8M1OajvgkXpEss4KScrcbOKQFLgA4HsKul_w&zp=jx9JdyKBcYb2zE6UFoNjllJZ6e0JG1MuEYlUcl-bHf1Ur0fB9kA2j5_TQgCPEYKs8Nwjo89XzmZxdrw1nU-PoMDwarX0ETCgJbDERovH-PqrClahw_VSNcJ9Bge2Ya5exkzfSJzq_YpBUl9tVH26bMu0wZEH2CMS5JvQwNHvEaL8UrBkSIUoInMBPNiQFpt9E2sKNuJlNxXIx04SH7d-juz6raAa0YNu9v33jjqq_R2br91fTB4Cs8tCK1ZWOLWxggDkPw__0UkFw4tPE-t_ci03PQoFNZSxBjMpSAlagqemQPqsErRh6qwP-zpxNMS-nopNZYPqmc474G-YOc0MLZi9cdcyO-gSImrspuF7FPZnmDwK5CH9lN6VtsR_FtevQV-b7ZI0tQgXbEP7e-lmb9z5cIQmSRNdd7dgiMQl9vty92jHLD16Wo81Aniii1kbiFSNJmAAjpQqMq7d0nPwdt_SBriskDtSiP49xE-LhWZrVJCXDZdSjfTHaOL26cJ98vhpiQzO6ZqXhSP87tsOho8Kyk4J-uBVUsXMrJKbmBc9EwnpIAnLpnr6Dc92m55Y2kK4nuROlplCxINQArHCwH3gpRo8mw2BQUV5ZtpAsObDyhpFAeJcn-b97SOrVVWoVtLQ8CCEeLkaxEJCyNty_7QW-n19Pg
+                                    - button "Open user actions" [ref=f22e849] [cursor=pointer]
+                                  - link "Coding model stuck in a single file? Muse Spark works across whole repos." [ref=f22e856] [cursor=pointer]:
+                                    - /url: https://alb.reddit.com/cr?za=5M_NN6kUxMFuD7ukPjtZI5FbKI99eqAPWDst_bm6DSHSRJJjEhxkQG23cl7j9_JbiKLUqG__Q2TTL5xD1OE8wINMLv1AvRhD5zNpmQwfSToRNbMeCg_QudSVitu5LFDSxfWSlnDcWa9u7aPSKAQ585vexth-0Ksl_e55YT7Eqd9HbGz3fS3wN33YcjAR0Tdep2046fKUPrE_75r3TDJHMyBkET7Wp9FnuaXG6Yk75hX88MMncujJhLLTHSnd1zntVOXF0vNAX9eEVJdlC-T1VHTy6F4AoB2knPE262A3NGVq3y-LO7lgrqVb4wcMzp6ZprycU_XgyNthD4zA09vloFiYLsqbbhhWS-mxEPuh_DeCbqhb3ObZ3hvW07a55VBqvYM4oFl0CCvXn-d4HikCSg3H22CC6z1lE86JSp-nRTnlwpYZcFju-pNasK3GzdWTjqEKKDXVt7evdE1hBIzv5IWh6LbjUM_OjbqHO9NW1w9fLcmx-01oILXL5-i-VPo73GjDJawinlgnFIa4k-krdrlsVvd2ZplIeBIlIADtOx5Mi91RcO7WcnoyDUp59-CTXXTVhbhF-Lje1oMIPn1AqDxyToCTo_m8yVwaxz2p3MA3Y8x0CNV-5VXvg6ttUaNUZqplYGEqmm5KZiz1Xp2FlGfLJ2Jdn9jXyYwGL-lBxI1s7w8g3YIUUEoH1C8M1OajvgkXpEss4KScrcbOKQFLgA4HsKul_w&zp=jx9JdyKBcYb2zE6UFoNjllJZ6e0JG1MuEYlUcl-bHf1Ur0fB9kA2j5_TQgCPEYKs8Nwjo89XzmZxdrw1nU-PoMDwarX0ETCgJbDERovH-PqrClahw_VSNcJ9Bge2Ya5exkzfSJzq_YpBUl9tVH26bMu0wZEH2CMS5JvQwNHvEaL8UrBkSIUoInMBPNiQFpt9E2sKNuJlNxXIx04SH7d-juz6raAa0YNu9v33jjqq_R2br91fTB4Cs8tCK1ZWOLWxggDkPw__0UkFw4tPE-t_ci03PQoFNZSxBjMpSAlagqemQPqsErRh6qwP-zpxNMS-nopNZYPqmc474G-YOc0MLZi9cdcyO-gSImrspuF7FPZnmDwK5CH9lN6VtsR_FtevQV-b7ZI0tQgXbEP7e-lmb9z5cIQmSRNdd7dgiMQl9vty92jHLD16Wo81Aniii1kbiFSNJmAAjpQqMq7d0nPwdt_SBriskDtSiP49xE-LhWZrVJCXDZdSjfTHaOL26cJ98vhpiQzO6ZqXhSP87tsOho8Kyk4J-uBVUsXMrJKbmBc9EwnpIAnLpnr6Dc92m55Y2kK4nuROlplCxINQArHCwH3gpRo8mw2BQUV5ZtpAsObDyhpFAeJcn-b97SOrVVWoVtLQ8CCEeLkaxEJCyNty_7QW-n19Pg
+                                    - generic "Coding model stuck in a single file? Muse Spark works across whole repos." [ref=f22e857]
+                                - link [ref=f22e860] [cursor=pointer]:
+                                  - /url: /user/MetaforDevelopers/comments/1x62h47/coding_model_stuck_in_a_single_file_muse_spark/?p=1&impressionid=5895891426536887904
+                                  - generic:
+                                    - 'img "Thumbnail image: Coding model stuck in a single file? Muse Spark works across whole repos." [ref=f22e861]'
+                                    - generic "Play video"
+                              - generic [ref=f22e862]:
+                                - link [ref=f22e863] [cursor=pointer]:
+                                  - /url: https://alb.reddit.com/cr?za=5M_NN6kUxMFuD7ukPjtZI5FbKI99eqAPWDst_bm6DSHSRJJjEhxkQG23cl7j9_JbiKLUqG__Q2TTL5xD1OE8wINMLv1AvRhD5zNpmQwfSToRNbMeCg_QudSVitu5LFDSxfWSlnDcWa9u7aPSKAQ585vexth-0Ksl_e55YT7Eqd9HbGz3fS3wN33YcjAR0Tdep2046fKUPrE_75r3TDJHMyBkET7Wp9FnuaXG6Yk75hX88MMncujJhLLTHSnd1zntVOXF0vNAX9eEVJdlC-T1VHTy6F4AoB2knPE262A3NGVq3y-LO7lgrqVb4wcMzp6ZprycU_XgyNthD4zA09vloFiYLsqbbhhWS-mxEPuh_DeCbqhb3ObZ3hvW07a55VBqvYM4oFl0CCvXn-d4HikCSg3H22CC6z1lE86JSp-nRTnlwpYZcFju-pNasK3GzdWTjqEKKDXVt7evdE1hBIzv5IWh6LbjUM_OjbqHO9NW1w9fLcmx-01oILXL5-i-VPo73GjDJawinlgnFIa4k-krdrlsVvd2ZplIeBIlIADtOx5Mi91RcO7WcnoyDUp59-CTXXTVhbhF-Lje1oMIPn1AqDxyToCTo_m8yVwaxz2p3MA3Y8x0CNV-5VXvg6ttUaNUZqplYGEqmm5KZiz1Xp2FlGfLJ2Jdn9jXyYwGL-lBxI1s7w8g3YIUUEoH1C8M1OajvgkXpEss4KScrcbOKQFLgA4HsKul_w&zp=jx9JdyKBcYb2zE6UFoNjllJZ6e0JG1MuEYlUcl-bHf1Ur0fB9kA2j5_TQgCPEYKs8Nwjo89XzmZxdrw1nU-PoMDwarX0ETCgJbDERovH-PqrClahw_VSNcJ9Bge2Ya5exkzfSJzq_YpBUl9tVH26bMu0wZEH2CMS5JvQwNHvEaL8UrBkSIUoInMBPNiQFpt9E2sKNuJlNxXIx04SH7d-juz6raAa0YNu9v33jjqq_R2br91fTB4Cs8tCK1ZWOLWxggDkPw__0UkFw4tPE-t_ci03PQoFNZSxBjMpSAlagqemQPqsErRh6qwP-zpxNMS-nopNZYPqmc474G-YOc0MLZi9cdcyO-gSImrspuF7FPZnmDwK5CH9lN6VtsR_FtevQV-b7ZI0tQgXbEP7e-lmb9z5cIQmSRNdd7dgiMQl9vty92jHLD16Wo81Aniii1kbiFSNJmAAjpQqMq7d0nPwdt_SBriskDtSiP49xE-LhWZrVJCXDZdSjfTHaOL26cJ98vhpiQzO6ZqXhSP87tsOho8Kyk4J-uBVUsXMrJKbmBc9EwnpIAnLpnr6Dc92m55Y2kK4nuROlplCxINQArHCwH3gpRo8mw2BQUV5ZtpAsObDyhpFAeJcn-b97SOrVVWoVtLQ8CCEeLkaxEJCyNty_7QW-n19Pg
+                                - generic [ref=f22e864]:
+                                  - link "dev.meta.ai" [ref=f22e866] [cursor=pointer]:
+                                    - /url: https://alb.reddit.com/cr?za=5M_NN6kUxMFuD7ukPjtZI5FbKI99eqAPWDst_bm6DSHSRJJjEhxkQG23cl7j9_JbiKLUqG__Q2TTL5xD1OE8wINMLv1AvRhD5zNpmQwfSToRNbMeCg_QudSVitu5LFDSxfWSlnDcWa9u7aPSKAQ585vexth-0Ksl_e55YT7Eqd9HbGz3fS3wN33YcjAR0Tdep2046fKUPrE_75r3TDJHMyBkET7Wp9FnuaXG6Yk75hX88MMncujJhLLTHSnd1zntVOXF0vNAX9eEVJdlC-T1VHTy6F4AoB2knPE262A3NGVq3y-LO7lgrqVb4wcMzp6ZprycU_XgyNthD4zA09vloFiYLsqbbhhWS-mxEPuh_DeCbqhb3ObZ3hvW07a55VBqvYM4oFl0CCvXn-d4HikCSg3H22CC6z1lE86JSp-nRTnlwpYZcFju-pNasK3GzdWTjqEKKDXVt7evdE1hBIzv5IWh6LbjUM_OjbqHO9NW1w9fLcmx-01oILXL5-i-VPo73GjDJawinlgnFIa4k-krdrlsVvd2ZplIeBIlIADtOx5Mi91RcO7WcnoyDUp59-CTXXTVhbhF-Lje1oMIPn1AqDxyToCTo_m8yVwaxz2p3MA3Y8x0CNV-5VXvg6ttUaNUZqplYGEqmm5KZiz1Xp2FlGfLJ2Jdn9jXyYwGL-lBxI1s7w8g3YIUUEoH1C8M1OajvgkXpEss4KScrcbOKQFLgA4HsKul_w&zp=jx9JdyKBcYb2zE6UFoNjllJZ6e0JG1MuEYlUcl-bHf1Ur0fB9kA2j5_TQgCPEYKs8Nwjo89XzmZxdrw1nU-PoMDwarX0ETCgJbDERovH-PqrClahw_VSNcJ9Bge2Ya5exkzfSJzq_YpBUl9tVH26bMu0wZEH2CMS5JvQwNHvEaL8UrBkSIUoInMBPNiQFpt9E2sKNuJlNxXIx04SH7d-juz6raAa0YNu9v33jjqq_R2br91fTB4Cs8tCK1ZWOLWxggDkPw__0UkFw4tPE-t_ci03PQoFNZSxBjMpSAlagqemQPqsErRh6qwP-zpxNMS-nopNZYPqmc474G-YOc0MLZi9cdcyO-gSImrspuF7FPZnmDwK5CH9lN6VtsR_FtevQV-b7ZI0tQgXbEP7e-lmb9z5cIQmSRNdd7dgiMQl9vty92jHLD16Wo81Aniii1kbiFSNJmAAjpQqMq7d0nPwdt_SBriskDtSiP49xE-LhWZrVJCXDZdSjfTHaOL26cJ98vhpiQzO6ZqXhSP87tsOho8Kyk4J-uBVUsXMrJKbmBc9EwnpIAnLpnr6Dc92m55Y2kK4nuROlplCxINQArHCwH3gpRo8mw2BQUV5ZtpAsObDyhpFAeJcn-b97SOrVVWoVtLQ8CCEeLkaxEJCyNty_7QW-n19Pg
+                                  - link "Learn More" [ref=f22e867] [cursor=pointer]:
+                                    - /url: https://alb.reddit.com/cr?za=5M_NN6kUxMFuD7ukPjtZI5FbKI99eqAPWDst_bm6DSHSRJJjEhxkQG23cl7j9_JbiKLUqG__Q2TTL5xD1OE8wINMLv1AvRhD5zNpmQwfSToRNbMeCg_QudSVitu5LFDSxfWSlnDcWa9u7aPSKAQ585vexth-0Ksl_e55YT7Eqd9HbGz3fS3wN33YcjAR0Tdep2046fKUPrE_75r3TDJHMyBkET7Wp9FnuaXG6Yk75hX88MMncujJhLLTHSnd1zntVOXF0vNAX9eEVJdlC-T1VHTy6F4AoB2knPE262A3NGVq3y-LO7lgrqVb4wcMzp6ZprycU_XgyNthD4zA09vloFiYLsqbbhhWS-mxEPuh_DeCbqhb3ObZ3hvW07a55VBqvYM4oFl0CCvXn-d4HikCSg3H22CC6z1lE86JSp-nRTnlwpYZcFju-pNasK3GzdWTjqEKKDXVt7evdE1hBIzv5IWh6LbjUM_OjbqHO9NW1w9fLcmx-01oILXL5-i-VPo73GjDJawinlgnFIa4k-krdrlsVvd2ZplIeBIlIADtOx5Mi91RcO7WcnoyDUp59-CTXXTVhbhF-Lje1oMIPn1AqDxyToCTo_m8yVwaxz2p3MA3Y8x0CNV-5VXvg6ttUaNUZqplYGEqmm5KZiz1Xp2FlGfLJ2Jdn9jXyYwGL-lBxI1s7w8g3YIUUEoH1C8M1OajvgkXpEss4KScrcbOKQFLgA4HsKul_w&zp=jx9JdyKBcYb2zE6UFoNjllJZ6e0JG1MuEYlUcl-bHf1Ur0fB9kA2j5_TQgCPEYKs8Nwjo89XzmZxdrw1nU-PoMDwarX0ETCgJbDERovH-PqrClahw_VSNcJ9Bge2Ya5exkzfSJzq_YpBUl9tVH26bMu0wZEH2CMS5JvQwNHvEaL8UrBkSIUoInMBPNiQFpt9E2sKNuJlNxXIx04SH7d-juz6raAa0YNu9v33jjqq_R2br91fTB4Cs8tCK1ZWOLWxggDkPw__0UkFw4tPE-t_ci03PQoFNZSxBjMpSAlagqemQPqsErRh6qwP-zpxNMS-nopNZYPqmc474G-YOc0MLZi9cdcyO-gSImrspuF7FPZnmDwK5CH9lN6VtsR_FtevQV-b7ZI0tQgXbEP7e-lmb9z5cIQmSRNdd7dgiMQl9vty92jHLD16Wo81Aniii1kbiFSNJmAAjpQqMq7d0nPwdt_SBriskDtSiP49xE-LhWZrVJCXDZdSjfTHaOL26cJ98vhpiQzO6ZqXhSP87tsOho8Kyk4J-uBVUsXMrJKbmBc9EwnpIAnLpnr6Dc92m55Y2kK4nuROlplCxINQArHCwH3gpRo8mw2BQUV5ZtpAsObDyhpFAeJcn-b97SOrVVWoVtLQ8CCEeLkaxEJCyNty_7QW-n19Pg
+                        - separator [ref=f22e870]
+                      - listitem [ref=f22e871]:
+                        - generic [ref=f22e872]:
+                          - generic [ref=f22e873]:
+                            - link "How to get better at writing good Python code (structure, readability, thinking like a dev)" [ref=f22e874] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1omtk0o/how_to_get_better_at_writing_good_python_code/
+                            - generic [ref=f22e877]:
+                              - generic [ref=f22e880]:
+                                - link "r/learnpython" [ref=f22e881] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e886]: •
+                                - time [ref=f22e888]: 1y ago
+                              - link [ref=f22e890] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1omtk0o/how_to_get_better_at_writing_good_python_code/
+                                - heading "List item post - How to get better at writing good Python code (structure, r..." [level=3] [ref=f22e893]: How to get better at writing good Python code (structure, readability, thinking like a dev)
+                            - generic [ref=f22e895]:
+                              - generic [ref=f22e896]: "62"
+                              - text: upvotes ·
+                              - generic [ref=f22e897]: "19"
+                              - text: comments
+                          - separator [ref=f22e898]
+                      - listitem [ref=f22e899]:
+                        - generic [ref=f22e900]:
+                          - generic [ref=f22e901]:
+                            - link "Is this python code cursed enough?" [ref=f22e902] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/programminghorror/comments/1voz37g/is_this_python_code_cursed_enough/
+                            - generic [ref=f22e904]:
+                              - generic [ref=f22e905]:
+                                - generic [ref=f22e908]:
+                                  - link "r/programminghorror" [ref=f22e909] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/programminghorror/
+                                  - generic [aria-hidden] [ref=f22e916]: •
+                                  - time [ref=f22e918]: 2mo ago
+                                - link [ref=f22e920] [cursor=pointer]:
+                                  - /url: /r/programminghorror/comments/1voz37g/is_this_python_code_cursed_enough/
+                                  - heading "List item post - Is this python code cursed enough?" [level=3] [ref=f22e923]: Is this python code cursed enough?
+                              - link "r/programminghorror - Is this python code cursed enough?" [ref=f22e926] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/programminghorror/comments/1voz37g/is_this_python_code_cursed_enough/
+                                - img "r/programminghorror - Is this python code cursed enough?" [ref=f22e927]
+                            - generic [ref=f22e929]:
+                              - generic [ref=f22e930]: "153"
+                              - text: upvotes ·
+                              - generic [ref=f22e931]: "24"
+                              - text: comments
+                          - separator [ref=f22e932]
+                      - listitem
+                      - listitem [ref=f22e933]:
+                        - generic [ref=f22e934]:
+                          - generic [ref=f22e935]:
+                            - link "Rate my python program" [ref=f22e936] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/PythonLearning/comments/1vulwpl/rate_my_python_program/
+                            - generic [ref=f22e938]:
+                              - generic [ref=f22e939]:
+                                - generic [ref=f22e942]:
+                                  - link "r/PythonLearning" [ref=f22e943] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/PythonLearning/
+                                  - generic [aria-hidden] [ref=f22e948]: •
+                                  - time [ref=f22e950]: 2mo ago
+                                - link [ref=f22e952] [cursor=pointer]:
+                                  - /url: /r/PythonLearning/comments/1vulwpl/rate_my_python_program/
+                                  - heading "List item post - Rate my python program" [level=3] [ref=f22e955]: Rate my python program
+                              - link "r/PythonLearning - Rate my python program" [ref=f22e958] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/PythonLearning/comments/1vulwpl/rate_my_python_program/
+                                - img "r/PythonLearning - Rate my python program" [ref=f22e959]
+                            - generic [ref=f22e961]:
+                              - generic [ref=f22e962]: "86"
+                              - text: upvotes ·
+                              - generic [ref=f22e963]: "42"
+                              - text: comments
+                          - separator [ref=f22e964]
+                      - listitem [ref=f22e965]:
+                        - generic [ref=f22e966]:
+                          - generic [ref=f22e967]:
+                            - link "<python code>" [ref=f22e968] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/PythonLearning/comments/1uzsboc/python_code/
+                            - generic [ref=f22e970]:
+                              - generic [ref=f22e971]:
+                                - generic [ref=f22e974]:
+                                  - link "r/PythonLearning" [ref=f22e975] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/PythonLearning/
+                                  - generic [aria-hidden] [ref=f22e980]: •
+                                  - time [ref=f22e982]: 3mo ago
+                                - link [ref=f22e984] [cursor=pointer]:
+                                  - /url: /r/PythonLearning/comments/1uzsboc/python_code/
+                                  - heading "List item post - <python code>" [level=3] [ref=f22e987]: <python code>
+                              - link "r/PythonLearning - <python code>" [ref=f22e990] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/PythonLearning/comments/1uzsboc/python_code/
+                                - img "r/PythonLearning - <python code>" [ref=f22e991]
+                            - generic [ref=f22e993]:
+                              - generic [ref=f22e994]: "45"
+                              - text: upvotes ·
+                              - generic [ref=f22e995]: "10"
+                              - text: comments
+                          - separator [ref=f22e996]
+                      - listitem [ref=f22e997]:
+                        - generic [ref=f22e998]:
+                          - generic [ref=f22e999]:
+                            - link "just started learning Python, any tips" [ref=f22e1000] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1wh4w0f/just_started_learning_python_any_tips/
+                            - generic [ref=f22e1003]:
+                              - generic [ref=f22e1006]:
+                                - link "r/learnpython" [ref=f22e1007] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1012]: •
+                                - time [ref=f22e1014]: 1mo ago
+                              - link [ref=f22e1016] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1wh4w0f/just_started_learning_python_any_tips/
+                                - heading "List item post - just started learning Python, any tips" [level=3] [ref=f22e1019]: just started learning Python, any tips
+                            - generic [ref=f22e1021]:
+                              - generic [ref=f22e1022]: "28"
+                              - text: upvotes ·
+                              - generic [ref=f22e1023]: "32"
+                              - text: comments
+                          - separator [ref=f22e1024]
+                      - listitem [ref=f22e1025]:
+                        - generic [ref=f22e1026]:
+                          - generic [ref=f22e1027]:
+                            - link "is learning python today worth it?" [ref=f22e1028] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/vibecoding/comments/1ur0cl9/is_learning_python_today_worth_it/
+                            - generic [ref=f22e1031]:
+                              - generic [ref=f22e1034]:
+                                - link "r/vibecoding" [ref=f22e1035] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/vibecoding/
+                                - generic [aria-hidden] [ref=f22e1040]: •
+                                - time [ref=f22e1042]: 4mo ago
+                              - link [ref=f22e1044] [cursor=pointer]:
+                                - /url: /r/vibecoding/comments/1ur0cl9/is_learning_python_today_worth_it/
+                                - heading "List item post - is learning python today worth it?" [level=3] [ref=f22e1047]: is learning python today worth it?
+                            - generic [ref=f22e1049]:
+                              - generic [ref=f22e1050]: "37"
+                              - text: upvotes ·
+                              - generic [ref=f22e1051]: "255"
+                              - text: comments
+                          - separator [ref=f22e1052]
+                      - listitem [ref=f22e1053]:
+                        - generic [ref=f22e1054]:
+                          - generic [ref=f22e1055]:
+                            - link "Thoughts on boot.dev?" [ref=f22e1056] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnprogramming/comments/1oqhpj7/thoughts_on_bootdev/
+                            - generic [ref=f22e1059]:
+                              - generic [ref=f22e1062]:
+                                - link "r/learnprogramming" [ref=f22e1063] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnprogramming/
+                                - generic [aria-hidden] [ref=f22e1070]: •
+                                - time [ref=f22e1072]: 1y ago
+                              - link [ref=f22e1074] [cursor=pointer]:
+                                - /url: /r/learnprogramming/comments/1oqhpj7/thoughts_on_bootdev/
+                                - heading "List item post - Thoughts on boot.dev?" [level=3] [ref=f22e1077]: Thoughts on boot.dev?
+                            - generic [ref=f22e1079]:
+                              - generic [ref=f22e1080]: "24"
+                              - text: upvotes ·
+                              - generic [ref=f22e1081]: "16"
+                              - text: comments
+                          - separator [ref=f22e1082]
+                      - listitem
+                      - listitem [ref=f22e1083]:
+                        - generic [ref=f22e1084]:
+                          - generic [ref=f22e1085]:
+                            - link "Day 2 of learning python" [ref=f22e1086] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/PythonLearning/comments/1v5fej6/day_2_of_learning_python/
+                            - generic [ref=f22e1088]:
+                              - generic [ref=f22e1089]:
+                                - generic [ref=f22e1092]:
+                                  - link "r/PythonLearning" [ref=f22e1093] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/PythonLearning/
+                                  - generic [aria-hidden] [ref=f22e1098]: •
+                                  - time [ref=f22e1100]: 3mo ago
+                                - link [ref=f22e1102] [cursor=pointer]:
+                                  - /url: /r/PythonLearning/comments/1v5fej6/day_2_of_learning_python/
+                                  - heading "List item post - Day 2 of learning python" [level=3] [ref=f22e1105]: Day 2 of learning python
+                              - link "r/PythonLearning - Day 2 of learning python" [ref=f22e1108] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/PythonLearning/comments/1v5fej6/day_2_of_learning_python/
+                                - img "r/PythonLearning - Day 2 of learning python" [ref=f22e1109]
+                            - generic [ref=f22e1111]:
+                              - generic [ref=f22e1112]: "125"
+                              - text: upvotes ·
+                              - generic [ref=f22e1113]: "49"
+                              - text: comments
+                          - separator [ref=f22e1114]
+                      - listitem [ref=f22e1115]:
+                        - generic [ref=f22e1116]:
+                          - generic [ref=f22e1117]:
+                            - link "I wrote my first ever Python program!" [ref=f22e1118] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/PythonLearning/comments/1vlc6f7/i_wrote_my_first_ever_python_program/
+                            - generic [ref=f22e1120]:
+                              - generic [ref=f22e1121]:
+                                - generic [ref=f22e1124]:
+                                  - link "r/PythonLearning" [ref=f22e1125] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/PythonLearning/
+                                  - generic [aria-hidden] [ref=f22e1130]: •
+                                  - time [ref=f22e1132]: 3mo ago
+                                - link [ref=f22e1134] [cursor=pointer]:
+                                  - /url: /r/PythonLearning/comments/1vlc6f7/i_wrote_my_first_ever_python_program/
+                                  - heading "List item post - I wrote my first ever Python program!" [level=3] [ref=f22e1137]: I wrote my first ever Python program!
+                              - link "r/PythonLearning - I wrote my first ever Python program!" [ref=f22e1140] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/PythonLearning/comments/1vlc6f7/i_wrote_my_first_ever_python_program/
+                                - img "r/PythonLearning - I wrote my first ever Python program!" [ref=f22e1141]
+                            - generic [ref=f22e1143]:
+                              - generic [ref=f22e1144]: "283"
+                              - text: upvotes ·
+                              - generic [ref=f22e1145]: "44"
+                              - text: comments
+                          - separator [ref=f22e1146]
+                      - listitem [ref=f22e1147]:
+                        - generic [ref=f22e1148]:
+                          - generic [ref=f22e1149]:
+                            - link "Boot.dev review?" [ref=f22e1150] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnprogramming/comments/1csbibe/bootdev_review/
+                            - generic [ref=f22e1153]:
+                              - generic [ref=f22e1156]:
+                                - link "r/learnprogramming" [ref=f22e1157] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnprogramming/
+                                - generic [aria-hidden] [ref=f22e1164]: •
+                                - time [ref=f22e1166]: 2y ago
+                              - link [ref=f22e1168] [cursor=pointer]:
+                                - /url: /r/learnprogramming/comments/1csbibe/bootdev_review/
+                                - heading "List item post - Boot.dev review?" [level=3] [ref=f22e1171]: Boot.dev review?
+                            - generic [ref=f22e1173]:
+                              - generic [ref=f22e1174]: "6"
+                              - text: upvotes ·
+                              - generic [ref=f22e1175]: "16"
+                              - text: comments
+                          - separator [ref=f22e1176]
+                      - listitem [ref=f22e1177]:
+                        - generic [ref=f22e1178]:
+                          - generic [ref=f22e1179]:
+                            - link "python learning begineer, and the question was to give a function like addition and subtraction between two numbers, so i have made this . u can give me ur suggestion and how can i improve." [ref=f22e1180] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1usr7af/python_learning_begineer_and_the_question_was_to/
+                            - generic [ref=f22e1183]:
+                              - generic [ref=f22e1186]:
+                                - link "r/learnpython" [ref=f22e1187] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1192]: •
+                                - time [ref=f22e1194]: 4mo ago
+                              - link [ref=f22e1196] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1usr7af/python_learning_begineer_and_the_question_was_to/
+                                - heading "List item post - python learning begineer, and the question was to give a fu..." [level=3] [ref=f22e1199]: python learning begineer, and the question was to give a function like addition and subtraction between two numbers, so i have made this . u can give me ur suggestion and how can i improve.
+                            - generic [ref=f22e1201]:
+                              - generic [ref=f22e1202]: "13"
+                              - text: comments
+                          - separator [ref=f22e1203]
+                      - listitem [ref=f22e1204]:
+                        - generic [ref=f22e1205]:
+                          - generic [ref=f22e1206]:
+                            - link "Started learning Python" [ref=f22e1207] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1wqejhu/started_learning_python/
+                            - generic [ref=f22e1210]:
+                              - generic [ref=f22e1213]:
+                                - link "r/learnpython" [ref=f22e1214] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1219]: •
+                                - time [ref=f22e1221]: 1mo ago
+                              - link [ref=f22e1223] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1wqejhu/started_learning_python/
+                                - heading "List item post - Started learning Python" [level=3] [ref=f22e1226]: Started learning Python
+                            - generic [ref=f22e1228]:
+                              - generic [ref=f22e1229]: "55"
+                              - text: upvotes ·
+                              - generic [ref=f22e1230]: "38"
+                              - text: comments
+                          - separator [ref=f22e1231]
+                      - listitem [ref=f22e1232]:
+                        - generic [ref=f22e1233]:
+                          - generic [ref=f22e1234]:
+                            - link "Python for the people who just don’t “get it”" [ref=f22e1235] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1sf8lo2/python_for_the_people_who_just_dont_get_it/
+                            - generic [ref=f22e1238]:
+                              - generic [ref=f22e1241]:
+                                - link "r/learnpython" [ref=f22e1242] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1247]: •
+                                - time [ref=f22e1249]: 7mo ago
+                              - link [ref=f22e1251] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1sf8lo2/python_for_the_people_who_just_dont_get_it/
+                                - heading "List item post - Python for the people who just don’t “get it”" [level=3] [ref=f22e1254]: Python for the people who just don’t “get it”
+                            - generic [ref=f22e1256]:
+                              - generic [ref=f22e1257]: "72"
+                              - text: upvotes ·
+                              - generic [ref=f22e1258]: "41"
+                              - text: comments
+                          - separator [ref=f22e1259]
+                      - listitem [ref=f22e1260]:
+                        - generic [ref=f22e1261]:
+                          - generic [ref=f22e1262]:
+                            - link "My 2 cents about Boot.dev" [ref=f22e1263] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnprogramming/comments/1l5mvbm/my_2_cents_about_bootdev/
+                            - generic [ref=f22e1266]:
+                              - generic [ref=f22e1269]:
+                                - link "r/learnprogramming" [ref=f22e1270] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnprogramming/
+                                - generic [aria-hidden] [ref=f22e1277]: •
+                                - time [ref=f22e1279]: 1y ago
+                              - link [ref=f22e1281] [cursor=pointer]:
+                                - /url: /r/learnprogramming/comments/1l5mvbm/my_2_cents_about_bootdev/
+                                - heading "List item post - My 2 cents about Boot.dev" [level=3] [ref=f22e1284]: My 2 cents about Boot.dev
+                            - generic [ref=f22e1286]:
+                              - generic [ref=f22e1287]: "55"
+                              - text: upvotes ·
+                              - generic [ref=f22e1288]: "19"
+                              - text: comments
+                          - separator [ref=f22e1289]
+                      - listitem [ref=f22e1290]:
+                        - generic [ref=f22e1291]:
+                          - generic [ref=f22e1292]:
+                            - link "I made this 1.5 hours into python" [ref=f22e1293] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1tfm72l/i_made_this_15_hours_into_python/
+                            - generic [ref=f22e1296]:
+                              - generic [ref=f22e1299]:
+                                - link "r/learnpython" [ref=f22e1300] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1305]: •
+                                - time [ref=f22e1307]: 5mo ago
+                              - link [ref=f22e1309] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1tfm72l/i_made_this_15_hours_into_python/
+                                - heading "List item post - I made this 1.5 hours into python" [level=3] [ref=f22e1312]: I made this 1.5 hours into python
+                            - generic [ref=f22e1314]:
+                              - generic [ref=f22e1315]: "139"
+                              - text: upvotes ·
+                              - generic [ref=f22e1316]: "116"
+                              - text: comments
+                          - separator [ref=f22e1317]
+                      - listitem [ref=f22e1318]:
+                        - generic [ref=f22e1319]:
+                          - generic [ref=f22e1320]:
+                            - link "Boot.dev | Learning Fall Off warning from a Paid Student" [ref=f22e1321] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnprogramming/comments/1lpd83d/bootdev_learning_fall_off_warning_from_a_paid/
+                            - generic [ref=f22e1324]:
+                              - generic [ref=f22e1327]:
+                                - link "r/learnprogramming" [ref=f22e1328] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnprogramming/
+                                - generic [aria-hidden] [ref=f22e1335]: •
+                                - time [ref=f22e1337]: 1y ago
+                              - link [ref=f22e1339] [cursor=pointer]:
+                                - /url: /r/learnprogramming/comments/1lpd83d/bootdev_learning_fall_off_warning_from_a_paid/
+                                - heading "List item post - Boot.dev | Learning Fall Off warning from a Paid Student" [level=3] [ref=f22e1342]: Boot.dev | Learning Fall Off warning from a Paid Student
+                            - generic [ref=f22e1344]:
+                              - generic [ref=f22e1345]: "70"
+                              - text: upvotes ·
+                              - generic [ref=f22e1346]: "51"
+                              - text: comments
+                          - separator [ref=f22e1347]
+                      - listitem [ref=f22e1348]:
+                        - generic [ref=f22e1349]:
+                          - generic [ref=f22e1350]:
+                            - link "Is there even a point to learning python anymore?" [ref=f22e1351] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1ss7tum/is_there_even_a_point_to_learning_python_anymore/
+                            - generic [ref=f22e1354]:
+                              - generic [ref=f22e1357]:
+                                - link "r/learnpython" [ref=f22e1358] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1363]: •
+                                - time [ref=f22e1365]: 6mo ago
+                              - link [ref=f22e1367] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1ss7tum/is_there_even_a_point_to_learning_python_anymore/
+                                - heading "List item post - Is there even a point to learning python anymore?" [level=3] [ref=f22e1370]: Is there even a point to learning python anymore?
+                            - generic [ref=f22e1372]:
+                              - generic [ref=f22e1373]: "68"
+                              - text: comments
+                          - separator [ref=f22e1374]
+                      - listitem [ref=f22e1375]:
+                        - generic [ref=f22e1376]:
+                          - generic [ref=f22e1377]:
+                            - link "Just starting to learn python" [ref=f22e1378] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1x5laul/just_starting_to_learn_python/
+                            - generic [ref=f22e1381]:
+                              - generic [ref=f22e1384]:
+                                - link "r/learnpython" [ref=f22e1385] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1390]: •
+                                - time [ref=f22e1392]: 12d ago
+                              - link [ref=f22e1394] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1x5laul/just_starting_to_learn_python/
+                                - heading "List item post - Just starting to learn python" [level=3] [ref=f22e1397]: Just starting to learn python
+                            - generic [ref=f22e1399]:
+                              - generic [ref=f22e1400]: "41"
+                              - text: upvotes ·
+                              - generic [ref=f22e1401]: "60"
+                              - text: comments
+                          - separator [ref=f22e1402]
+                      - listitem [ref=f22e1403]:
+                        - generic [ref=f22e1404]:
+                          - generic [ref=f22e1405]:
+                            - link "I’m taking a “learning programming in python” class in high school and im already lost." [ref=f22e1406] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1wxv40f/im_taking_a_learning_programming_in_python_class/
+                            - generic [ref=f22e1409]:
+                              - generic [ref=f22e1412]:
+                                - link "r/learnpython" [ref=f22e1413] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1418]: •
+                                - time [ref=f22e1420]: 21d ago
+                              - link [ref=f22e1422] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1wxv40f/im_taking_a_learning_programming_in_python_class/
+                                - heading "List item post - I’m taking a “learning programming in python” class in high..." [level=3] [ref=f22e1425]: I’m taking a “learning programming in python” class in high school and im already lost.
+                            - generic [ref=f22e1427]:
+                              - generic [ref=f22e1428]: "43"
+                              - text: upvotes ·
+                              - generic [ref=f22e1429]: "47"
+                              - text: comments
+                          - separator [ref=f22e1430]
+                      - listitem [ref=f22e1431]:
+                        - generic [ref=f22e1432]:
+                          - generic [ref=f22e1433]:
+                            - link "It's been 2 month since I started learning Python!" [ref=f22e1434] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1ssdbgj/its_been_2_month_since_i_started_learning_python/
+                            - generic [ref=f22e1437]:
+                              - generic [ref=f22e1440]:
+                                - link "r/learnpython" [ref=f22e1441] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1446]: •
+                                - time [ref=f22e1448]: 6mo ago
+                              - link [ref=f22e1450] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1ssdbgj/its_been_2_month_since_i_started_learning_python/
+                                - heading "List item post - It's been 2 month since I started learning Python!" [level=3] [ref=f22e1453]: It's been 2 month since I started learning Python!
+                            - generic [ref=f22e1455]:
+                              - generic [ref=f22e1456]: "46"
+                              - text: upvotes ·
+                              - generic [ref=f22e1457]: "15"
+                              - text: comments
+                          - separator [ref=f22e1458]
+                      - listitem [ref=f22e1459]:
+                        - generic [ref=f22e1460]:
+                          - generic [ref=f22e1461]:
+                            - link "Am I the only one here who didn't like Python?!" [ref=f22e1462] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnprogramming/comments/1usu5sk/am_i_the_only_one_here_who_didnt_like_python/
+                            - generic [ref=f22e1465]:
+                              - generic [ref=f22e1468]:
+                                - link "r/learnprogramming" [ref=f22e1469] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnprogramming/
+                                - generic [aria-hidden] [ref=f22e1476]: •
+                                - time [ref=f22e1478]: 4mo ago
+                              - link [ref=f22e1480] [cursor=pointer]:
+                                - /url: /r/learnprogramming/comments/1usu5sk/am_i_the_only_one_here_who_didnt_like_python/
+                                - heading "List item post - Am I the only one here who didn't like Python?!" [level=3] [ref=f22e1483]: Am I the only one here who didn't like Python?!
+                            - generic [ref=f22e1485]:
+                              - generic [ref=f22e1486]: "113"
+                              - text: upvotes ·
+                              - generic [ref=f22e1487]: "172"
+                              - text: comments
+                          - separator [ref=f22e1488]
+                      - listitem [ref=f22e1489]:
+                        - generic [ref=f22e1490]:
+                          - generic [ref=f22e1491]:
+                            - link "For any python professionals, can you tell if something has been coded with AI?" [ref=f22e1492] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/learnpython/comments/1w2ur2h/for_any_python_professionals_can_you_tell_if/
+                            - generic [ref=f22e1495]:
+                              - generic [ref=f22e1498]:
+                                - link "r/learnpython" [ref=f22e1499] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/learnpython/
+                                - generic [aria-hidden] [ref=f22e1504]: •
+                                - time [ref=f22e1506]: 2mo ago
+                              - link [ref=f22e1508] [cursor=pointer]:
+                                - /url: /r/learnpython/comments/1w2ur2h/for_any_python_professionals_can_you_tell_if/
+                                - heading "List item post - For any python professionals, can you tell if something has..." [level=3] [ref=f22e1511]: For any python professionals, can you tell if something has been coded with AI?
+                            - generic [ref=f22e1513]:
+                              - generic [ref=f22e1514]: "94"
+                              - text: upvotes ·
+                              - generic [ref=f22e1515]: "104"
+                              - text: comments
+                          - separator [ref=f22e1516]
+                      - listitem [ref=f22e1517]:
+                        - generic [ref=f22e1518]:
+                          - generic [ref=f22e1519]:
+                            - link "Learning python" [ref=f22e1520] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/PythonLearning/comments/1uoctbq/learning_python/
+                            - generic [ref=f22e1523]:
+                              - generic [ref=f22e1526]:
+                                - link "r/PythonLearning" [ref=f22e1527] [cursor=pointer]:
+                                  - /url: https://www.reddit.com/r/PythonLearning/
+                                - generic [aria-hidden] [ref=f22e1532]: •
+                                - time [ref=f22e1534]: 4mo ago
+                              - link [ref=f22e1536] [cursor=pointer]:
+                                - /url: /r/PythonLearning/comments/1uoctbq/learning_python/
+                                - heading "List item post - Learning python" [level=3] [ref=f22e1539]: Learning python
+                            - generic [ref=f22e1541]:
+                              - generic [ref=f22e1542]: "27"
+                              - text: upvotes ·
+                              - generic [ref=f22e1543]: "6"
+                              - text: comments
+                          - separator [ref=f22e1544]
+                      - listitem [ref=f22e1545]:
+                        - generic [ref=f22e1547]:
+                          - link "I joined Boot.dev" [ref=f22e1548] [cursor=pointer]:
+                            - /url: https://www.reddit.com/r/learnprogramming/comments/1p5k9f7/i_joined_bootdev/
+                          - generic [ref=f22e1551]:
+                            - generic [ref=f22e1554]:
+                              - link "r/learnprogramming" [ref=f22e1555] [cursor=pointer]:
+                                - /url: https://www.reddit.com/r/learnprogramming/
+                              - generic [aria-hidden] [ref=f22e1562]: •
+                              - time [ref=f22e1564]: 1y ago
+                            - link [ref=f22e1566] [cursor=pointer]:
+                              - /url: /r/learnprogramming/comments/1p5k9f7/i_joined_bootdev/
+                              - heading "List item post - I joined Boot.dev" [level=3] [ref=f22e1569]: I joined Boot.dev
+                          - generic [ref=f22e1571]:
+                            - generic [ref=f22e1572]: "43"
+                            - text: upvotes ·
+                            - generic [ref=f22e1573]: "14"
+                            - text: comments
+                  - complementary "Community information" [ref=f22e1574]:
+                    - generic [ref=f22e1576]:
+                      - heading "Community Info Section" [level=1] [ref=f22e1577]
+                      - generic [ref=f22e1578]:
+                        - link "r/learnpython" [ref=f22e1580] [cursor=pointer]:
+                          - /url: /r/learnpython/
+                        - button "Join" [ref=f22e1585] [cursor=pointer]
+                      - generic [ref=f22e1586]:
+                        - generic [ref=f22e1587]: Python Education
+                        - generic [ref=f22e1589]: Subreddit for posting questions and asking for general advice about all topics related to learning python.
+                        - generic: Public
+              - list [ref=f22e1596]:
+                - listitem [ref=f22e1597]:
+                  - link "Home" [ref=f22e1599] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=f22e1600]:
+                  - link "Popular" [ref=f22e1602] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=f22e1603]:
+                  - link "News" [ref=f22e1605] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=f22e1606]:
+                  - link "Explore" [ref=f22e1608] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=f22e1609]:
+                  - link "Best of Reddit" [ref=f22e1611] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=f22e1612]:
+                  - link "Best of Reddit in Portuguese" [ref=f22e1614] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=f22e1615]:
+                  - link "Best of Reddit in German" [ref=f22e1617] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=f22e1618]:
+                  - link "Reddit Rules" [ref=f22e1620] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=f22e1621]:
+                  - link "Privacy Policy" [ref=f22e1623] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=f22e1624]:
+                  - link "User Agreement" [ref=f22e1626] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=f22e1627]:
+                  - link "Your Privacy Choices" [ref=f22e1629] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=f22e1630]:
+                  - link "Accessibility" [ref=f22e1632] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=f22e1633]:
+                  - link "Reddit, Inc. © 2026. All rights reserved." [ref=f22e1634] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=f22e1637]:
+          - paragraph [ref=f22e1638]: Join the most real place on the internet
+          - generic [ref=f22e1640]:
+            - generic [ref=f22e1647] [cursor=pointer]:
+              - generic [ref=f22e1648]: Continue with Apple
+              - button "Sign in with Apple" [ref=f22e1654]:
+                - generic [ref=f22e1655]:
+                  - img:
+                    - generic:
+                      - img:
+                        - generic:  Sign in with Apple
+            - link "Continue with Phone Number" [ref=f22e1660] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+            - link "Continue with Email" [ref=f22e1669] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+          - paragraph [ref=f22e1676]:
+            - text: By continuing, you agree to our
+            - link "User Agreement" [ref=f22e1677] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: and acknowledge that you understand the
+            - link "Privacy Policy" [ref=f22e1678] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

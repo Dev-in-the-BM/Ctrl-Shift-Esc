@@ -1,0 +1,349 @@
+- main [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - heading "Preview to Content Transition" [level=1] [ref=f2e5]
+      - paragraph [ref=f2e6]: An experimental page transition concept for magazines and blogs where a preview item opens for a full page view.
+    - navigation [ref=f2e7]:
+      - link "Previous demo" [ref=f2e8] [cursor=pointer]:
+        - /url: https://tympanus.net/Development/LettersAnimationLayout/
+      - link "Article" [ref=f2e9] [cursor=pointer]:
+        - /url: https://tympanus.net/codrops/?p=54117
+      - link "GitHub" [ref=f2e10] [cursor=pointer]:
+        - /url: https://github.com/codrops/PreviewContentTransition/
+    - generic [ref=f2e302]:
+      - text: Our Sponsor
+      - link "With Readymag, nothing stands between your ideas and the final result →" [ref=f2e304] [cursor=pointer]:
+        - /url: https://tympanus.net/codrops/linkout/115897
+      - button "Close" [ref=f2e305] [cursor=pointer]
+  - generic [ref=f2e11]:
+    - article [ref=f2e12]:
+      - heading "H y p e r c r i t i c a l m a s s" [level=2] [ref=f2e16]:
+        - generic [ref=f2e18]:
+          - generic [ref=f2e19]: H
+          - generic [ref=f2e21]: "y"
+          - generic [ref=f2e23]: p
+          - generic [ref=f2e25]: e
+          - generic [ref=f2e27]: r
+          - generic [ref=f2e29]: c
+          - generic [ref=f2e31]: r
+          - generic [ref=f2e33]: i
+          - generic [ref=f2e35]: t
+          - generic [ref=f2e37]: i
+          - generic [ref=f2e39]: c
+          - generic [ref=f2e41]: a
+          - generic [ref=f2e43]: l
+        - generic [ref=f2e46]:
+          - generic [ref=f2e47]: m
+          - generic [ref=f2e49]: a
+          - generic [ref=f2e51]: s
+          - generic [ref=f2e53]: s
+      - generic [ref=f2e55]:
+        - generic [ref=f2e56]: By Caroline Balliste
+        - generic [ref=f2e58]: April — 2023
+      - generic [ref=f2e60]:
+        - paragraph [ref=f2e61]: Sometimes five Imprimaturs are seen together dialogue-wise in the piazza of one title-page, complimenting and ducking each to other with their shaven reverences, whether the author, who stands by in perplexity at the foot of his epistle, shall to the press or to the sponge.
+        - link "Read more" [ref=f2e62] [cursor=pointer]:
+          - /url: "#content-1"
+    - article [ref=f2e64]:
+      - heading "P r o s e l y t e t i m e s" [level=2] [ref=f2e68]:
+        - generic [ref=f2e70]:
+          - generic [ref=f2e71]: P
+          - generic [ref=f2e73]: r
+          - generic [ref=f2e75]: o
+          - generic [ref=f2e77]: s
+          - generic [ref=f2e79]: e
+          - generic [ref=f2e81]: l
+          - generic [ref=f2e83]: "y"
+          - generic [ref=f2e85]: t
+          - generic [ref=f2e87]: e
+        - generic [ref=f2e90]:
+          - generic [ref=f2e91]: t
+          - generic [ref=f2e93]: i
+          - generic [ref=f2e95]: m
+          - generic [ref=f2e97]: e
+          - generic [ref=f2e99]: s
+      - generic [ref=f2e101]:
+        - generic [ref=f2e102]: By Andrew Lewis
+        - generic [ref=f2e104]: March — 2023
+      - generic [ref=f2e106]:
+        - paragraph [ref=f2e107]: Seeing, therefore, that those books, and those in great abundance, which are likeliest to taint both life and doctrine, cannot be suppressed without the fall of learning and of all ability in disputation, and that these books of either sort are most and soonest catching to the learned.
+        - link "Read more" [ref=f2e108] [cursor=pointer]:
+          - /url: "#content-2"
+    - article [ref=f2e110]:
+      - heading "A r c a d i a s f u t u r e" [level=2] [ref=f2e114]:
+        - generic [ref=f2e116]:
+          - generic [ref=f2e117]: A
+          - generic [ref=f2e119]: r
+          - generic [ref=f2e121]: c
+          - generic [ref=f2e123]: a
+          - generic [ref=f2e125]: d
+          - generic [ref=f2e127]: i
+          - generic [ref=f2e129]: a
+          - generic [ref=f2e131]: s
+        - generic [ref=f2e134]:
+          - generic [ref=f2e135]: f
+          - generic [ref=f2e137]: u
+          - generic [ref=f2e139]: t
+          - generic [ref=f2e141]: u
+          - generic [ref=f2e143]: r
+          - generic [ref=f2e145]: e
+      - generic [ref=f2e147]:
+        - generic [ref=f2e148]: By Frank W. Marigold
+        - generic [ref=f2e150]: February — 2023
+      - generic [ref=f2e152]:
+        - paragraph [ref=f2e153]: Besides another inconvenience, if learned men be the first receivers out of books and dispreaders both of vice and error, how shall the licensers themselves be confided in, unless we can confer upon them, or they assume to themselves above all others in the land, the grace of infallibility and uncorruptedness?
+        - link "Read more" [ref=f2e154] [cursor=pointer]:
+          - /url: "#content-3"
+    - article [ref=f2e156]:
+      - heading "E p i s t l e t i c c r a v e" [level=2] [ref=f2e160]:
+        - generic [ref=f2e162]:
+          - generic [ref=f2e163]: E
+          - generic [ref=f2e165]: p
+          - generic [ref=f2e167]: i
+          - generic [ref=f2e169]: s
+          - generic [ref=f2e171]: t
+          - generic [ref=f2e173]: l
+          - generic [ref=f2e175]: e
+          - generic [ref=f2e177]: t
+          - generic [ref=f2e179]: i
+          - generic [ref=f2e181]: c
+        - generic [ref=f2e184]:
+          - generic [ref=f2e185]: c
+          - generic [ref=f2e187]: r
+          - generic [ref=f2e189]: a
+          - generic [ref=f2e191]: v
+          - generic [ref=f2e193]: e
+      - generic [ref=f2e196]:
+        - generic [ref=f2e197]: By Andrew Lewis
+        - generic [ref=f2e198]: January — 2023
+      - generic [ref=f2e200]:
+        - paragraph [ref=f2e201]: If every action, which is good or evil in man at ripe years, were to be under pittance and prescription and compulsion, what were virtue but a name, what praise could be then due to well-doing, what gramercy to be sober, just, or continent?
+        - link "Read more" [ref=f2e202] [cursor=pointer]:
+          - /url: "#content-4"
+    - article [ref=f2e204]:
+      - heading "T e m p e r a n c e p r i m e" [level=2] [ref=f2e208]:
+        - generic [ref=f2e210]:
+          - generic [ref=f2e211]: T
+          - generic [ref=f2e213]: e
+          - generic [ref=f2e215]: m
+          - generic [ref=f2e217]: p
+          - generic [ref=f2e219]: e
+          - generic [ref=f2e221]: r
+          - generic [ref=f2e223]: a
+          - generic [ref=f2e225]: "n"
+          - generic [ref=f2e227]: c
+          - generic [ref=f2e229]: e
+        - generic [ref=f2e232]:
+          - generic [ref=f2e233]: p
+          - generic [ref=f2e235]: r
+          - generic [ref=f2e237]: i
+          - generic [ref=f2e239]: m
+          - generic [ref=f2e241]: e
+      - generic [ref=f2e243]:
+        - generic [ref=f2e244]: By Sally Mullis
+        - generic [ref=f2e246]: December — 2022
+      - generic [ref=f2e248]:
+        - paragraph [ref=f2e249]: And albeit whatever thing we hear or see, sitting, walking, travelling, or conversing, may be fitly called our book, and is of the same effect that writings are, yet grant the thing to be prohibited were only books, it appears that this Order hitherto is far insufficient to the end which it intends.
+        - link "Read more" [ref=f2e250] [cursor=pointer]:
+          - /url: "#content-5"
+    - article [ref=f2e252]:
+      - heading "Q u a n t u m l e a p" [level=2] [ref=f2e256]:
+        - generic [ref=f2e258]:
+          - generic [ref=f2e259]: Q
+          - generic [ref=f2e261]: u
+          - generic [ref=f2e263]: a
+          - generic [ref=f2e265]: "n"
+          - generic [ref=f2e267]: t
+          - generic [ref=f2e269]: u
+          - generic [ref=f2e271]: m
+        - generic [ref=f2e274]:
+          - generic [ref=f2e275]: l
+          - generic [ref=f2e277]: e
+          - generic [ref=f2e279]: a
+          - generic [ref=f2e281]: p
+      - generic [ref=f2e283]:
+        - generic [ref=f2e284]: By Lorenzo Augusto
+        - generic [ref=f2e286]: January — 2023
+      - generic [ref=f2e288]:
+        - paragraph [ref=f2e289]: And how can a man teach with authority, which is the life of teaching; how can he be a doctor in his book as he ought to be, or else had better be silent, whenas all he teaches, all he delivers, is but under the tuition, under the correction of his patriarchal licenser to blot or alter what precisely accords not with the hidebound humour which he calls his judgment?
+        - link "Read more" [ref=f2e290] [cursor=pointer]:
+          - /url: "#content-6"
+  - generic:
+    - article:
+      - heading "H y p e r c r i t i c a l m a s s" [level=2]:
+        - generic:
+          - generic:
+            - generic: H
+            - generic: "y"
+            - generic: p
+            - generic: e
+            - generic: r
+            - generic: c
+            - generic: r
+            - generic: i
+            - generic: t
+            - generic: i
+            - generic: c
+            - generic: a
+            - generic: l
+        - generic:
+          - generic:
+            - generic: m
+            - generic: a
+            - generic: s
+            - generic: s
+      - generic:
+        - paragraph: Sometimes five Imprimaturs are seen together dialogue-wise in the piazza of one title-page, complimenting and ducking each to other with their shaven reverences, whether the author, who stands by in perplexity at the foot of his epistle, shall to the press or to the sponge.
+        - paragraph: These are the pretty responsories, these are the dear antiphonies, that so bewitched of late our prelates and their chaplains with the goodly echo they made; and besotted us to the gay imitation of a lordly Imprimatur, one from Lambeth House, another from the west end of Paul's; so apishly Romanizing, that the word of command still was set down in Latin; as if the learned grammatical pen that wrote it would cast no ink without Latin; or perhaps, as they thought, because no vulgar tongue was worthy to express the pure conceit of an Imprimatur, but rather, as I hope, for that our English, the language of men ever famous and foremost in the achievements of liberty, will not easily find servile letters enow to spell such a dictatory presumption English.
+        - img "Some image"
+        - paragraph: And thus ye have the inventors and the original of book-licensing ripped up and drawn as lineally as any pedigree. We have it not, that can be heard of, from any ancient state, or polity or church; nor by any statute left us by our ancestors elder or later; nor from the modern custom of any reformed city or church abroad, but from the most anti-christian council and the most tyrannous inquisition that ever inquired.
+        - paragraph: "Till then books were ever as freely admitted into the world as any other birth; the issue of the brain was no more stifled than the issue of the womb: no envious Juno sat cross-legged over the nativity of any man's intellectual offspring; but if it proved a monster, who denies, but that it was justly burnt, or sunk into the sea?"
+        - paragraph: But that a book, in worse condition than a peccant soul, should be to stand before a jury ere it be born to the world, and undergo yet in darkness the judgment of Radamanth and his colleagues, ere it can pass the ferry backward into light, was never heard before, till that mysterious iniquity, provoked and troubled at the first entrance of Reformation, sought out new limbos and new hells wherein they might include our books also within the number of their damned. And this was the rare morsel so officiously snatched up, and so ill-favouredly imitated by our inquisiturient bishops, and the attendant minorites their chaplains. That ye like not now these most certain authors of this licensing order, and that all sinister intention was far distant from your thoughts, when ye were importuned the passing it, all men who know the integrity of your actions, and how ye honour truth, will clear ye readily.
+    - article [active] [ref=f2e306]:
+      - heading "P r o s e l y t e t i m e s" [level=2] [ref=f2e307]:
+        - generic [ref=f2e309]:
+          - generic [ref=f2e310]: P
+          - generic [ref=f2e312]: r
+          - generic [ref=f2e314]: o
+          - generic [ref=f2e316]: s
+          - generic [ref=f2e318]: e
+          - generic [ref=f2e320]: l
+          - generic [ref=f2e322]: "y"
+          - generic [ref=f2e324]: t
+          - generic [ref=f2e326]: e
+        - generic [ref=f2e329]:
+          - generic [ref=f2e330]: t
+          - generic [ref=f2e332]: i
+          - generic [ref=f2e334]: m
+          - generic [ref=f2e336]: e
+          - generic [ref=f2e338]: s
+      - generic [ref=f2e340]:
+        - paragraph [ref=f2e341]: Sometimes five Imprimaturs are seen together dialogue-wise in the piazza of one title-page, complimenting and ducking each to other with their shaven reverences, whether the author, who stands by in perplexity at the foot of his epistle, shall to the press or to the sponge. These are the pretty responsories, these are the dear antiphonies, that so bewitched of late our prelates and their chaplains with the goodly echo they made; and besotted us to the gay imitation of a lordly Imprimatur, one from Lambeth House, another from the west end of Paul's.
+        - paragraph [ref=f2e342]: So apishly Romanizing, that the word of command still was set down in Latin; as if the learned grammatical pen that wrote it would cast no ink without Latin; or perhaps, as they thought, because no vulgar tongue was worthy to express the pure conceit of an Imprimatur, but rather, as I hope, for that our English, the language of men ever famous and foremost in the achievements of liberty, will not easily find servile letters enow to spell such a dictatory presumption English.
+        - img "Some image" [ref=f2e343]
+        - paragraph [ref=f2e344]: They are not skilful considerers of human things, who imagine to remove sin by removing the matter of sin; for, besides that it is a huge heap increasing under the very act of diminishing, though some part of it may for a time be withdrawn from some persons, it cannot from all, in such a universal thing as books are; and when this is done, yet the sin remains entire. Though ye take from a covetous man all his treasure, he has yet one jewel left, ye cannot bereave him of his covetousness.
+        - paragraph [ref=f2e345]: "Banish all objects of lust, shut up all youth into the severest discipline that can be exercised in any hermitage, ye cannot make them chaste, that came not hither so; such great care and wisdom is required to the right managing of this point. Suppose we could expel sin by this means; look how much we thus expel of sin, so much we expel of virtue: for the matter of them both is the same; remove that, and ye remove them both alike."
+    - article:
+      - heading "A r c a d i a s f u t u r e" [level=2]:
+        - generic:
+          - generic:
+            - generic: A
+            - generic: r
+            - generic: c
+            - generic: a
+            - generic: d
+            - generic: i
+            - generic: a
+            - generic: s
+        - generic:
+          - generic:
+            - generic: f
+            - generic: u
+            - generic: t
+            - generic: u
+            - generic: r
+            - generic: e
+      - generic:
+        - paragraph: Sometimes five Imprimaturs are seen together dialogue-wise in the piazza of one title-page, complimenting and ducking each to other with their shaven reverences, whether the author, who stands by in perplexity at the foot of his epistle, shall to the press or to the sponge. These are the pretty responsories, these are the dear antiphonies, that so bewitched of late our prelates and their chaplains with the goodly echo they made.
+        - paragraph: And besotted us to the gay imitation of a lordly Imprimatur, one from Lambeth House, another from the west end of Paul's; so apishly Romanizing, that the word of command still was set down in Latin; as if the learned grammatical pen that wrote it would cast no ink without Latin; or perhaps, as they thought, because no vulgar tongue was worthy to express the pure conceit of an Imprimatur, but rather, as I hope, for that our English, the language of men ever famous and foremost in the achievements of liberty, will not easily find servile letters enow to spell such a dictatory presumption English.
+        - img "Some image"
+        - paragraph: Nay, which is more lamentable, if the work of any deceased author, though never so famous in his lifetime and even to this day, come to their hands for licence to be printed, or reprinted, if there be found in his book one sentence of a venturous edge, uttered in the height of zeal (and who knows whether it might not be the dictate of a divine spirit?).
+        - paragraph: "Yet not suiting with every low decrepit humour of their own, though it were Knox himself, the reformer of a kingdom, that spake it, they will not pardon him their dash: the sense of that great man shall to all posterity be lost, for the fearfulness or the presumptuous rashness of a perfunctory licenser. And to what an author this violence hath been lately done, and in what book of greatest consequence to be faithfully published, I could now instance, but shall forbear till a more convenient season."
+    - article:
+      - heading "A n t i p h o n i e s t h o u g h t" [level=2]:
+        - generic:
+          - generic:
+            - generic: A
+            - generic: "n"
+            - generic: t
+            - generic: i
+            - generic: p
+            - generic: h
+            - generic: o
+            - generic: "n"
+            - generic: i
+            - generic: e
+            - generic: s
+        - generic:
+          - generic:
+            - generic: t
+            - generic: h
+            - generic: o
+            - generic: u
+            - generic: g
+            - generic: h
+            - generic: t
+      - generic:
+        - paragraph: Sometimes five Imprimaturs are seen together dialogue-wise in the piazza of one title-page, complimenting and ducking each to other with their shaven reverences, whether the author, who stands by in perplexity at the foot of his epistle, shall to the press or to the sponge. These are the pretty responsories, these are the dear antiphonies, that so bewitched of late our prelates and their chaplains with the goodly echo they made; and besotted us to the gay imitation of a lordly Imprimatur, one from Lambeth House, another from the west end of Paul's.
+        - paragraph: So apishly Romanizing, that the word of command still was set down in Latin; as if the learned grammatical pen that wrote it would cast no ink without Latin; or perhaps, as they thought, because no vulgar tongue was worthy to express the pure conceit of an Imprimatur, but rather, as I hope, for that our English, the language of men ever famous and foremost in the achievements of liberty, will not easily find servile letters enow to spell such a dictatory presumption English.
+        - img "Some image"
+        - paragraph: And it is a particular disesteem of every knowing person alive, and most injurious to the written labours and monuments of the dead, so to me it seems an undervaluing and vilifying of the whole nation. I cannot set so light by all the invention, the art, the wit, the grave and solid judgment which is in England, as that it can be comprehended in any twenty capacities how good soever, much less that it should not pass except their superintendence be over it, except it be sifted and strained with their strainers, that it should be uncurrent without their manual stamp.
+        - paragraph: Truth and understanding are not such wares as to be monopolized and traded in by tickets and statutes and standards. We must not think to make a staple commodity of all the knowledge in the land, to mark and licence it like our broadcloth and our woolpacks. What is it but a servitude like that imposed by the Philistines, not to be allowed the sharpening of our own axes and coulters, but we must repair from all quarters to twenty licensing forges?
+        - paragraph: Had anyone written and divulged erroneous things and scandalous to honest life, misusing and forfeiting the esteem had of his reason among men, if after conviction this only censure were adjudged him that he should never henceforth write but what were first examined by an appointed officer, whose hand should be annexed to pass his credit for him that now he might be safely read; it could not be apprehended less than a disgraceful punishment. Whence to include the whole nation, and those that never yet thus offended, under such a diffident and suspectful prohibition, may plainly be understood what a disparagement it is. So much the more, whenas debtors and delinquents may walk abroad without a keeper, but unoffensive books must not stir forth without a visible jailer in their title.
+    - article:
+      - heading "T e m p e r a n c e p r i m e" [level=2]:
+        - generic:
+          - generic:
+            - generic: T
+            - generic: e
+            - generic: m
+            - generic: p
+            - generic: e
+            - generic: r
+            - generic: a
+            - generic: "n"
+            - generic: c
+            - generic: e
+        - generic:
+          - generic:
+            - generic: p
+            - generic: r
+            - generic: i
+            - generic: m
+            - generic: e
+      - generic:
+        - paragraph: Sometimes five Imprimaturs are seen together dialogue-wise in the piazza of one title-page, complimenting and ducking each to other with their shaven reverences, whether the author, who stands by in perplexity at the foot of his epistle, shall to the press or to the sponge. These are the pretty responsories, these are the dear antiphonies, that so bewitched of late our prelates and their chaplains with the goodly echo they made; and besotted us to the gay imitation of a lordly Imprimatur, one from Lambeth House, another from the west end of Paul's.
+        - paragraph: So apishly Romanizing, that the word of command still was set down in Latin; as if the learned grammatical pen that wrote it would cast no ink without Latin; or perhaps, as they thought, because no vulgar tongue was worthy to express the pure conceit of an Imprimatur, but rather, as I hope, for that our English, the language of men ever famous and foremost in the achievements of liberty, will not easily find servile letters enow to spell such a dictatory presumption English.
+        - img "Some image"
+        - paragraph: And in conclusion it reflects to the disrepute of our ministers also, of whose labours we should hope better, and of the proficiency which their flock reaps by them, than that after all this light of the Gospel which is, and is to be, and all this continual preaching, they should still be frequented with such an unprincipled, unedified and laic rabble, as that the whiff of every new pamphlet should stagger them out of their catechism and Christian walking.
+        - paragraph: This may have much reason to discourage the ministers when such a low conceit is had of all their exhortations, and the benefiting of their hearers, as that they are not thought fit to be turned loose to three sheets of paper without a licenser; that all the sermons, all the lectures preached, printed, vented in such numbers, and such volumes, as have now well nigh made all other books unsaleable, should not be armour enough against one single Enchiridion, without the castle of St. Angelo of an Imprimatur.
+    - article:
+      - heading "Q u a n t u m l e a p" [level=2]:
+        - generic:
+          - generic:
+            - generic: Q
+            - generic: u
+            - generic: a
+            - generic: "n"
+            - generic: t
+            - generic: u
+            - generic: m
+        - generic:
+          - generic:
+            - generic: l
+            - generic: e
+            - generic: a
+            - generic: p
+      - generic:
+        - paragraph: Sometimes five Imprimaturs are seen together dialogue-wise in the piazza of one title-page, complimenting and ducking each to other with their shaven reverences, whether the author, who stands by in perplexity at the foot of his epistle, shall to the press or to the sponge. These are the pretty responsories, these are the dear antiphonies, that so bewitched of late our prelates and their chaplains with the goodly echo they made; and besotted us to the gay imitation of a lordly Imprimatur, one from Lambeth House, another from the west end of Paul's.
+        - paragraph: So apishly Romanizing, that the word of command still was set down in Latin; as if the learned grammatical pen that wrote it would cast no ink without Latin; or perhaps, as they thought, because no vulgar tongue was worthy to express the pure conceit of an Imprimatur, but rather, as I hope, for that our English, the language of men ever famous and foremost in the achievements of liberty, will not easily find servile letters enow to spell such a dictatory presumption English.
+        - img "Some image"
+        - paragraph: "Next, what more national corruption, for which England hears ill abroad, than household gluttony: who shall be the rectors of our daily rioting? And what shall be done to inhibit the multitudes that frequent those houses where drunkenness is sold and harboured? Our garments also should be referred to the licensing of some more sober workmasters to see them cut into a less wanton garb."
+        - paragraph: Who shall regulate all the mixed conversation of our youth, male and female together, as is the fashion of this country? Who shall still appoint what shall be discoursed, what presumed, and no further? Lastly, who shall forbid and separate all idle resort, all evil company? These things will be, and must be; but how they shall be least hurtful, how least enticing, herein consists the grave and governing wisdom of a state.
+    - button [ref=f2e346] [cursor=pointer]
+  - generic [ref=f2e292]:
+    - paragraph [ref=f2e293]:
+      - text: Excerpts from
+      - link "Areopagitica" [ref=f2e294] [cursor=pointer]:
+        - /url: https://www.gutenberg.org/files/608/608-h/608-h.htm
+      - text: by John Milton,
+      - link "The Project Gutenberg" [ref=f2e295] [cursor=pointer]:
+        - /url: https://www.gutenberg.org/
+    - paragraph [ref=f2e296]:
+      - text: Images from
+      - link "Unsplash" [ref=f2e297] [cursor=pointer]:
+        - /url: https://www.unsplash.com/
+    - paragraph [ref=f2e298]:
+      - link "@codrops" [ref=f2e299] [cursor=pointer]:
+        - /url: https://twitter.com/codrops
+      - text: "2021"

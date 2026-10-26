@@ -12,7 +12,7 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
 
     hooks: {
       'astro:config:setup': async ({
-        // command,
+        command,
         config,
         // injectRoute,
         // isRestart,
@@ -27,6 +27,10 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
 
         const rawJsonConfig = (await loadConfig(_themeConfig)) as Config;
         const { SITE, I18N, METADATA, APP_BLOG, UI, ANALYTICS } = configBuilder(rawJsonConfig);
+
+        // GitHub Pages needs the repository subpath at build time, but local
+        // development is served from the origin root (e.g. http://localhost:4321/).
+        if (command === 'dev') SITE.base = '/';
 
         updateConfig({
           site: SITE.site,

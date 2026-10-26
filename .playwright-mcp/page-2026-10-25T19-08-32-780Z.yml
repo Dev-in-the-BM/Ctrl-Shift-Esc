@@ -1,0 +1,489 @@
+- generic [ref=f42e1]:
+  - banner [ref=f42e2]:
+    - link "Skip to content" [ref=f42e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f42e4]:
+      - link "In Plaintext home" [ref=f42e5] [cursor=pointer]:
+        - /url: /
+        - text: In Plaintext
+      - generic [ref=f42e6]:
+        - button "Browse" [ref=f42e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f42e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f42e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f42e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - group "Temporary design preview controls" [ref=f42e13]:
+    - generic [ref=f42e14]:
+      - generic [ref=f42e15]: Temporary preview · remove before publication
+      - generic [ref=f42e16]: Preview palette
+      - combobox "Preview palette" [ref=f42e17]:
+        - option "01 · Porcelain & Mushroom" [selected]
+        - option "02 · Milk & Soft Umber"
+        - option "03 · Ivory & Fawn"
+        - option "04 · Chalk & Cocoa"
+        - option "05 · Cream & Graphite"
+        - option "06 · Limestone & Walnut"
+  - main [ref=f42e18]:
+    - article [ref=f42e20]:
+      - generic [ref=f42e21]:
+        - link "All writing" [ref=f42e22] [cursor=pointer]:
+          - /url: /
+          - generic [aria-hidden] [ref=f42e23]: ←
+          - text: All writing
+        - paragraph [ref=f42e24]:
+          - link "~/Tinkering" [ref=f42e25] [cursor=pointer]:
+            - /url: /category/tinkering
+          - generic [aria-hidden] [ref=f42e26]: ·
+          - time [ref=f42e27]: Mar 29, 2026
+        - heading "These apps let you use ADB without touching the command line" [level=1] [ref=f42e28]
+        - paragraph [ref=f42e29]: While ADB was made for developers, these tools are for everyone. I tested the best ones so you can take control of your phone.
+      - generic [ref=f42e30]:
+        - complementary "On this page" [ref=f42e31]:
+          - generic [ref=f42e32]:
+            - heading "On this page" [level=2] [ref=f42e33]
+            - navigation [ref=f42e34]:
+              - list [ref=f42e35]:
+                - listitem [ref=f42e36]:
+                  - link "Tango" [ref=f42e37] [cursor=pointer]:
+                    - /url: "#tango"
+                - listitem [ref=f42e38]:
+                  - link "Android Toolbox" [ref=f42e39] [cursor=pointer]:
+                    - /url: "#android-toolbox"
+                - listitem [ref=f42e40]:
+                  - link "ADB AppControl" [ref=f42e41] [cursor=pointer]:
+                    - /url: "#adb-appcontrol"
+                - listitem [ref=f42e42]:
+                  - link "Xtreme ADB" [ref=f42e43] [cursor=pointer]:
+                    - /url: "#xtreme-adb"
+                - listitem [ref=f42e44]:
+                  - link "ATA GUI" [ref=f42e45] [cursor=pointer]:
+                    - /url: "#ata-gui"
+                - listitem [ref=f42e46]:
+                  - link "AYA" [ref=f42e47] [cursor=pointer]:
+                    - /url: "#aya"
+        - generic [ref=f42e48]:
+          - img "These apps let you use ADB without touching the command line" [ref=f42e49]
+          - generic [ref=f42e50]:
+            - paragraph [ref=f42e51]: ADB is a powerful tool that you can use to control your Android device and tweak hidden settings, but the command line can be too complicated for many.
+            - paragraph [ref=f42e52]: These apps offer a GUI for ADB, allowing you to make use of ADBs powerful functionality without having to use the terminal.
+            - separator [ref=f42e53]
+            - generic [ref=f42e54]:
+              - generic [ref=f42e55]: Best picks
+              - list [ref=f42e56]:
+                - listitem [ref=f42e57]:
+                  - text: "No setup needed:"
+                  - link [ref=f42e58] [cursor=pointer]:
+                    - /url: "#tango"
+                    - strong [ref=f42e59]: Tango ADB
+                - listitem [ref=f42e60]:
+                  - text: "Most powerful Windows app:"
+                  - link [ref=f42e61] [cursor=pointer]:
+                    - /url: "#adb-appcontrol"
+                    - strong [ref=f42e62]: ADB AppControl
+                - listitem [ref=f42e63]:
+                  - text: "Most powerful cross platform app:"
+                  - link [ref=f42e64] [cursor=pointer]:
+                    - /url: "#xtreme-adb"
+                    - strong [ref=f42e65]: Xtreme ADB
+                - listitem [ref=f42e66]:
+                  - text: "Slickest app:"
+                  - link [ref=f42e67] [cursor=pointer]:
+                    - /url: "#android-toolbox"
+                    - strong [ref=f42e68]: Android Toolbox
+            - separator [ref=f42e69]
+            - heading "Tango" [level=3] [ref=f42e70]
+            - paragraph [ref=f42e71]: A brand new way of managing Android devices
+            - group [ref=f42e72]:
+              - generic "Features" [ref=f42e73] [cursor=pointer]
+            - heading "Platforms:" [level=4] [ref=f42e74]
+            - list [ref=f42e75]:
+              - listitem [ref=f42e76]:
+                - strong [ref=f42e77]: "Chrome:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e78]
+              - listitem [ref=f42e79]:
+                - strong [ref=f42e80]: "Firefox:"
+                - text: "No"
+                - img "Cross Mark" [ref=f42e81]
+              - listitem [ref=f42e82]:
+                - strong [ref=f42e83]: "Windows:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e84]
+              - listitem [ref=f42e85]:
+                - strong [ref=f42e86]: "Linux:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e87]
+              - listitem [ref=f42e88]:
+                - strong [ref=f42e89]: "MacOs:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e90]
+            - paragraph [ref=f42e91]:
+              - strong [ref=f42e92]: "Licensing: Freemium, FOSS"
+              - img "Penguin" [ref=f42e93]
+              - img "Free Button" [ref=f42e94]
+              - img "Money Bag" [ref=f42e95]
+            - generic [ref=f42e96]:
+              - heading "Screenshots" [level=4] [ref=f42e97]
+              - generic [ref=f42e98]:
+                - link [ref=f42e100]:
+                  - /url: http://127.0.0.1:4321/_image?href=%2F%40fs%2Fhome%2Fnaftali%2FTinkering%2FProjects%2FIn-Plaintext%2Fworktrees%2Feditorial-experiment%2Fsrc%2Fassets%2Fscreenshot-app.tangoapp.dev-2026.03.29-17_46_38.png%3ForigWidth%3D1290%26origHeight%3D862%26origFormat%3Dpng&w=1290&h=862&f=webp
+                  - img "Tango Overview" [ref=f42e101]
+                - link [ref=f42e103]:
+                  - /url: http://127.0.0.1:4321/_image?href=%2F%40fs%2Fhome%2Fnaftali%2FTinkering%2FProjects%2FIn-Plaintext%2Fworktrees%2Feditorial-experiment%2Fsrc%2Fassets%2Fscreenshot-app.tangoapp.dev-2026.03.29-17_46_38%281%29.png%3ForigWidth%3D1904%26origHeight%3D940%26origFormat%3Dpng&w=1904&h=940&f=webp
+                  - img "Tango File browser" [ref=f42e104]
+                - link [ref=f42e106]:
+                  - /url: http://127.0.0.1:4321/_image?href=%2F%40fs%2Fhome%2Fnaftali%2FTinkering%2FProjects%2FIn-Plaintext%2Fworktrees%2Feditorial-experiment%2Fsrc%2Fassets%2Fscreenshot-app.tangoapp.dev-2026.03.29-17_48_50.png%3ForigWidth%3D1295%26origHeight%3D859%26origFormat%3Dpng&w=1295&h=859&f=webp
+                  - img "Tango App manager" [ref=f42e107]
+            - 'link "Tango: Android tools in the browser A brand new way for managing Android devices. Use file browser, app manager, screen mirror and more right in your browser. Tango: Android tools in the browser favicon app.tangoapp.dev Tango: Android tools in the browser" [ref=f42e108] [cursor=pointer]':
+              - /url: https://app.tangoapp.dev
+              - generic [ref=f42e109]:
+                - generic [ref=f42e110]: "Tango: Android tools in the browser"
+                - generic [ref=f42e111]: A brand new way for managing Android devices. Use file browser, app manager, screen mirror and more right in your browser.
+                - generic [ref=f42e112]:
+                  - 'img "Tango: Android tools in the browser favicon" [ref=f42e113]'
+                  - generic [ref=f42e114]: app.tangoapp.dev
+              - 'img "Tango: Android tools in the browser" [ref=f42e116]'
+            - 'link "yume-chan/ya-webadb ADB in your browser. GitHub - yume-chan/ya-webadb: ADB in your browser favicon github.com GitHub - yume-chan/ya-webadb: ADB in your browser" [ref=f42e117] [cursor=pointer]':
+              - /url: https://github.com/yume-chan/ya-webadb
+              - generic [ref=f42e118]:
+                - generic [ref=f42e119]: yume-chan/ya-webadb
+                - generic [ref=f42e120]: ADB in your browser.
+                - generic [ref=f42e121]:
+                  - 'img "GitHub - yume-chan/ya-webadb: ADB in your browser favicon" [ref=f42e122]'
+                  - generic [ref=f42e123]: github.com
+              - 'img "GitHub - yume-chan/ya-webadb: ADB in your browser" [ref=f42e125]'
+            - separator [ref=f42e126]
+            - heading "Android Toolbox" [level=3] [ref=f42e127]
+            - paragraph [ref=f42e128]: Android-Toolbox is a desktop app which enables the user to access android device features which are not accessible directly from the mobile device.
+            - group [ref=f42e129]:
+              - generic "What does it do?" [ref=f42e130] [cursor=pointer]
+            - heading "Platforms:" [level=5] [ref=f42e131]
+            - list [ref=f42e132]:
+              - listitem [ref=f42e133]:
+                - strong [ref=f42e134]: "Windows:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e135]
+              - listitem [ref=f42e136]:
+                - strong [ref=f42e137]: "Linux:"
+                - text: Planned
+                - img "Hourglass Not Done" [ref=f42e138]
+              - listitem [ref=f42e139]:
+                - strong [ref=f42e140]: "macOs:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e141]
+            - paragraph [ref=f42e142]:
+              - strong [ref=f42e143]: "Licensing: FOSS"
+              - img "Penguin" [ref=f42e144]
+            - generic [ref=f42e145]:
+              - heading "Screenshots" [level=4] [ref=f42e146]
+              - generic [ref=f42e147]:
+                - generic:
+                  - link "connecting":
+                    - /url: https://github.com/lightningbolt047/Android-Toolbox/raw/main/readme_assets/screenshot_connection_initiation.png
+                    - img "connecting"
+                - generic:
+                  - link "file manager":
+                    - /url: https://github.com/lightningbolt047/Android-Toolbox/raw/main/readme_assets/screenshot_file_manager.png
+                    - img "file manager"
+                - generic:
+                  - link "apps":
+                    - /url: https://github.com/lightningbolt047/Android-Toolbox/raw/main/readme_assets/screenshot_apps.png
+                    - img "apps"
+                - generic:
+                  - link "power controls":
+                    - /url: https://github.com/lightningbolt047/Android-Toolbox/raw/main/readme_assets/screenshot_power_controls.png
+                    - img "power controls"
+            - link [ref=f42e148] [cursor=pointer]:
+              - /url: https://github.com/lightningbolt047/Android-Toolbox
+              - generic [ref=f42e149]:
+                - generic [ref=f42e150]: lightningbolt047/Android-Toolbox
+                - generic [ref=f42e151]: Android-Toolbox is a desktop app which enables the user to access android device features which are not accessible directly from the mobile device. One of Android-Toolbox&#39;s special features is ...
+                - generic [ref=f42e152]:
+                  - 'img "GitHub - lightningbolt047/Android-Toolbox: Android-Toolbox is a desktop app which enables the user to access android device features which are not accessible directly from the mobile device. One of Android-Toolbox''s special features is to transfer files at the highest speed using ADB push and pull bypassing a lot of Android API overheads. favicon" [ref=f42e153]'
+                  - generic [ref=f42e154]: github.com
+              - 'img "GitHub - lightningbolt047/Android-Toolbox: Android-Toolbox is a desktop app which enables the user to access android device features which are not accessible directly from the mobile device. One of Android-Toolbox''s special features is to transfer files at the highest speed using ADB push and pull bypassing a lot of Android API overheads." [ref=f42e156]'
+            - separator [ref=f42e157]
+            - heading "ADB AppControl" [level=3] [ref=f42e158]
+            - paragraph [ref=f42e159]:
+              - strong [ref=f42e160]: ADB AppControl
+              - text: is a powerful application manager for Android. It offers a clean and modern graphical interface for working with ADB and automates batch operations to manage apps across Android device.
+            - group [ref=f42e161]:
+              - generic "Features" [ref=f42e162] [cursor=pointer]
+            - heading "Platforms:" [level=4] [ref=f42e163]
+            - list [ref=f42e164]:
+              - listitem [ref=f42e165]:
+                - strong [ref=f42e166]: "Windows:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e167]
+              - listitem [ref=f42e168]:
+                - strong [ref=f42e169]: "Linux:"
+                - text: "No"
+                - img "Cross Mark" [ref=f42e170]
+              - listitem [ref=f42e171]:
+                - strong [ref=f42e172]: "macOs:"
+                - text: "No"
+                - img "Cross Mark" [ref=f42e173]
+            - paragraph [ref=f42e174]:
+              - strong [ref=f42e175]: "Licensing: Freemium"
+              - img "Free Button" [ref=f42e176]
+              - img "Money Bag" [ref=f42e177]
+            - generic [ref=f42e178]:
+              - heading "Screenshots" [level=4] [ref=f42e179]
+              - generic:
+                - generic:
+                  - link "screenshot1":
+                    - /url: https://adbappcontrol.com/assets/img/scr-main-mini.jpg
+                    - img "screenshot1"
+                - generic:
+                  - link "appcontrols":
+                    - /url: https://adbappcontrol.com/assets/img/scr-features-1.jpg
+                    - img "appcontrols"
+                - generic:
+                  - link "Tools":
+                    - /url: https://adbappcontrol.com/assets/img/scr-tools.jpg
+                    - img "Tools"
+            - link "Home Official website of the ADB AppControl application. Free Download. Latest release. The ultimate applications manager and debloat tool for Android devices. Home favicon adbappcontrol.com Home" [ref=f42e180] [cursor=pointer]:
+              - /url: https://adbappcontrol.com/en
+              - generic [ref=f42e181]:
+                - generic [ref=f42e182]: Home
+                - generic [ref=f42e183]: Official website of the ADB AppControl application. Free Download. Latest release. The ultimate applications manager and debloat tool for Android devices.
+                - generic [ref=f42e184]:
+                  - img "Home favicon" [ref=f42e185]
+                  - generic [ref=f42e186]: adbappcontrol.com
+              - img "Home" [ref=f42e188]
+            - separator [ref=f42e189]
+            - paragraph [ref=f42e190]:
+              - img "pic" [ref=f42e191]
+            - separator [ref=f42e192]
+            - heading "Xtreme ADB" [level=3] [ref=f42e193]
+            - paragraph [ref=f42e194]: The Ultimate ADB GUI Wrapper. Manage your Android devices with ease — no terminal required.
+            - group [ref=f42e195]:
+              - generic "Features" [ref=f42e196] [cursor=pointer]
+            - heading "Platforms:" [level=5] [ref=f42e197]
+            - list [ref=f42e198]:
+              - listitem [ref=f42e199]:
+                - strong [ref=f42e200]: "Windows:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e201]
+              - listitem [ref=f42e202]:
+                - strong [ref=f42e203]: "Linux:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e204]
+              - listitem [ref=f42e205]:
+                - strong [ref=f42e206]: "macOs:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e207]
+            - paragraph [ref=f42e208]:
+              - strong [ref=f42e209]: "Licensing: FOSS"
+              - img "Penguin" [ref=f42e210]
+            - generic [ref=f42e211]:
+              - heading "Screenshots" [level=4] [ref=f42e212]
+              - generic:
+                - generic:
+                  - link "ss1":
+                    - /url: https://github.com/KPR-MAN/XtremeADB/raw/main/screenshots/ss1.png
+                    - img "ss1"
+                - generic:
+                  - link "ss2":
+                    - /url: https://github.com/KPR-MAN/XtremeADB/raw/main/screenshots/ss2.png
+                    - img "ss2"
+            - link "Xtreme ADB — The Ultimate ADB GUI Wrapper Xtreme ADB — The Ultimate ADB GUI Wrapper favicon kpr-man.github.io" [ref=f42e213] [cursor=pointer]:
+              - /url: https://kpr-man.github.io/XtremeADB
+              - generic [ref=f42e214]:
+                - generic [ref=f42e215]: Xtreme ADB — The Ultimate ADB GUI Wrapper
+                - generic [ref=f42e216]:
+                  - img "Xtreme ADB — The Ultimate ADB GUI Wrapper favicon" [ref=f42e217]
+                  - generic [ref=f42e218]: kpr-man.github.io
+            - 'link "KPR-MAN/XtremeADB The Ultimate ADB GUI Wrapper. GitHub - KPR-MAN/XtremeADB: The Ultimate ADB GUI Wrapper favicon github.com GitHub - KPR-MAN/XtremeADB: The Ultimate ADB GUI Wrapper" [ref=f42e219] [cursor=pointer]':
+              - /url: https://github.com/KPR-MAN/XtremeADB
+              - generic [ref=f42e220]:
+                - generic [ref=f42e221]: KPR-MAN/XtremeADB
+                - generic [ref=f42e222]: The Ultimate ADB GUI Wrapper.
+                - generic [ref=f42e223]:
+                  - 'img "GitHub - KPR-MAN/XtremeADB: The Ultimate ADB GUI Wrapper favicon" [ref=f42e224]'
+                  - generic [ref=f42e225]: github.com
+              - 'img "GitHub - KPR-MAN/XtremeADB: The Ultimate ADB GUI Wrapper" [ref=f42e227]'
+            - separator [ref=f42e228]
+            - heading "ATA GUI" [level=3] [ref=f42e229]
+            - paragraph [ref=f42e230]: ATA-GUI is an app that lets you perform advanced tasks on your Android™ device with ease. You can use ATA-GUI to access and modify your device’s system settings, files, and features. You can also use ATA-GUI to install, uninstall, and restore apps on your device.
+            - group [ref=f42e231]:
+              - generic "Features" [ref=f42e232] [cursor=pointer]
+            - heading "Platforms:" [level=4] [ref=f42e233]
+            - list [ref=f42e234]:
+              - listitem [ref=f42e235]:
+                - strong [ref=f42e236]: "Windows:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e237]
+              - listitem [ref=f42e238]:
+                - strong [ref=f42e239]: "Linux:"
+                - text: "No"
+                - img "Cross Mark" [ref=f42e240]
+              - listitem [ref=f42e241]:
+                - strong [ref=f42e242]: "macOs:"
+                - text: "No"
+                - img "Cross Mark" [ref=f42e243]
+            - paragraph [ref=f42e244]:
+              - strong [ref=f42e245]: "Licensing: FOSS"
+              - img "Penguin" [ref=f42e246]
+            - 'link "msartore/ATA-GUI ATA GUI is a project to make ATA available to all the users. ATA is an Advance Tool for Android™ powered by SDK Platform Tools. - msartore/ATA-GUI GitHub - msartore/ATA-GUI: ATA GUI is a project to make ATA available to all the users. ATA is an Advance Tool for Android™ powered by SDK Platform Tools. favicon github.com GitHub - msartore/ATA-GUI: ATA GUI is a project to make ATA available to all the users. ATA is an Advance Tool for Android™ powered by SDK Platform Tools." [ref=f42e247] [cursor=pointer]':
+              - /url: https://github.com/msartore/ATA-GUI
+              - generic [ref=f42e248]:
+                - generic [ref=f42e249]: msartore/ATA-GUI
+                - generic [ref=f42e250]: ATA GUI is a project to make ATA available to all the users. ATA is an Advance Tool for Android™ powered by SDK Platform Tools. - msartore/ATA-GUI
+                - generic [ref=f42e251]:
+                  - 'img "GitHub - msartore/ATA-GUI: ATA GUI is a project to make ATA available to all the users. ATA is an Advance Tool for Android™ powered by SDK Platform Tools. favicon" [ref=f42e252]'
+                  - generic [ref=f42e253]: github.com
+              - 'img "GitHub - msartore/ATA-GUI: ATA GUI is a project to make ATA available to all the users. ATA is an Advance Tool for Android™ powered by SDK Platform Tools." [ref=f42e255]'
+            - separator [ref=f42e256]
+            - heading "AYA" [level=3] [ref=f42e257]
+            - paragraph [ref=f42e258]: AYA is a desktop application for easily controlling android devices, which can be considered as a GUI wrapper for ADB.
+            - group [ref=f42e259]:
+              - generic "Features" [ref=f42e260] [cursor=pointer]
+            - heading "Platforms:" [level=4] [ref=f42e261]
+            - list [ref=f42e262]:
+              - listitem [ref=f42e263]:
+                - strong [ref=f42e264]: "Windows:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e265]
+              - listitem [ref=f42e266]:
+                - strong [ref=f42e267]: "Linux:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e268]
+              - listitem [ref=f42e269]:
+                - strong [ref=f42e270]: "macOs:"
+                - text: "Yes"
+                - img "Check Mark Button" [ref=f42e271]
+            - paragraph [ref=f42e272]:
+              - strong [ref=f42e273]: "Licensing: FOSS"
+              - img "Penguin" [ref=f42e274]
+            - generic [ref=f42e275]:
+              - heading "Screenshots" [level=4] [ref=f42e276]
+              - generic:
+                - generic:
+                  - link "screenshot":
+                    - /url: https://camo.githubusercontent.com/23cf9457427a62150c2180081c818154bde87dfa4e3afedf37e2fe918cf7e270/68747470733a2f2f6179612e6c6972696c6972692e696f2f73637265656e636173742e706e67
+                    - img "screenshot"
+                - generic:
+                  - link "screenshot":
+                    - /url: https://camo.githubusercontent.com/0c8ed9b0c83f2c0fce0070c4c9c0cfd89fc144e78d6c674e334bf3935c0e0338/68747470733a2f2f6179612e6c6972696c6972692e696f2f73637265656e73686f742e706e67
+                    - img "screenshot"
+            - 'link "liriliri/aya Android ADB desktop app. GitHub - liriliri/aya: Android ADB desktop app favicon github.com GitHub - liriliri/aya: Android ADB desktop app" [ref=f42e277] [cursor=pointer]':
+              - /url: https://github.com/liriliri/aya
+              - generic [ref=f42e278]:
+                - generic [ref=f42e279]: liriliri/aya
+                - generic [ref=f42e280]: Android ADB desktop app.
+                - generic [ref=f42e281]:
+                  - 'img "GitHub - liriliri/aya: Android ADB desktop app favicon" [ref=f42e282]'
+                  - generic [ref=f42e283]: github.com
+              - 'img "GitHub - liriliri/aya: Android ADB desktop app" [ref=f42e285]'
+            - link "Android ADB Desktop App | AYA AYA Documentation Android ADB Desktop App | AYA favicon aya.liriliri.io" [ref=f42e286] [cursor=pointer]:
+              - /url: https://aya.liriliri.io
+              - generic [ref=f42e287]:
+                - generic [ref=f42e288]: Android ADB Desktop App | AYA
+                - generic [ref=f42e289]: AYA Documentation
+                - generic [ref=f42e290]:
+                  - img "Android ADB Desktop App | AYA favicon" [ref=f42e291]
+                  - generic [ref=f42e292]: aya.liriliri.io
+          - generic [ref=f42e293]:
+            - list [ref=f42e294]:
+              - listitem [ref=f42e295]:
+                - link "ADB" [ref=f42e296] [cursor=pointer]:
+                  - /url: /tag/adb
+              - listitem [ref=f42e297]:
+                - link "Tools" [ref=f42e298] [cursor=pointer]:
+                  - /url: /tag/tools
+              - listitem [ref=f42e299]:
+                - link "Software" [ref=f42e300] [cursor=pointer]:
+                  - /url: /tag/software
+              - listitem [ref=f42e301]:
+                - link "Android" [ref=f42e302] [cursor=pointer]:
+                  - /url: /tag/android
+            - generic [ref=f42e303]:
+              - text: "Share:"
+              - button "Share" [ref=f42e304] [cursor=pointer]
+              - button "Share with SMS" [ref=f42e307] [cursor=pointer]
+              - button "Share with email" [ref=f42e310] [cursor=pointer]
+              - button "Share with WhatsApp" [ref=f42e313] [cursor=pointer]
+              - button "Share with Telegram" [ref=f42e316] [cursor=pointer]
+              - button "Share with Reddit" [ref=f42e319] [cursor=pointer]
+              - button "Share with LinkedIn" [ref=f42e322] [cursor=pointer]
+              - button "Share with X" [ref=f42e325] [cursor=pointer]
+      - region [ref=f42e328]:
+        - generic [ref=f42e329]:
+          - heading "Comments" [level=2] [ref=f42e330]
+          - button "Reload comments" [ref=f42e331] [cursor=pointer]
+        - iframe [ref=f42e336]
+    - link "All writing" [ref=f42e338] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f42e339]: ←
+      - text: All writing
+    - generic [ref=f42e341]:
+      - generic [ref=f42e343]:
+        - heading "Related Posts" [level=2] [ref=f42e344]
+        - link "View All Posts »" [ref=f42e345] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f42e346]:
+        - article [ref=f42e347]:
+          - 'link "Read: Google Play isn''t as clean as you''d think, and these alternatives are better" [ref=f42e349] [cursor=pointer]':
+            - /url: /google-play-clean-alternatives
+          - heading [level=3] [ref=f42e350]:
+            - link "Google Play isn't as clean as you'd think, and these alternatives are better" [ref=f42e351] [cursor=pointer]:
+              - /url: /google-play-clean-alternatives
+          - paragraph [ref=f42e352]: When it comes to Android apps, the Play Store is king, but it has its drawbacks. Here's why you should avoid Google Play, and what to use instead.
+        - article [ref=f42e353]:
+          - 'link "Read: Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies" [ref=f42e355] [cursor=pointer]':
+            - /url: /dumbing-smartphone-smarting-dumbphone-adb-dummies
+          - heading [level=3] [ref=f42e356]:
+            - 'link "Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies" [ref=f42e357] [cursor=pointer]':
+              - /url: /dumbing-smartphone-smarting-dumbphone-adb-dummies
+          - paragraph [ref=f42e358]: Strip the junk off a smartphone, or force-install essentials onto a basic flip phone. ADB can let you do all that and more - and you don't need to be a techie to use it.
+        - article [ref=f42e359]:
+          - 'link "Read: Rumor: The Mind phones keypad might be real" [ref=f42e361] [cursor=pointer]':
+            - /url: /mind-phone-might-have-an-actual-keypad
+          - heading [level=3] [ref=f42e362]:
+            - 'link "Rumor: The Mind phones keypad might be real" [ref=f42e363] [cursor=pointer]':
+              - /url: /mind-phone-might-have-an-actual-keypad
+          - paragraph [ref=f42e364]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+        - article [ref=f42e365]:
+          - 'link "Read: Building a messaging platform from scratch makes no sense" [ref=f42e367] [cursor=pointer]':
+            - /url: /building-a-messaging-platform-from-scratch-makes-no-sense
+          - heading [level=3] [ref=f42e368]:
+            - link "Building a messaging platform from scratch makes no sense" [ref=f42e369] [cursor=pointer]:
+              - /url: /building-a-messaging-platform-from-scratch-makes-no-sense
+  - contentinfo [ref=f42e370]:
+    - generic [ref=f42e371]:
+      - generic [ref=f42e372]:
+        - link "In Plaintext" [ref=f42e373] [cursor=pointer]:
+          - /url: /
+        - navigation "Legal" [ref=f42e374]:
+          - link "Terms" [ref=f42e375] [cursor=pointer]:
+            - /url: /terms
+          - generic [aria-hidden] [ref=f42e376]: ·
+          - link "Privacy Policy" [ref=f42e377] [cursor=pointer]:
+            - /url: /privacy
+      - generic [ref=f42e378]:
+        - list "Elsewhere" [ref=f42e379]:
+          - listitem [ref=f42e380]:
+            - link "Reddit" [ref=f42e381] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f42e384]:
+            - link "Jtech Forums" [ref=f42e385] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f42e386]
+          - listitem [ref=f42e387]:
+            - link "RSS" [ref=f42e388] [cursor=pointer]:
+              - /url: /rss.xml
+          - listitem [ref=f42e391]:
+            - link "Github" [ref=f42e392] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f42e395]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f42e396] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.
+  - generic [ref=f42e399]:
+    - button [ref=f42e400]
+    - button [ref=f42e406]
+    - button [ref=f42e410]
+    - button [ref=f42e415]

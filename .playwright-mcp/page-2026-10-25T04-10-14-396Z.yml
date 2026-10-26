@@ -1,0 +1,311 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e6]:
+    - heading "Claude" [level=1] [ref=f1e8]
+    - generic [ref=f1e9]:
+      - complementary "Sidebar" [ref=f1e11]:
+        - generic [ref=f1e12]:
+          - button "Hide sidebar" [ref=f1e15] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e19]: 
+          - link "Claude" [ref=f1e22] [cursor=pointer]:
+            - /url: /new
+        - generic [ref=f1e25]:
+          - heading "Navigation" [level=2] [ref=f1e26]
+          - generic [ref=f1e27]:
+            - link "New" [ref=f1e30] [cursor=pointer]:
+              - /url: /new
+              - generic [aria-hidden] [ref=f1e33]: 
+              - generic [aria-hidden] [ref=f1e36]:
+                - generic [ref=f1e37]: Ctrl
+                - generic [ref=f1e38]: +
+                - generic [ref=f1e39]: Shift
+                - generic [ref=f1e40]: +
+                - generic [ref=f1e41]: O
+            - generic [ref=f1e43]:
+              - generic [ref=f1e44]:
+                - link "Projects" [ref=f1e46] [cursor=pointer]:
+                  - /url: /projects
+                  - generic [aria-hidden] [ref=f1e48]: 
+                - link "Artifacts" [ref=f1e51] [cursor=pointer]:
+                  - /url: /artifacts
+                  - generic [aria-hidden] [ref=f1e53]: 
+                - link "Code Upgrade" [ref=f1e56] [cursor=pointer]:
+                  - /url: /upgrade?feature=code&returnTo=%2Fcode
+                  - generic [aria-hidden] [ref=f1e58]: 
+                  - generic [ref=f1e59]:
+                    - generic [ref=f1e60]: Code
+                    - generic [ref=f1e61]: Upgrade
+                - link "Customize" [ref=f1e63] [cursor=pointer]:
+                  - /url: /customize
+                  - generic [aria-hidden] [ref=f1e65]: 
+              - generic [ref=f1e71]:
+                - generic:
+                  - heading [level=3] [ref=f1e74]:
+                    - button "Pinned" [expanded] [ref=f1e75] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=f1e77]: 
+                  - generic [ref=f1e78]:
+                    - generic [aria-hidden] [ref=f1e80]: 
+                    - generic [ref=f1e81]: Drag to pin
+                - generic [ref=f1e82]:
+                  - generic [ref=f1e83]:
+                    - generic [ref=f1e85]:
+                      - heading [level=3] [ref=f1e86]:
+                        - button "Chats and tasks" [expanded] [ref=f1e87] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f1e89]: 
+                      - generic [ref=f1e90]:
+                        - button "View all" [ref=f1e91] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f1e95]: 
+                        - button "Group and sort" [ref=f1e96] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f1e100]: 
+                    - generic [ref=f1e101]:
+                      - generic [ref=f1e104]:
+                        - link "Idle Finding reliable OOM handler tools" [ref=f1e105] [cursor=pointer]:
+                          - /url: /chat/b028c845-261a-4869-b941-e1fa3a2b7c46
+                          - img "Idle" [ref=f1e107]
+                          - generic [ref=f1e109]: Finding reliable OOM handler tools
+                        - generic:
+                          - button "More options for Finding reliable OOM handler tools":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e114]:
+                        - link "Idle Untitled" [ref=f1e115] [cursor=pointer]:
+                          - /url: /chat/0a77bd98-527b-42cc-8a38-40f7c0d40fa7
+                          - img "Idle" [ref=f1e117]
+                          - generic [ref=f1e119]: Untitled
+                        - generic:
+                          - button "More options":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e124]:
+                        - link "Idle Voice note transcription request" [ref=f1e125] [cursor=pointer]:
+                          - /url: /chat/2bf28cee-2209-4136-9736-022f3ff9860e
+                          - img "Idle" [ref=f1e127]
+                          - generic [ref=f1e129]: Voice note transcription request
+                        - generic:
+                          - button "More options for Voice note transcription request":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e134]:
+                        - link "Idle Voice note transcription" [ref=f1e135] [cursor=pointer]:
+                          - /url: /chat/fdacb003-d3de-48d6-b267-0a749f9b6706
+                          - img "Idle" [ref=f1e137]
+                          - generic [ref=f1e139]: Voice note transcription
+                        - generic:
+                          - button "More options for Voice note transcription":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e144]:
+                        - link "Idle Finding community or professional opportunities" [ref=f1e145] [cursor=pointer]:
+                          - /url: /chat/6147c2f2-46ae-4ac7-a924-520205fdcf14
+                          - img "Idle" [ref=f1e147]
+                          - generic [ref=f1e149]: Finding community or professional opportunities
+                        - generic:
+                          - button "More options for Finding community or professional opportunities":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e154]:
+                        - link "Idle Finding the right job fit with ADHD and anxiety" [ref=f1e155] [cursor=pointer]:
+                          - /url: /chat/4ab3c40f-b1cd-4366-885f-7906615b7b5a
+                          - img "Idle" [ref=f1e157]
+                          - generic [ref=f1e159]: Finding the right job fit with ADHD and anxiety
+                        - generic:
+                          - button "More options for Finding the right job fit with ADHD and anxiety":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e164]:
+                        - link "Idle Feedback on project direction" [ref=f1e165] [cursor=pointer]:
+                          - /url: /chat/e67541e1-f791-4205-b1f2-8a8d8a3aa8f1
+                          - img "Idle" [ref=f1e167]
+                          - generic [ref=f1e169]: Feedback on project direction
+                        - generic:
+                          - button "More options for Feedback on project direction":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e174]:
+                        - link "Idle Tagging local music collection with ML models" [ref=f1e175] [cursor=pointer]:
+                          - /url: /chat/3846b1a9-fe52-4aeb-b61a-a17844260929
+                          - img "Idle" [ref=f1e177]
+                          - generic [ref=f1e179]: Tagging local music collection with ML models
+                        - generic:
+                          - button "More options for Tagging local music collection with ML models":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e184]:
+                        - link "Idle Custom Ubuntu boot splash screen setup" [ref=f1e185] [cursor=pointer]:
+                          - /url: /chat/e19c7be5-0b09-4101-b5ee-86db99133103
+                          - img "Idle" [ref=f1e187]
+                          - generic [ref=f1e189]: Custom Ubuntu boot splash screen setup
+                        - generic:
+                          - button "More options for Custom Ubuntu boot splash screen setup":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e194]:
+                        - link "Idle Comparing tools for effectiveness and efficiency" [ref=f1e195] [cursor=pointer]:
+                          - /url: /chat/81d73bca-a554-4809-8a9f-050d1fb6d487
+                          - img "Idle" [ref=f1e197]
+                          - generic [ref=f1e199]: Comparing tools for effectiveness and efficiency
+                        - generic:
+                          - button "More options for Comparing tools for effectiveness and efficiency":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e204]:
+                        - link "Idle Finding arcade game ROMs and dumps" [ref=f1e205] [cursor=pointer]:
+                          - /url: /chat/f8b2904f-53db-4557-b38c-5da9ecd43b18
+                          - img "Idle" [ref=f1e207]
+                          - generic [ref=f1e209]: Finding arcade game ROMs and dumps
+                        - generic:
+                          - button "More options for Finding arcade game ROMs and dumps":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e214]:
+                        - link "Idle Detecting AI-generated website code" [ref=f1e215] [cursor=pointer]:
+                          - /url: /chat/6469596a-a1be-430b-bdef-72363ef7224a
+                          - img "Idle" [ref=f1e217]
+                          - generic [ref=f1e219]: Detecting AI-generated website code
+                        - generic:
+                          - button "More options for Detecting AI-generated website code":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e224]:
+                        - link "Idle Creating a site anonymization userscript" [ref=f1e225] [cursor=pointer]:
+                          - /url: /chat/c9073e2b-a265-4518-b596-fa52e8a7423d
+                          - img "Idle" [ref=f1e227]
+                          - generic [ref=f1e229]: Creating a site anonymization userscript
+                        - generic:
+                          - button "More options for Creating a site anonymization userscript":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e234]:
+                        - link "Idle Disguising website appearance with Tampermonkey" [ref=f1e235] [cursor=pointer]:
+                          - /url: /chat/36cb4648-5a7b-4fa6-af22-be96079a90f5
+                          - img "Idle" [ref=f1e237]
+                          - generic [ref=f1e239]: Disguising website appearance with Tampermonkey
+                        - generic:
+                          - button "More options for Disguising website appearance with Tampermonkey":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e244]:
+                        - link "Idle Best J2ME racing games beyond Asphalt and Need for Speed" [ref=f1e245] [cursor=pointer]:
+                          - /url: /chat/2e8fefcf-82c2-4a70-b7b9-632a06a5bd3c
+                          - img "Idle" [ref=f1e247]
+                          - generic [ref=f1e249]: Best J2ME racing games beyond Asphalt and Need for Speed
+                        - generic:
+                          - button "More options for Best J2ME racing games beyond Asphalt and Need for Speed":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e254]:
+                        - link "Idle Fleet device policy compliance dashboard" [ref=f1e255] [cursor=pointer]:
+                          - /url: /chat/70a467f6-5155-4f24-86f7-4ce86b0d74ed
+                          - img "Idle" [ref=f1e257]
+                          - generic [ref=f1e259]: Fleet device policy compliance dashboard
+                        - generic:
+                          - button "More options for Fleet device policy compliance dashboard":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e264]:
+                        - link "Idle Device policy state dashboard architecture" [ref=f1e265] [cursor=pointer]:
+                          - /url: /chat/52efac9e-6928-4777-aa2f-9c2bae4945b1
+                          - img "Idle" [ref=f1e267]
+                          - generic [ref=f1e269]: Device policy state dashboard architecture
+                        - generic:
+                          - button "More options for Device policy state dashboard architecture":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e274]:
+                        - link "Idle Linux AD centralized management setup" [ref=f1e275] [cursor=pointer]:
+                          - /url: /chat/15e1a8d1-a306-480f-9676-ef9fb46d4b8d
+                          - img "Idle" [ref=f1e277]
+                          - generic [ref=f1e279]: Linux AD centralized management setup
+                        - generic:
+                          - button "More options for Linux AD centralized management setup":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e284]:
+                        - link "Idle Matrix clients beyond Element" [ref=f1e285] [cursor=pointer]:
+                          - /url: /chat/85a37c94-91be-49bc-b798-7e75642d6896
+                          - img "Idle" [ref=f1e287]
+                          - generic [ref=f1e289]: Matrix clients beyond Element
+                        - generic:
+                          - button "More options for Matrix clients beyond Element":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - generic [ref=f1e294]:
+                        - link "Idle Resetting Linux to factory defaults" [ref=f1e295] [cursor=pointer]:
+                          - /url: /chat/b8704676-77ec-463a-84af-0ecbd884204f
+                          - img "Idle" [ref=f1e297]
+                          - generic [ref=f1e299]: Resetting Linux to factory defaults
+                        - generic:
+                          - button "More options for Resetting Linux to factory defaults":
+                            - generic:
+                              - generic [aria-hidden]: 
+                      - button "View all" [ref=f1e303] [cursor=pointer]
+                  - status [ref=f1e304]
+          - generic [ref=f1e306]:
+            - button "Naftali Free" [ref=f1e308] [cursor=pointer]:
+              - img [aria-hidden] [ref=f1e310]: "N"
+              - generic [ref=f1e311]:
+                - generic [ref=f1e312]: Naftali
+                - generic [aria-hidden] [ref=f1e313]: ·
+                - generic [ref=f1e314]: Free
+              - generic [aria-hidden] [ref=f1e315]: 
+            - generic [ref=f1e316]:
+              - link "Get apps and extensions" [ref=f1e318] [cursor=pointer]:
+                - /url: /downloads
+                - generic [aria-hidden] [ref=f1e322]: 
+              - button "Search" [ref=f1e323] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f1e327]: 
+        - separator "Resize sidebar" [ref=f1e328]
+      - main [ref=f1e331]:
+        - generic [ref=f1e333]:
+          - toolbar "Page tools" [ref=f1e337]:
+            - button "Use incognito" [ref=f1e341] [cursor=pointer]
+          - generic [ref=f1e355]:
+            - generic [ref=f1e356]:
+              - heading "New chat" [level=2] [ref=f1e357]
+              - generic [ref=f1e358]: Up late, Naftali?
+            - generic [ref=f1e364]:
+              - generic:
+                - generic:
+                  - generic:
+                    - status
+                  - status [ref=f1e365]
+              - group [ref=f1e368]:
+                - generic [ref=f1e369]:
+                  - status
+                  - status [ref=f1e370]
+                  - status
+                  - generic [ref=f1e374]:
+                    - generic [ref=f1e377]:
+                      - generic [aria-hidden]: How can I help you today?
+                      - generic [ref=f1e378]:
+                        - textbox "Write your prompt to Claude" [ref=f1e379]:
+                          - paragraph [ref=f1e380]
+                        - status [ref=f1e381]
+                    - generic [ref=f1e382]:
+                      - generic [ref=f1e383]:
+                        - button "Add files, connectors, and more" [ref=f1e386] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f1e390]: 
+                        - radiogroup "Surface" [ref=f1e392]:
+                          - radio "Chat" [checked] [ref=f1e393] [cursor=pointer]
+                          - radio [checked] [aria-hidden] [ref=f1e395]
+                          - radio "Cowork" [ref=f1e396] [cursor=pointer]
+                          - radio [aria-hidden] [ref=f1e398]
+                      - generic:
+                        - generic [ref=f1e399]:
+                          - 'button "Model: Sonnet 5.5 High" [ref=f1e403] [cursor=pointer]':
+                            - generic [ref=f1e407]:
+                              - generic [ref=f1e408]: Sonnet 5.5
+                              - generic [ref=f1e409]: High
+                          - group "Dictate" [ref=f1e412]:
+                            - button "Dictate" [ref=f1e415] [cursor=pointer]:
+                              - generic [aria-hidden] [ref=f1e419]: 
+                            - generic [ref=f1e421]:
+                              - button "Microphone":
+                                - generic:
+                                  - generic [aria-hidden]: 
+                        - button "Use voice mode" [ref=f1e424] [cursor=pointer]
+  - status [ref=f1e432]
+  - generic:
+    - generic:
+      - generic:
+        - status
+        - region "Notifications"

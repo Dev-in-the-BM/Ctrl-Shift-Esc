@@ -1,0 +1,10 @@
+[     129ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     193ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4329/manifest.webmanifest:0
+[     193ms] [ERROR] Manifest fetch from http://127.0.0.1:4329/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4329/In-Plaintext/:0
+[     470ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4329/manifest.webmanifest:0
+[     473ms] [ERROR] Manifest fetch from http://127.0.0.1:4329/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4329/In-Plaintext/:0
+[     474ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4329/favicon.svg:0
+[     495ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4329/favicon.ico:0
+[     517ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4329/favicon-32x32.png:0
+[     524ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4329/favicon-16x16.png:0
+[     529ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4329/favicon-48x48.png:0

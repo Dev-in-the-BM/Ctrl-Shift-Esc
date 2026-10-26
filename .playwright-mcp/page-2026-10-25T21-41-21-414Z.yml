@@ -1,0 +1,18 @@
+- main [ref=f24e2]:
+  - 'heading "404: Not found" [level=1] [ref=f24e7]'
+  - paragraph [ref=f24e8]:
+    - text: Your site is configured with
+    - code [ref=f24e9]: trailingSlash
+    - text: set to
+    - code [ref=f24e10]: never
+    - text: . Do you want to go to
+    - link "/google-play-clean-alternatives" [ref=f24e11] [cursor=pointer]:
+      - /url: /google-play-clean-alternatives
+    - text: instead?
+  - paragraph [ref=f24e12]:
+    - text: See
+    - link [ref=f24e13] [cursor=pointer]:
+      - /url: https://docs.astro.build/en/reference/configuration-reference/#trailingslash
+      - text: the documentation for
+      - code [ref=f24e14]: trailingSlash
+    - text: if you need help.

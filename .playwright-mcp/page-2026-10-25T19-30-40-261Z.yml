@@ -1,0 +1,326 @@
+- generic [ref=f78e1]:
+  - banner [ref=f78e2]:
+    - link "Skip to content" [ref=f78e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f78e4]:
+      - link "In Plaintext home" [ref=f78e5] [cursor=pointer]:
+        - /url: /
+        - text: In Plaintext
+      - generic [ref=f78e6]:
+        - button "Browse" [ref=f78e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f78e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f78e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f78e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - group "Temporary design preview controls" [ref=f78e13]:
+    - generic [ref=f78e14]:
+      - generic [ref=f78e15]: Temporary preview · remove before publication
+      - generic [ref=f78e16]: Preview palette
+      - combobox "Preview palette" [ref=f78e17]:
+        - option "01 · Porcelain & Mushroom"
+        - option "02 · Milk & Soft Umber"
+        - option "03 · Ivory & Fawn"
+        - option "04 · Chalk & Cocoa"
+        - option "05 · Cream & Graphite"
+        - option "06 · Limestone & Walnut" [selected]
+  - main [ref=f78e18]:
+    - article [ref=f78e20]:
+      - generic [ref=f78e21]:
+        - link "All writing" [ref=f78e22] [cursor=pointer]:
+          - /url: /
+          - generic [aria-hidden] [ref=f78e23]: ←
+          - text: All writing
+        - paragraph [ref=f78e24]:
+          - link "Dialing Down" [ref=f78e25] [cursor=pointer]:
+            - /url: /category/dialing-down
+          - generic [aria-hidden] [ref=f78e26]: ·
+          - time [ref=f78e27]: Apr 12, 2026
+        - 'heading "Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies" [level=1] [ref=f78e28]'
+        - paragraph [ref=f78e29]: Strip the junk off a smartphone, or force-install essentials onto a basic flip phone. ADB can let you do all that and more - and you don't need to be a techie to use it.
+      - generic [ref=f78e30]:
+        - complementary "On this page" [ref=f78e31]:
+          - generic [ref=f78e32]:
+            - heading "On this page" [level=2] [ref=f78e33]
+            - navigation [ref=f78e34]:
+              - list [ref=f78e35]:
+                - listitem [ref=f78e36]:
+                  - link "What is ADB?" [ref=f78e37] [cursor=pointer]:
+                    - /url: "#what-is-adb"
+                - listitem [ref=f78e38]:
+                  - link "Do I have to learn how to type up commands to use ADB?" [ref=f78e39] [cursor=pointer]:
+                    - /url: "#do-i-have-to-learn-how-to-type-up-commands-to-use-adb"
+                - listitem [ref=f78e40]:
+                  - link "The first time" [ref=f78e41] [cursor=pointer]:
+                    - /url: "#the-first-time"
+                - listitem [ref=f78e42]:
+                  - link "ADB in the browser" [ref=f78e43] [cursor=pointer]:
+                    - /url: "#adb-in-the-browser"
+                - listitem [ref=f78e44]:
+                  - link "Scrcpy - screen mirroring" [ref=f78e45] [cursor=pointer]:
+                    - /url: "#scrcpy---screen-mirroring"
+                - listitem [ref=f78e46]:
+                  - link "ADB Commands" [ref=f78e47] [cursor=pointer]:
+                    - /url: "#adb-commands"
+                - listitem [ref=f78e48]:
+                  - link "Shizuku" [ref=f78e49] [cursor=pointer]:
+                    - /url: "#shizuku"
+        - generic [ref=f78e50]:
+          - 'img "Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies" [ref=f78e51]'
+          - generic [ref=f78e52]:
+            - heading "What is ADB?" [level=2] [ref=f78e53]
+            - paragraph [ref=f78e54]: ADB is a tool that you can use from your computer to do a lot things to Android phones that can’t be done from the phone itself.
+            - paragraph [ref=f78e55]: "With ADB, you can:"
+            - list [ref=f78e56]:
+              - listitem [ref=f78e57]:
+                - strong [ref=f78e58]: Uninstall apps
+              - listitem [ref=f78e59]:
+                - strong [ref=f78e60]: Install apps
+              - listitem [ref=f78e61]:
+                - strong [ref=f78e62]: Manage app permissions
+              - listitem [ref=f78e63]:
+                - strong [ref=f78e64]: Change phone settings
+            - paragraph [ref=f78e65]: Often, ADB will let you do more than the phone itself lets.
+            - paragraph [ref=f78e66]: You can use it to uninstall apps that came with the phone, install apps on some dumbphones that restrict installing APKs directly on the phone, and change phone settings and app permissions that you can’t set from the phone itself.
+            - paragraph [ref=f78e67]: All this can be very useful for dumbing down devices, and extending the functionality of dumbphones.
+            - heading "Do I have to learn how to type up commands to use ADB?" [level=3] [ref=f78e68]
+            - paragraph [ref=f78e69]: While ADB is really a command line tool, there are a bunch of easy to use GUI apps that let you use a lot of ADB features without having to know any ADB commands.
+            - paragraph [ref=f78e70]:
+              - text: See my article
+              - link "over here" [ref=f78e71] [cursor=pointer]:
+                - /url: ../adb-gui-tools
+              - text: for some of the best ones.
+            - separator [ref=f78e72]
+            - heading "The first time" [level=2] [ref=f78e73]
+            - paragraph [ref=f78e74]: "Before you use ADB for the first time, you have to do some setup:"
+            - paragraph [ref=f78e75]:
+              - strong [ref=f78e76]: "Drivers:"
+              - text: If you’re unfortunate enough to be using Windows, then you’ll need to install drivers.
+            - paragraph [ref=f78e77]:
+              - text: You can download a Universal ADB Drivers installer
+              - link "from here" [ref=f78e78] [cursor=pointer]:
+                - /url: https://adb.clockworkmod.com/
+              - text: .
+            - paragraph [ref=f78e79]:
+              - text: You’ll also need to
+              - strong [ref=f78e80]: enable USB debugging
+              - text: on the phone.
+            - paragraph [ref=f78e81]: On most phones you can do that by going to Settings > About phone > Build number, and clicking or tapping on Build number quickly 7 times.
+            - paragraph [ref=f78e82]: Then go to Settings > System > Advanced > Developer options > USB debugging and enabling USB debugging.
+            - paragraph [ref=f78e83]: On some phones you might need to repeat that last step every time the phone restarts.
+            - paragraph [ref=f78e84]: The first time you connect the phone to a computer to use ADB, you’ll get a popup on the phone asking you to authorize the connection with that computer.
+            - paragraph [ref=f78e85]:
+              - text: On the TCL Flip 2, enable USB debugging by dialing
+              - code [ref=f78e86]: "*#*#33284#*#*"
+              - text: (hint - 33284 is ‘debug’ on the phones keypad).
+            - separator [ref=f78e87]
+            - paragraph [ref=f78e88]:
+              - img "Debloating" [ref=f78e89]
+            - heading "ADB in the browser" [level=2] [ref=f78e90]
+            - paragraph [ref=f78e91]: If you want to skip having to install ADB apps and drivers, you can use ADB in your browser.
+            - paragraph [ref=f78e92]:
+              - text: Just go to
+              - link "app.tangoapp.dev" [ref=f78e93] [cursor=pointer]:
+                - /url: https://app.tangoapp.dev/
+              - text: or
+              - link "webadb.com" [ref=f78e94] [cursor=pointer]:
+                - /url: https://webadb.com/
+              - text: ", and you have full ADB in the browser!"
+            - paragraph [ref=f78e95]: Browser based ADB works in Chromium based browsers including Chrome, Edge, Vivaldi and Brave.
+            - paragraph [ref=f78e96]: It doesn’t work in Firefox based browsers.
+            - 'link "Tango: Android tools in the browser A brand new way for managing Android devices. Use file browser, app manager, screen mirror and more right in your browser. Tango: Android tools in the browser favicon app.tangoapp.dev Tango: Android tools in the browser" [ref=f78e97] [cursor=pointer]':
+              - /url: https://app.tangoapp.dev
+              - generic [ref=f78e98]:
+                - generic [ref=f78e99]: "Tango: Android tools in the browser"
+                - generic [ref=f78e100]: A brand new way for managing Android devices. Use file browser, app manager, screen mirror and more right in your browser.
+                - generic [ref=f78e101]:
+                  - 'img "Tango: Android tools in the browser favicon" [ref=f78e102]'
+                  - generic [ref=f78e103]: app.tangoapp.dev
+              - 'img "Tango: Android tools in the browser" [ref=f78e105]'
+            - link "WebADB WebADB is a website which allows you to run ADB in your browser. Features include ADB shell, apk installation, a file manager, scrcpy, screenshots and much more. WebADB favicon webadb.com WebADB" [ref=f78e106] [cursor=pointer]:
+              - /url: https://webadb.com
+              - generic [ref=f78e107]:
+                - generic [ref=f78e108]: WebADB
+                - generic [ref=f78e109]: WebADB is a website which allows you to run ADB in your browser. Features include ADB shell, apk installation, a file manager, scrcpy, screenshots and much more.
+                - generic [ref=f78e110]:
+                  - img "WebADB favicon" [ref=f78e111]
+                  - generic [ref=f78e112]: webadb.com
+              - img "WebADB" [ref=f78e114]
+            - separator [ref=f78e115]
+            - heading "Scrcpy - screen mirroring" [level=2] [ref=f78e116]
+            - paragraph [ref=f78e117]: Scrcpy uses ADB to mirror your phones screen to your computer, and let’s you control it from you computer.
+            - paragraph [ref=f78e118]:
+              - text: You can
+              - link "download it from here" [ref=f78e119] [cursor=pointer]:
+                - /url: https://guiscrcpy.srev.in/
+              - text: .
+            - separator [ref=f78e120]
+            - heading "ADB Commands" [level=2] [ref=f78e121]
+            - paragraph [ref=f78e122]:
+              - text: If you
+              - emphasis [ref=f78e123]: do
+              - text: "want to learn about using ADB the old fashioned way, here are some useful commands:"
+            - paragraph [ref=f78e124]:
+              - code [ref=f78e125]: adb devices
+              - text: shows which devices are connected to the computer.
+            - paragraph [ref=f78e126]:
+              - code [ref=f78e127]: adb reboot
+              - text: restarts the phone.
+            - paragraph [ref=f78e128]:
+              - code [ref=f78e129]: adb reboot safe
+              - text: restarts the phone into safe mode. Can be helpful if you were tinkering and messed up.
+            - paragraph [ref=f78e130]:
+              - text: Many commands start with
+              - code [ref=f78e131]: adb shell
+              - text: .
+            - paragraph [ref=f78e132]: PM is the package manager, which deals with apps.
+            - paragraph [ref=f78e133]:
+              - code [ref=f78e134]: adb shell pm list packages
+              - text: will list all installed apps.
+            - paragraph [ref=f78e135]:
+              - code [ref=f78e136]: adb shell pm list packages -3
+              - text: lists all third party apps you installed.
+            - paragraph [ref=f78e137]:
+              - code [ref=f78e138]: "adb shell pm install {path to APK on the phone}"
+              - text: will install an APK that’s on your phone.
+            - paragraph [ref=f78e139]:
+              - code [ref=f78e140]: "adb shell pm uninstall {package name}"
+              - text: will uninstall an installed app.
+            - paragraph [ref=f78e141]:
+              - code [ref=f78e142]: "adb shell pm uninstall --user 0 {package name}"
+              - text: only uninstalls the app from the phones main user. This can be useful for uninstalling apps that can’t be completely removed removed from the phone, like apps that came with the phone.
+            - paragraph [ref=f78e143]:
+              - code [ref=f78e144]: "adb shell pm disable-user {package name}"
+              - text: will disable an installed app.
+            - paragraph [ref=f78e145]:
+              - code [ref=f78e146]: "adb shell pm clear {package_name}"
+              - text: will clear the apps data, resetting it completely. This can help if you’re having problems with an app that you didn’t have before.
+            - paragraph [ref=f78e147]:
+              - code [ref=f78e148]: "adb shell am force-stop {package_name}"
+              - text: will kill the app.
+            - paragraph [ref=f78e149]:
+              - code [ref=f78e150]: "adb shell wm density {DPI}"
+              - text: changes the screen density. Lowering the DPI can make apps designed for larger screens fit better on a small dumbphone screen by making everything appear smaller.
+            - paragraph [ref=f78e151]:
+              - code [ref=f78e152]: adb shell wm density reset
+              - text: resets the screen density to its default.
+            - separator [ref=f78e153]
+            - heading "Shizuku" [level=2] [ref=f78e154]
+            - paragraph [ref=f78e155]: Shizuku is an Android app that allows apps to take advantage of ADBs superpowers, letting it do things that wouldn’t otherwise be possible.
+            - paragraph [ref=f78e156]: There are many apps that use Shizuku, including debloaters, app managers, and app installers.
+            - paragraph [ref=f78e157]:
+              - text: See this
+              - link "awesome list" [ref=f78e158] [cursor=pointer]:
+                - /url: https://github.com/timschneeb/awesome-shizuku
+              - text: for a comprehensive collection of apps that use Shizuku.
+            - link "Shizuku Let your app use system APIs directly Shizuku favicon shizuku.rikka.app" [ref=f78e159] [cursor=pointer]:
+              - /url: https://shizuku.rikka.app/
+              - generic [ref=f78e160]:
+                - generic [ref=f78e161]: Shizuku
+                - generic [ref=f78e162]: Let your app use system APIs directly
+                - generic [ref=f78e163]:
+                  - img "Shizuku favicon" [ref=f78e164]
+                  - generic [ref=f78e165]: shizuku.rikka.app
+            - 'link "RikkaApps/Shizuku Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process. - RikkaApps/Shizuku GitHub - RikkaApps/Shizuku: Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process. favicon github.com GitHub - RikkaApps/Shizuku: Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process." [ref=f78e166] [cursor=pointer]':
+              - /url: https://github.com/RikkaApps/Shizuku
+              - generic [ref=f78e167]:
+                - generic [ref=f78e168]: RikkaApps/Shizuku
+                - generic [ref=f78e169]: Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process. - RikkaApps/Shizuku
+                - generic [ref=f78e170]:
+                  - 'img "GitHub - RikkaApps/Shizuku: Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process. favicon" [ref=f78e171]'
+                  - generic [ref=f78e172]: github.com
+              - 'img "GitHub - RikkaApps/Shizuku: Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process." [ref=f78e174]'
+            - separator [ref=f78e175]
+            - paragraph [ref=f78e176]: ADB is basically a master key for your Android. Whether you’re stripping junk off a smartphone to make it dumb, forcing apps onto a flip phone, or just want to tweak your device, it gives you the control you need.
+            - paragraph [ref=f78e177]: With all the GUI tools and browser apps available today, there’s no reason to be intimidated. Grab a cable, plug in your phone, and make your device work for you.
+          - generic [ref=f78e178]:
+            - list [ref=f78e179]:
+              - listitem [ref=f78e180]:
+                - link "ADB" [ref=f78e181] [cursor=pointer]:
+                  - /url: /tag/adb
+              - listitem [ref=f78e182]:
+                - link "Android" [ref=f78e183] [cursor=pointer]:
+                  - /url: /tag/android
+            - generic [ref=f78e184]:
+              - text: "Share:"
+              - button "Share" [ref=f78e185] [cursor=pointer]
+              - button "Share with SMS" [ref=f78e188] [cursor=pointer]
+              - button "Share with email" [ref=f78e191] [cursor=pointer]
+              - button "Share with WhatsApp" [ref=f78e194] [cursor=pointer]
+              - button "Share with Telegram" [ref=f78e197] [cursor=pointer]
+              - button "Share with Reddit" [ref=f78e200] [cursor=pointer]
+              - button "Share with LinkedIn" [ref=f78e203] [cursor=pointer]
+              - button "Share with X" [ref=f78e206] [cursor=pointer]
+      - region [ref=f78e209]:
+        - generic [ref=f78e210]:
+          - heading "Comments" [level=2] [ref=f78e211]
+          - button "Reload comments" [ref=f78e212] [cursor=pointer]
+        - iframe [ref=f78e217]
+    - link "All writing" [ref=f78e219] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f78e220]: ←
+      - text: All writing
+    - generic [ref=f78e222]:
+      - generic [ref=f78e224]:
+        - heading "Related Posts" [level=2] [ref=f78e225]
+        - link "View All Posts »" [ref=f78e226] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f78e227]:
+        - article [ref=f78e228]:
+          - 'link "Read: These apps let you use ADB without touching the command line" [ref=f78e230] [cursor=pointer]':
+            - /url: /adb-gui-tools
+          - heading [level=3] [ref=f78e231]:
+            - link "These apps let you use ADB without touching the command line" [ref=f78e232] [cursor=pointer]:
+              - /url: /adb-gui-tools
+          - paragraph [ref=f78e233]: While ADB was made for developers, these tools are for everyone. I tested the best ones so you can take control of your phone.
+        - article [ref=f78e234]:
+          - 'link "Read: Google Play isn''t as clean as you''d think, and these alternatives are better" [ref=f78e236] [cursor=pointer]':
+            - /url: /google-play-clean-alternatives
+          - heading [level=3] [ref=f78e237]:
+            - link "Google Play isn't as clean as you'd think, and these alternatives are better" [ref=f78e238] [cursor=pointer]:
+              - /url: /google-play-clean-alternatives
+          - paragraph [ref=f78e239]: When it comes to Android apps, the Play Store is king, but it has its drawbacks. Here's why you should avoid Google Play, and what to use instead.
+        - article [ref=f78e240]:
+          - 'link "Read: Rumor: The Mind phones keypad might be real" [ref=f78e242] [cursor=pointer]':
+            - /url: /mind-phone-might-have-an-actual-keypad
+          - heading [level=3] [ref=f78e243]:
+            - 'link "Rumor: The Mind phones keypad might be real" [ref=f78e244] [cursor=pointer]':
+              - /url: /mind-phone-might-have-an-actual-keypad
+          - paragraph [ref=f78e245]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+        - article [ref=f78e246]:
+          - 'link "Read: Building a messaging platform from scratch makes no sense" [ref=f78e248] [cursor=pointer]':
+            - /url: /building-a-messaging-platform-from-scratch-makes-no-sense
+          - heading [level=3] [ref=f78e249]:
+            - link "Building a messaging platform from scratch makes no sense" [ref=f78e250] [cursor=pointer]:
+              - /url: /building-a-messaging-platform-from-scratch-makes-no-sense
+  - contentinfo [ref=f78e251]:
+    - generic [ref=f78e252]:
+      - generic [ref=f78e253]:
+        - link "In Plaintext" [ref=f78e254] [cursor=pointer]:
+          - /url: /
+        - navigation "Legal" [ref=f78e255]:
+          - link "Terms" [ref=f78e256] [cursor=pointer]:
+            - /url: /terms
+          - generic [aria-hidden] [ref=f78e257]: ·
+          - link "Privacy Policy" [ref=f78e258] [cursor=pointer]:
+            - /url: /privacy
+      - generic [ref=f78e259]:
+        - list "Elsewhere" [ref=f78e260]:
+          - listitem [ref=f78e261]:
+            - link "Reddit" [ref=f78e262] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f78e265]:
+            - link "Jtech Forums" [ref=f78e266] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f78e267]
+          - listitem [ref=f78e268]:
+            - link "RSS" [ref=f78e269] [cursor=pointer]:
+              - /url: /rss.xml
+          - listitem [ref=f78e272]:
+            - link "Github" [ref=f78e273] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f78e276]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f78e277] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.

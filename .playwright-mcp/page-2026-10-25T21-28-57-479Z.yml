@@ -1,0 +1,298 @@
+- generic [ref=f15e1]:
+  - link "Skip to main content" [ref=f15e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f15e6]:
+    - generic:
+      - generic: python code - Reddit Search!
+      - banner [ref=f15e10]:
+        - navigation [ref=f15e11]:
+          - link "Home" [ref=f15e15] [cursor=pointer]:
+            - /url: https://www.reddit.com/
+          - search [ref=f15e33]:
+            - generic [ref=f15e35]:
+              - generic "Remove r/learnpython filter and expand search to all of Reddit" [ref=f15e41] [cursor=pointer]:
+                - button [pressed] [ref=f15e42]:
+                  - generic [aria-hidden] [ref=f15e46]: r/learnpython
+              - textbox "Remove r/learnpython filter and expand search to all of Reddit Clear search" [ref=f15e52]:
+                - /placeholder: Search in ⁨r/learnpython⁩
+                - text: python code
+              - button "Clear search" [ref=f15e54] [cursor=pointer]
+          - generic [ref=f15e60]:
+            - link "Sign Up" [ref=f15e66] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+            - link "Log In" [ref=f15e72] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+            - button "Expand user menu" [ref=f15e79] [cursor=pointer]
+      - generic "python code - Reddit Search!"
+      - generic [ref=f15e88]:
+        - generic [ref=f15e89]:
+          - generic [ref=f15e92]:
+            - generic [ref=f15e93]:
+              - generic [ref=f15e96]:
+                - tablist [ref=f15e97]:
+                  - tab [selected] [ref=f15e98]:
+                    - link "Posts" [ref=f15e99] [cursor=pointer]:
+                      - /url: /r/learnpython/search/?q=python+code&type=posts&iId=93c39377-88c5-4e86-95cd-98078e4857c2
+                  - tab [ref=f15e105]:
+                    - link "Comments" [ref=f15e106] [cursor=pointer]:
+                      - /url: /r/learnpython/search/?q=python+code&type=comments&iId=93c39377-88c5-4e86-95cd-98078e4857c2
+                  - tab [ref=f15e112]:
+                    - link "Media" [ref=f15e113] [cursor=pointer]:
+                      - /url: /r/learnpython/search/?q=python+code&type=media&iId=93c39377-88c5-4e86-95cd-98078e4857c2
+                - button "forward" [ref=f15e120] [cursor=pointer]
+                - button "back" [ref=f15e127] [cursor=pointer]
+              - generic:
+                - generic:
+                  - tabpanel
+            - generic [ref=f15e134]:
+              - button "Relevance" [ref=f15e138] [cursor=pointer]
+              - button "All time" [ref=f15e147] [cursor=pointer]
+          - generic [ref=f15e153]:
+            - generic:
+              - generic:
+                - link "Skip to Sign up" [ref=f15e154] [cursor=pointer]:
+                  - /url: "#left-sidebar-container"
+                - link "Skip to Right Sidebar" [ref=f15e155] [cursor=pointer]:
+                  - /url: "#right-sidebar-container"
+          - generic [ref=f15e156]:
+            - main [ref=f15e157]:
+              - generic [ref=f15e159]:
+                - paragraph [ref=f15e162]:
+                  - text: Show results from
+                  - link "all of Reddit" [ref=f15e164] [cursor=pointer]:
+                    - /url: /search/?q=python+code
+                - generic [ref=f15e169]:
+                  - generic:
+                    - heading "Is it normal to understand Python but get stuck when coding by yourself?" [level=2]:
+                      - link "Is it normal to understand Python but get stuck when coding by yourself?" [ref=f15e170] [cursor=pointer]:
+                        - /url: /r/learnpython/comments/1wsql1a/is_it_normal_to_understand_python_but_get_stuck/
+                  - generic [ref=f15e172]:
+                    - generic [ref=f15e175]:
+                      - link "r/learnpython" [ref=f15e178] [cursor=pointer]:
+                        - /url: /r/learnpython/
+                      - generic [ref=f15e183]: ·
+                      - time [ref=f15e185]: 27d ago
+                    - link "Is it normal to understand Python but get stuck when coding by yourself?" [ref=f15e186] [cursor=pointer]:
+                      - /url: /r/learnpython/comments/1wsql1a/is_it_normal_to_understand_python_but_get_stuck/
+                    - generic [ref=f15e187]:
+                      - generic [ref=f15e188]:
+                        - generic [ref=f15e189]: "107"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=f15e190]:
+                        - generic [ref=f15e191]: "71"
+                        - text: comments
+                - separator [ref=f15e192]
+                - generic [ref=f15e194]:
+                  - generic:
+                    - heading "How do you hand a small Python script to someone who doesn’t code?" [level=2]:
+                      - link "How do you hand a small Python script to someone who doesn’t code?" [ref=f15e195] [cursor=pointer]:
+                        - /url: /r/learnpython/comments/1xakttu/how_do_you_hand_a_small_python_script_to_someone/
+                  - generic [ref=f15e197]:
+                    - generic [ref=f15e200]:
+                      - link "r/learnpython" [ref=f15e203] [cursor=pointer]:
+                        - /url: /r/learnpython/
+                      - generic [ref=f15e208]: ·
+                      - time [ref=f15e210]: 6d ago
+                    - link "How do you hand a small Python script to someone who doesn’t code?" [ref=f15e211] [cursor=pointer]:
+                      - /url: /r/learnpython/comments/1xakttu/how_do_you_hand_a_small_python_script_to_someone/
+                    - generic [ref=f15e212]:
+                      - generic [ref=f15e213]:
+                        - generic [ref=f15e214]: "34"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=f15e215]:
+                        - generic [ref=f15e216]: "63"
+                        - text: comments
+                - separator [ref=f15e217]
+                - generic [ref=f15e219]:
+                  - generic:
+                    - heading "Learning Python/coding at 33." [level=2]:
+                      - link "Learning Python/coding at 33." [ref=f15e220] [cursor=pointer]:
+                        - /url: /r/learnpython/comments/1sg8r6i/learning_pythoncoding_at_33/
+                  - generic [ref=f15e222]:
+                    - generic [ref=f15e225]:
+                      - link "r/learnpython" [ref=f15e228] [cursor=pointer]:
+                        - /url: /r/learnpython/
+                      - generic [ref=f15e233]: ·
+                      - time [ref=f15e235]: 7mo ago
+                    - link "Learning Python/coding at 33." [ref=f15e236] [cursor=pointer]:
+                      - /url: /r/learnpython/comments/1sg8r6i/learning_pythoncoding_at_33/
+                    - generic [ref=f15e237]:
+                      - generic [ref=f15e238]:
+                        - generic [ref=f15e239]: "226"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=f15e240]:
+                        - generic [ref=f15e241]: "80"
+                        - text: comments
+                - separator [ref=f15e242]
+                - generic [ref=f15e244]:
+                  - generic:
+                    - heading "I started learning python yesterday, critique my code:" [level=2]:
+                      - link "I started learning python yesterday, critique my code:" [ref=f15e245] [cursor=pointer]:
+                        - /url: /r/learnpython/comments/1w7d7rs/i_started_learning_python_yesterday_critique_my/
+                  - generic [ref=f15e247]:
+                    - generic [ref=f15e250]:
+                      - link "r/learnpython" [ref=f15e253] [cursor=pointer]:
+                        - /url: /r/learnpython/
+                      - generic [ref=f15e258]: ·
+                      - time [ref=f15e260]: 2mo ago
+                    - link "I started learning python yesterday, critique my code:" [ref=f15e261] [cursor=pointer]:
+                      - /url: /r/learnpython/comments/1w7d7rs/i_started_learning_python_yesterday_critique_my/
+                    - generic [ref=f15e262]:
+                      - generic [ref=f15e263]:
+                        - generic [ref=f15e264]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=f15e265]:
+                        - generic [ref=f15e266]: "15"
+                        - text: comments
+                - separator [ref=f15e267]
+                - generic [ref=f15e269]:
+                  - generic:
+                    - heading "For any python professionals, can you tell if something has been coded with AI?" [level=2]:
+                      - link "For any python professionals, can you tell if something has been coded with AI?" [ref=f15e270] [cursor=pointer]:
+                        - /url: /r/learnpython/comments/1w2ur2h/for_any_python_professionals_can_you_tell_if/
+                  - generic [ref=f15e272]:
+                    - generic [ref=f15e275]:
+                      - link "r/learnpython" [ref=f15e278] [cursor=pointer]:
+                        - /url: /r/learnpython/
+                      - generic [ref=f15e283]: ·
+                      - time [ref=f15e285]: 2mo ago
+                    - link "For any python professionals, can you tell if something has been coded with AI?" [ref=f15e286] [cursor=pointer]:
+                      - /url: /r/learnpython/comments/1w2ur2h/for_any_python_professionals_can_you_tell_if/
+                    - generic [ref=f15e287]:
+                      - generic [ref=f15e288]:
+                        - generic [ref=f15e289]: "94"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=f15e290]:
+                        - generic [ref=f15e291]: "104"
+                        - text: comments
+                - separator [ref=f15e292]
+                - generic [ref=f15e294]:
+                  - generic:
+                    - heading "Beginner looking to get better at coding (Python or any language) — what actually works?" [level=2]:
+                      - link "Beginner looking to get better at coding (Python or any language) — what actually works?" [ref=f15e295] [cursor=pointer]:
+                        - /url: /r/learnpython/comments/1st9zxe/beginner_looking_to_get_better_at_coding_python/
+                  - generic [ref=f15e297]:
+                    - generic [ref=f15e300]:
+                      - link "r/learnpython" [ref=f15e303] [cursor=pointer]:
+                        - /url: /r/learnpython/
+                      - generic [ref=f15e308]: ·
+                      - time [ref=f15e310]: 6mo ago
+                    - link "Beginner looking to get better at coding (Python or any language) — what actually works?" [ref=f15e311] [cursor=pointer]:
+                      - /url: /r/learnpython/comments/1st9zxe/beginner_looking_to_get_better_at_coding_python/
+                    - generic [ref=f15e312]:
+                      - generic [ref=f15e313]:
+                        - generic [ref=f15e314]: "15"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=f15e315]:
+                        - generic [ref=f15e316]: "23"
+                        - text: comments
+                - separator [ref=f15e317]
+                - generic [ref=f15e319]:
+                  - generic:
+                    - heading "Stuck in python code" [level=2]:
+                      - link "Stuck in python code" [ref=f15e320] [cursor=pointer]:
+                        - /url: /r/learnpython/comments/1v52gtr/stuck_in_python_code/
+                  - generic [ref=f15e322]:
+                    - generic [ref=f15e325]:
+                      - link "r/learnpython" [ref=f15e328] [cursor=pointer]:
+                        - /url: /r/learnpython/
+                      - generic [ref=f15e333]: ·
+                      - time [ref=f15e335]: 3mo ago
+                    - link "Stuck in python code" [ref=f15e336] [cursor=pointer]:
+                      - /url: /r/learnpython/comments/1v52gtr/stuck_in_python_code/
+                    - generic [ref=f15e337]:
+                      - generic [ref=f15e338]:
+                        - generic [ref=f15e339]: "0"
+                        - text: votes
+                      - text: ·
+                      - generic [ref=f15e340]:
+                        - generic [ref=f15e341]: "13"
+                        - text: comments
+                - separator [ref=f15e342]
+            - generic [ref=f15e346]:
+              - generic [ref=f15e351]:
+                - heading "Community Info Section" [level=1] [ref=f15e352]
+                - generic [ref=f15e353]:
+                  - generic [ref=f15e354]: Python Education
+                  - generic [ref=f15e356]: Subreddit for posting questions and asking for general advice about all topics related to learning python.
+                  - generic [ref=f15e357]:
+                    - generic [ref=f15e358]: Created Oct 2, 2009
+                    - generic [ref=f15e362]: Public
+                - generic [ref=f15e366]:
+                  - generic [ref=f15e367]:
+                    - strong [ref=f15e369]:
+                      - generic: 201K
+                    - generic [ref=f15e370]: Weekly visitors
+                  - generic [ref=f15e371]:
+                    - strong [ref=f15e373]:
+                      - generic: 1.7K
+                    - generic [ref=f15e374]: Weekly contributions
+              - list [ref=f15e376]:
+                - listitem [ref=f15e377]:
+                  - link "Home" [ref=f15e379] [cursor=pointer]:
+                    - /url: /?feed=home
+                - listitem [ref=f15e380]:
+                  - link "Popular" [ref=f15e382] [cursor=pointer]:
+                    - /url: /r/popular/
+                - listitem [ref=f15e383]:
+                  - link "News" [ref=f15e385] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=f15e386]:
+                  - link "Explore" [ref=f15e388] [cursor=pointer]:
+                    - /url: /explore/
+                - listitem [ref=f15e389]:
+                  - link "Best of Reddit" [ref=f15e391] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/global/
+                - listitem [ref=f15e392]:
+                  - link "Best of Reddit in Portuguese" [ref=f15e394] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-pt-BR/
+                - listitem [ref=f15e395]:
+                  - link "Best of Reddit in German" [ref=f15e397] [cursor=pointer]:
+                    - /url: https://www.reddit.com/posts/2026/tl-de/
+                - listitem [ref=f15e398]:
+                  - link "Reddit Rules" [ref=f15e400] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                - listitem [ref=f15e401]:
+                  - link "Privacy Policy" [ref=f15e403] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                - listitem [ref=f15e404]:
+                  - link "User Agreement" [ref=f15e406] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                - listitem [ref=f15e407]:
+                  - link "Your Privacy Choices" [ref=f15e409] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                - listitem [ref=f15e410]:
+                  - link "Accessibility" [ref=f15e412] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                - listitem [ref=f15e413]:
+                  - link "Reddit, Inc. © 2026. All rights reserved." [ref=f15e414] [cursor=pointer]:
+                    - /url: https://redditinc.com
+        - generic [ref=f15e417]:
+          - paragraph [ref=f15e418]: Join the most real place on the internet
+          - generic [ref=f15e420]:
+            - generic [ref=f15e427] [cursor=pointer]:
+              - generic [ref=f15e428]: Continue with Apple
+              - button "Sign in with Apple" [ref=f15e434]:
+                - generic [ref=f15e435]:
+                  - img:
+                    - generic:
+                      - img:
+                        - generic:  Sign in with Apple
+            - link "Continue with Phone Number" [ref=f15e440] [cursor=pointer]:
+              - /url: https://www.reddit.com/login/
+            - link "Continue with Email" [ref=f15e449] [cursor=pointer]:
+              - /url: https://www.reddit.com/register/
+          - paragraph [ref=f15e456]:
+            - text: By continuing, you agree to our
+            - link "User Agreement" [ref=f15e457] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/user-agreement
+            - text: and acknowledge that you understand the
+            - link "Privacy Policy" [ref=f15e458] [cursor=pointer]:
+              - /url: https://www.redditinc.com/policies/privacy-policy
+            - text: .

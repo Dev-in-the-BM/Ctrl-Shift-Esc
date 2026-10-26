@@ -1,0 +1,650 @@
+- generic [ref=f18e2]:
+  - generic [ref=f18e3]:
+    - generic "Skip navigation links":
+      - link "Skip to main content" [ref=f18e4] [cursor=pointer]:
+        - /url: "#main-container"
+    - generic [ref=f18e9]:
+      - button "Sidebar" [expanded] [ref=f18e11] [cursor=pointer]
+      - link [ref=f18e15] [cursor=pointer]:
+        - /url: /
+        - img "Discourse Demo" [ref=f18e17]
+      - generic [ref=f18e22]:
+        - link "Open advanced search":
+          - /url: /search?expanded=true
+        - generic [ref=f18e25]:
+          - searchbox "Search" [ref=f18e26]
+          - button "Open advanced search" [ref=f18e28] [cursor=pointer]
+      - navigation "Header" [ref=f18e30]:
+        - generic [ref=f18e32]:
+          - button "Sign Up" [ref=f18e33] [cursor=pointer]
+          - button "Log In" [ref=f18e35] [cursor=pointer]
+        - list
+    - main [ref=f18e38]:
+      - navigation "Sidebar" [ref=f18e40]:
+        - generic [ref=f18e41]:
+          - list [ref=f18e44]:
+            - listitem [ref=f18e45]:
+              - link "Topics" [ref=f18e46] [cursor=pointer]:
+                - /url: /latest
+            - listitem [ref=f18e50]:
+              - link "Docs" [ref=f18e51] [cursor=pointer]:
+                - /url: /docs
+            - listitem [ref=f18e55]:
+              - link "Upcoming events" [ref=f18e56] [cursor=pointer]:
+                - /url: /upcoming-events
+            - listitem [ref=f18e60]:
+              - button "More" [ref=f18e61]:
+                - generic [ref=f18e62] [cursor=pointer]
+          - generic [ref=f18e65]:
+            - button "Categories" [expanded] [ref=f18e67] [cursor=pointer]
+            - list [ref=f18e71]:
+              - listitem [ref=f18e72]:
+                - link "discourse" [ref=f18e73] [cursor=pointer]:
+                  - /url: /c/discourse/1
+              - listitem [ref=f18e77]:
+                - link "gaming" [ref=f18e78] [cursor=pointer]:
+                  - /url: /c/gaming/6
+              - listitem [ref=f18e82]:
+                - link "movies" [ref=f18e83] [cursor=pointer]:
+                  - /url: /c/movies/8
+              - listitem [ref=f18e87]:
+                - link "videos" [ref=f18e88] [cursor=pointer]:
+                  - /url: /c/videos/4
+              - listitem [ref=f18e92]:
+                - link "All categories" [ref=f18e93] [cursor=pointer]:
+                  - /url: /categories
+          - generic [ref=f18e97]:
+            - button "Tags" [expanded] [ref=f18e99] [cursor=pointer]
+            - list [ref=f18e103]:
+              - listitem [ref=f18e104]:
+                - link "art" [ref=f18e105] [cursor=pointer]:
+                  - /url: /tag/art/2
+              - listitem [ref=f18e109]:
+                - link "code" [ref=f18e110] [cursor=pointer]:
+                  - /url: /tag/code/1
+              - listitem [ref=f18e114]:
+                - link "All tags" [ref=f18e115] [cursor=pointer]:
+                  - /url: /tags
+          - generic [ref=f18e119]:
+            - button "Channels" [expanded] [ref=f18e121] [cursor=pointer]
+            - list [ref=f18e125]:
+              - listitem [ref=f18e126]:
+                - link "discourse" [ref=f18e127] [cursor=pointer]:
+                  - /url: /chat/c/discourse/3
+              - listitem [ref=f18e131]:
+                - link "gaming" [ref=f18e132] [cursor=pointer]:
+                  - /url: /chat/c/gaming/2
+              - listitem [ref=f18e136]:
+                - link "movies" [ref=f18e137] [cursor=pointer]:
+                  - /url: /chat/c/movies/1
+        - generic [ref=f18e143]:
+          - button [ref=f18e144]
+          - group [ref=f18e147]:
+            - 'generic "Filter by: Horizon" [ref=f18e148] [cursor=pointer]':
+              - generic "Horizon" [ref=f18e150]
+          - 'button "Color mode, currently [missing %{mode} value]" [ref=f18e152]'
+          - button "Keyboard Shortcuts" [ref=f18e154] [cursor=pointer]
+      - generic [ref=f18e156]:
+        - list:
+          - listitem [ref=f18e157]
+          - listitem [ref=f18e158]
+          - listitem [ref=f18e159]
+          - listitem [ref=f18e160]
+          - listitem [ref=f18e161]
+        - generic [ref=f18e163]:
+          - heading "All latest topics" [level=1] [ref=f18e164]
+          - generic [ref=f18e165]:
+            - list [ref=f18e166]:
+              - listitem [ref=f18e167]:
+                - group [ref=f18e168]:
+                  - 'generic "Filter by: categories" [ref=f18e169] [cursor=pointer]':
+                    - generic "categories" [ref=f18e171]
+              - listitem [ref=f18e173]:
+                - group [ref=f18e174]:
+                  - 'generic "Filter by: tags" [ref=f18e175] [cursor=pointer]':
+                    - generic "tags" [ref=f18e177]
+            - list [ref=f18e179]:
+              - listitem "topics with recent posts" [ref=f18e180]:
+                - link "Latest" [ref=f18e181] [cursor=pointer]:
+                  - /url: /latest
+              - listitem "top recent topics" [ref=f18e182]:
+                - link "Hot" [ref=f18e183] [cursor=pointer]:
+                  - /url: /hot
+              - listitem "all topics grouped by category" [ref=f18e184]:
+                - link "Categories" [ref=f18e185] [cursor=pointer]:
+                  - /url: /categories
+        - table "All latest topics" [ref=f18e190]:
+          - caption [ref=f18e191]: Topic list, column headers with buttons are sortable.
+          - rowgroup:
+            - row:
+              - columnheader
+          - rowgroup [ref=f18e192]:
+            - row [ref=f18e193] [cursor=pointer]:
+              - cell "samsaffron posted Mar 5 by @samsaffron Pinned Welcome to our demo! Welcome to our demonstration sandbox! This is a safe place to play with Discourse that resets every day. Feel free to experiment, but always be civil and respectful – and don’t post anything here you wouldn’t want lost … read more discourse 3 likes" [ref=f18e194]:
+                - generic [ref=f18e195]:
+                  - generic [ref=f18e196]:
+                    - img "samsaffron" [ref=f18e198]
+                    - generic [ref=f18e199]:
+                      - generic [ref=f18e200]: posted Mar 5
+                      - generic [ref=f18e201]: by @samsaffron
+                  - generic "Pinned" [ref=f18e203]
+                - generic [ref=f18e206]:
+                  - heading [level=2] [ref=f18e207]:
+                    - link "Welcome to our demo!" [ref=f18e208]:
+                      - /url: /t/welcome-to-our-demo/57
+                  - link "Welcome to our demonstration sandbox! This is a safe place to play with Discourse that resets every day. Feel free to experiment, but always be civil and respectful – and don’t post anything here you wouldn’t want lost … read more" [ref=f18e209]:
+                    - /url: /t/welcome-to-our-demo/57
+                - generic [ref=f18e210]:
+                  - link "discourse" [ref=f18e213]:
+                    - /url: /c/discourse/1
+                  - generic "3 likes" [ref=f18e217]: "3"
+            - row [ref=f18e220] [cursor=pointer]:
+              - cell "grk posted Oct 25 by @grk Testing 123 123 123 testing 123 123 123 123 123 general" [ref=f18e221]:
+                - generic [ref=f18e223]:
+                  - img "grk" [ref=f18e225]
+                  - generic [ref=f18e226]:
+                    - generic [ref=f18e227]: posted Oct 25
+                    - generic [ref=f18e228]: by @grk
+                - generic [ref=f18e229]:
+                  - heading [level=2] [ref=f18e230]:
+                    - link "Testing 123 123 123" [ref=f18e231]:
+                      - /url: /t/testing-123-123-123/1574
+                  - link "testing 123 123 123 123 123" [ref=f18e232]:
+                    - /url: /t/testing-123-123-123/1574
+                - link "general" [ref=f18e236]:
+                  - /url: /c/general/5
+            - row [ref=f18e239] [cursor=pointer]:
+              - 'cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Rce probe imds metadata probe: http://169.254.169.254.nip.io/latest/meta-data/ general" [ref=f18e240]':
+                - generic [ref=f18e242]:
+                  - img "rcee0ccbc7c" [ref=f18e244]
+                  - generic [ref=f18e245]:
+                    - generic [ref=f18e246]: posted Oct 25
+                    - generic [ref=f18e247]: by @rcee0ccbc7c
+                - generic [ref=f18e248]:
+                  - heading [level=2] [ref=f18e249]:
+                    - link "Rce probe imds metadata" [ref=f18e250]:
+                      - /url: /t/rce-probe-imds-metadata/1553
+                  - 'link "probe: http://169.254.169.254.nip.io/latest/meta-data/" [ref=f18e251]':
+                    - /url: /t/rce-probe-imds-metadata/1553
+                - link "general" [ref=f18e255]:
+                  - /url: /c/general/5
+            - row [ref=f18e258] [cursor=pointer]:
+              - cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Rce probe onebox topic hello https://sprout.cautela.io/s/O4waVG8gWwgZmlblZ-OZ-XLwVnvTD-zevz-MHpgC-m0?l=try2-onebox-topic test general" [ref=f18e259]:
+                - generic [ref=f18e261]:
+                  - img "rcee0ccbc7c" [ref=f18e263]
+                  - generic [ref=f18e264]:
+                    - generic [ref=f18e265]: posted Oct 25
+                    - generic [ref=f18e266]: by @rcee0ccbc7c
+                - generic [ref=f18e267]:
+                  - heading [level=2] [ref=f18e268]:
+                    - link "Rce probe onebox topic" [ref=f18e269]:
+                      - /url: /t/rce-probe-onebox-topic/1550
+                  - link "hello https://sprout.cautela.io/s/O4waVG8gWwgZmlblZ-OZ-XLwVnvTD-zevz-MHpgC-m0?l=try2-onebox-topic test" [ref=f18e270]:
+                    - /url: /t/rce-probe-onebox-topic/1550
+                - link "general" [ref=f18e274]:
+                  - /url: /c/general/5
+            - row [ref=f18e277] [cursor=pointer]:
+              - cell "bacprobe287ef5 posted Oct 25 by @bacprobe287ef5 BAC control topic 9f1bfc BAC public control post 9f1bfc general" [ref=f18e278]:
+                - generic [ref=f18e280]:
+                  - img "bacprobe287ef5" [ref=f18e282]
+                  - generic [ref=f18e283]:
+                    - generic [ref=f18e284]: posted Oct 25
+                    - generic [ref=f18e285]: by @bacprobe287ef5
+                - generic [ref=f18e286]:
+                  - heading [level=2] [ref=f18e287]:
+                    - link "BAC control topic 9f1bfc" [ref=f18e288]:
+                      - /url: /t/bac-control-topic-9f1bfc/1560
+                  - link "BAC public control post 9f1bfc" [ref=f18e289]:
+                    - /url: /t/bac-control-topic-9f1bfc/1560
+                - link "general" [ref=f18e293]:
+                  - /url: /c/general/5
+            - row [ref=f18e296] [cursor=pointer]:
+              - cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Bac-wf-probe-ff3575ad bac workflow probe body general" [ref=f18e297]:
+                - generic [ref=f18e299]:
+                  - img "rcee0ccbc7c" [ref=f18e301]
+                  - generic [ref=f18e302]:
+                    - generic [ref=f18e303]: posted Oct 25
+                    - generic [ref=f18e304]: by @rcee0ccbc7c
+                - generic [ref=f18e305]:
+                  - heading [level=2] [ref=f18e306]:
+                    - link "Bac-wf-probe-ff3575ad" [ref=f18e307]:
+                      - /url: /t/bac-wf-probe-ff3575ad/1501
+                  - link "bac workflow probe body" [ref=f18e308]:
+                    - /url: /t/bac-wf-probe-ff3575ad/1501
+                - link "general" [ref=f18e312]:
+                  - /url: /c/general/5
+            - row [ref=f18e315] [cursor=pointer]:
+              - cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c BXSS probe simple alpha hello world probe simple alpha tech" [ref=f18e316]:
+                - generic [ref=f18e318]:
+                  - img "rcee0ccbc7c" [ref=f18e320]
+                  - generic [ref=f18e321]:
+                    - generic [ref=f18e322]: posted Oct 25
+                    - generic [ref=f18e323]: by @rcee0ccbc7c
+                - generic [ref=f18e324]:
+                  - heading [level=2] [ref=f18e325]:
+                    - link "BXSS probe simple alpha" [ref=f18e326]:
+                      - /url: /t/bxss-probe-simple-alpha/1533
+                  - link "hello world probe simple alpha" [ref=f18e327]:
+                    - /url: /t/bxss-probe-simple-alpha/1533
+                - link "tech" [ref=f18e331]:
+                  - /url: /c/tech/2
+            - row [ref=f18e334] [cursor=pointer]:
+              - 'cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Rce probe control example dot com control: https://example.com/ general" [ref=f18e335]':
+                - generic [ref=f18e337]:
+                  - img "rcee0ccbc7c" [ref=f18e339]
+                  - generic [ref=f18e340]:
+                    - generic [ref=f18e341]: posted Oct 25
+                    - generic [ref=f18e342]: by @rcee0ccbc7c
+                - generic [ref=f18e343]:
+                  - heading [level=2] [ref=f18e344]:
+                    - link "Rce probe control example dot com" [ref=f18e345]:
+                      - /url: /t/rce-probe-control-example-dot-com/1555
+                  - 'link "control: https://example.com/" [ref=f18e346]':
+                    - /url: /t/rce-probe-control-example-dot-com/1555
+                - link "general" [ref=f18e350]:
+                  - /url: /c/general/5
+            - row [ref=f18e353] [cursor=pointer]:
+              - 'cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Rce probe 4ebb1f probe: http://localhost/ general" [ref=f18e354]':
+                - generic [ref=f18e356]:
+                  - img "rcee0ccbc7c" [ref=f18e358]
+                  - generic [ref=f18e359]:
+                    - generic [ref=f18e360]: posted Oct 25
+                    - generic [ref=f18e361]: by @rcee0ccbc7c
+                - generic [ref=f18e362]:
+                  - heading [level=2] [ref=f18e363]:
+                    - link "Rce probe 4ebb1f" [ref=f18e364]:
+                      - /url: /t/rce-probe-4ebb1f/1551
+                  - 'link "probe: http://localhost/" [ref=f18e365]':
+                    - /url: /t/rce-probe-4ebb1f/1551
+                - link "general" [ref=f18e369]:
+                  - /url: /c/general/5
+            - row [ref=f18e372] [cursor=pointer]:
+              - 'cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c RCE fetch sink probe 4172 Hotlink test. Inline tag. SVG ref: upload://7O8TsNOByxiLADEHOawuq7GOKRc.svg Onebox line: https://sprout.cautela.io/p/329ef3f4-ba7b-48e0-8871-69bb46769088 tech" [ref=f18e373]':
+                - generic [ref=f18e375]:
+                  - img "rcee0ccbc7c" [ref=f18e377]
+                  - generic [ref=f18e378]:
+                    - generic [ref=f18e379]: posted Oct 25
+                    - generic [ref=f18e380]: by @rcee0ccbc7c
+                - generic [ref=f18e381]:
+                  - heading [level=2] [ref=f18e382]:
+                    - link "RCE fetch sink probe 4172" [ref=f18e383]:
+                      - /url: /t/rce-fetch-sink-probe-4172/1522
+                  - 'link "Hotlink test. Inline tag. SVG ref: upload://7O8TsNOByxiLADEHOawuq7GOKRc.svg Onebox line: https://sprout.cautela.io/p/329ef3f4-ba7b-48e0-8871-69bb46769088" [ref=f18e384]':
+                    - /url: /t/rce-fetch-sink-probe-4172/1522
+                - link "tech" [ref=f18e388]:
+                  - /url: /c/tech/2
+            - row [ref=f18e391] [cursor=pointer]:
+              - 'cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Release notes test topic Checking how a link renders: Quarterly release notes and changelog uncategorized" [ref=f18e392]':
+                - generic [ref=f18e394]:
+                  - img "rcee0ccbc7c" [ref=f18e396]
+                  - generic [ref=f18e397]:
+                    - generic [ref=f18e398]: posted Oct 25
+                    - generic [ref=f18e399]: by @rcee0ccbc7c
+                - generic [ref=f18e400]:
+                  - heading [level=2] [ref=f18e401]:
+                    - link "Release notes test topic" [ref=f18e402]:
+                      - /url: /t/release-notes-test-topic/1524
+                  - 'link "Checking how a link renders: Quarterly release notes and changelog" [ref=f18e403]':
+                    - /url: /t/release-notes-test-topic/1524
+                - link "uncategorized" [ref=f18e407]:
+                  - /url: /c/uncategorized/13
+            - row [ref=f18e410] [cursor=pointer]:
+              - cell "dax posted Oct 25 by @dax Houston, we have a problem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo… read more rcee0ccbc7c rcee0ccbc7c replied 11 hours ago support 1 reply" [ref=f18e411]:
+                - generic [ref=f18e413]:
+                  - img "dax" [ref=f18e415]
+                  - generic [ref=f18e416]:
+                    - generic [ref=f18e417]: posted Oct 25
+                    - generic [ref=f18e418]: by @dax
+                - generic [ref=f18e419]:
+                  - heading [level=2] [ref=f18e420]:
+                    - link "Houston, we have a problem" [ref=f18e421]:
+                      - /url: /t/houston-we-have-a-problem/1497
+                  - link "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo… read more" [ref=f18e422]:
+                    - /url: /t/houston-we-have-a-problem/1497
+                - generic [ref=f18e424]:
+                  - img "rcee0ccbc7c" [ref=f18e425]
+                  - generic [ref=f18e426]: rcee0ccbc7c
+                  - generic [ref=f18e427]: replied
+                  - generic [ref=f18e428]: 11 hours ago
+                - generic [ref=f18e429]:
+                  - link "support" [ref=f18e432]:
+                    - /url: /c/support/50
+                  - generic "1 reply" [ref=f18e436]: "1"
+            - row [ref=f18e439] [cursor=pointer]:
+              - cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Bxss cdata probe 7 (delete me) I probe general" [ref=f18e440]:
+                - generic [ref=f18e442]:
+                  - img "rcee0ccbc7c" [ref=f18e444]
+                  - generic [ref=f18e445]:
+                    - generic [ref=f18e446]: posted Oct 25
+                    - generic [ref=f18e447]: by @rcee0ccbc7c
+                - generic [ref=f18e448]:
+                  - heading [level=2] [ref=f18e449]:
+                    - link "Bxss cdata probe 7 (delete me)" [ref=f18e450]:
+                      - /url: /t/bxss-cdata-probe-7-delete-me/1547
+                  - link "I probe" [ref=f18e451]:
+                    - /url: /t/bxss-cdata-probe-7-delete-me/1547
+                - link "general" [ref=f18e455]:
+                  - /url: /c/general/5
+            - row [ref=f18e458] [cursor=pointer]:
+              - 'cell "rcee0ccbc7c posted Oct 25 by @rcee0ccbc7c Rce probe dns oracle example com probe: http://93.184.216.34.nip.io/ general" [ref=f18e459]':
+                - generic [ref=f18e461]:
+                  - img "rcee0ccbc7c" [ref=f18e463]
+                  - generic [ref=f18e464]:
+                    - generic [ref=f18e465]: posted Oct 25
+                    - generic [ref=f18e466]: by @rcee0ccbc7c
+                - generic [ref=f18e467]:
+                  - heading [level=2] [ref=f18e468]:
+                    - link "Rce probe dns oracle example com" [ref=f18e469]:
+                      - /url: /t/rce-probe-dns-oracle-example-com/1554
+                  - 'link "probe: http://93.184.216.34.nip.io/" [ref=f18e470]':
+                    - /url: /t/rce-probe-dns-oracle-example-com/1554
+                - link "general" [ref=f18e474]:
+                  - /url: /c/general/5
+            - row [ref=f18e477] [cursor=pointer]:
+              - cell "anon48578346 posted Oct 24 by @anon48578346 Category Calendar demo topic Any items added to this topic will appear in both the calendar in this topic, as well as the calendar displayed on the calendar category page. To add items to this calendar, create a post and insert a date using the … read more anon48578346 anon48578346 replied 1 day ago calendar 1 reply" [ref=f18e478]:
+                - generic [ref=f18e480]:
+                  - img "anon48578346" [ref=f18e482]
+                  - generic [ref=f18e483]:
+                    - generic [ref=f18e484]: posted Oct 24
+                    - generic [ref=f18e485]: by @anon48578346
+                - generic [ref=f18e486]:
+                  - heading [level=2] [ref=f18e487]:
+                    - link "Category Calendar demo topic" [ref=f18e488]:
+                      - /url: /t/category-calendar-demo-topic/1461
+                  - link [ref=f18e489]:
+                    - /url: /t/category-calendar-demo-topic/1461
+                    - generic [ref=f18e490]: Any items added to this topic will appear in both the calendar in this topic, as well as the calendar displayed on the calendar
+                    - text: category page. To add items to this calendar, create a post and insert a date using the … read more
+                - generic [ref=f18e492]:
+                  - img "anon48578346" [ref=f18e493]
+                  - generic [ref=f18e494]: anon48578346
+                  - generic [ref=f18e495]: replied
+                  - generic [ref=f18e496]: 1 day ago
+                - generic [ref=f18e497]:
+                  - link "calendar" [ref=f18e500]:
+                    - /url: /c/calendar/86
+                  - generic "1 reply" [ref=f18e504]: "1"
+            - row [ref=f18e507] [cursor=pointer]:
+              - 'cell "techAPJ posted Jul 24 by @techAPJ Poll: What’s your preferred mobile OS? iOS Android Windows Phone Blackberry Firefox OS Sailfish OS Symbian Ubuntu Touch OS Other 0voters Show results kris kris replied 1 day ago tech 4 replies" [ref=f18e508]':
+                - generic [ref=f18e510]:
+                  - img "techAPJ" [ref=f18e512]
+                  - generic [ref=f18e513]:
+                    - generic [ref=f18e514]: posted Jul 24
+                    - generic [ref=f18e515]: by @techAPJ
+                - generic [ref=f18e516]:
+                  - heading [level=2] [ref=f18e517]:
+                    - 'link "Poll: What’s your preferred mobile OS?" [ref=f18e518]':
+                      - /url: /t/poll-whats-your-preferred-mobile-os/284
+                  - link "iOS Android Windows Phone Blackberry Firefox OS Sailfish OS Symbian Ubuntu Touch OS Other 0voters Show results" [ref=f18e519]:
+                    - /url: /t/poll-whats-your-preferred-mobile-os/284
+                - generic [ref=f18e521]:
+                  - img "kris" [ref=f18e522]
+                  - generic [ref=f18e523]: kris
+                  - generic [ref=f18e524]: replied
+                  - generic [ref=f18e525]: 1 day ago
+                - generic [ref=f18e526]:
+                  - link "tech" [ref=f18e529]:
+                    - /url: /c/tech/2
+                  - generic "4 replies" [ref=f18e533]: "4"
+            - row [ref=f18e536] [cursor=pointer]:
+              - cell "johnsmith posted Mar 7 by @johnsmith What do the avatars in the topic list mean? discourse 3 replies 3 likes" [ref=f18e537]:
+                - generic [ref=f18e539]:
+                  - img "johnsmith" [ref=f18e541]
+                  - generic [ref=f18e542]:
+                    - generic [ref=f18e543]: posted Mar 7
+                    - generic [ref=f18e544]: by @johnsmith
+                - heading [level=2] [ref=f18e546]:
+                  - link "What do the avatars in the topic list mean?" [ref=f18e547]:
+                    - /url: /t/what-do-the-avatars-in-the-topic-list-mean/65
+                - generic [ref=f18e548]:
+                  - link "discourse" [ref=f18e551]:
+                    - /url: /c/discourse/1
+                  - generic [ref=f18e554]:
+                    - generic "3 replies" [ref=f18e555]: "3"
+                    - generic "3 likes" [ref=f18e558]: "3"
+            - row [ref=f18e561] [cursor=pointer]:
+              - 'cell "anon48578346 posted Oct 24 by @anon48578346 How to create a calendar topic Creating a calendar To embed a simple calendar, add the following to the first post of a topic (note the separate lines): [calendar] [/calendar] You can also include additional calendar options by adding these variable… read more calendar" [ref=f18e562]':
+                - generic [ref=f18e564]:
+                  - img "anon48578346" [ref=f18e566]
+                  - generic [ref=f18e567]:
+                    - generic [ref=f18e568]: posted Oct 24
+                    - generic [ref=f18e569]: by @anon48578346
+                - generic [ref=f18e570]:
+                  - heading [level=2] [ref=f18e571]:
+                    - link "How to create a calendar topic" [ref=f18e572]:
+                      - /url: /t/how-to-create-a-calendar-topic/1462
+                  - 'link "Creating a calendar To embed a simple calendar, add the following to the first post of a topic (note the separate lines): [calendar] [/calendar] You can also include additional calendar options by adding these variable… read more" [ref=f18e573]':
+                    - /url: /t/how-to-create-a-calendar-topic/1462
+                - link "calendar" [ref=f18e577]:
+                  - /url: /c/calendar/86
+            - row [ref=f18e580] [cursor=pointer]:
+              - cell "johnsmith posted Mar 6 by @johnsmith What’s that thing under the first post? discourse 2 replies 3 likes" [ref=f18e581]:
+                - generic [ref=f18e583]:
+                  - img "johnsmith" [ref=f18e585]
+                  - generic [ref=f18e586]:
+                    - generic [ref=f18e587]: posted Mar 6
+                    - generic [ref=f18e588]: by @johnsmith
+                - heading [level=2] [ref=f18e590]:
+                  - link "What’s that thing under the first post?" [ref=f18e591]:
+                    - /url: /t/whats-that-thing-under-the-first-post/60
+                - generic [ref=f18e592]:
+                  - link "discourse" [ref=f18e595]:
+                    - /url: /c/discourse/1
+                  - generic [ref=f18e598]:
+                    - generic "2 replies" [ref=f18e599]: "2"
+                    - generic "3 likes" [ref=f18e602]: "3"
+            - row [ref=f18e605] [cursor=pointer]:
+              - cell "johnsmith posted Jan 24 by @johnsmith How do I reply to folks here? tinyhands tinyhands replied 1 day ago discourse 4 replies 4 likes" [ref=f18e606]:
+                - generic [ref=f18e608]:
+                  - img "johnsmith" [ref=f18e610]
+                  - generic [ref=f18e611]:
+                    - generic [ref=f18e612]: posted Jan 24
+                    - generic [ref=f18e613]: by @johnsmith
+                - heading [level=2] [ref=f18e615]:
+                  - link "How do I reply to folks here?" [ref=f18e616]:
+                    - /url: /t/how-do-i-reply-to-folks-here/51
+                - generic [ref=f18e618]:
+                  - img "tinyhands" [ref=f18e619]
+                  - generic [ref=f18e620]: tinyhands
+                  - generic [ref=f18e621]: replied
+                  - generic [ref=f18e622]: 1 day ago
+                - generic [ref=f18e623]:
+                  - link "discourse" [ref=f18e626]:
+                    - /url: /c/discourse/1
+                  - generic [ref=f18e629]:
+                    - generic "4 replies" [ref=f18e630]: "4"
+                    - generic "4 likes" [ref=f18e633]: "4"
+            - row [ref=f18e636] [cursor=pointer]:
+              - cell "johnsmith posted Mar 5 by @johnsmith Is there a Markdown or BBCode reference? When I begin writing a post, I see some help text, that includes Use Markdown or BBCode to format OK, but there is no reference for what Markdown or BBCode is! I’ve discovered a few things by experimenting, like app… read more discourse 1 reply" [ref=f18e637]:
+                - generic [ref=f18e639]:
+                  - img "johnsmith" [ref=f18e641]
+                  - generic [ref=f18e642]:
+                    - generic [ref=f18e643]: posted Mar 5
+                    - generic [ref=f18e644]: by @johnsmith
+                - generic [ref=f18e645]:
+                  - heading [level=2] [ref=f18e646]:
+                    - link "Is there a Markdown or BBCode reference?" [ref=f18e647]:
+                      - /url: /t/is-there-a-markdown-or-bbcode-reference/61
+                  - link "When I begin writing a post, I see some help text, that includes Use Markdown or BBCode to format OK, but there is no reference for what Markdown or BBCode is! I’ve discovered a few things by experimenting, like app… read more" [ref=f18e648]:
+                    - /url: /t/is-there-a-markdown-or-bbcode-reference/61
+                - generic [ref=f18e649]:
+                  - link "discourse" [ref=f18e652]:
+                    - /url: /c/discourse/1
+                  - generic "1 reply" [ref=f18e656]: "1"
+            - row [ref=f18e659] [cursor=pointer]:
+              - cell "daryljames posted Mar 5 by @daryljames Whoa. Check out this crazy paper artwork This is pretty awesome! The artist makes paper sculptures that are very pliable. It's sort of hard to describe -- check out the video. [:cool:] http://vimeo.com/54967505# general Tags 3 replies 12 likes" [ref=f18e660]:
+                - generic [ref=f18e662]:
+                  - img "daryljames" [ref=f18e664]
+                  - generic [ref=f18e665]:
+                    - generic [ref=f18e666]: posted Mar 5
+                    - generic [ref=f18e667]: by @daryljames
+                - generic [ref=f18e668]:
+                  - heading [level=2] [ref=f18e669]:
+                    - link "Whoa. Check out this crazy paper artwork" [ref=f18e670]:
+                      - /url: /t/whoa-check-out-this-crazy-paper-artwork/77
+                  - link "This is pretty awesome! The artist makes paper sculptures that are very pliable. It's sort of hard to describe -- check out the video. [:cool:] http://vimeo.com/54967505#" [ref=f18e671]:
+                    - /url: /t/whoa-check-out-this-crazy-paper-artwork/77
+                - generic [ref=f18e672]:
+                  - generic [ref=f18e673]:
+                    - link "general" [ref=f18e675]:
+                      - /url: /c/general/5
+                    - list "Tags" [ref=f18e678]:
+                      - listitem [ref=f18e679]:
+                        - link "art" [ref=f18e680]:
+                          - /url: /tag/art/2
+                  - generic [ref=f18e681]:
+                    - generic "3 replies" [ref=f18e682]: "3"
+                    - generic "12 likes" [ref=f18e685]: "12"
+            - row [ref=f18e688] [cursor=pointer]:
+              - 'cell "techAPJ posted Sep 22 by @techAPJ Recommend a great YouTube video I''ll start! Clay Shirky on Love, Internet Style: videos 4 replies 10 likes" [ref=f18e689]':
+                - generic [ref=f18e691]:
+                  - img "techAPJ" [ref=f18e693]
+                  - generic [ref=f18e694]:
+                    - generic [ref=f18e695]: posted Sep 22
+                    - generic [ref=f18e696]: by @techAPJ
+                - generic [ref=f18e697]:
+                  - heading [level=2] [ref=f18e698]:
+                    - link "Recommend a great YouTube video" [ref=f18e699]:
+                      - /url: /t/recommend-a-great-youtube-video/287
+                  - link "I'll start! Clay Shirky on Love, Internet Style:" [ref=f18e700]:
+                    - /url: /t/recommend-a-great-youtube-video/287
+                - generic [ref=f18e701]:
+                  - link "videos" [ref=f18e704]:
+                    - /url: /c/videos/4
+                  - generic [ref=f18e707]:
+                    - generic "4 replies" [ref=f18e708]: "4"
+                    - generic "10 likes" [ref=f18e711]: "10"
+            - row [ref=f18e714] [cursor=pointer]:
+              - cell "johnsmith posted Mar 5 by @johnsmith Can I log in with Google and a forum log in too? discourse 3 replies" [ref=f18e715]:
+                - generic [ref=f18e717]:
+                  - img "johnsmith" [ref=f18e719]
+                  - generic [ref=f18e720]:
+                    - generic [ref=f18e721]: posted Mar 5
+                    - generic [ref=f18e722]: by @johnsmith
+                - heading [level=2] [ref=f18e724]:
+                  - link "Can I log in with Google and a forum log in too?" [ref=f18e725]:
+                    - /url: /t/can-i-log-in-with-google-and-a-forum-log-in-too/54
+                - generic [ref=f18e726]:
+                  - link "discourse" [ref=f18e729]:
+                    - /url: /c/discourse/1
+                  - generic "3 replies" [ref=f18e733]: "3"
+            - row [ref=f18e736] [cursor=pointer]:
+              - cell "trident posted Sep 17 by @trident What’s the coolest thing you have worked on? Not limited to technology only! Share something interesting you have created, either in the real world or the digital world. Having gotten a C+ (72%) in woodworking, I’ll stick with the digital. Believe it or not, I kept… read more codinghorror codinghorror replied 2 days ago general 3 replies 6 likes" [ref=f18e737]:
+                - generic [ref=f18e739]:
+                  - img "trident" [ref=f18e741]
+                  - generic [ref=f18e742]:
+                    - generic [ref=f18e743]: posted Sep 17
+                    - generic [ref=f18e744]: by @trident
+                - generic [ref=f18e745]:
+                  - heading [level=2] [ref=f18e746]:
+                    - link "What’s the coolest thing you have worked on?" [ref=f18e747]:
+                      - /url: /t/whats-the-coolest-thing-you-have-worked-on/258
+                  - link "Not limited to technology only! Share something interesting you have created, either in the real world or the digital world. Having gotten a C+ (72%) in woodworking, I’ll stick with the digital. Believe it or not, I kept… read more" [ref=f18e748]:
+                    - /url: /t/whats-the-coolest-thing-you-have-worked-on/258
+                - generic [ref=f18e750]:
+                  - img "codinghorror" [ref=f18e751]
+                  - generic [ref=f18e752]: codinghorror
+                  - generic [ref=f18e753]: replied
+                  - generic [ref=f18e754]: 2 days ago
+                - generic [ref=f18e755]:
+                  - link "general" [ref=f18e758]:
+                    - /url: /c/general/5
+                  - generic [ref=f18e761]:
+                    - generic "3 replies" [ref=f18e762]: "3"
+                    - generic "6 likes" [ref=f18e765]: "6"
+            - row [ref=f18e768] [cursor=pointer]:
+              - cell "johnsmith posted Mar 5 by @johnsmith Can I find stuff while writing replies? discourse 2 replies 2 likes" [ref=f18e769]:
+                - generic [ref=f18e771]:
+                  - img "johnsmith" [ref=f18e773]
+                  - generic [ref=f18e774]:
+                    - generic [ref=f18e775]: posted Mar 5
+                    - generic [ref=f18e776]: by @johnsmith
+                - heading [level=2] [ref=f18e778]:
+                  - link "Can I find stuff while writing replies?" [ref=f18e779]:
+                    - /url: /t/can-i-find-stuff-while-writing-replies/55
+                - generic [ref=f18e780]:
+                  - link "discourse" [ref=f18e783]:
+                    - /url: /c/discourse/1
+                  - generic [ref=f18e786]:
+                    - generic "2 replies" [ref=f18e787]: "2"
+                    - generic "2 likes" [ref=f18e790]: "2"
+            - row [ref=f18e793] [cursor=pointer]:
+              - cell "techAPJ posted Oct 23 by @techAPJ Hot How can I make a post Wiki? Discourse now supports making a post Wiki! By default, Trust Level 3 users can make a post Wiki. You will find the button to make a post Wiki by clicking on the admin wrench under the desired post. Click on admin wre… read more techAPJ techAPJ replied 2 days ago discourse 1 reply 2 likes" [ref=f18e794]:
+                - generic [ref=f18e795]:
+                  - generic [ref=f18e796]:
+                    - img "techAPJ" [ref=f18e798]
+                    - generic [ref=f18e799]:
+                      - generic [ref=f18e800]: posted Oct 23
+                      - generic [ref=f18e801]: by @techAPJ
+                  - generic "Hot" [ref=f18e803]
+                - generic [ref=f18e806]:
+                  - heading [level=2] [ref=f18e807]:
+                    - link "How can I make a post Wiki?" [ref=f18e808]:
+                      - /url: /t/how-can-i-make-a-post-wiki/325
+                  - link "Discourse now supports making a post Wiki! By default, Trust Level 3 users can make a post Wiki. You will find the button to make a post Wiki by clicking on the admin wrench under the desired post. Click on admin wre… read more" [ref=f18e809]:
+                    - /url: /t/how-can-i-make-a-post-wiki/325
+                - generic [ref=f18e811]:
+                  - img "techAPJ" [ref=f18e812]
+                  - generic [ref=f18e813]: techAPJ
+                  - generic [ref=f18e814]: replied
+                  - generic [ref=f18e815]: 2 days ago
+                - generic [ref=f18e816]:
+                  - link "discourse" [ref=f18e819]:
+                    - /url: /c/discourse/1
+                  - generic [ref=f18e822]:
+                    - generic "1 reply" [ref=f18e823]: "1"
+                    - generic "2 likes" [ref=f18e826]: "2"
+            - row [ref=f18e829] [cursor=pointer]:
+              - cell "anon48578346 posted Oct 23 by @anon48578346 Is this topic worth voting for? This is a topic to demonstrate the Topic Voting plugin. Topic Voting 1 vote" [ref=f18e830]:
+                - generic [ref=f18e832]:
+                  - img "anon48578346" [ref=f18e834]
+                  - generic [ref=f18e835]:
+                    - generic [ref=f18e836]: posted Oct 23
+                    - generic [ref=f18e837]: by @anon48578346
+                - generic [ref=f18e838]:
+                  - heading [level=2] [ref=f18e839]:
+                    - link "Is this topic worth voting for?" [ref=f18e840]:
+                      - /url: /t/is-this-topic-worth-voting-for/1419
+                  - link "This is a topic to demonstrate the Topic Voting plugin." [ref=f18e841]:
+                    - /url: /t/is-this-topic-worth-voting-for/1419
+                - generic [ref=f18e842]:
+                  - link "Topic Voting" [ref=f18e845]:
+                    - /url: /c/topic-voting/53
+                  - generic "1 vote" [ref=f18e849]: "1"
+            - row [ref=f18e852] [cursor=pointer]:
+              - cell "anon48578346 posted Oct 23 by @anon48578346 Another topic voting demonstration topic This is another topic that you may or may not want to vote for. Topic Voting" [ref=f18e853]:
+                - generic [ref=f18e855]:
+                  - img "anon48578346" [ref=f18e857]
+                  - generic [ref=f18e858]:
+                    - generic [ref=f18e859]: posted Oct 23
+                    - generic [ref=f18e860]: by @anon48578346
+                - generic [ref=f18e861]:
+                  - heading [level=2] [ref=f18e862]:
+                    - link "Another topic voting demonstration topic" [ref=f18e863]:
+                      - /url: /t/another-topic-voting-demonstration-topic/1420
+                  - link "This is another topic that you may or may not want to vote for." [ref=f18e864]:
+                    - /url: /t/another-topic-voting-demonstration-topic/1420
+                - link "Topic Voting" [ref=f18e868]:
+                  - /url: /c/topic-voting/53
+            - row [ref=f18e871] [cursor=pointer]:
+              - 'cell "techAPJ posted Sep 19 by @techAPJ What is a onebox? One very cool feature Discourse has is \"oneboxing\". If you include a link to your favourite site, it will try to create a usable snippet for you automatically. For example: paste the link http://en.wikipedia.org/wiki… read more discourse 10 replies 6 likes" [ref=f18e872]':
+                - generic [ref=f18e874]:
+                  - img "techAPJ" [ref=f18e876]
+                  - generic [ref=f18e877]:
+                    - generic [ref=f18e878]: posted Sep 19
+                    - generic [ref=f18e879]: by @techAPJ
+                - generic [ref=f18e880]:
+                  - heading [level=2] [ref=f18e881]:
+                    - link "What is a onebox?" [ref=f18e882]:
+                      - /url: /t/what-is-a-onebox/276
+                  - 'link "One very cool feature Discourse has is \"oneboxing\". If you include a link to your favourite site, it will try to create a usable snippet for you automatically. For example: paste the link http://en.wikipedia.org/wiki… read more" [ref=f18e883]':
+                    - /url: /t/what-is-a-onebox/276
+                - generic [ref=f18e884]:
+                  - link "discourse" [ref=f18e887]:
+                    - /url: /c/discourse/1
+                  - generic [ref=f18e890]:
+                    - generic "10 replies" [ref=f18e891]: "10"
+                    - generic "6 likes" [ref=f18e894]: "6"
+        - dialog "User card"
+  - status [ref=f18e897]
+  - alert [ref=f18e898]

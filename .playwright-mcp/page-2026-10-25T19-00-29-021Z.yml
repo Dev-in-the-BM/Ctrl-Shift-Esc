@@ -1,0 +1,156 @@
+- generic [ref=f27e1]:
+  - banner [ref=f27e2]:
+    - link "Skip to content" [ref=f27e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f27e4]:
+      - link "In Plaintext home" [ref=f27e5] [cursor=pointer]:
+        - /url: /
+        - text: In Plaintext
+      - generic [ref=f27e6]:
+        - button "Browse" [ref=f27e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f27e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f27e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f27e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - group "Temporary design preview controls" [ref=f27e13]:
+    - generic [ref=f27e14]:
+      - generic [ref=f27e15]: Temporary preview · remove before publication
+      - generic [ref=f27e16]: Preview palette
+      - combobox "Preview palette" [ref=f27e17]:
+        - option "01 · Porcelain & Mushroom"
+        - option "02 · Milk & Soft Umber" [selected]
+        - option "03 · Ivory & Fawn"
+        - option "04 · Chalk & Cocoa"
+        - option "05 · Cream & Graphite"
+        - option "06 · Limestone & Walnut"
+  - main [ref=f27e18]:
+    - generic [ref=f27e19]:
+      - generic [ref=f27e20]:
+        - heading "In Plaintext" [level=1] [ref=f27e22]
+        - paragraph [ref=f27e24]: Essays, explanations, and opinions on technology, community, and how we live.
+      - navigation "Writing categories" [ref=f27e25]:
+        - link "All writing" [ref=f27e26] [cursor=pointer]:
+          - /url: /
+        - link "Typed With T9" [ref=f27e27] [cursor=pointer]:
+          - /url: /category/typed-with-t9
+        - link "Dialing Down" [ref=f27e28] [cursor=pointer]:
+          - /url: /category/dialing-down
+        - link "~/Tinkering" [ref=f27e29] [cursor=pointer]:
+          - /url: /category/tinkering
+      - list [ref=f27e30]:
+        - listitem [ref=f27e31]:
+          - article [ref=f27e32]:
+            - paragraph [ref=f27e33]:
+              - time [ref=f27e34]: Sep 1, 2026
+              - link "Typed With T9" [ref=f27e35] [cursor=pointer]:
+                - /url: /category/typed-with-t9
+            - generic [ref=f27e36]:
+              - heading [level=2] [ref=f27e37]:
+                - 'link "Rumor: The Mind phones keypad might be real" [ref=f27e38] [cursor=pointer]':
+                  - /url: /mind-phone-might-have-an-actual-keypad
+              - paragraph [ref=f27e39]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+            - link [aria-hidden] [ref=f27e40] [cursor=pointer]:
+              - /url: /mind-phone-might-have-an-actual-keypad
+        - listitem [ref=f27e41]:
+          - article [ref=f27e42]:
+            - paragraph [ref=f27e43]:
+              - time [ref=f27e44]: Aug 31, 2026
+              - link "Typed With T9" [ref=f27e45] [cursor=pointer]:
+                - /url: /category/typed-with-t9
+            - heading [level=2] [ref=f27e47]:
+              - link "Building a messaging platform from scratch makes no sense" [ref=f27e48] [cursor=pointer]:
+                - /url: /building-a-messaging-platform-from-scratch-makes-no-sense
+            - link [aria-hidden] [ref=f27e49] [cursor=pointer]:
+              - /url: /building-a-messaging-platform-from-scratch-makes-no-sense
+        - listitem [ref=f27e50]:
+          - article [ref=f27e51]:
+            - paragraph [ref=f27e52]:
+              - time [ref=f27e53]: Aug 19, 2026
+              - link "Typed With T9" [ref=f27e54] [cursor=pointer]:
+                - /url: /category/typed-with-t9
+            - generic [ref=f27e55]:
+              - heading [level=2] [ref=f27e56]:
+                - link "GroupMe SMS is dead, now what?" [ref=f27e57] [cursor=pointer]:
+                  - /url: /groupme-sms-is-dead-now-what
+              - paragraph [ref=f27e58]: The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?
+            - link [aria-hidden] [ref=f27e59] [cursor=pointer]:
+              - /url: /groupme-sms-is-dead-now-what
+        - listitem [ref=f27e60]:
+          - article [ref=f27e61]:
+            - paragraph [ref=f27e62]:
+              - time [ref=f27e63]: Aug 19, 2026
+              - link "Typed With T9" [ref=f27e64] [cursor=pointer]:
+                - /url: /category/typed-with-t9
+            - heading [level=2] [ref=f27e66]:
+              - link "Can Matrix be the Messaging solution for dumbphones?" [ref=f27e67] [cursor=pointer]:
+                - /url: /can-matrix-be-the-messaging-solution-for-dumbphones
+            - link [aria-hidden] [ref=f27e68] [cursor=pointer]:
+              - /url: /can-matrix-be-the-messaging-solution-for-dumbphones
+        - listitem [ref=f27e69]:
+          - article [ref=f27e70]:
+            - paragraph [ref=f27e71]:
+              - time [ref=f27e72]: Jun 30, 2026
+              - link "Typed With T9" [ref=f27e73] [cursor=pointer]:
+                - /url: /category/typed-with-t9
+            - generic [ref=f27e74]:
+              - heading [level=2] [ref=f27e75]:
+                - 'link "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f27e76] [cursor=pointer]':
+                  - /url: /sunbeam-f1-pro
+              - paragraph [ref=f27e77]: The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you. While it feels like a basic phone, it's anything but basic, offering just the right features to stay helpful without getting in your way.
+            - link [aria-hidden] [ref=f27e78] [cursor=pointer]:
+              - /url: /sunbeam-f1-pro
+        - listitem [ref=f27e79]:
+          - article [ref=f27e80]:
+            - paragraph [ref=f27e81]:
+              - time [ref=f27e82]: Apr 17, 2026
+              - link "Typed With T9" [ref=f27e83] [cursor=pointer]:
+                - /url: /category/typed-with-t9
+            - generic [ref=f27e84]:
+              - heading [level=2] [ref=f27e85]:
+                - link "Sonim brings us another 5G dumbphone, and its specs are impressive" [ref=f27e86] [cursor=pointer]:
+                  - /url: /sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+              - paragraph [ref=f27e87]: It's been a year since we last heard from Sonim, and they're back, with another phone with premium performance and military grade durability.
+            - link [aria-hidden] [ref=f27e88] [cursor=pointer]:
+              - /url: /sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+      - navigation "Writing pages" [ref=f27e89]:
+        - link "Older posts" [ref=f27e90] [cursor=pointer]:
+          - /url: /2
+          - text: Older posts
+          - generic [aria-hidden] [ref=f27e91]: →
+  - contentinfo [ref=f27e92]:
+    - generic [ref=f27e93]:
+      - generic [ref=f27e94]:
+        - link "In Plaintext" [ref=f27e95] [cursor=pointer]:
+          - /url: /
+        - navigation "Legal" [ref=f27e96]:
+          - link "Terms" [ref=f27e97] [cursor=pointer]:
+            - /url: /terms
+          - generic [aria-hidden] [ref=f27e98]: ·
+          - link "Privacy Policy" [ref=f27e99] [cursor=pointer]:
+            - /url: /privacy
+      - generic [ref=f27e100]:
+        - list "Elsewhere" [ref=f27e101]:
+          - listitem [ref=f27e102]:
+            - link "Reddit" [ref=f27e103] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f27e106]:
+            - link "Jtech Forums" [ref=f27e107] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f27e108]
+          - listitem [ref=f27e109]:
+            - link "RSS" [ref=f27e110] [cursor=pointer]:
+              - /url: /rss.xml
+          - listitem [ref=f27e113]:
+            - link "Github" [ref=f27e114] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f27e117]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f27e118] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.
+  - generic [ref=f27e121]:
+    - button [ref=f27e122]
+    - button [ref=f27e128]
+    - button [ref=f27e132]
+    - button [ref=f27e140]

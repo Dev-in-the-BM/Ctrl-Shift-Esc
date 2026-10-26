@@ -1,0 +1,16 @@
+[     244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/In-Plaintext/dumbing-smartphone-smarting-dumbphone-adb-dummies/images/logo.png:0
+[     309ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     403ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/manifest.webmanifest:0
+[     404ms] [ERROR] Manifest fetch from http://127.0.0.1:4328/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4328/In-Plaintext/dumbing-smartphone-smarting-dumbphone-adb-dummies/:0
+[     762ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/manifest.webmanifest:0
+[     762ms] [ERROR] Manifest fetch from http://127.0.0.1:4328/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4328/In-Plaintext/dumbing-smartphone-smarting-dumbphone-adb-dummies/:0
+[  136427ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/manifest.webmanifest:0
+[  136430ms] [ERROR] Manifest fetch from http://127.0.0.1:4328/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4328/In-Plaintext/:0
+[  141217ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/manifest.webmanifest:0
+[  141217ms] [ERROR] Manifest fetch from http://127.0.0.1:4328/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4328/In-Plaintext/building-a-messaging-platform-from-scratch-makes-no-sense/:0
+[  143453ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/manifest.webmanifest:0
+[  143454ms] [ERROR] Manifest fetch from http://127.0.0.1:4328/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4328/In-Plaintext/:0
+[  147118ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/manifest.webmanifest:0
+[  147120ms] [ERROR] Manifest fetch from http://127.0.0.1:4328/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4328/In-Plaintext/category/typed-with-t9/:0
+[  150885ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4328/manifest.webmanifest:0
+[  150886ms] [ERROR] Manifest fetch from http://127.0.0.1:4328/manifest.webmanifest failed, code 404 @ http://127.0.0.1:4328/In-Plaintext/:0

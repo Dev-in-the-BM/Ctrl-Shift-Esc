@@ -1,0 +1,184 @@
+- generic [ref=f83e1]:
+  - banner [ref=f83e2]:
+    - link "Skip to content" [ref=f83e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f83e4]:
+      - link "In Plaintext home" [ref=f83e5] [cursor=pointer]:
+        - /url: /In-Plaintext
+        - text: In Plaintext
+      - generic [ref=f83e6]:
+        - button "Browse" [ref=f83e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f83e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f83e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f83e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - main [ref=f83e13]:
+    - article [ref=f83e15]:
+      - generic [ref=f83e16]:
+        - link "All writing" [ref=f83e17] [cursor=pointer]:
+          - /url: /In-Plaintext
+          - generic [aria-hidden] [ref=f83e18]: ←
+          - text: All writing
+        - paragraph [ref=f83e19]:
+          - link "Typed With T9" [ref=f83e20] [cursor=pointer]:
+            - /url: /In-Plaintext/category/typed-with-t9
+          - generic [aria-hidden] [ref=f83e21]: ·
+          - time [ref=f83e22]: Jun 30, 2026
+        - 'heading "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [level=1] [ref=f83e23]'
+        - paragraph [ref=f83e24]: The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you. While it feels like a basic phone, it's anything but basic, offering just the right features to stay helpful without getting in your way.
+      - generic [ref=f83e25]:
+        - group [ref=f83e26]:
+          - generic "On this page" [ref=f83e27] [cursor=pointer]:
+            - text: On this page
+            - generic [aria-hidden] [ref=f83e28]: ⌄
+        - generic [ref=f83e29]:
+          - 'img "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f83e30]'
+          - generic [ref=f83e31]:
+            - generic [ref=f83e32]:
+              - generic [ref=f83e33]: "Verdict:"
+              - paragraph [ref=f83e34]: One of the best options if you want a simple, reliable phone with some modern features.
+            - heading "Back to the basics" [level=3] [ref=f83e35]
+            - paragraph [ref=f83e36]: There are a lot of new dumb phones that try to get you with flashy features or creative ways of being minimalist.
+            - paragraph [ref=f83e37]: Then there are some phones that don’t stand out for being the most exciting, but that’s not what they’re all about.
+            - paragraph [ref=f83e38]: Instead, they focus on being the best, true, reliable, dumb phones, with some modern utilities added on.
+            - paragraph [ref=f83e39]: "That’s what I found when I tried the Sunbeam F1 Pro: A phone that works well, and that you can depend on to be there and do its job."
+            - paragraph [ref=f83e40]: It’s been around for a while, you’ll find many people who’ve used it and give good reviews on it, it works well, and won’t suddenly start failing or bugging out on you.
+            - heading "Modern upgrades that make sense" [level=3] [ref=f83e41]
+            - paragraph [ref=f83e42]: But don’t get me wrong, this phone isn’t just a better HMD phone.It has many modern features, some of which are innovative and can be quite useful.One of its latest add-ons, NumberLink, allows you to pair your phone with their app to access your phone remotely.Once connected, you’ll be able to read and respond to messages, and make and receive calls using your number.The app is available for Android, iOs, Linux, Windows, and macOS.
+            - paragraph [ref=f83e43]: They also just added an option to sync contacts and and calendar entries with providers like Google and Outlook.
+            - paragraph [ref=f83e44]: One of the interesting things about this phone is that Sunbeam offers multiple variants, each offering different combinations of capabilities like texting, media playback, and email, allowing you to choose an option that has what you need without any extra distractions.
+            - paragraph [ref=f83e45]: It has options for Waze, email, hotspot, weather and their own navigation app.Voice typing, NumberLink, and some features inside their weather and navigation apps, are all available as an optional subscription add-on.
+            - paragraph [ref=f83e46]:
+              - img "Numberlink" [ref=f83e47]
+            - heading "A utility that doesn’t try to distract" [level=3] [ref=f83e48]
+            - paragraph [ref=f83e49]: It has a simple, functional, UI that’s easy to use, but doesn’t encourage overuse, perfect for digital detoxing.The UI is a big contrast to the flashy, animated UIs that smartphones have, but once you get used to a UI that just does what it’s supposed to, and isn’t trying to be your friend, you start appreciating having a phone that you can use intentionally, a phone that doesn’t try to give you a dopamine hit every time you open the home screen.
+            - paragraph [ref=f83e50]: Its apps are built custom, work very well, and are fully dpad compatible.
+            - paragraph [ref=f83e51]: It has a strong body, letting it take hits without falling apart.
+            - paragraph [ref=f83e52]: The phone gets periodic OTA updates, fixing bugs and optimizing the phone.
+            - paragraph [ref=f83e53]: Another area that I think the Sunbeam really shines is as a senior phone.Everything is very simple and intuitive, without the complexity of smartphones.It has a manual on the phone itself, clearly explaining every menu and feature.
+            - separator [ref=f83e54]
+            - heading "What I don’t like about this phone" [level=3] [ref=f83e55]
+            - paragraph [ref=f83e56]: Although overall this phone is a great option, no dumbphone is without flaws, and the F1 Pro has its drawbacks.
+            - paragraph [ref=f83e57]: The camera isn’t great. Although it’s not any worse than the average dumbphone, I would expect better from a phone at this price point.
+            - paragraph [ref=f83e58]: I also don’t like that some features need a subscription, although I understand that those are services that cost them, and their subscription isn’t very expensive.
+            - paragraph [ref=f83e59]: Other than that, I think that the phone is a great phone, and one of the best options if you want a simple, reliable phone with some modern utilities.
+            - separator [ref=f83e60]
+            - heading "Ratings" [level=3] [ref=f83e61]
+            - paragraph [ref=f83e62]:
+              - strong [ref=f83e63]: "Responsiveness:"
+              - text: . . 👍 . .
+              - strong [ref=f83e64]: "Battery:"
+              - text: . . 👍 . .
+              - strong [ref=f83e65]: "Build Quality:"
+              - text: . . . 🥈 .
+              - strong [ref=f83e66]: "Camera:"
+              - text: . 😐 . . .
+              - strong [ref=f83e67]: "D.pad compatibility:"
+              - text: . . . 🥈 .
+              - strong [ref=f83e68]: "T9:"
+              - text: . . . 🥈 .
+              - strong [ref=f83e69]: "Keypad tactile:"
+              - text: . . 👍 . .
+              - strong [ref=f83e70]: "UI Simplicity:"
+              - text: . . . . 🥇
+              - strong [ref=f83e71]: "UI Polish:"
+              - text: 1 . . . .
+            - link "sunbeamwireless.com sunbeamwireless.com favicon sunbeamwireless.com" [ref=f83e72] [cursor=pointer]:
+              - /url: https://sunbeamwireless.com/f1-pro-rugged-dumbphone/by/ctrlshiftescape
+              - generic [ref=f83e73]:
+                - generic [ref=f83e74]: sunbeamwireless.com
+                - generic [ref=f83e75]:
+                  - img "sunbeamwireless.com favicon" [ref=f83e76]
+                  - generic [ref=f83e77]: sunbeamwireless.com
+          - generic [ref=f83e78]:
+            - list [ref=f83e79]:
+              - listitem [ref=f83e80]:
+                - link "dumbphones" [ref=f83e81] [cursor=pointer]:
+                  - /url: /In-Plaintext/tag/dumbphones
+              - listitem [ref=f83e82]:
+                - link "phone reviews" [ref=f83e83] [cursor=pointer]:
+                  - /url: /In-Plaintext/tag/phone-reviews
+            - generic [ref=f83e84]:
+              - text: "Share:"
+              - button "Share" [ref=f83e85] [cursor=pointer]
+              - button "Share with SMS" [ref=f83e88] [cursor=pointer]
+              - button "Share with email" [ref=f83e91] [cursor=pointer]
+              - button "Share with WhatsApp" [ref=f83e94] [cursor=pointer]
+              - button "Share with Telegram" [ref=f83e97] [cursor=pointer]
+              - button "Share with Reddit" [ref=f83e100] [cursor=pointer]
+              - button "Share with LinkedIn" [ref=f83e103] [cursor=pointer]
+              - button "Share with X" [ref=f83e106] [cursor=pointer]
+      - region [ref=f83e109]:
+        - generic [ref=f83e110]:
+          - heading "Comments" [level=2] [ref=f83e111]
+          - button "Reload comments" [ref=f83e112] [cursor=pointer]
+        - iframe [ref=f83e117]
+    - link "All writing" [ref=f83e119] [cursor=pointer]:
+      - /url: /In-Plaintext
+      - generic [aria-hidden] [ref=f83e120]: ←
+      - text: All writing
+    - generic [ref=f83e122]:
+      - generic [ref=f83e124]:
+        - heading "Related Posts" [level=2] [ref=f83e125]
+        - link "View All Posts »" [ref=f83e126] [cursor=pointer]:
+          - /url: /In-Plaintext
+      - generic [ref=f83e127]:
+        - article [ref=f83e128]:
+          - 'link "Read: Rumor: The Mind phones keypad might be real" [ref=f83e130] [cursor=pointer]':
+            - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+          - heading [level=3] [ref=f83e131]:
+            - 'link "Rumor: The Mind phones keypad might be real" [ref=f83e132] [cursor=pointer]':
+              - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+          - paragraph [ref=f83e133]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+        - article [ref=f83e134]:
+          - 'link "Read: GroupMe SMS is dead, now what?" [ref=f83e136] [cursor=pointer]':
+            - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+          - heading [level=3] [ref=f83e137]:
+            - link "GroupMe SMS is dead, now what?" [ref=f83e138] [cursor=pointer]:
+              - /url: /In-Plaintext/groupme-sms-is-dead-now-what
+          - paragraph [ref=f83e139]: The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?
+        - article [ref=f83e140]:
+          - 'link "Read: Can Matrix be the Messaging solution for dumbphones?" [ref=f83e142] [cursor=pointer]':
+            - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+          - heading [level=3] [ref=f83e143]:
+            - link "Can Matrix be the Messaging solution for dumbphones?" [ref=f83e144] [cursor=pointer]:
+              - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+        - article [ref=f83e145]:
+          - 'link "Read: Sonim brings us another 5G dumbphone, and its specs are impressive" [ref=f83e147] [cursor=pointer]':
+            - /url: /In-Plaintext/sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+          - heading [level=3] [ref=f83e148]:
+            - link "Sonim brings us another 5G dumbphone, and its specs are impressive" [ref=f83e149] [cursor=pointer]:
+              - /url: /In-Plaintext/sonim-brings-us-another-5g-dumbphone-and-its-specs-are-impressive
+          - paragraph [ref=f83e150]: It's been a year since we last heard from Sonim, and they're back, with another phone with premium performance and military grade durability.
+  - contentinfo [ref=f83e151]:
+    - generic [ref=f83e152]:
+      - generic [ref=f83e153]:
+        - link "In Plaintext" [ref=f83e154] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - navigation "Legal" [ref=f83e155]:
+          - link "Terms" [ref=f83e156] [cursor=pointer]:
+            - /url: /In-Plaintext/terms
+          - generic [aria-hidden] [ref=f83e157]: ·
+          - link "Privacy Policy" [ref=f83e158] [cursor=pointer]:
+            - /url: /In-Plaintext/privacy
+      - generic [ref=f83e159]:
+        - list "Elsewhere" [ref=f83e160]:
+          - listitem [ref=f83e161]:
+            - link "Reddit" [ref=f83e162] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f83e165]:
+            - link "Jtech Forums" [ref=f83e166] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f83e167]
+          - listitem [ref=f83e168]:
+            - link "RSS" [ref=f83e169] [cursor=pointer]:
+              - /url: /In-Plaintext/rss.xml
+          - listitem [ref=f83e172]:
+            - link "Github" [ref=f83e173] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f83e176]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f83e177] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.

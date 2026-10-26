@@ -1,0 +1,360 @@
+- generic [ref=f16e2]:
+  - link "Skip to content" [ref=f16e3] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f16e4]:
+    - link "Back to Discussion List" [ref=f16e7] [cursor=pointer]:
+      - /url: /
+    - generic [ref=f16e9]:
+      - link [ref=f16e11] [cursor=pointer]:
+        - /url: https://discuss.flarum.org
+        - img "Flarum Community" [ref=f16e12]
+      - list [ref=f16e14]:
+        - listitem [ref=f16e15]:
+          - link "All Discussions" [ref=f16e16] [cursor=pointer]:
+            - /url: https://discuss.flarum.org/all
+        - listitem [ref=f16e20]:
+          - link "Project Home" [ref=f16e21] [cursor=pointer]:
+            - /url: https://flarum.org/
+        - listitem [ref=f16e25]:
+          - button "Show the links under Legal" [ref=f16e27] [cursor=pointer]:
+            - generic [ref=f16e29]: Legal
+        - listitem [ref=f16e32]:
+          - link "Docs" [ref=f16e33] [cursor=pointer]:
+            - /url: https://docs.flarum.org
+        - listitem [ref=f16e37]:
+          - link "Donate" [ref=f16e38] [cursor=pointer]:
+            - /url: https://discuss.flarum.org/contribute
+        - listitem [ref=f16e42]:
+          - link "Discord" [ref=f16e43] [cursor=pointer]:
+            - /url: https://discord.gg/y8acchW74
+      - list [ref=f16e48]:
+        - listitem [ref=f16e49]:
+          - search "Search Forum" [ref=f16e50]:
+            - button "Search Forum" [ref=f16e51] [cursor=pointer]
+        - listitem [ref=f16e53]:
+          - button "Change theme" [ref=f16e55] [cursor=pointer]
+        - listitem [ref=f16e57]:
+          - button "Sign Up" [ref=f16e58] [cursor=pointer]
+        - listitem [ref=f16e61]:
+          - button "Log In" [ref=f16e62] [cursor=pointer]
+  - main [ref=f16e65]:
+    - generic [ref=f16e68]:
+      - link "Skip to main content" [ref=f16e69] [cursor=pointer]:
+        - /url: "#main-content"
+      - list [ref=f16e73]:
+        - listitem [ref=f16e74]:
+          - link "Off-topic" [ref=f16e76] [cursor=pointer]:
+            - /url: /t/off-topic
+        - listitem [ref=f16e79]:
+          - heading "BB Code Cheat Sheet for Flarum" [level=1] [ref=f16e80]
+      - generic [ref=f16e81]:
+        - navigation [ref=f16e83]:
+          - list [ref=f16e84]:
+            - listitem [ref=f16e85]:
+              - button "Log In to Reply" [ref=f16e87] [cursor=pointer]
+            - listitem [ref=f16e91]:
+              - button "Share" [ref=f16e92] [cursor=pointer]
+            - listitem [ref=f16e96]:
+              - generic [ref=f16e99]:
+                - button "Original Post" [ref=f16e100] [cursor=pointer]
+                - generic [ref=f16e104] [cursor=pointer]:
+                  - generic [ref=f16e108]:
+                    - strong [ref=f16e109]: 4 of 6 posts
+                    - text: February 2025
+                  - generic: 0 unread
+                - button "Now" [ref=f16e111] [cursor=pointer]
+        - feed [ref=f16e117]:
+          - article [ref=f16e118]:
+            - article [ref=f16e119]:
+              - generic [ref=f16e120]:
+                - link [ref=f16e122] [cursor=pointer]:
+                  - /url: /u/sabirans04
+                  - img "sabirans04" [ref=f16e123]
+                - generic [ref=f16e124]:
+                  - list [ref=f16e126]:
+                    - listitem [ref=f16e127]:
+                      - heading [level=3] [ref=f16e129]:
+                        - link "sabirans04" [ref=f16e130] [cursor=pointer]:
+                          - /url: /u/sabirans04
+                    - listitem [ref=f16e131]:
+                      - button [ref=f16e133] [cursor=pointer]:
+                        - time [ref=f16e134]: Feb 3, 2025
+                  - generic [ref=f16e135]:
+                    - paragraph [ref=f16e136]:
+                      - text: Hey everyone!
+                      - img "👋🏻" [ref=f16e137]
+                    - paragraph [ref=f16e138]: I’m new to the Flarum forum and still exploring its features. I was wondering if there’s any website that provides a cheat sheet for BB Code, covering things like link targeting, colors, image sizes, and other formatting options.
+                    - paragraph [ref=f16e139]: I’d really appreciate any guidance or recommendations.
+                    - paragraph [ref=f16e140]: Thanks in advance!
+                    - paragraph [ref=f16e141]: Best regards,
+                  - complementary [ref=f16e142]:
+                    - list [ref=f16e143]:
+                      - listitem [ref=f16e144]:
+                        - button "Reply" [ref=f16e145] [cursor=pointer]
+                  - list [ref=f16e148]:
+                    - listitem [ref=f16e149]:
+                      - generic [ref=f16e151] [cursor=pointer]:
+                        - link "huseyinfiliz" [ref=f16e153]:
+                          - /url: /d/36949-bb-code-cheat-sheet-for-flarum/3
+                        - text: replied to this.
+          - article [ref=f16e154]:
+            - article [ref=f16e155]:
+              - generic [ref=f16e156]:
+                - link [ref=f16e158] [cursor=pointer]:
+                  - /url: /u/Umutcan
+                  - img "Umutcan" [ref=f16e159]
+                - generic [ref=f16e160]:
+                  - list [ref=f16e162]:
+                    - listitem [ref=f16e163]:
+                      - heading [level=3] [ref=f16e165]:
+                        - link "Umutcan" [ref=f16e166] [cursor=pointer]:
+                          - /url: /u/Umutcan
+                    - listitem [ref=f16e167]:
+                      - img "Türkiye" [ref=f16e168]
+                    - listitem [ref=f16e169]:
+                      - button [ref=f16e171] [cursor=pointer]:
+                        - time [ref=f16e172]: Feb 3, 2025
+                  - generic [ref=f16e173]:
+                    - paragraph [ref=f16e174]: "I don't know about BBCODE support, but you can use the following page to learn how to use Markdown:"
+                    - paragraph [ref=f16e175]:
+                      - link "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" [ref=f16e176] [cursor=pointer]:
+                        - /url: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+                  - complementary [ref=f16e177]:
+                    - list [ref=f16e178]:
+                      - listitem [ref=f16e179]:
+                        - button "Reply" [ref=f16e180] [cursor=pointer]
+          - article [ref=f16e183]:
+            - article [ref=f16e184]:
+              - generic [ref=f16e185]:
+                - link [ref=f16e187] [cursor=pointer]:
+                  - /url: /u/huseyinfiliz
+                  - img "huseyinfiliz" [ref=f16e188]
+                - generic [ref=f16e189]:
+                  - list [ref=f16e191]:
+                    - listitem [ref=f16e192]:
+                      - generic [ref=f16e193]:
+                        - heading [level=3] [ref=f16e194]:
+                          - link "huseyinfiliz" [ref=f16e195] [cursor=pointer]:
+                            - /url: /u/huseyinfiliz
+                        - list:
+                          - listitem:
+                            - img "Flarum Team" [ref=f16e196]
+                          - listitem:
+                            - img "FoF Team" [ref=f16e198]
+                    - listitem [ref=f16e200]:
+                      - img "Türkiye" [ref=f16e201]
+                    - listitem [ref=f16e202]:
+                      - button [ref=f16e204] [cursor=pointer]:
+                        - time [ref=f16e205]: Feb 3, 2025
+                  - paragraph [ref=f16e207]:
+                    - link "sabirans04" [ref=f16e208] [cursor=pointer]:
+                      - /url: https://discuss.flarum.org/d/36949/1
+                    - link "Flarum/BBcode Extension Supported Tags List" [ref=f16e210] [cursor=pointer]:
+                      - /url: https://discuss.flarum.org/d/36353-flarumbbcode-extension-supported-tags-list
+                  - complementary [ref=f16e211]:
+                    - list [ref=f16e212]:
+                      - listitem [ref=f16e213]:
+                        - button "Reply" [ref=f16e214] [cursor=pointer]
+          - article [ref=f16e217]:
+            - article [ref=f16e218]:
+              - generic [ref=f16e219]:
+                - link [ref=f16e221] [cursor=pointer]:
+                  - /url: /u/xiaoxiaobai5724
+                  - img "Xiaoxiaobai5724" [ref=f16e222]
+                - generic [ref=f16e223]:
+                  - list [ref=f16e225]:
+                    - listitem [ref=f16e226]:
+                      - heading [level=3] [ref=f16e228]:
+                        - link "Xiaoxiaobai5724" [ref=f16e229] [cursor=pointer]:
+                          - /url: /u/xiaoxiaobai5724
+                    - listitem [ref=f16e230]:
+                      - button [ref=f16e232] [cursor=pointer]:
+                        - time [ref=f16e233]: Feb 6, 2025
+                    - listitem [ref=f16e234]: Edited
+                  - generic [ref=f16e235]:
+                    - heading "BBCode Syntax Guide in English" [level=1] [ref=f16e236]
+                    - heading "1. Headings" [level=2] [ref=f16e237]
+                    - list [ref=f16e238]:
+                      - listitem [ref=f16e239]:
+                        - paragraph [ref=f16e240]:
+                          - strong [ref=f16e241]: First-Level Heading
+                          - text: ":"
+                          - code [ref=f16e242]: "[h1]First-Level Heading[/h1]"
+                      - listitem [ref=f16e243]:
+                        - paragraph [ref=f16e244]:
+                          - strong [ref=f16e245]: Second-Level Heading
+                          - text: ":"
+                          - code [ref=f16e246]: "[h2]Second-Level Heading[/h2]"
+                      - listitem [ref=f16e247]:
+                        - paragraph [ref=f16e248]:
+                          - strong [ref=f16e249]: Third-Level Heading
+                          - text: ":"
+                          - code [ref=f16e250]: "[h3]Third-Level Heading[/h3]"
+                    - heading "2. Emphasis" [level=2] [ref=f16e251]
+                    - list [ref=f16e252]:
+                      - listitem [ref=f16e253]:
+                        - paragraph [ref=f16e254]:
+                          - strong [ref=f16e255]: Italic
+                          - text: ":"
+                          - code [ref=f16e256]: "[i]Italic Text[/i]"
+                      - listitem [ref=f16e257]:
+                        - paragraph [ref=f16e258]:
+                          - strong [ref=f16e259]: Bold
+                          - text: ":"
+                          - code [ref=f16e260]: "[b]Bold Text[/b]"
+                      - listitem [ref=f16e261]:
+                        - paragraph [ref=f16e262]:
+                          - strong [ref=f16e263]: Underline
+                          - text: ":"
+                          - code [ref=f16e264]: "[u]Underlined Text[/u]"
+                      - listitem [ref=f16e265]:
+                        - paragraph [ref=f16e266]:
+                          - strong [ref=f16e267]: Strikethrough
+                          - text: ":"
+                          - code [ref=f16e268]: "[s]Strikethrough Text[/s]"
+                    - heading "3. Lists" [level=2] [ref=f16e269]
+                    - list [ref=f16e270]:
+                      - listitem [ref=f16e271]:
+                        - strong [ref=f16e272]: Unordered List
+                        - text: ":"
+                    - code [ref=f16e274]: "[list] [*] List Item 1 [*] List Item 2 [*] List Item 3 [/list]"
+                    - list [ref=f16e275]:
+                      - listitem [ref=f16e276]:
+                        - strong [ref=f16e277]: Ordered List
+                        - text: ":"
+                    - code [ref=f16e279]: "[list=1] [*] Item 1 [*] Item 2 [*] Item 3 [/list]"
+                    - heading "4. Links" [level=2] [ref=f16e280]
+                    - list [ref=f16e281]:
+                      - listitem [ref=f16e282]:
+                        - paragraph [ref=f16e283]:
+                          - strong [ref=f16e284]: Link with Text
+                          - text: ":"
+                          - code [ref=f16e285]: "[url=Link Address]Link Text[/url]"
+                      - listitem [ref=f16e286]:
+                        - paragraph [ref=f16e287]:
+                          - strong [ref=f16e288]: Auto Link
+                          - text: ":"
+                          - code [ref=f16e289]: "[url]Link Address[/url]"
+                    - heading "5. Images" [level=2] [ref=f16e290]
+                    - list [ref=f16e291]:
+                      - listitem [ref=f16e292]:
+                        - strong [ref=f16e293]: Image
+                        - text: ":"
+                        - code [ref=f16e294]: "[img]Image Address[/img]"
+                    - heading "6. Code" [level=2] [ref=f16e295]
+                    - list [ref=f16e296]:
+                      - listitem [ref=f16e297]:
+                        - paragraph [ref=f16e298]:
+                          - strong [ref=f16e299]: Inline Code
+                          - text: ":"
+                          - code [ref=f16e300]: "[code]Code Text[/code]"
+                      - listitem [ref=f16e301]:
+                        - paragraph [ref=f16e302]:
+                          - strong [ref=f16e303]: Code Block
+                          - text: ":"
+                        - code [ref=f16e305]: "[code=Language] Code Content [/code]"
+                        - paragraph [ref=f16e306]: "Example:"
+                        - code [ref=f16e308]: "[code=python] print(\"Hello, World!\") [/code]"
+                    - heading "7. Quotes" [level=2] [ref=f16e309]
+                    - list [ref=f16e310]:
+                      - listitem [ref=f16e311]:
+                        - paragraph [ref=f16e312]:
+                          - strong [ref=f16e313]: Basic Quote
+                          - text: ":"
+                          - code [ref=f16e314]: "[quote]Quoted Content[/quote]"
+                      - listitem [ref=f16e315]:
+                        - paragraph [ref=f16e316]:
+                          - strong [ref=f16e317]: Quote with Author
+                          - text: ":"
+                          - code [ref=f16e318]: "[quote=Author]Quoted Content[/quote]"
+                    - heading "8. Horizontal Rule" [level=2] [ref=f16e319]
+                    - list [ref=f16e320]:
+                      - listitem [ref=f16e321]:
+                        - strong [ref=f16e322]: Horizontal Line
+                        - text: ":"
+                        - code [ref=f16e323]: "[hr]"
+                    - heading "9. Tables" [level=2] [ref=f16e324]
+                    - list [ref=f16e325]:
+                      - listitem [ref=f16e326]:
+                        - strong [ref=f16e327]: Basic Table
+                        - text: ":"
+                    - code [ref=f16e329]: "[table] [tr] [th]Header 1[/th][th]Header 2[/th][th]Header 3[/th] [/tr] [tr] [td]Cell 1[/td][td]Cell 2[/td][td]Cell 3[/td] [/tr] [tr] [td]Cell 4[/td][td]Cell 5[/td][td]Cell 6[/td] [/tr] [/table]"
+                    - heading "10. Task Lists" [level=2] [ref=f16e330]
+                    - list [ref=f16e331]:
+                      - listitem [ref=f16e332]:
+                        - strong [ref=f16e333]: Task List
+                        - text: ":"
+                    - code [ref=f16e335]: "[list] [*][x] Completed Task [*] Incomplete Task [/list]"
+                    - heading "11. Color" [level=2] [ref=f16e336]
+                    - code [ref=f16e338]: "[color=Color name]text[/color]"
+                    - heading "12. Size" [level=2] [ref=f16e339]
+                    - code [ref=f16e341]: "[size=Number]text[/color]"
+                    - heading "13. Download address" [level=2] [ref=f16e342]
+                    - code [ref=f16e344]: "[down link=\"https://example.com\" size=\"1kb\" name=\"folder.zip\"]"
+                    - heading "14. Direction" [level=2] [ref=f16e345]
+                    - paragraph [ref=f16e346]:
+                      - text: "Left:"
+                      - code [ref=f16e347]: "[left]text[/left]"
+                      - text: "Center:"
+                      - code [ref=f16e348]: "[center]text[/center]"
+                      - text: "Right:"
+                      - code [ref=f16e349]: "[right]text[/right]"
+                    - paragraph [ref=f16e350]: Check out their articles for other bbcode syntax extensions, or you can install a collection of these extensions, such as BBCode More New or BBCode More. This guide provides a comprehensive overview of BBCode syntax, allowing you to format and present your posts more effectively. By combining these syntax elements, you can create rich and well-organized content for clear and engaging communication.
+                  - complementary [ref=f16e351]:
+                    - list [ref=f16e352]:
+                      - listitem [ref=f16e353]:
+                        - button "Reply" [ref=f16e354] [cursor=pointer]
+                  - list [ref=f16e357]:
+                    - listitem [ref=f16e358]:
+                      - generic [ref=f16e360] [cursor=pointer]:
+                        - link "sabirans04" [ref=f16e362]:
+                          - /url: /d/36949-bb-code-cheat-sheet-for-flarum/6
+                        - text: replied to this.
+          - article [ref=f16e363]:
+            - article [ref=f16e364]:
+              - generic [ref=f16e365]:
+                - link [ref=f16e367] [cursor=pointer]:
+                  - /url: /u/RelicSystem
+                  - img "Relic System" [ref=f16e368]
+                - generic [ref=f16e369]:
+                  - list [ref=f16e371]:
+                    - listitem [ref=f16e372]:
+                      - heading [level=3] [ref=f16e374]:
+                        - link "Relic System" [ref=f16e375] [cursor=pointer]:
+                          - /url: /u/RelicSystem
+                    - listitem [ref=f16e376]:
+                      - button [ref=f16e378] [cursor=pointer]:
+                        - time [ref=f16e379]: Feb 6, 2025
+                    - listitem [ref=f16e380]: Edited
+                  - paragraph [ref=f16e382]: "-"
+                  - complementary [ref=f16e383]:
+                    - list [ref=f16e384]:
+                      - listitem [ref=f16e385]:
+                        - button "Reply" [ref=f16e386] [cursor=pointer]
+          - article [ref=f16e389]:
+            - generic [ref=f16e390]: 6 days later
+            - article [ref=f16e392]:
+              - generic [ref=f16e393]:
+                - link [ref=f16e395] [cursor=pointer]:
+                  - /url: /u/sabirans04
+                  - img "sabirans04" [ref=f16e396]
+                - generic [ref=f16e397]:
+                  - list [ref=f16e399]:
+                    - listitem [ref=f16e400]:
+                      - heading [level=3] [ref=f16e402]:
+                        - link "sabirans04" [ref=f16e403] [cursor=pointer]:
+                          - /url: /u/sabirans04
+                    - listitem [ref=f16e404]:
+                      - button [ref=f16e406] [cursor=pointer]:
+                        - time [ref=f16e407]: Feb 13, 2025
+                  - paragraph [ref=f16e409]:
+                    - link "Xiaoxiaobai5724" [ref=f16e410] [cursor=pointer]:
+                      - /url: https://discuss.flarum.org/d/36949/4
+                    - text: Thanks buddy
+                    - img "😃" [ref=f16e412]
+                  - complementary [ref=f16e413]:
+                    - list [ref=f16e414]:
+                      - listitem [ref=f16e415]:
+                        - button "Reply" [ref=f16e416] [cursor=pointer]
+          - button "Write a Reply..." [ref=f16e420]
+  - contentinfo

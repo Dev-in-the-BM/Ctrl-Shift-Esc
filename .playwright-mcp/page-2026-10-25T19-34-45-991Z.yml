@@ -1,0 +1,76 @@
+- generic [ref=f89e1]:
+  - banner [ref=f89e2]:
+    - link "Skip to content" [ref=f89e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f89e4]:
+      - link "In Plaintext home" [ref=f89e5] [cursor=pointer]:
+        - /url: /
+        - text: In Plaintext
+      - generic [ref=f89e6]:
+        - button "Browse" [ref=f89e7] [cursor=pointer]:
+          - text: Browse
+          - generic [aria-hidden] [ref=f89e8]: +
+        - button "Toggle between Dark and Light mode" [ref=f89e9] [cursor=pointer]
+        - link "Dev in the BM" [ref=f89e12] [cursor=pointer]:
+          - /url: https://dev-in-the-bm.github.io
+  - group "Temporary design preview controls" [ref=f89e13]:
+    - generic [ref=f89e14]:
+      - generic [ref=f89e15]: Temporary preview · remove before publication
+      - generic [ref=f89e16]: Preview palette
+      - combobox "Preview palette" [ref=f89e17]:
+        - option "01 · Porcelain & Mushroom" [selected]
+        - option "02 · Milk & Soft Umber"
+        - option "03 · Ivory & Fawn"
+        - option "04 · Chalk & Cocoa"
+        - option "05 · Cream & Graphite"
+        - option "06 · Limestone & Walnut"
+  - main [ref=f89e18]:
+    - generic [ref=f89e19]:
+      - generic [ref=f89e20]:
+        - paragraph [ref=f89e21]: Category
+        - heading "Dialing Down" [level=1] [ref=f89e22]
+      - list [ref=f89e23]:
+        - listitem [ref=f89e24]:
+          - article [ref=f89e25]:
+            - paragraph [ref=f89e26]:
+              - time [ref=f89e27]: Apr 12, 2026
+              - link "Dialing Down" [ref=f89e28] [cursor=pointer]:
+                - /url: /category/dialing-down
+            - generic [ref=f89e29]:
+              - heading [level=2] [ref=f89e30]:
+                - 'link "Dumbing down your smartphone, smarting up your dumbphone, and more: ADB for dummies" [ref=f89e31] [cursor=pointer]':
+                  - /url: /dumbing-smartphone-smarting-dumbphone-adb-dummies
+              - paragraph [ref=f89e32]: Strip the junk off a smartphone, or force-install essentials onto a basic flip phone. ADB can let you do all that and more - and you don't need to be a techie to use it.
+            - link [aria-hidden] [ref=f89e33] [cursor=pointer]:
+              - /url: /dumbing-smartphone-smarting-dumbphone-adb-dummies
+  - contentinfo [ref=f89e34]:
+    - generic [ref=f89e35]:
+      - generic [ref=f89e36]:
+        - link "In Plaintext" [ref=f89e37] [cursor=pointer]:
+          - /url: /
+        - navigation "Legal" [ref=f89e38]:
+          - link "Terms" [ref=f89e39] [cursor=pointer]:
+            - /url: /terms
+          - generic [aria-hidden] [ref=f89e40]: ·
+          - link "Privacy Policy" [ref=f89e41] [cursor=pointer]:
+            - /url: /privacy
+      - generic [ref=f89e42]:
+        - list "Elsewhere" [ref=f89e43]:
+          - listitem [ref=f89e44]:
+            - link "Reddit" [ref=f89e45] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f89e48]:
+            - link "Jtech Forums" [ref=f89e49] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f89e50]
+          - listitem [ref=f89e51]:
+            - link "RSS" [ref=f89e52] [cursor=pointer]:
+              - /url: /rss.xml
+          - listitem [ref=f89e55]:
+            - link "Github" [ref=f89e56] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - paragraph [ref=f89e59]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f89e60] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.

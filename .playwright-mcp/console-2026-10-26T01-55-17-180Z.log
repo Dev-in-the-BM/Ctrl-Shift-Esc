@@ -1,0 +1,2 @@
+[     308ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://p.typekit.net/p.gif?s=1&k=ytb6dpl&ht=tk&h=tympanus.net&f=41078.41109.41110.41111.46078&a=1494256&js=1.21.0&app=typekit&e=js&_=1792979717485:0
+[    3307ms] [ERROR] Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME @ about:blank:0

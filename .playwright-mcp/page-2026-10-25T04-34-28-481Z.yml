@@ -1,0 +1,14 @@
+- generic [ref=f17e4]:
+  - generic [ref=f17e5]:
+    - checkbox "Use dark theme" [checked] [ref=f17e6]
+    - generic [ref=f17e7] [cursor=pointer]: Use dark theme
+  - banner [ref=f17e17]:
+    - generic [ref=f17e18]:
+      - heading "Error" [level=2] [ref=f17e19]
+      - heading "An error occurred." [level=1] [ref=f17e20]
+  - generic [ref=f17e26]: No cached compile metadata found for "/tmp/opencode/editorial-baseline-deps/node_modules/astro/components/ClientRouter.astro?astro&type=style&index=0&lang.css". The main Astro module "/home/naftali/Tinkering/Projects/In-Plaintext/worktrees/editorial/tmp/opencode/editorial-baseline-deps/node_modules/astro/components/ClientRouter.astro" should have compiled and filled the metadata first, before its virtual modules can be requested.
+  - generic [ref=f17e32]:
+    - generic [ref=f17e33]:
+      - heading "Stack Trace" [level=2] [ref=f17e34]
+      - generic [ref=f17e35] [cursor=pointer]
+    - generic [ref=f17e40]: "Error: No cached compile metadata found for \"/tmp/opencode/editorial-baseline-deps/node_modules/astro/components/ClientRouter.astro?astro&type=style&index=0&lang.css\". The main Astro module \"/home/naftali/Tinkering/Projects/In-Plaintext/worktrees/editorial/tmp/opencode/editorial-baseline-deps/node_modules/astro/components/ClientRouter.astro\" should have compiled and filled the metadata first, before its virtual modules can be requested. at LoadPluginContext.load (file:///tmp/opencode/editorial-baseline-deps/node_modules/astro/dist/vite-plugin-astro/index.js:77:15) at async EnvironmentPluginContainer.load (file:///tmp/opencode/editorial-baseline-deps/node_modules/astro/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:42423:22) at async loadAndTransform (file:///tmp/opencode/editorial-baseline-deps/node_modules/astro/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:35779:22)"

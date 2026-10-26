@@ -114,73 +114,72 @@ In particular, consider:
 - `impeccable` — typography, color, refinement, visual polish, and detailed critique.
 - `web-design-guidelines` — usability and accessibility review.
 
-Each designer should select whichever skills genuinely support its direction, inspect their instructions, and apply them appropriately.
+Each Sol designer should select whichever design skills genuinely support its creative direction. Luna research agents should use any relevant browser, research, or project-inspection tools needed for their assigned support tasks.
 
-Research relevant editorial websites, independent publications, interactive design experiments, typography, and design systems where useful. References should inform the work without becoming templates.
+Luna research agents should research relevant editorial websites, independent publications, interactive design experiments, typography, and design systems where useful. Report concise, evidence-based findings to the assigned Sol designer; references should inform the work without becoming templates.
 
 **Visually inspect the referenced websites rather than relying on textual descriptions alone.**
 
-- For Claude's visual identity, examine https://claude.ai and relevant Anthropic design materials. Also see screenshots at `/home/naftali/Tinkering/Projects/In-Plaintext/claude-screenshots`. Study actual rendered pages, typography, font pairings, color relationships, iconography, illustrations, spacing, and visual details.
-- For experiential minimalism, open https://tympanus.net/Development/PreviewContentTransition/ in a browser using playwright mcp, and interact with it. Observe its navigation, transitions, animation timing, spatial continuity, and how interactions connect different interface states.
+- For Claude's visual identity, the assigned Luna research agent should examine https://claude.ai and relevant Anthropic design materials, plus screenshots at `/home/naftali/Tinkering/Projects/In-Plaintext/claude-screenshots`. Study actual rendered pages, typography, font pairings, color relationships, iconography, illustrations, spacing, and visual details; report findings to the Sol designer.
+- For experiential minimalism, the assigned Luna research agent should open https://tympanus.net/Development/PreviewContentTransition/ in a browser using Playwright MCP and interact with it. Observe its navigation, transitions, animation timing, spatial continuity, and how interactions connect different interface states; report findings to the Sol designer.
 - Where browser automation is unavailable or insufficient, retrieve the HTML, CSS, JavaScript, fonts, and other relevant assets to investigate the underlying styling and interaction implementation. Do not assume source inspection alone accurately represents the rendered experience.
 - Use these findings to understand the design philosophy and techniques, **not to reproduce the referenced websites**.
-- Designers pursuing independent directions should conduct their own research without being influenced by the other designers' references or findings.
+- Luna agents supporting independent directions should conduct direction-specific research without being influenced by other designers' references or findings. Do not share direction-specific research across teams.
 
 Do not force a particular framework, visual language, font, or interaction pattern simply because a skill recommends it.
 
 ## Agent hierarchy and workflow
 
-**Strict role separation:** The director orchestrates, designers develop complete creative concepts and implementation specifications, and implementers write the code. Designers must delegate implementation to their own nested subagents, then supervise and evaluate the results rather than coding themselves.
+**Strict role separation:** Terra orchestrates. Sol designers do only creative design and specification. Luna agents handle all project/reference inspection, research, implementation, and progressive visual evaluation, reporting findings to their assigned Sol designer. Sol designers do not perform research, inspect websites or the repository, implement, or conduct QA.
 
-**Level 1 — Creative director: `blog-director` (Astra)**
+Use the OpenCode Go Luna agents by default. If a Go Luna agent cannot run because of provider access, quota, rate-limit, or availability failure, retry that same task with its OpenAI Luna counterpart. Do not switch providers merely because a task needs refinement. If both provider versions fail, pause and report the blocker rather than repeatedly retrying.
 
-- Inspect the blog and establish a concise shared understanding of its content, technical constraints, and design objectives.
-- Before launching all four teams, verify that the installed OpenCode version and configured permissions support the required three-level nested delegation: director → designer → implementer. Run a small end-to-end delegation test at that depth. If nesting or permissions do not work, stop and report the blocker rather than flattening or silently changing the hierarchy.
+**Level 1 — Creative director: `blog-director` (GPT-5.6 Terra)**
+
+- Orchestrate the work, maintain a concise shared project brief, and coordinate milestones and worktrees. Delegate repository/content inspection and other operational investigation to Luna through the assigned designer.
 - Confirm the common baseline is a committed Git revision. Create four independent Git worktrees, each with its own branch and working directory, all based on that same commit. Do not change files, branches, or other state in the original working directory. Automate worktree and Git operations; do not require manual branch switching. If no suitable committed baseline exists, report the blocker before proceeding.
-- Assign exactly one worktree and branch to each designer/implementer team. Keep each team's dependencies, development server, port, and generated build files isolated so all four versions can run simultaneously. Do not share mutable dependency directories or build output between worktrees. Provide a directly accessible, independently running preview for each version.
+- Assign exactly one worktree and branch to each designer/implementer team. Keep each team's dependencies, development server, port, and generated build files isolated. Run only the active team's research and implementation processes and preview; do not run multiple teams or previews concurrently. Provide a directly accessible preview for the active version during its review checkpoint.
 - Retain all four worktrees and branches until I select a design. Do not merge them or clean them up before then.
-- Launch four independent `blog-designer` subagents, one per direction. Give each designer the shared project context, editorial background, aesthetic principles, and technical constraints, plus **only its assigned creative brief**. Do not expose any designer to the other directions' concepts, references, research, proposals, or findings during exploration. The two unrestricted designers must have genuine creative freedom.
+- Run the four direction teams **strictly one at a time**. Do not start the next direction until the current direction is complete and has been presented for review. Keep each designer's concepts and direction-specific research isolated; provide shared factual project context consistently, but do not expose designers to one another's concepts, proposals, or findings. The two unrestricted designers must have genuine creative freedom.
 - Supervise progress, maintain independence, and evaluate the final results.
 - Do not introduce another orchestration layer.
 
-**Level 2 — Designers: `blog-designer` (Astra)**
+**Level 2 — Designers: `blog-designer` (GPT-6.1 Sol)**
 
-Each designer owns its direction from concept to delivery:
+Each designer owns the creative direction and specification only:
 
-1. Independently research and explore its creative direction.
+1. Request relevant project facts and direction-specific reference research from the assigned Level 3 Luna agent; do not conduct research or inspection directly.
 2. Develop a complete, coherent UI/UX concept, including typography, palette, visual language, interaction patterns, responsive behavior, and important details.
-3. Before delegating any coding, produce a detailed UI/UX specification covering appearance, behavior, interactions, responsive layouts, and relevant technical requirements, along with implementation milestones and verifiable acceptance criteria. This handoff must be sufficiently precise to guide implementation while leaving the designer in control of creative decisions.
-4. Delegate implementation to a third-level agent, giving that implementer the specification and only the project context needed to carry it out. Implementers must not be given other directions' concepts or findings.
-5. Inspect the actual rendered implementation, critique it against the intended design, and direct refinements.
-6. Verify quality and acceptance criteria before reporting completion.
+3. Produce a detailed UI/UX specification covering appearance, behavior, interactions, responsive layouts, and relevant technical requirements, with implementation milestones and clear criteria for Luna's visual evaluation. Make the specification precise enough to guide implementation while preserving the designer's creative decisions.
+4. Hand the specification and only the needed project context to the Level 3 Luna implementer. Do not share other directions' concepts or findings.
+5. Make creative decisions and clarify design ambiguities when Luna reports implementation or visual-evaluation findings. Do not perform implementation, website/repository inspection, or QA yourself.
 
-Designers retain creative authority throughout. They must resolve significant ambiguities in their specifications and guide any necessary design decisions rather than leaving implementers to redefine the concept.
+Sol designers retain creative authority throughout. Luna reports evidence and issues; the designer decides whether and how the design should change.
 
-**Level 3 — Implementers**
+**Level 3 — Luna research and implementation agents**
 
-- Use `blog-implementer` (Luna) by default for implementing detailed specifications.
-- Use `blog-implementer-sol` (Sol) for complex interactions, architecture, challenging transitions, or difficult debugging.
-- Designers may choose Sol immediately where complexity justifies it; repeated failure is not a prerequisite.
-- Implementers should follow specifications closely, clarify important ambiguities, test their work, and report concrete evidence of functioning changes.
-- Designers retain creative and quality-control responsibility.
+- `blog-researcher` (OpenCode Go Luna) inspects the project and assigned references, then reports concise evidence and findings to the assigned Sol designer. Use `blog-researcher-openai` (OpenAI Luna) only as the provider-failure fallback.
+- `blog-implementer` (OpenCode Go Luna) implements the detailed specification, runs the preview, and progressively evaluates the rendered work against the specification. Report concrete observations and issues to the designer; do not redefine the creative direction. Use `blog-implementer-openai` (OpenAI Luna) only as the provider-failure fallback.
+- All work stays within the team's assigned worktree. Do not expose a Luna agent to another direction's private research or design.
 
 ## Oversight and execution
 
-- Keep the four directions independent during exploration. Designers must not imitate or build upon one another's solutions.
+- Keep the four directions independent throughout. Designers must not imitate or build upon one another's solutions.
 - Develop all four directions independently before comparing them. Do not share design proposals between designers during exploration. The director should evaluate the completed concepts against the common objectives, not steer them toward a shared aesthetic.
+- Execute directions serially, never concurrently. At the end of each direction's research, specification, implementation, and progressive visual evaluation, stop and present that direction for review before beginning the next one.
 - Work exclusively within each direction's assigned worktree. Preserve the original working directory and blog; do not merge anything.
-- Keep dependencies, server processes and ports, and generated build files isolated per worktree. Confirm that all four versions can run simultaneously and that each has an independently accessible preview. Retain their branches and worktrees until I select a direction.
-- Establish clear milestones and acceptance criteria before substantial implementation.
+- Keep dependencies, server processes and ports, and generated build files isolated per worktree. Confirm each version can run and be evaluated independently, but only run the active direction's processes and preview. Retain all branches and worktrees until I select a direction.
+- Establish clear milestones and design-evaluation criteria before substantial implementation.
 - Use available task statuses and concise progress reports to supervise work without repeatedly ingesting complete subagent transcripts.
 - Watch for stalled tasks, repeated unsuccessful approaches, unnecessary token consumption, and scope drift. Investigate and escalate rather than endlessly retrying.
 - Reports should cover completed milestones, current work, blockers, and next steps.
-- Validate actual rendered results, not merely code changes or implementer summaries.
-- Test real pages on desktop and mobile: homepage, navigation, long-form articles, varied content formatting, responsive layouts, accessibility, performance, and reduced-motion behavior.
+- Evaluate actual rendered results as implementation progresses, not merely code changes or agent summaries. This is visual/product review, not a formal test phase or test-suite requirement.
+- As relevant to the direction, visually review real pages on desktop and mobile, including the homepage, navigation, long-form articles, varied content formatting, responsive behavior, accessibility considerations, performance impact, and reduced-motion behavior.
 - Ensure all four versions can run and be evaluated independently.
 
 ## Deliverables
 
-Present **four working, independently testable blog designs**, each with:
+Present **four working, independently previewable blog designs**, each with:
 
 - Its defining concept and relationship to the writing.
 - Key typography, palette, visual identity, and UX decisions.
@@ -188,6 +187,6 @@ Present **four working, independently testable blog designs**, each with:
 - Its Git branch/worktree and instructions for previewing it.
 - Known limitations or outstanding issues.
 
-Compare their strengths and tradeoffs, emphasizing originality, visual coherence, reading experience, usability, and fidelity to the intended concept.
+After each direction is complete and progressively evaluated, stop and present its preview, concept, specification, and known limitations for review. Wait for approval before starting the next direction. Once all four are complete, compare their strengths and tradeoffs, emphasizing originality, visual coherence, reading experience, usability, and fidelity to the intended concept.
 
 **Do not merge, replace, or commit changes to the original design until I select a direction.**

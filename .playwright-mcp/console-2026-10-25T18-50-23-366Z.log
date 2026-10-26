@@ -1,0 +1,8 @@
+[     159ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     321ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[     324ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/shared/images/fdroid_repo_qr.png:0
+[     365ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://opengraph.githubassets.com/d22e87b8c46e6a0bcdb3403c6ff4d7868d264de9045a853895dae17837429184/whyorean/AuroraStore:0
+[     561ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[     572ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/shared/images/fdroid_repo_qr.png:0
+[    1327ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/fdroid/repo/com.aurora.store/en-US/icon.png:0
+[    1339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4321/shared/images/fdroid_repo_qr.png:0
