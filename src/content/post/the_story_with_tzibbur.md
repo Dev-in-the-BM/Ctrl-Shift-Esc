@@ -1,17 +1,18 @@
 ---
 title: |
-  צרכי ציבור,
-  or אין הציבור יכולין לעמוד בה?
-description: 
-    As Tzibbur has begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
-    Here's the truth about Tzibbur.
+    צרכי ציבור,
+    or אין הציבור יכולין לעמוד בה?
+description: As Tzibbur has begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims. Here's the truth about Tzibbur.
 pubDate: 2026-10-26T02:07:37.434Z
-image: "../../assets/tzibbur_CENSOREDx2 (Edited).jpg"
+image: ../../assets/tzibbur_CENSOREDx2 (Edited).jpg
 category: Tablets of Stone
 tags:
     - messaging
     - kosher phones
 publishDate: 2026-10-26T05:43:39.036Z
+excerpt: |-
+    As Tzibbur has begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
+        Here's the truth about Tzibbur.
 ---
 
 ### The Tizbbur is debating
