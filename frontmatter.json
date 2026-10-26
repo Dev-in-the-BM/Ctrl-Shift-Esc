@@ -36,12 +36,6 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "heroImage",
-          "type": "image",
-          "isPreviewImage": true
-        },
-        {
           "title": "excerpt",
           "name": "excerpt",
           "type": "string"
@@ -62,19 +56,15 @@
           "type": "categories"
         },
         {
-          "title": "image",
+          "title": "Image",
           "name": "image",
-          "type": "image"
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "categories",
           "name": "categories",
           "type": "categories"
-        },
-        {
-          "title": "heroimage",
-          "name": "heroimage",
-          "type": "image"
         }
       ]
     }

@@ -5,7 +5,7 @@ backend:
   base_url: https://sveltia-admin.devinthebm.workers.dev # <-- REPLACE THIS with your Cloudflare Worker URL
 
 media_folder: 'src/assets'
-public_folder: '/src/assets'
+public_folder: '../../assets'
 
 collections:
   - name: 'post'
@@ -20,6 +20,5 @@ collections:
       - { label: 'Category', name: 'category', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
-      - { label: 'Hero Image', name: 'heroImage', widget: 'image', required: false }
       - { label: 'Publish Date', name: 'pubDate', widget: 'datetime', required: false }
       - { label: 'Content', name: 'body', widget: 'markdown' }

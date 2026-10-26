@@ -1,10 +1,11 @@
 ---
-title: צרכי ציבור or אין הציבור יכולין לעמוד בה?
+title: "צרכי ציבור,
+ or אין הציבור יכולין לעמוד בה?"
 description: |-
     As Tzibbur has begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
     Here's the truth about Tzibbur.
 pubDate: 2026-10-26T02:07:37.434Z
-heroImage: ../../assets/tzibbur_CENSOREDx2.jpg
+image: ../../assets/tzibbur_CENSOREDx2.jpg
 category: Tablets of Stone
 tags:
     - messaging
@@ -26,7 +27,7 @@ Also, for anyone who's involved in the kosher tech market and might get upset by
 If you have complaints, make sure not to bother Tzibbur about it.
 You can instead [send them my way](https://complaintboxoffice.com).
 
-[details=For those that haven't read through the full conversation surrounding this, and might not have seen what I posted, this is basically the story:]
+:::details[For those that haven't read through the full conversation surrounding this, and might not have seen what I posted, this is basically the story:]
 
  In August 2026, GroupMe shut down their SMS feature, leaving tens of thousands of Yidden that relied on it for important chats stuck.
 Someone, I'll call Yehuda (the name Levi was already taken), realized that we have a problem on our hands, and wanted to try to work out a solution. His goal wasn't to make money; it was to bring a solution for group messaging to kosher phones. He did hope to be able to make a little money from this on the side, but that's not why he started it, and he didn't expect to make that much.
@@ -45,7 +46,7 @@ Someone, I'll call Yehuda (the name Levi was already taken), realized that we ha
  Utility chats only.
  No modern chat features.
  Like I said, I've spoken to someone who's involved in Tzibbur, and while they're not looking to build a platform that's a hefkervelt, or just a Jewish WhatsApp, they would definitely be a little less restrictive if not for the pressure from others.
-[/details]
+:::
 
 ![Messaging on a flip phone](../../assets/messaging_on_flip_phonex2.jpg)
 
