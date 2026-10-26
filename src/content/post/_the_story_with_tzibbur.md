@@ -9,7 +9,6 @@ category: Tablets of Stone
 tags:
     - messaging
 publishDate: 2026-10-26T05:43:39.036Z
-slug: צרכי-ציבור-אין-הציבור-יכולין-לעמוד-בה
 ---
 There's been a lot of debate here on JTech about Tzibbur.
 
