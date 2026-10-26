@@ -1,0 +1,18 @@
+- main [ref=f30e2]:
+  - 'heading "404: Not found" [level=1] [ref=f30e7]'
+  - paragraph [ref=f30e8]:
+    - text: Your site is configured with
+    - code [ref=f30e9]: trailingSlash
+    - text: set to
+    - code [ref=f30e10]: never
+    - text: . Do you want to go to
+    - link "/In-Plaintext" [ref=f30e11] [cursor=pointer]:
+      - /url: /In-Plaintext
+    - text: instead?
+  - paragraph [ref=f30e12]:
+    - text: See
+    - link [ref=f30e13] [cursor=pointer]:
+      - /url: https://docs.astro.build/en/reference/configuration-reference/#trailingslash
+      - text: the documentation for
+      - code [ref=f30e14]: trailingSlash
+    - text: if you need help.

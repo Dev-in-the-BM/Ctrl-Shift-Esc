@@ -1,0 +1,3 @@
+[     211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4328/In-Plaintext/_astro/privacy.DjdN5hmi.css:0
+[     213ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:4328/In-Plaintext/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js:0
+[     273ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0

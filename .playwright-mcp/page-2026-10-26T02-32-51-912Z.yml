@@ -1,0 +1,207 @@
+- generic [active] [ref=f40e101]:
+  - link "Skip to content" [ref=f40e102] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f40e103]:
+    - generic [ref=f40e104]:
+      - link "In Plaintext" [ref=f40e105] [cursor=pointer]:
+        - /url: /In-Plaintext
+      - navigation "Main navigation" [ref=f40e106]:
+        - link "All writing" [ref=f40e107] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - link "RSS" [ref=f40e108] [cursor=pointer]:
+          - /url: /In-Plaintext/rss.xml
+      - button "Toggle between Dark and Light mode" [ref=f40e109] [cursor=pointer]
+  - main [ref=f40e112]:
+    - article [ref=f40e114]:
+      - generic [ref=f40e115]:
+        - link "← Back to all writing" [ref=f40e116] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - heading "GroupMe SMS is dead, now what?" [level=1] [ref=f40e117]
+        - paragraph [ref=f40e118]:
+          - time [ref=f40e119]: Aug 19, 2026
+          - link "Typed With T9" [ref=f40e120] [cursor=pointer]:
+            - /url: /In-Plaintext/category/typed-with-t9
+        - paragraph [ref=f40e121]: The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?
+      - generic [ref=f40e122]:
+        - navigation "On this page" [ref=f40e123]:
+          - group [ref=f40e124]:
+            - generic "On this page" [ref=f40e125] [cursor=pointer]
+        - img "The frum world relied on GroupMe's SMS feature for group chats. That's now gone. What do we do now?" [ref=f40e126]
+        - generic [ref=f40e128]:
+          - heading "The frum world in the digital age" [level=3] [ref=f40e129]
+          - paragraph [ref=f40e130]: The year is 2026.
+          - paragraph [ref=f40e131]: Most of the world has gone completely online.Many live their entire lives from behind their glass rectangle.
+          - paragraph [ref=f40e132]: And then we have the frum world, where large segments continue to choose to use technology more intentionally.
+          - paragraph [ref=f40e133]: With the realities of the 21st century, we often have to be creative to bypass using smartphones and the internet.
+          - heading "GroupMe and DumpMe" [level=3] [ref=f40e134]
+          - paragraph [ref=f40e135]: One of the tools many of us have used is GroupMe’s SMS feature, allowing us to have group chats without having to rely on online platforms.
+          - paragraph [ref=f40e136]: Many family, neighborhood, chesed, and other chats relied on this.
+          - paragraph [ref=f40e137]: While most of us have cellphone plans that give us unlimited texting, network providers charge platforms for every text sent and received.This, combined with price increases introduced over the years, has made GroupMe’s SMS feature unsustainable, and GroupMe has recently announced that they are shutting down their SMS system.
+          - heading "What about alternatives?" [level=3] [ref=f40e138]
+          - paragraph [ref=f40e139]: Because running such a service is so expensive, there don’t seem to be any SMS alternatives, and it’s very unlikely that there will be any in the future.
+          - paragraph [ref=f40e140]: While MMS group chats are still around, they have limitations that make them impractical in many cases.
+          - paragraph [ref=f40e141]: MMS group chats are limited to 20 people, and don’t allow adding or removing people.
+          - paragraph [ref=f40e142]: All this means that traditional text-message-based group chats are no longer an option for many things that we relied on.
+          - paragraph [ref=f40e144]:
+            - text: "The question facing our community is:"
+            - emphasis [ref=f40e145]: Now what?
+          - paragraph [ref=f40e146]: To answer that, we have to first look at the options.Unfortunately, there aren’t too many.We can decide that we can do without group chats, or we can figure out if there’s a kosher way to use app-based platforms.
+          - paragraph [ref=f40e147]: The question then is, what are the problems with app-based messaging platforms?
+          - paragraph [ref=f40e148]: After all, most kosher phones today are essentially dumbed-down Android devices, and it’s the filter restricting what can run on the phone.
+          - paragraph [ref=f40e149]: Why can’t the filters just allow WhatsApp?
+          - paragraph [ref=f40e150]: "The answer is nuanced, and boils down to a few points:"
+          - paragraph [ref=f40e151]:
+            - img "Holding dumbphone" [ref=f40e152]
+          - heading "1. Non-kosher features" [level=4] [ref=f40e153]
+          - paragraph [ref=f40e154]: Most major messaging platforms, including WhatsApp and Telegram, offer features that are either completely not kosher, or aren’t up to the standards that a true basic kosher phone should keep to.
+          - paragraph [ref=f40e155]: These include features like channels, status, and media sharing.
+          - paragraph [ref=f40e156]: These can be very complex to completely block.
+          - heading "2. Time not well spent" [level=4] [ref=f40e157]
+          - paragraph [ref=f40e158]: Major smartphone apps have many features in them intentionally designed to make the app more engaging, and have users spend more time on it.
+          - paragraph [ref=f40e159]: These include things like design language, animations, gamification, and social elements.
+          - paragraph [ref=f40e160]: Even apps that should just be useful tools engage in this.
+          - paragraph [ref=f40e161]: For example, Duolingo, an app that helps users learn new languages, has leaned heavily into gamification, streaks, competition, notifications, and adding social elements, to make users keep coming back to the app, and spending as much time on it as possible.
+          - paragraph [ref=f40e162]: Therefore, even if an app may seem to be just an innocent utility, the reality is often otherwise.
+          - heading "3. The gateway drug" [level=4] [ref=f40e163]
+          - paragraph [ref=f40e164]: Many in our community have never been smartphone users, and intend to keep it that way.For them, a dumbphone isn’t just a more kosher device, it’s a strong boundary to keep away from smartphones.The basic dumbphone’s simple, low-featured nature is a stark contrast to the slick, distracting experience that the smartphone offers.Every app and smart feature added to a basic phone erodes this boundary.This is why many dumbphone filters refuse to allow even Waze on basic phones.
+          - heading "4. Group chats themselves aren’t necessarily kosher" [level=4] [ref=f40e165]
+          - paragraph [ref=f40e166]: While group chats can be a very useful tool, they can also be a trap.
+          - paragraph [ref=f40e167]: Many chats can be time-wasting, filled with lashon hora and leitzanus, or just be a distraction from more important things.
+          - paragraph [ref=f40e168]: While GroupMe chats were very often useful and kosher, others weren’t.In other words, group chats to begin with are somewhat of a bedi’eved.
+          - paragraph [ref=f40e169]: As we can see, there can be many pitfalls to seemingly innocuous messaging platforms.
+          - heading "Is there any way these problems can be solved?" [level=3] [ref=f40e170]
+          - paragraph [ref=f40e171]: Let’s move over to the world of email for a second.
+          - paragraph [ref=f40e172]: There are many more kosher devices offering email than WhatsApp.
+          - paragraph [ref=f40e173]: Why is that?
+          - paragraph [ref=f40e174]: Unlike WhatsApp and other major messaging platforms, which are tied to their own apps, email is an open protocol.
+          - paragraph [ref=f40e175]: That means that anyone can run their own email service, or build their own email app, and it will be able to message and work with other email providers, as long as it keeps to email’s official protocols.
+          - paragraph [ref=f40e176]: That’s why Gmail, Outlook, Yahoo Mail, and iCloud Mail can all email each other, and why you can use all of those in each other’s apps, or any other email app out there.
+          - paragraph [ref=f40e177]: That’s also why the Sunbeam kosher phone is able to offer email with attachments blocked, and how Keyphone is considering offering text-only email, with graphics blocked, or an email app that would only show your last 30 days of emails.
+          - paragraph [ref=f40e178]: Since anyone can build their own email app, which would work with any email provider, building email apps with custom restrictions is pretty simple.
+          - paragraph [ref=f40e179]: Now if only such a thing existed for messaging, right?
+          - paragraph [ref=f40e180]: That would make a lot of the kashrus problems inherent to these messaging platforms solvable.
+          - heading [level=3] [ref=f40e181]:
+            - text: Matt
+            - emphasis [ref=f40e182]: who?
+          - paragraph [ref=f40e183]:
+            - text: Actually, such a thing
+            - emphasis [ref=f40e184]: does
+            - text: exist.It’s called Matrix, and while it’s still niche, it has tens of millions of active users, and offers all of the features that major messaging platforms have.Most importantly, anyone can build their own Matrix app that would work with any Matrix provider.
+          - paragraph [ref=f40e185]: This would make a lot of the problems with messaging that we mentioned earlier easier to mitigate.
+          - paragraph [ref=f40e186]: Non-kosher features can be blocked.
+          - paragraph [ref=f40e187]: A kosher Matrix app could be purposefully designed to be utilitarian instead of engaging.
+          - paragraph [ref=f40e188]: But the other two problems can’t be fully solved.
+          - paragraph [ref=f40e189]: While a simpler app is a lot better than a full smartphone app, for basic phones it would still be a new smart feature, bringing it a step closer to smartphones.
+          - paragraph [ref=f40e190]: There’s also no way to only allow chats that are completely kosher.
+          - paragraph [ref=f40e191]: Which means that while a theoretical kosher Matrix app could solve some problems that other messaging platforms have, it would leave the others unsolved.
+          - paragraph [ref=f40e192]: "This leaves us, as a community, and as individuals, with a question:"
+          - paragraph [ref=f40e193]: How do we want to deal with this?
+          - paragraph [ref=f40e194]: Are we willing to say goodbye to the convenience of group chats?
+          - paragraph [ref=f40e195]: Or is it something that we can’t do without?
+          - paragraph [ref=f40e196]: I’ve already spoken to the owner of one kosher phone company, who said he might be interested in making a kosher Matrix an option, if other kosher phone companies are also interested in doing this.
+          - paragraph [ref=f40e197]:
+            - text: "So then the question is: Do"
+            - emphasis [ref=f40e198]: we
+            - text: want it?
+      - generic [ref=f40e199]:
+        - list [ref=f40e200]:
+          - listitem [ref=f40e201]:
+            - link "kosher phones" [ref=f40e202] [cursor=pointer]:
+              - /url: /In-Plaintext/tag/kosher-phones
+          - listitem [ref=f40e203]:
+            - link "Messaging" [ref=f40e204] [cursor=pointer]:
+              - /url: /In-Plaintext/tag/messaging
+          - listitem [ref=f40e205]:
+            - link "dumbphones" [ref=f40e206] [cursor=pointer]:
+              - /url: /In-Plaintext/tag/dumbphones
+        - generic [ref=f40e207]:
+          - text: "Share:"
+          - button "Share" [ref=f40e208] [cursor=pointer]
+          - button "Share with SMS" [ref=f40e211] [cursor=pointer]
+          - button "Share with Email" [ref=f40e214] [cursor=pointer]
+          - button "Share with Whatsapp" [ref=f40e217] [cursor=pointer]
+          - button "Share with Telegram" [ref=f40e220] [cursor=pointer]
+          - button "Share with Reddit" [ref=f40e223] [cursor=pointer]
+          - button "Share with Linkedin" [ref=f40e226] [cursor=pointer]
+          - button "Share with X" [ref=f40e229] [cursor=pointer]
+      - generic [ref=f40e234]:
+        - generic [ref=f40e235]:
+          - generic [ref=f40e236]:
+            - img "Jtech Forums logo" [ref=f40e237]
+            - heading "Comments" [level=2] [ref=f40e238]
+          - button "Reload comments" [ref=f40e239] [cursor=pointer]
+        - iframe [ref=f40e244]
+    - generic [ref=f40e246]:
+      - generic [ref=f40e248]:
+        - heading "Related Posts" [level=2] [ref=f40e249]
+        - link "View All Posts »" [ref=f40e250] [cursor=pointer]:
+          - /url: /In-Plaintext
+      - generic [ref=f40e251]:
+        - article [ref=f40e252]:
+          - link [ref=f40e254] [cursor=pointer]:
+            - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+            - 'img "Rumor: The Mind phones keypad might be real" [ref=f40e255]'
+          - heading [level=3] [ref=f40e256]:
+            - 'link "Rumor: The Mind phones keypad might be real" [ref=f40e257] [cursor=pointer]':
+              - /url: /In-Plaintext/mind-phone-might-have-an-actual-keypad
+          - paragraph [ref=f40e258]: Rumor has it that the Mind phone not only has a keypad, but it also works.
+        - article [ref=f40e259]:
+          - link [ref=f40e261] [cursor=pointer]:
+            - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+            - img "Can Matrix be the Messaging solution for dumbphones?" [ref=f40e262]
+          - heading [level=3] [ref=f40e263]:
+            - link "Can Matrix be the Messaging solution for dumbphones?" [ref=f40e264] [cursor=pointer]:
+              - /url: /In-Plaintext/can-matrix-be-the-messaging-solution-for-dumbphones
+          - paragraph
+        - article [ref=f40e265]:
+          - link [ref=f40e267] [cursor=pointer]:
+            - /url: /In-Plaintext/building-a-messaging-platform-from-scratch-makes-no-sense
+            - img "Building a messaging platform from scratch makes no sense" [ref=f40e268]
+          - heading [level=3] [ref=f40e269]:
+            - link "Building a messaging platform from scratch makes no sense" [ref=f40e270] [cursor=pointer]:
+              - /url: /In-Plaintext/building-a-messaging-platform-from-scratch-makes-no-sense
+          - paragraph
+        - article [ref=f40e271]:
+          - link [ref=f40e273] [cursor=pointer]:
+            - /url: /In-Plaintext/sunbeam-f1-pro
+            - 'img "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f40e274]'
+          - heading [level=3] [ref=f40e275]:
+            - 'link "Sunbeam F1 Pro: A Basic Flip Phone that won''t Disappoint" [ref=f40e276] [cursor=pointer]':
+              - /url: /In-Plaintext/sunbeam-f1-pro
+          - paragraph [ref=f40e277]: The Sunbeam F1 Pro looks like a traditional flip phone, but don't let its appearance fool you. While it feels like a basic phone, it's anything but basic, offering just the right features to stay helpful without getting in your way.
+  - contentinfo [ref=f40e278]:
+    - generic [ref=f40e279]:
+      - generic [ref=f40e281]:
+        - link "In Plaintext" [ref=f40e283] [cursor=pointer]:
+          - /url: /In-Plaintext
+        - generic [ref=f40e284]:
+          - text: Powered by
+          - link "AstroAuthor" [ref=f40e285] [cursor=pointer]:
+            - /url: https://github.com/dev-in-the-bm/astroauthor
+        - generic [ref=f40e286]:
+          - link "Terms" [ref=f40e287] [cursor=pointer]:
+            - /url: /In-Plaintext/terms
+          - text: ·
+          - link "Privacy Policy" [ref=f40e288] [cursor=pointer]:
+            - /url: /In-Plaintext/privacy
+      - generic [ref=f40e289]:
+        - list [ref=f40e290]:
+          - listitem [ref=f40e291]:
+            - link "Reddit" [ref=f40e292] [cursor=pointer]:
+              - /url: https://www.reddit.com/user/Dev-in-the-Bm/
+          - listitem [ref=f40e295]:
+            - link "Jtech Forums" [ref=f40e296] [cursor=pointer]:
+              - /url: https://forums.jtechforums.org/u/dev-in-the-bm_2.0/
+              - img "Jtech Forums logo" [ref=f40e297]
+          - listitem [ref=f40e298]:
+            - link "RSS" [ref=f40e299] [cursor=pointer]:
+              - /url: /In-Plaintext/rss.xml
+          - listitem [ref=f40e302]:
+            - link "Github" [ref=f40e303] [cursor=pointer]:
+              - /url: https://github.com/Dev-in-the-BM/AstroAuthor/
+        - generic [ref=f40e306]:
+          - text: Made by
+          - link "Dev-in-the-BM" [ref=f40e307] [cursor=pointer]:
+            - /url: https://github.com/Dev-in-the-BM
+          - text: · All rights reserved.
+  - generic [ref=f40e308]: GroupMe SMS is dead, now what? — In Plaintext

@@ -1,0 +1,14 @@
+- main [ref=f6e2]:
+  - 'heading "404: Not found" [level=1] [ref=f6e7]'
+  - paragraph [ref=f6e8]:
+    - text: In your
+    - code [ref=f6e9]: site
+    - text: you have your base path set to
+    - link "/In-Plaintext/" [ref=f6e10] [cursor=pointer]:
+      - /url: /In-Plaintext/
+    - text: . Do you want to go there instead?
+  - paragraph [ref=f6e11]:
+    - text: Come to our
+    - link "Discord" [ref=f6e12] [cursor=pointer]:
+      - /url: https://astro.build/chat
+    - text: if you need help.

@@ -1,0 +1,25 @@
+[     100ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/privacy.BWWnEnE8.css:0
+[     101ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js:0
+[     252ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Avatar%20scaled%20down-min.DuU8jePp_Z1QRxwr.webp:0
+[     252ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/T9_category.BiC2BzfC_Z1hxK63.webp:0
+[     252ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Digital_minimalism_reclaiming_202603301538.q1L0sByi_1PsHlE.webp:0
+[     253ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Terminal_window_code_202603301545.DU1priCw_Z1j9kJs.webp:0
+[     253ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/ducttapekosherphone.CfbKTI-o_1iMvXJ.webp:0
+[     253ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.ComGQFnL_wqjSG.webp:0
+[     258ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cloud.umami.is/script.js:0
+[     289ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Knife_slicing_digital_data_stream_202608191542.C4WJoVLJ_ZMC6mM.webp:0
+[     290ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/dumbphone-hero-banner-mobile-370x215.DzScqriF_2kgsBU.webp:0
+[     313ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.BPT2wB13_1WQrRq.webp:0
+[     314ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/x530-header.CzQbFMm__FdMG4.webp:0
+[   25727ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/ducttapekosherphone.CfbKTI-o_15XP3W.webp:0
+[   25730ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.ComGQFnL_tJls.webp:0
+[   25741ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Knife_slicing_digital_data_stream_202608191542.C4WJoVLJ_20aGfq.webp:0
+[   25747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.BPT2wB13_C07yL.webp:0
+[   25747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/dumbphone-hero-banner-mobile-370x215.DzScqriF_ZqaKQY.webp:0
+[   25748ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/x530-header.CzQbFMm__Z2x5w8O.webp:0
+[   29298ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/ducttapekosherphone.CfbKTI-o_1cl7WG.webp:0
+[   29298ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Blackview-N1000-Rugged-4G-Dumb-Feature-Phone-T9-keyboard.ComGQFnL_Zb3tUo.webp:0
+[   29310ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/Knife_slicing_digital_data_stream_202608191542.C4WJoVLJ_Z1Yk0cd.webp:0
+[   29313ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/sunbeam-wireless-the-story-behind-sunbeam-phones-featured-image.BPT2wB13_Z1qBLTy.webp:0
+[   29314ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/dumbphone-hero-banner-mobile-370x215.DzScqriF_ZhoEnK.webp:0
+[   29315ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8788/In-Plaintext/_astro/x530-header.CzQbFMm__1mxTgS.webp:0

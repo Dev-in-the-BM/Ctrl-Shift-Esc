@@ -1,3 +1,10 @@
+---
+title: צרכי ציבור or אין הציבור יכולין לעמוד בה?
+description: |-
+    As Tzibbur's begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
+    Here's the truth about Tzibbur.
+pubDate: 2026-10-26T02:07:37.434Z
+---
 There's been a lot of debate here on JTech about Tzibbur.
 
 Pro Tzibbur, anti Tzibbur, why Tzibbur is doing things the way it is, how it should do things, and plenty of misinformation.
