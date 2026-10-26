@@ -5,12 +5,15 @@ description: |-
     As Tzibbur has begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
     Here's the truth about Tzibbur.
 pubDate: 2026-10-26T02:07:37.434Z
-image: ../../assets/tzibbur_CENSOREDx2 (Edited).jpg2
+image: "../../assets/tzibbur_CENSOREDx2 (Edited).jpg"
 category: Tablets of Stone
 tags:
     - messaging
 publishDate: 2026-10-26T05:43:39.036Z
 ---
+
+### The Tizbbur is debating
+
 There's been a lot of debate here on JTech about Tzibbur.
 
 Pro Tzibbur, anti Tzibbur, why Tzibbur is doing things the way it is, how it should do things differently, and plenty of misinformation.
@@ -26,6 +29,8 @@ I've been hearing a lot of this directly from someone involved with Tzibbur, and
 Also, for anyone who's involved in the kosher tech market and might get upset by anything I say over here, this post is not endorsed or written by Tzibbur.
 If you have complaints, make sure not to bother Tzibbur about it.
 You can instead [send them my way](https://complaintboxoffice.com).
+
+### The story with tzibbur
 
 :::details[For those that haven't read through the full conversation surrounding this, and might not have seen what I posted, this is basically the story:]
 
@@ -50,12 +55,14 @@ Someone, I'll call Yehuda (the name Levi was already taken), realized that we ha
 
 ![Messaging on a flip phone](../../assets/messaging_on_flip_phonex2.jpg)
 
-What does this mean?
+### What does this mean?
 
 - When I said that if you want to complain, complain to the hechsherim and filtering companies, not Tzibbur, I meant it.
 They have a big influence on how Tzibbur runs.
 - Stop calling it TAG's app, TAG is very much involved, but it is not their platform.
 - Stop kvetching that "Tzibbur doesn't let news chats, Tzibbur is evil". They owe you nothing, and they're not the ones controlling the ecosystem deciding what does and doesn't go on kosher phones.
+
+### Stop whining, roll up your sleeves and do 
 
 
 Second of all, if we want kosher phones to have better messaging platforms, this is what we have to do:
