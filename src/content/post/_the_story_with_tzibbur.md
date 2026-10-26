@@ -1,9 +1,15 @@
 ---
 title: צרכי ציבור or אין הציבור יכולין לעמוד בה?
 description: |-
-    As Tzibbur's begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
+    As Tzibbur has begun rolling out, there's been a lot of debates,  misinformation, and people trying to make themselves victims.
     Here's the truth about Tzibbur.
 pubDate: 2026-10-26T02:07:37.434Z
+heroImage: ../../assets/tzibbur_CENSOREDx2.jpg
+category: Tablets of Stone
+tags:
+    - messaging
+publishDate: 2026-10-26T05:43:39.036Z
+slug: צרכי-ציבור-אין-הציבור-יכולין-לעמוד-בה
 ---
 There's been a lot of debate here on JTech about Tzibbur.
 
@@ -41,6 +47,8 @@ Someone, I'll call Yehuda (the name Levi was already taken), realized that we ha
  No modern chat features.
  Like I said, I've spoken to someone who's involved in Tzibbur, and while they're not looking to build a platform that's a hefkervelt, or just a Jewish WhatsApp, they would definitely be a little less restrictive if not for the pressure from others.
 [/details]
+
+![Messaging on a flip phone](../../assets/messaging_on_flip_phonex2.jpg)
 
 What does this mean?
 

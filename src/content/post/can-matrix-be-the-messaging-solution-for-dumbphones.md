@@ -4,7 +4,7 @@ pubDate: 2026-08-19
 description: |-
     Dumbphone users have been held back by the limitations of SMS.
      Can Matrix change that?
-category: Typed With T9
+category: Dialing Down
 tags:
     - dumbphones
     - messaging
