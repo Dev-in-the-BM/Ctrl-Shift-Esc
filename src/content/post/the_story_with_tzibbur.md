@@ -25,7 +25,7 @@ I've written plenty of my own arguments, some not very complimentary, but more r
 
 From some private conversations I've had with some JTechers, I've realized that there are some who think that what I've been writing in Tzibbur's defense is just my opinion, my interpretation of the situation.
 
-I'd therefore like to clarify that most of what I've been writing defending Tzibbur, I pretty much know for a fact.
+I'd therefore like to clarify that most of what I've been writing defending Tzibbur I pretty much know for a fact.
  
 A lot of what I've been saying about Tzibbur I've heard from someone involved with Tzibbur, and have had it confirmed by a few others with connections to kosher phone and filtering companies, and therefore have a clearer picture of what's going on.
 
@@ -56,14 +56,14 @@ Someone, I'll call Yehuda (the name Levi was already taken), realized that we ha
  Like I said, I've spoken to someone who's involved in Tzibbur, and while they're not looking to build a platform that's a hefkervelt, or just a Jewish WhatsApp, they would definitely be a little less restrictive if not for the pressure from others.
 :::
 
-![Messaging on a flip phone](../../assets/messaging_on_flip_phonex2.jpg)
-
 ### What does this mean?
 
 - When I said that if you want to complain, complain to the hechsherim and filtering companies, not Tzibbur, I meant it.
 They have a big influence on how Tzibbur is being run.
 - Stop calling it TAG's app, TAG is very much involved, but it is not their platform.
 - Stop kvetching that "Tzibbur doesn't let news chats, Tzibbur is evil". They owe you nothing, and they're not the ones controlling the ecosystem deciding what does and doesn't go on kosher phones.
+
+![Messaging on a flip phone](../../assets/messaging_on_flip_phonex2.jpg)
 
 ### Stop whining and roll up your sleeves 
 
