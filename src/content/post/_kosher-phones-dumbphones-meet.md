@@ -14,7 +14,7 @@ slug: kosher-phones-dumbphones-meet
 
 ## About the kosher tech world
 
-From the wide variety of dumbphones out there, there are ones designed to be kosher phones. Although they're often not designed specifically for the digital detox community, a lot of what the kosher and minimialist tech users want intersect, and these phones can be great options for many of us.
+From the wide variety of dumbphones out there, there are ones designed to be kosher phones. Although they're often not designed specifically for the digital detox community, a lot of what the kosher and minimialist tech users want intersect, and these phones can be great options for many.
 
 ### What are kosher phones?
 
@@ -232,6 +232,8 @@ Possible future features include Android Auto, email, authentication, and Google
 **UI Simplicity:** ⭐⭐⭐⭐☆
 **UI Polish:** ⭐⭐⭐⭐⭐
 
+https://keyphone.tech/?ref=DevintheBM
+
 - - -
 
 
@@ -241,6 +243,6 @@ The Hit phone is currently the only 4G slide QWERTY phone.
 
 It isn't touchscreen, but has weather, Waze, and Gmail that can be used with the built in cursor.
 
-Its software wasn't great, but is currently going a complete overhaul.
+Its software wasn't great, but is currently undergoing a complete overhaul.
 
-Disclaimer: I am affiliated with HIT, and am personally involved in revamping this phone, so please don't take this as an independant review
+Disclaimer: I am affiliated with HIT, and am personally involved in revamping this phone, so please don't take this as an independant review. Because I'm biased, I'm not going to go into a detailed comparison to the other phones here.

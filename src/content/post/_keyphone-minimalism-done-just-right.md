@@ -1,11 +1,17 @@
 ---
 title: "Keyphone: Minimalism done just right"
-pubDate: 2026-08-18T18:12:23.096Z
+pubDate: 2026-11-18T20:10:32.898Z
 category: Typed With T9
 tags:
     - dumbphones
     - Reviews
 slug: keyphone-minimalism
+excerpt: |-
+    When I first heard about Keyphone, I was pretty impressed.
+
+    Between the hardware and features designed in-house, its modularity, and its minimal custom skin, it sounded very cool.
+description: Keyphone has become one of my favorite picks for a dumbphone, and is now the phone I use every day, here's why.
+image: /a404a90f-b047-4031-aa80-fc4c8b9f863a.c9e35f40aa7d4b268b3f0eea85c52771.avif
 ---
 
 When I first heard about Keyphone, I was pretty impressed.
