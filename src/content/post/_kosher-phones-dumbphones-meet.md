@@ -4,12 +4,11 @@ category: Typed With T9
 tags:
     - Review
 pubDate: 2026-03-30T09:39:43.000Z
-image: ../../assets/generate_a_preview_202603290616.png
-heroImage: ../../assets/generate_a_preview_202603290616.png
 excerpt: |-
     No browser, no app store, zero distractions. 
     Here's why the kosher tech world has the exact tools that digital minimalists have been looking for.
 slug: kosher-phones-dumbphones-meet
+image: ../../assets/images.jpg
 ---
 
 ## About the kosher tech world

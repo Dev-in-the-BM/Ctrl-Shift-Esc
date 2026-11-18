@@ -11,7 +11,7 @@ excerpt: |-
 
     Between the hardware and features designed in-house, its modularity, and its minimal custom skin, it sounded very cool.
 description: Keyphone has become one of my favorite picks for a dumbphone, and is now the phone I use every day, here's why.
-image: /a404a90f-b047-4031-aa80-fc4c8b9f863a.c9e35f40aa7d4b268b3f0eea85c52771.avif
+image: ../../assets/a404a90f-b047-4031-aa80-fc4c8b9f863a.c9e35f40aa7d4b268b3f0eea85c52771.avif
 ---
 
 When I first heard about Keyphone, I was pretty impressed.
