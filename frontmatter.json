@@ -2,7 +2,17 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
-  "frontMatter.content.publicFolder": "[[workspace]]/src/assets",
+  "frontMatter.content.publicFolder": {
+    "path": "src/assets",
+    "relative": true
+  },
+  "frontMatter.content.snippets": {
+    "Insert image": {
+      "description": "Insert a Markdown image using a relative path to src/assets",
+      "body": "![ [[alt]] ]([[&mediaUrl]])",
+      "isMediaSnippet": true
+    }
+  },
   "frontMatter.content.pageFolders": [
     {
       "title": "post",

@@ -7,7 +7,8 @@ import Headline from '~/components/blog/Headline.astro';
 import Pagination from '~/components/blog/Pagination.astro';
 // import PostTags from "~/components/blog/Tags.astro";
 
-import { blogListRobots, getStaticPathsBlogList } from '~/utils/blog';
+import { blogListRobots, fetchUnlistedPosts, getStaticPathsBlogList } from '~/utils/blog';
+import { getPermalink } from '~/utils/permalinks';
 
 export const prerender = true;
 
@@ -19,6 +20,7 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { page } = Astro.props as Props;
 const currentPage = page.currentPage ?? 1;
+const unlistedPosts = import.meta.env.DEV ? await fetchUnlistedPosts() : [];
 
 // const allCategories = await findCategories();
 // const allTags = await findTags();
@@ -59,6 +61,24 @@ const metadata = {
         ~/Tinkering
       </a>
     </div>
+    {
+      unlistedPosts.length > 0 && (
+        <aside class="max-w-2xl mx-auto mb-10 rounded-lg border border-amber-300 bg-amber-50 p-4 text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
+          <h2 class="mb-1 font-semibold">Unlisted pages — local preview</h2>
+          <p class="mb-3 text-sm">These pages are hidden from the public blog and appear here only in development.</p>
+          <ul class="space-y-2">
+            {unlistedPosts.map((post) => (
+              <li class="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+                <a class="font-medium underline underline-offset-2" href={getPermalink(post.permalink, 'post')}>
+                  {post.title}
+                </a>
+                <code class="break-all text-xs opacity-80">{getPermalink(post.permalink, 'post')}</code>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )
+    }
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     <!--
