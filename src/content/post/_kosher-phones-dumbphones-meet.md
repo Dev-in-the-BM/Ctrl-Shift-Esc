@@ -67,7 +67,7 @@ Many block calling and texting AI.
 
 ### How much do these phones cost?
 
-They usually cost from around $200 to $400.
+They usually cost from around $200 to $450.
 
 The companies making them are very small, and it's very expensive to manufacture a custom device, so they're forced to charge that much just to make a normal profit.
 
@@ -89,10 +89,9 @@ These are usually semi dumbphones, with features like navigation and touchscreen
 
 To be honest, not all of these phones were specifically made for the kosher market.
 
-Some of these phones are for those looking to escape the distractions of smartphones.
+Some of these phones are targeting those looking to escape the distractions of smartphones.
 
 What these phones have in common is that they're a modern take on the traditional dumbphone, offering features, utilties, premium hardware, and an intentional, locked-down experience.
-
 
 I'm going to focus on what makes them stand out and how they compare to each other.
 
@@ -102,7 +101,7 @@ I've tested most of these phones, using them as my main phone until I could get 
 
 I judged these phones in different areas, rating them on a scale form 1-5.
 
-3 is average, 4 is above average, and 5 is the perfect.
+3 is average, 4 is above average, and 5 is perfect.
 
 - - - 
 
@@ -122,7 +121,7 @@ It has Waze, Gboard, Musicolet, and Android Auto.
 
 The company is focused on making their phone as polished as possible, with a dedicated feedback app on the phone, and software updates.
 
-It's downsides are that's it's camera isn't great, build quality isn't either but I think they're working on addressing both.
+It's downsides are that's it's camera isn't great, build quality isn't either, and the UI has a bit too much eye-candy.
 
 **Verdict:** Slickest dumbphone for talk, text, and offline media.
 
@@ -184,7 +183,7 @@ It's camera isn't great, and voice typing needs a subscription.
 
 It has options for email and hotspot, which most of these phones don't have, and it can also have Waze.
 
-It's UI is basic and utilitiarean, focusing on {somethnig}.
+It's UI is basic and utilitiarean, focusing on doing the job over {}.
 
 **Verdict:** Wins on simplicity and build quality, hotspot, and email can be a bonus. A little lower spec'd then the others.
 
@@ -216,13 +215,11 @@ Sleek smooth body, solid feel, everything feels just right.
 
 The software is a work in progress and missing some features, but is being fixed over time with very frequent OTA updates.
 
-It's biggest drawback is it's d-pad, which is on the smaller side.
-
 Overall it's a great phone, solid body, and has a beautiful but minimal custom OS.
 
 Possible future features include Android Auto, email, authentication, and Google Sync.
 
-**Verdict:** Great phone with even better potential, if you can overlook it's tiny dpad.
+**Verdict:** Great phone with even better potential.
 
 **Rating:**
 
@@ -242,21 +239,8 @@ Possible future features include Android Auto, email, authentication, and Google
 
 The Hit phone is currently the only 4G slide QWERTY phone.
 
-It isn't cheap, and it doesn't do a great job justifying it's price tag.
-
-There's nothing special about it spec or feature wise, and it's a bit laggy.
-
 It isn't touchscreen, but has weather, Waze, and Gmail that can be used with the built in cursor.
 
-**Verdict:** Somewhat decent phone, you're only option if you want a slide QWERTY phone that works on modern networks.
+Its software wasn't great, but is currently going a complete overhaul.
 
-**Rating:**
-
-**Responsiveness:** ⭐⭐☆☆☆
-**Battery:** ⭐⭐⭐⭐☆
-**Build Quality:** ⭐⭐⭐☆☆
-**Camera:** ⭐⭐☆☆☆
-**D-pad compatibility:** ⭐⭐⭐⭐⭐
-**Keypad tactile:** ⭐⭐⭐⭐☆
-**UI Simplicity:** ⭐⭐⭐⭐☆
-**UI Polish:** ⭐⭐☆☆☆
+Disclaimer: I am affiliated with HIT, and am personally involved in revamping this phone, so please don't take this as an independant review

@@ -19,7 +19,7 @@ To know whether your phone can work with carriers in your region, you have to co
 - Bands
 - Carrier whitelist
 
-### How does cellphone service work?
+## How does cellphone service work?
 
 Cellular networks work off of wireless radio transmitions, the same magical power behind WiFi, Bluetooth, and radio stations.
 
@@ -39,7 +39,7 @@ Similarly, cellular networks have multiple frequencies, each being another lane 
 Each frequency can have it's own rules on how they are utilized.
 
 
-### Bands
+## Bands of frequencies
 
 These lanes, or frequencies, are called bands.
 
@@ -49,13 +49,16 @@ Major smartphones companies  make variants for each region, and therefore no mat
 
 Dumbphone companies, on the other hand, are generally more resource limited, and will therefore focus on specific regions.
 
-While often the bands US networks use are
+All this means that a dumbphone that works in the US will very likely not work in Europe, and although Asian phones might work in Europe, Indian phones might not.
 
-Because of that
+**What to check:**
 
+- Which bands does the phone support?
+- Which bands do networks in my region use?
+- Which bands does my carrier use?
+- How much do they overlap?
 
-### Network generation
-
+## Network generations
 
 2G 3G, 4G, 5G.
 
@@ -77,7 +80,99 @@ The next round upped the data speeds again and lowered the latency.
 
 For short we just called these 2G, 3G, 4G, and 5G.
 
-T
+Each generation required their own cellphone towers, and only worked with cellphones made from factory to be compatible with that network generation.
 
+Because each cellphone tower requires maintenance, and multiple generations sometimes requires the same  "lanes" on the highway, as newer network techmologies take over, old ones are eventually retired.
 
-and technology evolved, ce many other technologies th
+Unfortuntately, this makes generations of terrific dumbphones essentially useless.
+
+Nokias running Symbian, Motorola Razrs, QWERTY phones, all rendered practically useless.
+
+This means that in many countries, only 4G phones will be able to work.
+
+**What to check for:**
+
+Does the phone support 4G?
+
+If not, is there reliable 2G or 3G in your area?
+
+In some regions there's 2G but no 3G, some have 3G and no 2G, and some have neither.
+
+If your area doens't have either, then you will need a 4G phone.
+
+### Plot twist: The 4G phone that isn't
+
+This is where things can get even more confusing.
+
+Originally, 4G, also known as LTE, was for data only, while calling and texting still went over 3G.
+
+Eventually, calls and texts also started going through 4G networks.
+
+They called this Voice over LTE, or VoLTE for short.
+
+Once 3G networks were discontinued, 4G phones that weren't VoLTE capable weren't able to call and text anymore.
+
+This is why the Sasmsung Galaxy Folder 2 can't call without 3G, even though its officially a 4G phone.
+
+**What to check for:**
+
+Just make sure that your 4G phone has VoLTE.
+
+### Wait, but what about 5G?
+
+Many assume that since the vast majority of modern smartphones are 5G, 4G cellphone service must be pretty lousy.
+
+The truth is that most networks use 5G as an add-on, to give you faster data when possible, but for the most part your service is reliant on 4G.
+
+Turn off 5G, and you might not notice any difference.
+
+So no, 5G is almost never a necessity, and on a dumbphone, where you aren't streaming and scrolling, is basically pointless.
+
+The only exception is in places with poor reception, you might have stronger 5G signal, not because 5G is intrinsically better, but because there just happen to be closer to  5G tower than to a 4G tower.
+
+But everywhere else that's not the case.
+
+#### Why don't dumbphone manfucturers make their phones 5G?
+
+Some are starting to.
+
+But the rest that aren't, skip 5G for two reasons.
+
+The first is that making a phone on such a small scale is costly, and 5G components will usually just drive the cost up further.
+Additionally, 5G slurps up battery, and since 4G is anyways enough for basic usage, making the phone 5G just doens't make sense.
+
+That's why even most premium dumbphones are 4G-only.
+
+## Might not be so white after all
+
+Sometimes, though, your phone can check all the right boxes, 4G, VoLTE, bands, yet the phone still won't work your carrier.
+
+The reason for that is that some networks only alllow specific models that were whitelisted to connect to their towers.
+
+The good news is that this is mostly only a problem in the U.S., on Verizon and At&t.
+
+The bad news is that its a problem in the US, on Verizon and At&t.
+
+T-Mobile doesn't keep any whitelist, and any phone that has the right bands can connect to their towers.
+
+#### Hold on, how does my carrier know which phone I use?
+
+Every phone has a code that it must hand over to the cell phone towers, which identifies itself.
+
+The towers can then decide based on what it sees about the phoen whether to let the phone connect.
+
+This is the main way  carriers enforce their whitelists.
+
+This code is called an IMEI number.
+
+So why can't you just change the IMEI number, tricking the towers into thinking that you're another phone?
+
+Technically it might be possible, although you'll probably need root access to do that.
+
+Facts are that tampering with your phones IMEI is illegal, and I can't advise doing that.
+
+What to check: 
+
+## So will this phone work?
+
+So after everything is said and done
