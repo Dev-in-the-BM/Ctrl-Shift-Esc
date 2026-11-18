@@ -140,10 +140,12 @@ At the end of the day, all these might be a bit annoying, but aren't a big deal,
 
 ---
 
+### Takeaway:
+
 Overall, the Keyphone is a great phone, and keeps getting better with each update.
 
 I'm very happy with it, it's the phone I use every day, and highly recommend it as a great option if you're looking for a quality, polished, basic phone.
 
-#### Get it here:
+### Get it here:
 
 https://keyphone.tech/?ref=DevintheBM
