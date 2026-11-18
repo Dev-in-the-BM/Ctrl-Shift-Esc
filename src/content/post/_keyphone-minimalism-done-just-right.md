@@ -1,6 +1,6 @@
 ---
 title: "Keyphone: Minimalism done just right"
-pubDate: 2026-11-18T20:10:32.898Z
+pubDate: 2026-11-18T20:46:24.767Z
 category: Typed With T9
 tags:
     - dumbphones
@@ -11,7 +11,8 @@ excerpt: |-
 
     Between the hardware and features designed in-house, its modularity, and its minimal custom skin, it sounded very cool.
 description: Keyphone has become one of my favorite picks for a dumbphone, and is now the phone I use every day, here's why.
-image: ../../assets/a404a90f-b047-4031-aa80-fc4c8b9f863a.c9e35f40aa7d4b268b3f0eea85c52771.avif
+image: ../../assets/magnific__img1-put-this-phone-in-the-image__87792_1.webp
+publishDate: 2026-11-18T20:46:27.526Z
 ---
 
 When I first heard about Keyphone, I was pretty impressed.
@@ -66,6 +67,8 @@ Keyphone isn't daunted, and their Maps is in the works.
 When working on email, Keyphone churned out five ideas how to package email in a way that keeps things simple, and then put out a poll asking users which they'd prefer.
 
 I've sometimes given suggestions of what Keyphone can add to improve the phone, and they're always open to all ideas.
+
+![Typing on the Keyphone](../../assets/a404a90f-b047-4031-aa80-fc4c8b9f863a.c9e35f40aa7d4b268b3f0eea85c52771.png)
 
 ---
 
@@ -131,7 +134,7 @@ I personally think that while it is small, it isn't *too* small, and I find that
 I also think that making the soft-keys touch-sensitive was a mistake.
 
 Right now, software updates can be pushed off, but you eventually have to update, which I think some might not like.
-I'm in middle of trying ot convince Keyphone to change that.
+I'm in middle of trying to convince Keyphone to change that.
 
 At the end of the day, all these might be a bit annoying, but aren't a big deal, and when contrasted with the other options, Keyphone is the clear winner.
 
@@ -140,3 +143,7 @@ At the end of the day, all these might be a bit annoying, but aren't a big deal,
 Overall, the Keyphone is a great phone, and keeps getting better with each update.
 
 I'm very happy with it, it's the phone I use every day, and highly recommend it as a great option if you're looking for a quality, polished, basic phone.
+
+#### Get it here:
+
+https://keyphone.tech/?ref=DevintheBM
